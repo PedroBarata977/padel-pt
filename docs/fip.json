@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-11T15:21:23+00:00",
+ "generated_at": "2026-11-11T17:06:47+00:00",
  "stats": {
-  "requests": 108,
+  "requests": 81,
   "blocked_403": 0,
   "events": 20,
   "errors": []
@@ -600,126 +600,6 @@
    "registration_text": "Registration Closed"
   },
   {
-   "name": "FIP BRONZE QATAR II",
-   "url": "https://www.padelfip.com/events/fip-bronze-qatar-2026-2/",
-   "slug": "fip-bronze-qatar-2026-2",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Doha - Qatar",
-   "start": "2026-11-12",
-   "end": "2026-11-15",
-   "status": "registration_closed",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 2,
-     "mark": "",
-     "players": [
-      {
-       "name": "Pedro Araujo",
-       "nat": "POR",
-       "points": 554
-      },
-      {
-       "name": "Pedro Graça",
-       "nat": "POR",
-       "points": 538
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 5,
-     "mark": "",
-     "players": [
-      {
-       "name": "Gustavo Nunes",
-       "nat": "POR",
-       "points": 405
-      },
-      {
-       "name": "Anton Sans",
-       "nat": "ESP",
-       "points": 532
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 1,
-     "mark": "",
-     "players": [
-      {
-       "name": "Lucia Perez Parra",
-       "nat": "ESP",
-       "points": 559
-      },
-      {
-       "name": "Clarinha Santos",
-       "nat": "POR",
-       "points": 447
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W"
-    },
-    {
-     "section": "main",
-     "pos": 3,
-     "mark": "",
-     "players": [
-      {
-       "name": "Mafalda Marques Fernandes",
-       "nat": "POR",
-       "points": 336
-      },
-      {
-       "name": "Patricia Ribeiro",
-       "nat": "POR",
-       "points": 262
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Doha-II-M-v5.pdf",
-     "updated": "07/11/2026 h 03:40 am",
-     "n_teams": 37
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Doha-II-W-v7.pdf",
-     "updated": "08/11/2026 h 22:10 pm",
-     "n_teams": 19
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MD-v4.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MQ.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-WD.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4607",
-    "day": 1,
-    "totalday": 4
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
    "name": "FIP BRONZE LEVANTE",
    "url": "https://www.padelfip.com/events/fip-bronze-levante-2026/",
    "slug": "fip-bronze-levante-2026",
@@ -855,6 +735,126 @@
    "registration_text": "Registration Closed"
   },
   {
+   "name": "FIP BRONZE QATAR II",
+   "url": "https://www.padelfip.com/events/fip-bronze-qatar-2026-2/",
+   "slug": "fip-bronze-qatar-2026-2",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Doha - Qatar",
+   "start": "2026-11-12",
+   "end": "2026-11-15",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 2,
+     "mark": "",
+     "players": [
+      {
+       "name": "Pedro Araujo",
+       "nat": "POR",
+       "points": 554
+      },
+      {
+       "name": "Pedro Graça",
+       "nat": "POR",
+       "points": 538
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR",
+       "points": 405
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "ESP",
+       "points": 532
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 1,
+     "mark": "",
+     "players": [
+      {
+       "name": "Lucia Perez Parra",
+       "nat": "ESP",
+       "points": 559
+      },
+      {
+       "name": "Clarinha Santos",
+       "nat": "POR",
+       "points": 447
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    },
+    {
+     "section": "main",
+     "pos": 3,
+     "mark": "",
+     "players": [
+      {
+       "name": "Mafalda Marques Fernandes",
+       "nat": "POR",
+       "points": 336
+      },
+      {
+       "name": "Patricia Ribeiro",
+       "nat": "POR",
+       "points": 262
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Doha-II-M-v5.pdf",
+     "updated": "07/11/2026 h 03:40 am",
+     "n_teams": 37
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Doha-II-W-v7.pdf",
+     "updated": "08/11/2026 h 22:10 pm",
+     "n_teams": 19
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MD-v4.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MQ.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-WD.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4607",
+    "day": 1,
+    "totalday": 4
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
    "name": "FIP PLATINUM AGUASCALIENTES",
    "url": "https://www.padelfip.com/events/fip-platinum-aguascalientes-2026/",
    "slug": "fip-platinum-aguascalientes-2026",
@@ -898,125 +898,6 @@
      "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-W-v2.pdf",
      "updated": "09/11/2026 h 07:00 am",
      "n_teams": 27
-    }
-   },
-   "draw_pdfs": {},
-   "oop": null,
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
-   "name": "FIP SILVER GO PARK HONG KONG",
-   "url": "https://www.padelfip.com/events/fip-silver-hong-kong-2026/",
-   "slug": "fip-silver-hong-kong-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Silver",
-   "location": "Hong Kong - Hong Kong",
-   "start": "2026-11-16",
-   "end": "2026-11-22",
-   "status": "registration_closed",
-   "por_entries": [
-    {
-     "section": "qualy",
-     "pos": 13,
-     "mark": "",
-     "players": [
-      {
-       "name": "Marcos Antonio Cheung Modesto",
-       "nat": "POR",
-       "points": 11
-      },
-      {
-       "name": "Jaimes McKee",
-       "nat": "HKG",
-       "points": 6
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 2,
-     "mark": "",
-     "players": [
-      {
-       "name": "Lucia Perez Parra",
-       "nat": "ESP",
-       "points": 562
-      },
-      {
-       "name": "Clarinha Santos",
-       "nat": "POR",
-       "points": 469
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W"
-    },
-    {
-     "section": "main",
-     "pos": 6,
-     "mark": "",
-     "players": [
-      {
-       "name": "Kotomi Ozawa",
-       "nat": "JPN",
-       "points": 337
-      },
-      {
-       "name": "Constanca Gorito",
-       "nat": "POR",
-       "points": 332
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-M-v2.pdf",
-     "updated": "07/11/2026 h 08:13 am",
-     "n_teams": 52
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-W-v2.pdf",
-     "updated": "07/11/2026 h 08:16 am",
-     "n_teams": 29
-    }
-   },
-   "draw_pdfs": {},
-   "oop": null,
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
-   "name": "FIP BRONZE CHILE IX",
-   "url": "https://www.padelfip.com/events/fip-bronze-chile-ix-2026-2/",
-   "slug": "fip-bronze-chile-ix-2026-2",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "San Antonio - Chile",
-   "start": "2026-11-16",
-   "end": "2026-11-22",
-   "status": "registration_closed",
-   "por_entries": [],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Chile-IX-M.pdf",
-     "updated": "10/11/2026 h 02:04 pm",
-     "n_teams": 25
-    },
-    "W": {
-     "pdf": null
     }
    },
    "draw_pdfs": {},
@@ -1245,6 +1126,125 @@
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Rochefort-M-v3.pdf",
      "updated": "10/11/2026 h 10:15 am",
      "n_teams": 55
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP SILVER GO PARK HONG KONG",
+   "url": "https://www.padelfip.com/events/fip-silver-hong-kong-2026/",
+   "slug": "fip-silver-hong-kong-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Hong Kong - Hong Kong",
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "qualy",
+     "pos": 13,
+     "mark": "",
+     "players": [
+      {
+       "name": "Marcos Antonio Cheung Modesto",
+       "nat": "POR",
+       "points": 11
+      },
+      {
+       "name": "Jaimes McKee",
+       "nat": "HKG",
+       "points": 6
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 2,
+     "mark": "",
+     "players": [
+      {
+       "name": "Lucia Perez Parra",
+       "nat": "ESP",
+       "points": 562
+      },
+      {
+       "name": "Clarinha Santos",
+       "nat": "POR",
+       "points": 469
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    },
+    {
+     "section": "main",
+     "pos": 6,
+     "mark": "",
+     "players": [
+      {
+       "name": "Kotomi Ozawa",
+       "nat": "JPN",
+       "points": 337
+      },
+      {
+       "name": "Constanca Gorito",
+       "nat": "POR",
+       "points": 332
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-M-v2.pdf",
+     "updated": "07/11/2026 h 08:13 am",
+     "n_teams": 52
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-W-v2.pdf",
+     "updated": "07/11/2026 h 08:16 am",
+     "n_teams": 29
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE CHILE IX",
+   "url": "https://www.padelfip.com/events/fip-bronze-chile-ix-2026-2/",
+   "slug": "fip-bronze-chile-ix-2026-2",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "San Antonio - Chile",
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "status": "registration_closed",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Chile-IX-M.pdf",
+     "updated": "10/11/2026 h 02:04 pm",
+     "n_teams": 25
     },
     "W": {
      "pdf": null
