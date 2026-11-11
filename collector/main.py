@@ -61,7 +61,7 @@ def collect_fip_event(c: Client, ev: dict, cache: dict, today: date) -> dict:
 
     for g, label in ENTRY_GENDERS.items():
         try:
-            r = fip.ajax_entry(c, info["post_id"], info["nonce"], g)
+            r = fip.ajax_entry(c, info["post_id"], info["nonce"], g, referer=ev["url"])
         except Exception as e:  # noqa: BLE001
             out["warnings"].append(f"Inscritos {label}: {e}")
             continue
@@ -88,7 +88,7 @@ def collect_fip_event(c: Client, ev: dict, cache: dict, today: date) -> dict:
     if ev["status"] == "live" or (start - today).days <= 3:
         for dt, label in DRAW_TYPES.items():
             try:
-                r = fip.ajax_draw(c, info["post_id"], info["nonce"], dt)
+                r = fip.ajax_draw(c, info["post_id"], info["nonce"], dt, referer=ev["url"])
             except Exception as e:  # noqa: BLE001
                 out["warnings"].append(f"Quadro {label}: {e}")
                 continue

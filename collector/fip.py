@@ -103,19 +103,28 @@ def parse_event_page(html: str) -> dict:
     return info
 
 
-def ajax_entry(client, post_id: str, nonce: str, gender: str) -> dict:
+def _ajax_headers(referer: str | None) -> dict:
+    """Os mesmos cabeçalhos que a página do torneio envia quando faz este pedido (jQuery.ajax)."""
+    h = {"Origin": BASE, "X-Requested-With": "XMLHttpRequest",
+         "Accept": "*/*", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Dest": "empty"}
+    if referer:
+        h["Referer"] = referer
+    return h
+
+
+def ajax_entry(client, post_id: str, nonce: str, gender: str, referer: str | None = None) -> dict:
     """gender: 'M' ou 'W'. Devolve {'pdf': url|'' , 'html': ..., 'error': ...}."""
-    r = client.post(AJAX, {
+    r = client.post(AJAX, headers=_ajax_headers(referer), data={
         "action": "handle_ajax_entry", "gender": gender, "postID": post_id,
         "juniorEntryCat": "", "security": nonce,
     })
     return _json(r.text)
 
 
-def ajax_draw(client, post_id: str, nonce: str, draw_type: str) -> dict:
+def ajax_draw(client, post_id: str, nonce: str, draw_type: str, referer: str | None = None) -> dict:
     """draw_type: MD, MQ, WD, WQ."""
     gender = "M" if draw_type.startswith("M") else "F"
-    r = client.post(AJAX, {
+    r = client.post(AJAX, headers=_ajax_headers(referer), data={
         "action": "handle_ajax_request", "drawType": draw_type, "gender": gender,
         "juniorCat": "", "postID": post_id, "security": nonce,
     })

@@ -31,7 +31,7 @@ Write-Host "`nA testar o acesso ao padelfip.com a partir deste PC..." -Foregroun
 New-Item -ItemType Directory -Force -Path logs | Out-Null
 & cmd /c "`"$vpy`" -m collector.main fip > logs\primeiro-teste.log 2>&1"
 $code = $LASTEXITCODE
-Get-Content logs\primeiro-teste.log
+Get-Content logs\primeiro-teste.log -Encoding UTF8
 if ($code -ne 0) {
   Write-Host "`nFALHOU: a FIP tambem bloqueia este PC (ou o site mudou). Envia o ficheiro logs\primeiro-teste.log ao Claude." -ForegroundColor Red
   Read-Host "Enter para sair"; exit 1

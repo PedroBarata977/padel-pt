@@ -51,7 +51,8 @@ class FakeClient:
             return R(content=self.pdf)
         raise AssertionError(url)
 
-    def post(self, url, data, **kw):
+    def post(self, url, data, headers=None, **kw):
+        assert headers and headers.get("Referer", "").startswith("https://") and headers.get("Origin")
         self.count += 1
         if data["action"] == "handle_ajax_entry":
             pdf = f"https://x/entry-{data['postID']}-{data['gender']}-v1.pdf" if data["gender"] == "M" else ""

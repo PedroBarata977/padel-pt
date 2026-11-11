@@ -47,9 +47,9 @@ class Client:
                 print(f"  403 {r.url[:80]} server={h.get('server')} cf-mitigated={h.get('cf-mitigated')} "
                       f"cf-ray={h.get('cf-ray')} body={r.text[:160]!r}")
 
-    def post(self, url: str, data: dict, **kw) -> requests.Response:
+    def post(self, url: str, data: dict, headers: dict | None = None, **kw) -> requests.Response:
         self._wait()
-        r = self.s.post(url, data=data, timeout=30, **kw)
+        r = self.s.post(url, data=data, headers=headers, timeout=30, **kw)
         self._diag(r)
         r.raise_for_status()
         return r
