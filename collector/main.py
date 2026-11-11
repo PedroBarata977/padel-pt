@@ -204,7 +204,8 @@ def run(mode: str = "all", verbose: bool = False) -> dict:
             stream.reconfigure(encoding="utf-8", errors="replace")
         except (AttributeError, ValueError):
             pass
-    logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO, format="%(message)s")
+    logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO, format="%(message)s",
+                        stream=sys.stdout)  # stdout: o PowerShell trata stderr como erro
     c = Client()
     if mode in ("fip", "all"):
         fip_data = run_fip(c, _now().date())

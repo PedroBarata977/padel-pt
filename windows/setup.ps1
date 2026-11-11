@@ -1,6 +1,6 @@
 ﻿# Instalador do recolhedor FIP no Windows (corre uma vez).
 # Duplo clique em INSTALAR.bat, ou: powershell -ExecutionPolicy Bypass -File windows\setup.ps1
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Continue"  # "Stop" faz o PowerShell 5 abortar com qualquer texto em stderr
 $Root = Split-Path -Parent $PSScriptRoot
 Set-Location $Root
 Write-Host "== Padel PT: instalacao em $Root ==" -ForegroundColor Cyan
@@ -29,8 +29,10 @@ Write-Host "Bibliotecas instaladas." -ForegroundColor Green
 & $vpy -m pytest -q
 Write-Host "`nA testar o acesso ao padelfip.com a partir deste PC..." -ForegroundColor Cyan
 New-Item -ItemType Directory -Force -Path logs | Out-Null
-& $vpy -m collector.main fip 2>&1 | Tee-Object -FilePath logs\primeiro-teste.log
-if ($LASTEXITCODE -ne 0) {
+& cmd /c "`"$vpy`" -m collector.main fip > logs\primeiro-teste.log 2>&1"
+$code = $LASTEXITCODE
+Get-Content logs\primeiro-teste.log
+if ($code -ne 0) {
   Write-Host "`nFALHOU: a FIP tambem bloqueia este PC (ou o site mudou). Envia o ficheiro logs\primeiro-teste.log ao Claude." -ForegroundColor Red
   Read-Host "Enter para sair"; exit 1
 }
