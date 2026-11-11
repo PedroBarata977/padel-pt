@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-11T13:58:56+00:00",
+ "generated_at": "2026-11-11T14:41:01+00:00",
  "fip_generated_at": "2026-11-11T13:57:39+00:00",
  "target": "POR",
  "stats": {
-  "requests": 26,
+  "requests": 46,
   "blocked_403": 0,
   "events": 20,
   "fip": {
@@ -12,7 +12,7 @@
    "events": 20,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 0.7,
   "errors": []
  },
  "events": [
@@ -45,7 +45,9 @@
      ],
      "pr": true,
      "team_points": null,
-     "gender": "M"
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MD"
     },
     {
      "section": "qualy",
@@ -65,7 +67,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "M"
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MQ"
     },
     {
      "section": "qualy",
@@ -85,7 +89,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "M"
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MQ"
     },
     {
      "section": "qualy",
@@ -105,7 +111,8 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "M"
+     "gender": "M",
+     "draw_status": "out"
     },
     {
      "section": "qualy",
@@ -125,7 +132,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "M"
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MQ"
     },
     {
      "section": "waiting",
@@ -145,7 +154,8 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "M"
+     "gender": "M",
+     "draw_status": "out"
     },
     {
      "section": "main",
@@ -165,7 +175,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "W"
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WD"
     },
     {
      "section": "qualy",
@@ -185,7 +197,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "W"
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WQ"
     }
    ],
    "por_matches": [
@@ -248,7 +262,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/11/2026 5:58:14 PM"
+     "local_time": "11/11/2026 6:40:04 PM"
     },
     {
      "match_id": "MQ026",
@@ -309,7 +323,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/11/2026 5:58:14 PM"
+     "local_time": "11/11/2026 6:40:04 PM"
     },
     {
      "match_id": "WQ011",
@@ -370,7 +384,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/11/2026 5:58:14 PM"
+     "local_time": "11/11/2026 6:40:04 PM"
     },
     {
      "match_id": "MQ021",
@@ -431,7 +445,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/11/2026 5:58:14 PM"
+     "local_time": "11/11/2026 6:40:04 PM"
     },
     {
      "match_id": "MQ011",
@@ -492,7 +506,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/11/2026 5:58:25 PM"
+     "local_time": "11/11/2026 6:39:17 PM"
     },
     {
      "match_id": "MQ010",
@@ -553,7 +567,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/11/2026 5:58:25 PM"
+     "local_time": "11/11/2026 6:39:17 PM"
     },
     {
      "match_id": "MQ013",
@@ -614,7 +628,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/11/2026 5:58:25 PM"
+     "local_time": "11/11/2026 6:39:17 PM"
     },
     {
      "match_id": "MD062",
@@ -675,7 +689,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-10",
-     "local_time": "11/11/2026 5:57:37 PM"
+     "local_time": "11/11/2026 6:39:40 PM"
     },
     {
      "match_id": "WD027",
@@ -736,7 +750,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-11",
-     "local_time": "11/11/2026 5:58:31 PM"
+     "local_time": "11/11/2026 6:40:06 PM"
     }
    ],
    "por_draws": [
@@ -1091,6 +1105,12 @@
    },
    "warnings": [],
    "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 48,
+    "MQ": 31,
+    "WD": 28,
+    "WQ": 14
+   },
    "matchscorer_id": "FIP-2026-4501"
   },
   {
@@ -1132,6 +1152,12 @@
    },
    "warnings": [],
    "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 23,
+    "MQ": 30,
+    "WD": 23,
+    "WQ": 10
+   },
    "matchscorer_id": "FIP-2026-4808"
   },
   {
@@ -1163,7 +1189,8 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "M"
+     "gender": "M",
+     "draw_status": "out"
     },
     {
      "section": "main",
@@ -1183,7 +1210,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "M"
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MD"
     },
     {
      "section": "main",
@@ -1203,7 +1232,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "W"
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WD"
     },
     {
      "section": "main",
@@ -1223,7 +1254,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "W"
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WD"
     }
    ],
    "por_matches": [
@@ -1278,7 +1311,7 @@
      ],
      "day": 2,
      "date": "2026-11-13",
-     "local_time": "11/11/2026 4:58:46 PM"
+     "local_time": "11/11/2026 5:40:47 PM"
     }
    ],
    "por_draws": [],
@@ -1307,6 +1340,11 @@
    },
    "warnings": [],
    "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 25,
+    "MQ": 9,
+    "WD": 19
+   },
    "matchscorer_id": "FIP-2026-4607"
   },
   {
@@ -1338,7 +1376,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "W"
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WD"
     },
     {
      "section": "main",
@@ -1358,7 +1398,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "W"
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WD"
     },
     {
      "section": "main",
@@ -1378,7 +1420,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "W"
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WD"
     }
    ],
    "por_matches": [
@@ -1441,7 +1485,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/11/2026 2:58:52 PM"
+     "local_time": "11/11/2026 3:40:56 PM"
     },
     {
      "match_id": "WD025",
@@ -1502,7 +1546,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/11/2026 2:58:52 PM"
+     "local_time": "11/11/2026 3:40:56 PM"
     }
    ],
    "por_draws": [],
@@ -1531,6 +1575,11 @@
    },
    "warnings": [],
    "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 26,
+    "MQ": 13,
+    "WD": 20
+   },
    "matchscorer_id": "FIP-2026-4609"
   },
   {
@@ -1567,6 +1616,9 @@
    },
    "warnings": [],
    "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 20
+   },
    "matchscorer_id": "FIP-2026-4403"
   },
   {
