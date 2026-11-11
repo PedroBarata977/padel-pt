@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-11T20:07:09+00:00",
- "fip_generated_at": "2026-11-11T17:06:47+00:00",
+ "generated_at": "2026-11-11T22:07:33+00:00",
+ "fip_generated_at": "2026-11-11T22:06:34+00:00",
  "target": "POR",
  "stats": {
   "requests": 46,
@@ -12,7 +12,7 @@
    "events": 20,
    "errors": []
   },
-  "fip_age_hours": 3.0,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -262,7 +262,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 12:05:54 AM"
+     "local_time": "11/12/2026 2:07:01 AM"
     },
     {
      "match_id": "MQ026",
@@ -323,7 +323,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 12:05:54 AM"
+     "local_time": "11/12/2026 2:07:01 AM"
     },
     {
      "match_id": "WQ011",
@@ -384,7 +384,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 12:05:54 AM"
+     "local_time": "11/12/2026 2:07:01 AM"
     },
     {
      "match_id": "MQ021",
@@ -445,7 +445,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 12:05:54 AM"
+     "local_time": "11/12/2026 2:07:01 AM"
     },
     {
      "match_id": "MQ011",
@@ -506,7 +506,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/12/2026 12:06:25 AM"
+     "local_time": "11/12/2026 2:07:01 AM"
     },
     {
      "match_id": "MQ010",
@@ -567,7 +567,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/12/2026 12:06:25 AM"
+     "local_time": "11/12/2026 2:07:01 AM"
     },
     {
      "match_id": "MQ013",
@@ -628,7 +628,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/12/2026 12:06:25 AM"
+     "local_time": "11/12/2026 2:07:01 AM"
     },
     {
      "match_id": "MD062",
@@ -689,7 +689,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-10",
-     "local_time": "11/12/2026 12:05:41 AM"
+     "local_time": "11/12/2026 2:06:41 AM"
     },
     {
      "match_id": "WD027",
@@ -750,7 +750,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-11",
-     "local_time": "11/12/2026 12:06:01 AM"
+     "local_time": "11/12/2026 2:06:45 AM"
     },
     {
      "match_id": "WD013",
@@ -811,7 +811,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-12",
-     "local_time": "11/12/2026 12:06:33 AM"
+     "local_time": "11/12/2026 2:06:29 AM"
     }
    ],
    "por_draws": [
@@ -1179,9 +1179,9 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-MD-4.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-MD-5.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-MQ-5.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-WD-3.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-WD-4.pdf",
     "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-WQ-8.pdf"
    },
    "oop": {
@@ -1226,10 +1226,10 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIOLANUM-COMO_-DRAW-MD-v2.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIALANUM-COMO_-DRAW-MQ-v5.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIOLANUM-COMO_-DRAW-WD-v2.pdf",
-    "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIALANUM-COMO_-DRAW-WQ-1.pdf"
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIOLANUM-COMO_-DRAW-MD-v3.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIALANUM-COMO_-DRAW-MQ-v6.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIOLANUM-COMO_-DRAW-WD-v3.pdf",
+    "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIALANUM-COMO_-DRAW-WQ-v2.pdf"
    },
    "oop": {
     "year": "2026",
@@ -1385,7 +1385,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/11/2026 9:06:56 PM"
+     "local_time": "11/11/2026 11:07:17 PM"
     },
     {
      "match_id": "WD025",
@@ -1446,7 +1446,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/11/2026 9:06:56 PM"
+     "local_time": "11/11/2026 11:07:17 PM"
     }
    ],
    "por_draws": [],
@@ -1672,7 +1672,7 @@
      ],
      "day": 2,
      "date": "2026-11-13",
-     "local_time": "11/11/2026 11:07:08 PM"
+     "local_time": "11/12/2026 1:07:32 AM"
     }
    ],
    "por_draws": [],
@@ -1752,97 +1752,6 @@
      "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-W-v2.pdf",
      "updated": "09/11/2026 h 07:00 am",
      "n_teams": 27
-    }
-   },
-   "draw_pdfs": {},
-   "oop": null,
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
-   "name": "FIP BRONZE SKURUP",
-   "url": "https://www.padelfip.com/events/fip-bronze-skurup-2026/",
-   "slug": "fip-bronze-skurup-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Skurup - Sweden",
-   "start": "2026-11-16",
-   "end": "2026-11-21",
-   "status": "registration_closed",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 4,
-     "mark": "",
-     "players": [
-      {
-       "name": "Alejandro Calvo Perez",
-       "nat": "ESP",
-       "points": 282
-      },
-      {
-       "name": "João Maria Caiano",
-       "nat": "POR",
-       "points": 300
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 15,
-     "mark": "",
-     "players": [
-      {
-       "name": "Martim Solano",
-       "nat": "POR",
-       "points": 65
-      },
-      {
-       "name": "Manuel Correia",
-       "nat": "POR",
-       "points": 72
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 5,
-     "mark": "",
-     "players": [
-      {
-       "name": "Bruna Albuquerque Melo",
-       "nat": "POR",
-       "points": 230
-      },
-      {
-       "name": "Francesca Ligotti",
-       "nat": "ITA",
-       "points": 194
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-M-v3.pdf",
-     "updated": "11/11/2026 h 11:35 am",
-     "n_teams": 36
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-W-v2.pdf",
-     "updated": "10/11/2026 h 17:45 pm",
-     "n_teams": 17
     }
    },
    "draw_pdfs": {},
@@ -2102,6 +2011,97 @@
     },
     "W": {
      "pdf": null
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE SKURUP",
+   "url": "https://www.padelfip.com/events/fip-bronze-skurup-2026/",
+   "slug": "fip-bronze-skurup-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Skurup - Sweden",
+   "start": "2026-11-16",
+   "end": "2026-11-21",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 4,
+     "mark": "",
+     "players": [
+      {
+       "name": "Alejandro Calvo Perez",
+       "nat": "ESP",
+       "points": 282
+      },
+      {
+       "name": "João Maria Caiano",
+       "nat": "POR",
+       "points": 300
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 15,
+     "mark": "",
+     "players": [
+      {
+       "name": "Martim Solano",
+       "nat": "POR",
+       "points": 65
+      },
+      {
+       "name": "Manuel Correia",
+       "nat": "POR",
+       "points": 72
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Bruna Albuquerque Melo",
+       "nat": "POR",
+       "points": 230
+      },
+      {
+       "name": "Francesca Ligotti",
+       "nat": "ITA",
+       "points": 194
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-M-v3.pdf",
+     "updated": "11/11/2026 h 11:35 am",
+     "n_teams": 36
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-W-v2.pdf",
+     "updated": "10/11/2026 h 17:45 pm",
+     "n_teams": 17
     }
    },
    "draw_pdfs": {},
