@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T13:57:39+00:00",
+ "generated_at": "2026-11-11T15:21:23+00:00",
  "stats": {
   "requests": 108,
   "blocked_403": 0,
@@ -453,6 +453,32 @@
         }
        ],
        "opponent_seed": "Q",
+       "sets": [
+        "4",
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "6",
+        "3",
+        "0"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [
+        {
+         "name": "Jimena Velasco Postiguillo",
+         "nat": "Spain"
+        },
+        {
+         "name": "Raquel Eugenio Barrera",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -890,6 +916,26 @@
    "end": "2026-11-22",
    "status": "registration_closed",
    "por_entries": [
+    {
+     "section": "qualy",
+     "pos": 13,
+     "mark": "",
+     "players": [
+      {
+       "name": "Marcos Antonio Cheung Modesto",
+       "nat": "POR",
+       "points": 11
+      },
+      {
+       "name": "Jaimes McKee",
+       "nat": "HKG",
+       "points": 6
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
     {
      "section": "main",
      "pos": 2,
