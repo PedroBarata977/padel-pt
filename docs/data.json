@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-11T14:41:01+00:00",
- "fip_generated_at": "2026-11-11T13:57:39+00:00",
+ "generated_at": "2026-11-11T15:22:27+00:00",
+ "fip_generated_at": "2026-11-11T15:21:23+00:00",
  "target": "POR",
  "stats": {
   "requests": 46,
@@ -12,7 +12,7 @@
    "events": 20,
    "errors": []
   },
-  "fip_age_hours": 0.7,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -262,7 +262,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/11/2026 6:40:04 PM"
+     "local_time": "11/11/2026 7:21:41 PM"
     },
     {
      "match_id": "MQ026",
@@ -323,7 +323,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/11/2026 6:40:04 PM"
+     "local_time": "11/11/2026 7:21:41 PM"
     },
     {
      "match_id": "WQ011",
@@ -384,7 +384,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/11/2026 6:40:04 PM"
+     "local_time": "11/11/2026 7:21:41 PM"
     },
     {
      "match_id": "MQ021",
@@ -445,7 +445,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/11/2026 6:40:04 PM"
+     "local_time": "11/11/2026 7:21:41 PM"
     },
     {
      "match_id": "MQ011",
@@ -506,7 +506,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/11/2026 6:39:17 PM"
+     "local_time": "11/11/2026 7:21:49 PM"
     },
     {
      "match_id": "MQ010",
@@ -567,7 +567,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/11/2026 6:39:17 PM"
+     "local_time": "11/11/2026 7:21:49 PM"
     },
     {
      "match_id": "MQ013",
@@ -628,7 +628,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/11/2026 6:39:17 PM"
+     "local_time": "11/11/2026 7:21:49 PM"
     },
     {
      "match_id": "MD062",
@@ -689,7 +689,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-10",
-     "local_time": "11/11/2026 6:39:40 PM"
+     "local_time": "11/11/2026 7:21:50 PM"
     },
     {
      "match_id": "WD027",
@@ -750,7 +750,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-11",
-     "local_time": "11/11/2026 6:40:06 PM"
+     "local_time": "11/11/2026 7:21:16 PM"
     }
    ],
    "por_draws": [
@@ -1026,6 +1026,32 @@
         }
        ],
        "opponent_seed": "Q",
+       "sets": [
+        "4",
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "6",
+        "3",
+        "0"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [
+        {
+         "name": "Jimena Velasco Postiguillo",
+         "nat": "Spain"
+        },
+        {
+         "name": "Raquel Eugenio Barrera",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -1311,7 +1337,7 @@
      ],
      "day": 2,
      "date": "2026-11-13",
-     "local_time": "11/11/2026 5:40:47 PM"
+     "local_time": "11/11/2026 6:21:57 PM"
     }
    ],
    "por_draws": [],
@@ -1485,7 +1511,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/11/2026 3:40:56 PM"
+     "local_time": "11/11/2026 4:22:21 PM"
     },
     {
      "match_id": "WD025",
@@ -1546,7 +1572,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/11/2026 3:40:56 PM"
+     "local_time": "11/11/2026 4:22:21 PM"
     }
    ],
    "por_draws": [],
@@ -1683,6 +1709,26 @@
    "end": "2026-11-22",
    "status": "registration_closed",
    "por_entries": [
+    {
+     "section": "qualy",
+     "pos": 13,
+     "mark": "",
+     "players": [
+      {
+       "name": "Marcos Antonio Cheung Modesto",
+       "nat": "POR",
+       "points": 11
+      },
+      {
+       "name": "Jaimes McKee",
+       "nat": "HKG",
+       "points": 6
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
     {
      "section": "main",
      "pos": 2,
