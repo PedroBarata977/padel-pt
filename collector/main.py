@@ -69,10 +69,10 @@ def collect_fip_event(c: Client, ev: dict, cache: dict, today: date) -> dict:
         out["entry_lists"][g] = {"pdf": pdf or None}
         if not pdf:
             continue
-        if pdf not in cache:
+        if pdf not in cache or cache[pdf].get("v") != entrylist.PARSER_VERSION:
             try:
                 parsed = entrylist.parse_pdf(c.get(pdf).content)
-                cache[pdf] = {"updated": parsed["updated"], "n_teams": len(parsed["teams"]),
+                cache[pdf] = {"v": entrylist.PARSER_VERSION, "updated": parsed["updated"], "n_teams": len(parsed["teams"]),
                               "por": entrylist.teams_with(parsed, TARGET)}
             except Exception as e:  # noqa: BLE001
                 out["warnings"].append(f"PDF inscritos {label} ilegível: {e}")

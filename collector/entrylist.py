@@ -15,6 +15,9 @@ import re
 
 from .countries import IOC
 
+# Sobe este número sempre que o leitor mudar: obriga o PC a reler os PDFs que tem em cache.
+PARSER_VERSION = 2
+
 SECTIONS = {
     "MAIN DRAW": "main",
     "QUALIFICATIONS": "qualy",
@@ -67,6 +70,7 @@ def parse_items(items: list[dict]) -> dict:
     out = {"title": None, "updated": None, "gender": None, "teams": []}
     pages = sorted({i["page"] for i in items})
     section = "main"
+    last_cols: list[int] = []  # colunas da última página com cabeçalho (há PDFs que não o repetem)
     for p in pages:
         pit = [i for i in items if i["page"] == p]
         for i in pit:
@@ -81,6 +85,10 @@ def parse_items(items: list[dict]) -> dict:
         for x in head_x:  # agrupar x quase iguais
             if not head_cols or x - head_cols[-1] > 20:
                 head_cols.append(x)
+        if head_cols:
+            last_cols = head_cols
+        else:
+            head_cols = last_cols
         heads = [{"x": x} for x in head_cols]
         pos_heads = [i for i in pit if i["text"] == "Pos"]
         split_x = head_cols[1] if len(head_cols) >= 2 else None
@@ -133,7 +141,12 @@ def parse_items(items: list[dict]) -> dict:
             if r is None:
                 continue
             col = 1 if (split_x is not None and i["x"] >= split_x) else 0
-            team_by_row[id(r)]["players"][col] = {"name": name, "nat": nat}
+            slots = team_by_row[id(r)]["players"]
+            if slots[col] is not None:  # rede de segurança: nunca apagar um jogador já lido
+                if slots[1 - col] is not None:
+                    continue
+                col = 1 - col
+            slots[col] = {"name": name, "nat": nat}
         for i in points:
             r = row_of(i)
             if r is None:

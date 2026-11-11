@@ -172,3 +172,11 @@ def test_check_draws_marks_withdrawals():
     assert st["Clarinha Santos"] is None        # quadro feminino vazio nesta amostra → sem conclusão
     extra = [e for e in ev["por_entries"] if e.get("from_draw")]
     assert [p["name"] for p in extra[0]["players"]] == ["T. Silva", "L. Rossi"]
+
+
+def test_entry_page_without_header():
+    """Hong Kong M v2: a página 2 não repete o cabeçalho; o 2.º jogador apagava o 1.º (reportado pelo Pedro)."""
+    parsed = entrylist.parse_items(load_items("entry_hongkong_m_items.txt"))
+    por = entrylist.teams_with(parsed, "POR")
+    assert [[p["name"] for p in t["players"]] for t in por] == [["Marcos Antonio Cheung Modesto", "Jaimes McKee"]]
+    assert por[0]["players"][0]["points"] == 11 and por[0]["pos"] == 13

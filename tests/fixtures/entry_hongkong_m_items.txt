@@ -1,0 +1,30 @@
+#page 1 595x842
+240|769|FIP SILVER GO PARK HONG KONG
+245|760|Last Update: 07/11/2026 h 08:13 am
+269|752|ENTRY LIST Men's
+271|733|MAIN DRAW
+98|723|Pos
+120|723|Ranking
+210|723|Player
+303|723|Ranking
+390|723|Player
+480|723|Team Points
+104|710|1
+130|710|210
+157|714|Carlos Ruiz ESP
+157|706|300 points
+313|710|220
+341|714|Mario Lopez ESP
+341|706|290 points
+509|710|590
+#page 2 595x842
+157|755|17 points
+341|755|0 points
+102|741|13
+130|741|1301
+157|746|Marcos Antonio Cheung Modesto POR
+157|736|11 points
+313|741|1726
+341|746|Jaimes McKee HKG
+341|736|6 points
+509|741|17
