@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portugueses no Padel</title>
+<meta name="theme-color" content="#0d1b16">
+<style>
+  :root{
+    --bg:#0d1b16; --bg2:#13261f; --card:#172e26; --line:#24443a; --ink:#eef4f0; --mute:#8fa89d;
+    --pt-green:#1f9d55; --pt-red:#e0352b; --gold:#f2c94c; --live:#ff4d3d;
+    --r:14px; --mono: ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  a{color:inherit}
+  .wrap{max-width:980px;margin:0 auto;padding:16px 14px 60px}
+  header{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:6px 0 14px;border-bottom:1px solid var(--line)}
+  .brand{display:flex;align-items:center;gap:10px}
+  .flagbar{width:8px;height:38px;border-radius:3px;background:linear-gradient(var(--pt-green) 0 40%,var(--pt-red) 40%)}
+  h1{font-size:20px;margin:0;letter-spacing:.2px}
+  .sub{color:var(--mute);font-size:12.5px}
+  .health{font-size:12px;color:var(--mute);text-align:right}
+  .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--pt-green);margin-right:6px;vertical-align:1px}
+  .dot.warn{background:var(--gold)} .dot.bad{background:var(--live)}
+  .banner{background:#3a2f0e;border:1px solid #6b5615;color:#f6e3a1;padding:9px 12px;border-radius:10px;margin:14px 0 0;font-size:13px}
+  .chips{display:flex;gap:6px;margin:14px 0 4px;flex-wrap:wrap}
+  .chip{border:1px solid var(--line);background:transparent;color:var(--mute);padding:6px 12px;border-radius:99px;font-size:13px;cursor:pointer}
+  .chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  section{margin-top:26px}
+  h2{font-size:12px;text-transform:uppercase;letter-spacing:1.4px;color:var(--mute);margin:0 0 10px;display:flex;align-items:center;gap:8px}
+  h2 .n{background:var(--line);color:var(--ink);border-radius:99px;padding:1px 8px;font-size:11px;letter-spacing:0}
+  .grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px}
+  .empty{color:var(--mute);font-size:13.5px;padding:4px 2px}
+
+  /* jogo */
+  .match .meta{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:var(--mute);margin-bottom:8px}
+  .match .meta b{color:var(--ink);font-weight:600}
+  .score{display:grid;grid-template-columns:1fr auto;row-gap:4px;align-items:center}
+  .team{display:flex;flex-direction:column;min-width:0}
+  .pl{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px}
+  .pl .nat{font:600 10px var(--mono);color:var(--mute);margin-left:5px}
+  .pl.por{font-weight:700}
+  .pl.por .nat{color:#fff;background:var(--pt-green);padding:0 4px;border-radius:3px}
+  .seed{font:11px var(--mono);color:var(--mute);margin-left:4px}
+  .sets{display:flex;gap:4px;font:600 15px var(--mono);justify-content:flex-end}
+  .sets span{width:22px;text-align:center;color:var(--mute)}
+  .sets span.won{color:var(--ink)}
+  .sets .pts{background:var(--bg);color:var(--gold);border-radius:6px;width:30px}
+  .sets sup{font-size:9px;margin-left:1px}
+  .row-sep{grid-column:1/-1;height:1px;background:var(--line);margin:2px 0}
+  .serve{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--gold);margin-left:6px;vertical-align:2px}
+  .tw{font-weight:700}
+  .badge{font:700 10.5px var(--mono);letter-spacing:.8px;padding:2px 7px;border-radius:5px;text-transform:uppercase}
+  .b-live{background:var(--live);color:#fff;animation:pulse 1.6s infinite}
+  .b-done{background:var(--line);color:var(--mute)}
+  .b-next{background:#1d3b5c;color:#bfe0ff}
+  @keyframes pulse{50%{opacity:.55}}
+  .match.live{border-color:#7a2c25;background:linear-gradient(180deg,#2a1e1c,var(--card) 60%)}
+  .ev-name{font-size:11.5px;color:var(--mute);margin-top:8px;display:flex;justify-content:space-between}
+
+  /* torneio */
+  .ev h3{margin:0;font-size:15.5px;line-height:1.25}
+  .ev .top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+  .cat{font:700 10.5px var(--mono);padding:3px 7px;border-radius:5px;white-space:nowrap;background:var(--line)}
+  .cat.P1,.cat.Major,.cat.Finals{background:#5b4a17;color:#ffe9a6}
+  .cat.Platinum{background:#3d4256} .cat.Gold{background:#4f4a14;color:#fff3a0}
+  .cat.Silver{background:#3b4040} .cat.Bronze{background:#4d2f1c;color:#f3c9a6}
+  .where{color:var(--mute);font-size:12.5px;margin:3px 0 10px}
+  .tlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
+  .tlist li{display:flex;justify-content:space-between;gap:8px;align-items:baseline;border-top:1px dashed var(--line);padding-top:7px}
+  .tlist li:first-child{border-top:0;padding-top:0}
+  .tag{font-size:11px;color:var(--mute);white-space:nowrap}
+  .tag.main{color:#9fe3b9} .tag.qualy{color:#bfe0ff} .tag.waiting{color:var(--gold)}
+  .path{font-size:12px;color:var(--mute);margin-top:2px}
+  .path .w{color:#9fe3b9} .path .l{color:#ff9a90}
+  details{margin-top:10px} summary{cursor:pointer;color:var(--mute);font-size:12.5px}
+  .warn{color:var(--gold);font-size:12px;margin-top:8px}
+  .compact .card{padding:10px 12px}
+  .compact .ev h3{font-size:14px}
+  footer{margin-top:36px;color:var(--mute);font-size:12px;border-top:1px solid var(--line);padding-top:12px}
+  .day{font-size:12px;color:var(--ink);margin:14px 0 8px;font-weight:600}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand"><div class="flagbar"></div><div><h1>Portugueses no Padel</h1><div class="sub">Premier Padel · CUPRA FIP Tour</div></div></div>
+    <div class="health" id="health">a carregar…</div>
+  </header>
+  <div id="banner"></div>
+  <div class="chips" role="group" aria-label="Filtro">
+    <button class="chip" data-g="all" aria-pressed="true">Todos</button>
+    <button class="chip" data-g="M" aria-pressed="false">Masculino</button>
+    <button class="chip" data-g="W" aria-pressed="false">Feminino</button>
+  </div>
+
+  <section id="s-live"><h2>Agora <span class="n" id="n-live">0</span></h2><div class="grid" id="live"></div></section>
+  <section id="s-next"><h2>Próximos jogos <span class="n" id="n-next">0</span></h2><div id="next"></div></section>
+  <section><h2>Torneios em curso <span class="n" id="n-cur">0</span></h2><div class="grid" id="cur"></div></section>
+  <section><h2>Inscrições fechadas <span class="n" id="n-closed">0</span></h2><div class="grid" id="closed"></div></section>
+  <section class="compact"><h2>Inscrições abertas <span class="n" id="n-open">0</span></h2>
+    <div class="empty" style="margin-bottom:8px">A FIP só publica os inscritos depois de fecharem as inscrições. Se aparecer uma lista antes, entra aqui.</div>
+    <div class="grid" id="open"></div></section>
+  <section class="compact"><h2>Inscrições por abrir <span class="n" id="n-soon">0</span></h2><div class="grid" id="soon"></div></section>
+  <section><h2>Resultados recentes <span class="n" id="n-done">0</span></h2><div class="grid" id="done"></div></section>
+  <footer id="foot"></footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const params = new URLSearchParams(location.search);
+const SRC = window.EMBEDDED_DATA ? null : (params.has("demo") ? "sample-data.json" : "data.json");
+let DATA = null, G = "all";
+
+const ROUND = {"Round of 64":"1/32","Round of 32":"1/16","Round of 16":"Oitavos","Quarterfinals":"Quartos","Quarter Finals":"Quartos","Quarter-finals":"Quartos","Semifinals":"Meias","Semi Finals":"Meias","Final":"Final"};
+const rnd = r => ROUND[r] || (/^Q(\d)$/.test(r) ? "Qualy R" + r.slice(1) : r);
+const SECTION = {main:"Quadro principal", qualy:"Qualificação", waiting:"Lista de espera"};
+const gOfMatch = m => /wom/i.test(m.gender) ? "W" : "M";
+const gOfDraw = d => d.draw.startsWith("W") ? "W" : "M";
+const fmtD = iso => { if(!iso) return ""; const [y,m,d]=iso.split("-"); return `${d}/${m}`; };
+const WD = ["dom","seg","ter","qua","qui","sex","sáb"];
+const dayLabel = iso => { const d = new Date(iso+"T12:00:00"); const t = new Date(); t.setHours(12,0,0,0);
+  const diff = Math.round((d - t)/864e5); return diff===0?"Hoje":diff===1?"Amanhã":diff===-1?"Ontem":`${WD[d.getDay()]} ${fmtD(iso)}`; };
+function to24(s){ return s.replace(/(\d{1,2}):(\d{2})\s*(AM|PM)/i,(_,h,m,ap)=>{h=+h%12+(ap.toUpperCase()==="PM"?12:0);return `${String(h).padStart(2,"0")}:${m}`;}); }
+function slot(s){ s=s||""; if(/^followed by/i.test(s)) return "A seguir";
+  if(/^not before/i.test(s)) return "Não antes das "+to24(s.replace(/not before/i,"").trim());
+  if(/^starting at/i.test(s)) return "Início "+to24(s.replace(/starting at/i,"").trim()); return to24(s); }
+
+function players(ps, seed){
+  return ps.map((p,i)=>`<div class="pl ${p.nat==="POR"?"por":""}">${esc(p.name)}<span class="nat">${esc(p.nat==="POR"?"PT":p.nat)}</span>${i===ps.length-1&&seed?`<span class="seed">(${esc(seed)})</span>`:""}</div>`).join("");
+}
+// "63" = 6 jogos com 3 pontos no tie-break; "10" = super tie-break
+const isTB = v => { v=String(v??""); return v.length>=2 && "67".includes(v[0]); };
+const games = v => { if(v==null) return null; v=String(v).replace(/\D/g,""); return v ? (isTB(v)?+v[0]:+v) : null; };
+const fmtSet = v => v==null ? "" : isTB(v) ? `${esc(String(v)[0])}<sup>${esc(String(v).slice(1))}</sup>` : esc(v);
+function setCells(t, o, live){
+  let h = "";
+  for(let i=0;i<Math.max(t.sets.length,o.sets.length);i++){ const a=t.sets[i], b=o.sets[i]; if(a==null && b==null) continue;
+    const won = games(a)!=null && games(b)!=null && games(a) > games(b);
+    h += `<span class="${won?"won":""}">${fmtSet(a)}</span>`; }
+  if(live) h += `<span class="pts">${esc(t.points ?? "")}</span>`;
+  return h;
+}
+function matchCard(m, ev){
+  const [a,b] = m.teams, live = m.status==="live", done = m.status==="completed";
+  const badge = live ? `<span class="badge b-live">ao vivo</span>` : done ? `<span class="badge b-done">final</span>` : `<span class="badge b-next">${esc(slot(m.slot))}</span>`;
+  const team = (t,o,i) => `<div class="team ${m.winner===i?"tw":""}">${players(t.players,t.seed)}</div>
+     <div class="sets">${t.serving&&live?'<span class="serve" title="serviço" style="width:7px"></span>':""}${setCells(t,o,live)}</div>`;
+  return `<div class="card match ${live?"live":""}">
+    <div class="meta"><span><b>${esc(rnd(m.round))}</b> · ${gOfMatch(m)==="W"?"Fem.":"Masc."} · ${esc(m.court.toLowerCase().replace(/^\w/,c=>c.toUpperCase()))}</span>${badge}</div>
+    <div class="score">${team(a,b,0)}<div class="row-sep"></div>${team(b,a,1)}</div>
+    <div class="ev-name"><span>${esc(ev.name)}</span><span>${m.duration?"⏱ "+esc(m.duration):""}</span></div></div>`;
+}
+
+function filt(arr, fn){ return G==="all" ? arr : arr.filter(x=>fn(x)===G); }
+
+function teamsBlock(ev){
+  const entries = filt(ev.por_entries||[], e=>e.gender);
+  const drawsBy = {};
+  filt(ev.por_draws||[], gOfDraw).forEach(d=>{ drawsBy[d.players.map(p=>p.name).sort().join("|")+d.draw[0]] = (drawsBy[d.players.map(p=>p.name).sort().join("|")+d.draw[0]]||[]).concat(d); });
+  const used = new Set();
+  const rows = entries.map(e=>{
+    const k = e.players.map(p=>p.name).sort().join("|") + (e.gender==="W"?"W":"M"); used.add(k);
+    return {players:e.players, gender:e.gender, section:e.section, mark:e.mark, pr:e.pr, draws:drawsBy[k]||[]};
+  });
+  Object.entries(drawsBy).forEach(([k,ds])=>{ if(!used.has(k)) rows.push({players:ds[0].players, gender:gOfDraw(ds[0]), section:ds[0].draw.endsWith("Q")?"qualy":"main", draws:ds}); });
+  const published = Object.values(ev.entry_lists||{}).some(v=>v&&v.pdf) || (ev.por_draws||[]).length || (ev.por_matches||[]).length;
+  if(!rows.length) return `<div class="empty">${published ? `Sem portugueses${G!=="all"?" neste filtro":""}.` : "Lista de inscritos ainda não publicada pela FIP."}</div>`;
+  return `<ul class="tlist">${rows.map(r=>{
+    const path = r.draws.flatMap(d=>d.matches.map(x=>{
+      const opp = x.opponent.map(p=>p.name.split(" ").slice(-1)[0]).join("/") || "por definir";
+      const sc = x.sets.length ? " "+x.sets.map((s,i)=>s+"-"+(x.opponent_sets[i]??"")).join(" ") : "";
+      return `<span class="${x.won?"w":x.lost?"l":""}">${esc(x.round)} vs ${esc(opp)}${x.opponent_seed?" ("+esc(x.opponent_seed)+")":""}${esc(sc)}</span>`;
+    })).join(" → ");
+    return `<li><div>${r.players.map(p=>`<span class="${p.nat==="POR"?"tw":""}">${esc(p.name)}</span>${p.nat!=="POR"?` <span class="tag">${esc(p.nat)}</span>`:""}`).join(" / ")}
+      ${path?`<div class="path">${path}</div>`:""}</div>
+      <span class="tag ${r.section||""}">${r.gender==="W"?"F":"M"} · ${SECTION[r.section]||""}${r.mark?" · "+esc(r.mark):""}${r.pr?" · PR":""}</span></li>`;
+  }).join("")}</ul>`;
+}
+function evCard(ev, opts={}){
+  const warn = (ev.warnings||[]).length ? `<div class="warn">⚠ ${ev.warnings.map(esc).join("<br>⚠ ")}</div>` : "";
+  const lists = Object.entries(ev.entry_lists||{}).filter(([,v])=>v&&v.pdf).map(([g,v])=>`<a href="${esc(v.pdf)}" target="_blank" rel="noopener">${g==="W"?"F":"M"}${v.updated?" ("+esc(v.updated.split(" ")[0])+")":""}</a>`).join(" · ");
+  return `<div class="card ev"><div class="top"><h3><a href="${esc(ev.url)}" target="_blank" rel="noopener">${esc(ev.name)}</a></h3><span class="cat ${esc(ev.category)}">${esc(ev.category)}</span></div>
+    <div class="where">${esc(ev.location)} · ${fmtD(ev.start)}–${fmtD(ev.end)}${lists?` · Listas: ${lists}`:""}</div>
+    ${opts.compact ? "" : teamsBlock(ev)}${warn}</div>`;
+}
+
+function render(){
+  const d = DATA, evs = d.events || [];
+  const allM = evs.flatMap(ev => (ev.por_matches||[]).map(m=>({m,ev})));
+  const ms = filt(allM, x=>gOfMatch(x.m));
+  const live = ms.filter(x=>x.m.status==="live");
+  const next = ms.filter(x=>x.m.status==="scheduled").sort((a,b)=>(a.m.date||"").localeCompare(b.m.date||"") || a.m.day-b.m.day);
+  const done = ms.filter(x=>x.m.status==="completed").sort((a,b)=>(b.m.date||"").localeCompare(a.m.date||"")).slice(0,12);
+  $("#live").innerHTML = live.map(x=>matchCard(x.m,x.ev)).join("") || `<div class="empty">Nenhum português em campo neste momento.</div>`;
+  $("#n-live").textContent = live.length;
+  let h="", cur="";
+  next.forEach(x=>{ const k = x.m.date||""; if(k!==cur){ if(cur!=="") h+="</div>"; h+=`<div class="day">${k?dayLabel(k):"Data por confirmar"} <span class="sub">· hora local do torneio</span></div><div class="grid">`; cur=k; } h+=matchCard(x.m,x.ev); });
+  $("#next").innerHTML = next.length ? h+"</div>" : `<div class="empty">Sem jogos marcados com portugueses.</div>`;
+  $("#n-next").textContent = next.length;
+  $("#done").innerHTML = done.map(x=>matchCard(x.m,x.ev)).join("") || `<div class="empty">—</div>`;
+  $("#n-done").textContent = done.length;
+  const by = s => evs.filter(e=>e.status===s);
+  const put = (id, list, opts) => { $("#"+id).innerHTML = list.map(e=>evCard(e,opts)).join("") || `<div class="empty">—</div>`; $("#n-"+id).textContent = list.length; };
+  put("cur", by("live"));
+  put("closed", by("registration_closed"));
+  put("open", by("registration_open"), {compact:false});
+  put("soon", by("registration_not_open"), {compact:true});
+
+  const gen = new Date(d.generated_at), mins = Math.round((Date.now()-gen)/6e4);
+  const warns = evs.reduce((n,e)=>n+(e.warnings||[]).length,0) + (d.stats?.errors||[]).length;
+  const cls = d.stats?.blocked_403 ? "bad" : warns ? "warn" : "";
+  $("#health").innerHTML = `<span class="dot ${cls}"></span>Atualizado ${mins<1?"agora":mins<60?`há ${mins} min`:`há ${Math.round(mins/60)} h`}<br><span>${gen.toLocaleString("pt-PT",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}${warns?` · ${warns} avisos`:""}</span>`;
+  $("#banner").innerHTML = d.sample ? `<div class="banner"><b>Dados de exemplo.</b> Montados a partir de amostras reais de 11/11/2026. O jogo "ao vivo" dos irmãos Deus e a inscrição deles no Levante são fictícios: servem só para mostrar o ecrã.</div>`
+    : mins > 180 ? `<div class="banner">Os dados têm mais de 3 horas. O recolhedor pode ter falhado: vê o separador Actions no GitHub.</div>` : "";
+  $("#foot").innerHTML = `Fontes: padelfip.com e MatchScorer Live. ${d.stats?`${d.stats.requests} pedidos na última recolha${d.stats.blocked_403?`, <b>${d.stats.blocked_403} bloqueados</b>`:""}.`:""} Horas na hora local de cada torneio.`;
+}
+
+document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{ G=b.dataset.g; document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed", x===b)); render(); });
+
+async function load(){
+  try{
+    DATA = window.EMBEDDED_DATA || await (await fetch(SRC+"?t="+Date.now(), {cache:"no-store"})).json();
+    render();
+  }catch(e){ $("#health").textContent = "Erro a ler os dados: "+e.message; }
+}
+load();
+if(!window.EMBEDDED_DATA) setInterval(load, 60000);
+</script>
+</body>
+</html>

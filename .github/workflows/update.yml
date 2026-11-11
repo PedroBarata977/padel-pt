@@ -1,0 +1,37 @@
+name: Atualizar dados
+
+on:
+  schedule:
+    - cron: "7 * * * *"   # de hora a hora, ao minuto 7 (o GitHub pode atrasar alguns minutos)
+  workflow_dispatch: {}    # botão "Run workflow" para correr à mão
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Testes dos parsers
+        run: python -m pytest -q
+      - name: Recolher dados
+        run: python -m collector.main
+      - name: Guardar data.json
+        if: always()
+        run: |
+          git config user.name "padel-bot"
+          git config user.email "padel-bot@users.noreply.github.com"
+          git add docs/data.json data/pdf_cache.json || true
+          git diff --cached --quiet || git commit -m "dados $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

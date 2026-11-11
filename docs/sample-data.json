@@ -1,0 +1,468 @@
+{
+ "generated_at": "2026-11-11T15:40:00+00:00",
+ "target": "POR",
+ "stats": {
+  "requests": 46,
+  "blocked_403": 0,
+  "events": 4,
+  "errors": []
+ },
+ "events": [
+  {
+   "name": "EMAAR DUBAI PREMIER PADEL P1",
+   "url": "https://www.padelfip.com/events/emaar-dubai-premier-padel-p1-2026/",
+   "slug": "emaar-dubai-premier-padel-p1-2026",
+   "circuit": "Premier Padel",
+   "category": "P1",
+   "location": "Dubai - United Arab Emirates",
+   "start": "2026-11-08",
+   "end": "2026-11-15",
+   "status": "live",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 33,
+     "mark": "",
+     "players": [
+      {
+       "name": "Miguel Deus",
+       "nat": "POR",
+       "points": 1328
+      },
+      {
+       "name": "Nuno Deus",
+       "nat": "POR",
+       "points": 622
+      }
+     ],
+     "pr": true,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 13,
+     "mark": "",
+     "players": [
+      {
+       "name": "Pedro Araujo",
+       "nat": "POR",
+       "points": 554
+      },
+      {
+       "name": "Pedro Graça",
+       "nat": "POR",
+       "points": 531
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 20,
+     "mark": "",
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR",
+       "points": 419
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "ESP",
+       "points": 529
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 30,
+     "mark": "",
+     "players": [
+      {
+       "name": "Diogo Jesus",
+       "nat": "POR",
+       "points": 243
+      },
+      {
+       "name": "Antonio Luque",
+       "nat": "POR",
+       "points": 384
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 31,
+     "mark": "",
+     "players": [
+      {
+       "name": "João Maria Caiano",
+       "nat": "POR",
+       "points": 300
+      },
+      {
+       "name": "Alejandro Calvo Perez",
+       "nat": "ESP",
+       "points": 282
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "waiting",
+     "pos": 2,
+     "mark": "",
+     "players": [
+      {
+       "name": "Pedro Perry",
+       "nat": "POR",
+       "points": 334
+      },
+      {
+       "name": "Afonso Fazendeiro",
+       "nat": "POR",
+       "points": 139
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    }
+   ],
+   "por_matches": [
+    {
+     "match_id": "MD030",
+     "court": "COURT 2",
+     "slot": "Followed by",
+     "gender": "Men",
+     "round": "Round of 32",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "M. Deus",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "N. Deus",
+         "nat": "POR",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "6",
+        "3",
+        null
+       ],
+       "points": "40",
+       "serving": true
+      },
+      {
+       "players": [
+        {
+         "name": "A. Coello",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "A. Tapia",
+         "nat": "ARG",
+         "tag": "1"
+        }
+       ],
+       "seed": "1",
+       "sets": [
+        "4",
+        "5",
+        null
+       ],
+       "points": "15",
+       "serving": false
+      }
+     ],
+     "status": "live",
+     "duration": "00:52",
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 4,
+     "date": "2026-11-11",
+     "local_time": "11/11/2026 3:37:00 PM"
+    },
+    {
+     "match_id": "WD027",
+     "court": "CENTER COURT",
+     "slot": "Followed by",
+     "gender": "Women",
+     "round": "Round of 32",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "A. Ortiz Gasco",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "M. Ferreyra",
+         "nat": "ARG",
+         "tag": "Q"
+        }
+       ],
+       "seed": "Q",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "S. Araujo",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "M. Ortega Gallego",
+         "nat": "ESP",
+         "tag": "5"
+        }
+       ],
+       "seed": "5",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "scheduled",
+     "duration": null,
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 4,
+     "date": "2026-11-11",
+     "local_time": "11/11/2026 3:37:00 PM"
+    }
+   ],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Miguel Deus",
+       "nat": "POR"
+      },
+      {
+       "name": "Nuno Deus",
+       "nat": "POR"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "1/32",
+       "opponent": [
+        {
+         "name": "Antonio Fernandez",
+         "nat": "Spain"
+        },
+        {
+         "name": "Alvaro Cepero",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "6",
+        "7"
+       ],
+       "opponent_sets": [
+        "3",
+        "5"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Arturo Coello",
+         "nat": "Spain"
+        },
+        {
+         "name": "Agustin Tapia",
+         "nat": "Argentina"
+        }
+       ],
+       "opponent_seed": "1",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    }
+   ],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://x/entry-290236-M-v1.pdf",
+     "updated": "07/11/2026 h 10:15 am",
+     "n_teams": 14
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://x/md.pdf"
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed",
+   "matchscorer_id": "FIP-2026-4501"
+  },
+  {
+   "name": "FIP SILVER MEDIOLANUM PADEL CUP",
+   "url": "https://www.padelfip.com/events/fip-silver-mediolanum-padel-cup-2026/",
+   "slug": "fip-silver-mediolanum-padel-cup-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Como - Italy",
+   "start": "2026-11-10",
+   "end": "2026-11-15",
+   "status": "live",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://x/entry-290236-M-v1.pdf",
+     "updated": "07/11/2026 h 10:15 am",
+     "n_teams": 14
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://x/md.pdf"
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed",
+   "matchscorer_id": "FIP-2026-4501"
+  },
+  {
+   "name": "FIP BRONZE LEVANTE",
+   "url": "https://www.padelfip.com/events/fip-bronze-levante-2026/",
+   "slug": "fip-bronze-levante-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Valencia - Spain",
+   "start": "2026-11-12",
+   "end": "2026-11-15",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 33,
+     "mark": "",
+     "players": [
+      {
+       "name": "Miguel Deus",
+       "nat": "POR",
+       "points": 1328
+      },
+      {
+       "name": "Nuno Deus",
+       "nat": "POR",
+       "points": 622
+      }
+     ],
+     "pr": true,
+     "team_points": null,
+     "gender": "M"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/entry-list-Fip-Bronze-Levante-M-v7.pdf",
+     "updated": "08/11/2026 h 11:25 am",
+     "n_teams": 40
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://x/md.pdf"
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed",
+   "matchscorer_id": "FIP-2026-4501"
+  },
+  {
+   "name": "FIP SILVER ROESELARE",
+   "url": "https://www.padelfip.com/events/fip-silver-roeselare-2026/",
+   "slug": "fip-silver-roeselare-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Roeselare - Belgium",
+   "start": "2026-11-23",
+   "end": "2026-11-29",
+   "status": "registration_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": null
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {},
+   "warnings": [],
+   "registration_text": "Registration Closed",
+   "matchscorer_id": "FIP-2026-4501"
+  },
+  {
+   "name": "PREMIER PADEL FINALS",
+   "url": "https://www.padelfip.com/events/premier-padel-finals-2026/",
+   "slug": "premier-padel-finals-2026",
+   "circuit": "Premier Padel",
+   "category": "Finals",
+   "location": "Barcelona - Spain",
+   "start": "2026-12-10",
+   "end": "2026-12-13",
+   "status": "registration_not_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {},
+   "warnings": []
+  }
+ ],
+ "sample": true
+}
