@@ -130,3 +130,45 @@ def test_entry_real_pdf_roundtrip():
         c.showPage()
     c.save()
     _check_dubai(entrylist.parse_pdf(buf.getvalue()))
+
+
+# ------------------------------------------------------------------ quadro MatchScorer vs lista de inscritos
+
+def test_ms_draw_and_matching():
+    html = (FX / "ms_draw_qatar2_md.html").read_text(encoding="utf-8")
+    idx = matchscorer.parse_draw_index(html)
+    assert list(idx) == ["MD", "MQ", "WD"]
+    assert idx["MQ"].endswith("/screen/draw/FIP-2026-4607/MQ/11?t=tol")
+    teams = matchscorer.parse_draw_round(html)
+    assert len(teams) == 4  # 3 jogos, 2 lugares "Qualifier/LL" não contam
+    assert teams[1]["players"][0] == {"name": "G. Nunes", "nat": "POR", "tag": ""}
+    assert matchscorer.same_player("Pedro Graça", "P. Graca")
+    assert matchscorer.same_player("João Maria Caiano", "J. Caiano")
+    assert matchscorer.same_player("Marta Ortega Gallego", "M. Ortega Gallego")
+    assert not matchscorer.same_player("Pedro Araujo", "S. Araujo")
+    assert not matchscorer.same_player("Gustavo Nunes", "T. Nunes")
+
+
+def test_check_draws_marks_withdrawals():
+    from collector import main as M
+    html = (FX / "ms_draw_qatar2_md.html").read_text(encoding="utf-8")
+
+    class C:
+        count = blocked = 0
+        def get(self, url, **kw):
+            r = type("R", (), {})()
+            r.text = html if ("/MD/" in url or url.endswith("4607?t=tol")) else "<html></html>"
+            return r
+
+    ev = {"oop": {"year": "2026", "id": "4607", "day": 1, "totalday": 4}, "warnings": [], "por_entries": [
+        {"gender": "M", "section": "main", "players": [{"name": "Pedro Araujo", "nat": "POR"}, {"name": "Pedro Graça", "nat": "POR"}]},
+        {"gender": "M", "section": "main", "players": [{"name": "Gustavo Nunes", "nat": "POR"}, {"name": "Anton Sans", "nat": "ESP"}]},
+        {"gender": "W", "section": "main", "players": [{"name": "Clarinha Santos", "nat": "POR"}, {"name": "Lucia Perez Parra", "nat": "ESP"}]},
+    ]}
+    M.check_draws(C(), ev)
+    st = {e["players"][0]["name"]: e.get("draw_status") for e in ev["por_entries"]}
+    assert st["Pedro Araujo"] == "out"          # desistiram (o caso detetado pelo Pedro)
+    assert st["Gustavo Nunes"] == "in_draw"
+    assert st["Clarinha Santos"] is None        # quadro feminino vazio nesta amostra → sem conclusão
+    extra = [e for e in ev["por_entries"] if e.get("from_draw")]
+    assert [p["name"] for p in extra[0]["players"]] == ["T. Silva", "L. Rossi"]

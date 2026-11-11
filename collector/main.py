@@ -169,6 +169,69 @@ def add_matches(c: Client, ev: dict) -> None:
     ev["matchscorer_id"] = f"FIP-{year}-{o['id']}"
 
 
+def check_draws(c: Client, ev: dict) -> None:
+    """Confronta a lista de inscritos (PDF, pode estar desatualizada) com o quadro da MatchScorer.
+
+    Quando o quadro existe, é ele que manda: quem não está lá desistiu ou foi substituído.
+    Marca cada inscrição com draw_status: in_draw | partner_changed | out | None (sem quadro ainda).
+    Acrescenta portugueses que estão no quadro mas não na lista (lucky losers, trocas de parceiro).
+    """
+    o = ev.get("oop")
+    if not o:
+        return
+    try:
+        idx = matchscorer.parse_draw_index(c.get(matchscorer.draw_index_url(o["year"], o["id"])).text)
+    except Exception as e:  # noqa: BLE001
+        ev["warnings"].append(f"Quadros MatchScorer: {e}")
+        return
+    draws_ms: dict[str, list] = {}
+    for dt, url in idx.items():
+        try:
+            draws_ms[dt] = matchscorer.parse_draw_round(c.get(url).text)
+        except Exception as e:  # noqa: BLE001
+            ev["warnings"].append(f"Quadro {dt} MatchScorer: {e}")
+    ev["ms_draws"] = {dt: len(t) for dt, t in draws_ms.items()}
+    if not any(draws_ms.values()):
+        return
+
+    used = set()
+    for e in ev["por_entries"]:
+        g = e["gender"]
+        if not any(draws_ms.get(g + k) for k in "DQ"):
+            e["draw_status"] = None  # este género ainda sem quadro publicado
+            continue
+        por = [p for p in e["players"] if p["nat"] == TARGET]
+        partner = [p for p in e["players"] if p not in por]
+        e["draw_status"] = "out"
+        for dt in (g + "D", g + "Q"):
+            for i, t in enumerate(draws_ms.get(dt, [])):
+                names = [p["name"] for p in t["players"]]
+                if not all(any(matchscorer.same_player(p["name"], n) for n in names) for p in por):
+                    continue
+                used.add((dt, i))
+                e["draw_type"] = dt
+                same_partner = all(any(matchscorer.same_player(p["name"], n) for n in names) for p in partner)
+                if same_partner:
+                    e["draw_status"] = "in_draw"
+                else:
+                    e["draw_status"] = "partner_changed"
+                    e["new_partner"] = [p for p in t["players"]
+                                        if not any(matchscorer.same_player(q["name"], p["name"]) for q in por)]
+                break
+            if e["draw_status"] != "out":
+                break
+
+    for dt, teams in draws_ms.items():
+        for i, t in enumerate(teams):
+            if (dt, i) in used or not any(p["nat"] == TARGET for p in t["players"]):
+                continue
+            ev["por_entries"].append({
+                "section": "main" if dt.endswith("D") else "qualy", "pos": None, "mark": t["seed"],
+                "players": [{"name": p["name"], "nat": p["nat"], "points": None} for p in t["players"]],
+                "pr": False, "gender": dt[0], "draw_status": "in_draw", "draw_type": dt, "from_draw": True,
+            })
+
+
 def run_live(c: Client, fip_data: dict) -> dict:
     today = _now().date()
     events = []
@@ -178,6 +241,9 @@ def run_live(c: Client, fip_data: dict) -> dict:
             ev["status"] = "live"  # começou desde a última recolha da FIP
         if date.fromisoformat(ev["end"]) < today - timedelta(days=1):
             continue
+        ev["por_entries"] = [dict(e) for e in ev.get("por_entries", [])]
+        if ev["status"] not in ("registration_open", "registration_not_open"):
+            check_draws(c, ev)
         add_matches(c, ev)
         events.append(ev)
     age = None

@@ -36,8 +36,11 @@ def _team(tr) -> dict:
         img = row.find("img", class_="flags")
         spans = [s.get_text(strip=True) for s in row.select(".line-thin > span")]
         tag = row.select_one(".line-thin small")
+        name = " ".join(spans).strip()
+        if not name:
+            continue  # "Qualifier/LL", "Bye", equipa por definir
         players.append({
-            "name": " ".join(spans).strip(),
+            "name": name,
             "nat": nat_from_ms_flag(img["src"]) if img else "",
             "tag": tag.get_text(strip=True).strip("()") if tag else "",
         })
@@ -135,3 +138,55 @@ def has_nat(match: dict, nat: str) -> bool:
         return True
     # equipas ainda por definir: "A. Silva/B. Costa OR ..." não traz bandeira — procurar texto não é fiável
     return False
+
+
+# ------------------------------------------------------------------ quadros (fonte de verdade de quem joga)
+
+DRAW_INDEX = "https://widget.matchscorerlive.com/screen/draw/FIP-{year}-{id}?t=tol"
+MS_BASE = "https://widget.matchscorerlive.com"
+
+
+def draw_index_url(year, tid) -> str:
+    return DRAW_INDEX.format(year=year, id=tid)
+
+
+def parse_draw_index(html: str) -> dict[str, str]:
+    """{'MD': url da 1.ª ronda, 'MQ': ..., 'WD': ...} — só os quadros que existem."""
+    soup = BeautifulSoup(html, "lxml")
+    out = {}
+    for a in soup.find_all("a", href=True):
+        m = re.search(r"/screen/draw/FIP-\d+-\d+/([MW][DQ])/\d+", a["href"])
+        if m and a.select_one(".draw-type") and m.group(1) not in out:
+            out[m.group(1)] = MS_BASE + a["href"] if a["href"].startswith("/") else a["href"]
+    return out
+
+
+def parse_draw_round(html: str) -> list[dict]:
+    """Equipas de uma ronda do quadro (ignora 'Qualifier/LL', 'Bye')."""
+    soup = BeautifulSoup(html, "lxml")
+    teams = []
+    for tr in soup.select("tr.draw-item-container"):
+        if tr.select_one(".missingteam"):
+            continue
+        t = _team(tr)
+        if t["players"]:
+            teams.append(t)
+    return teams
+
+
+def _norm(s: str) -> str:
+    import unicodedata
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+    return " ".join(re.sub(r"[^a-z]+", " ", s).split())
+
+
+def same_player(full_name: str, ms_name: str) -> bool:
+    """'Pedro Araujo' (lista FIP) vs 'P. Araujo' (MatchScorer)."""
+    full, ms = _norm(full_name), _norm(ms_name)
+    if not full or not ms:
+        return False
+    parts = ms.split()
+    initial, surname = (parts[0][0], " ".join(parts[1:])) if len(parts) > 1 and len(parts[0]) == 1 else ("", ms)
+    if not surname or not (full == surname or full.endswith(" " + surname)):
+        return False
+    return not initial or full[0] == initial

@@ -75,6 +75,9 @@
   .tag.main{color:#9fe3b9} .tag.qualy{color:#bfe0ff} .tag.waiting{color:var(--gold)}
   .path{font-size:12px;color:var(--mute);margin-top:2px}
   .path .w{color:#9fe3b9} .path .l{color:#ff9a90}
+  .path.l{color:#ff9a90} .path.w{color:#9fe3b9}
+  .tlist li.out > div > span{text-decoration:line-through;opacity:.55}
+  .tlist li.out .tag{opacity:.55}
   details{margin-top:10px} summary{cursor:pointer;color:var(--mute);font-size:12.5px}
   .warn{color:var(--gold);font-size:12px;margin-top:8px}
   .compact .card{padding:10px 12px}
@@ -165,8 +168,10 @@ function teamsBlock(ev){
   const used = new Set();
   const rows = entries.map(e=>{
     const k = e.players.map(p=>p.name).sort().join("|") + (e.gender==="W"?"W":"M"); used.add(k);
-    return {players:e.players, gender:e.gender, section:e.section, mark:e.mark, pr:e.pr, draws:drawsBy[k]||[]};
+    return {players:e.players, gender:e.gender, section:e.section, mark:e.mark, pr:e.pr, draws:drawsBy[k]||[],
+            ds:e.draw_status, dt:e.draw_type, np:e.new_partner, fromDraw:e.from_draw};
   });
+  rows.sort((a,b)=>(a.ds==="out")-(b.ds==="out"));
   Object.entries(drawsBy).forEach(([k,ds])=>{ if(!used.has(k)) rows.push({players:ds[0].players, gender:gOfDraw(ds[0]), section:ds[0].draw.endsWith("Q")?"qualy":"main", draws:ds}); });
   const published = Object.values(ev.entry_lists||{}).some(v=>v&&v.pdf) || (ev.por_draws||[]).length || (ev.por_matches||[]).length;
   if(!rows.length) return `<div class="empty">${published ? `Sem portugueses${G!=="all"?" neste filtro":""}.` : "Lista de inscritos ainda não publicada pela FIP."}</div>`;
@@ -176,9 +181,14 @@ function teamsBlock(ev){
       const sc = x.sets.length ? " "+x.sets.map((s,i)=>s+"-"+(x.opponent_sets[i]??"")).join(" ") : "";
       return `<span class="${x.won?"w":x.lost?"l":""}">${esc(x.round)} vs ${esc(opp)}${x.opponent_seed?" ("+esc(x.opponent_seed)+")":""}${esc(sc)}</span>`;
     })).join(" → ");
-    return `<li><div>${r.players.map(p=>`<span class="${p.nat==="POR"?"tw":""}">${esc(p.name)}</span>${p.nat!=="POR"?` <span class="tag">${esc(p.nat)}</span>`:""}`).join(" / ")}
-      ${path?`<div class="path">${path}</div>`:""}</div>
-      <span class="tag ${r.section||""}">${r.gender==="W"?"F":"M"} · ${SECTION[r.section]||""}${r.mark?" · "+esc(r.mark):""}${r.pr?" · PR":""}</span></li>`;
+    const where = r.dt ? (r.dt.endsWith("Q")?"Qualificação":"Quadro principal") : "";
+    const note = r.ds==="out" ? `<div class="path l">Não consta do quadro: desistiu ou foi substituído</div>`
+      : r.ds==="partner_changed" ? `<div class="path" style="color:var(--gold)">No quadro com outro parceiro: ${esc((r.np||[]).map(p=>p.name).join(" / "))}</div>`
+      : r.fromDraw ? `<div class="path w">No quadro (${esc(where)}) sem constar da lista de inscritos</div>`
+      : r.ds==="in_draw" && where && where!==SECTION[r.section] ? `<div class="path w">Entrou no ${esc(where.toLowerCase())}</div>` : "";
+    return `<li class="${r.ds==="out"?"out":""}"><div>${r.players.map(p=>`<span class="${p.nat==="POR"?"tw":""}">${esc(p.name)}</span>${p.nat!=="POR"?` <span class="tag">${esc(p.nat)}</span>`:""}`).join(" / ")}
+      ${path?`<div class="path">${path}</div>`:""}${note}</div>
+      <span class="tag ${r.section||""}">${r.gender==="W"?"F":"M"} · ${SECTION[r.section]||""}${r.mark?" · "+esc(r.mark):""}${r.pr?" · PR":""}${r.ds==="in_draw"||r.ds==="partner_changed"?" · ✓":""}</span></li>`;
   }).join("")}</ul>`;
 }
 function evCard(ev, opts={}){
