@@ -130,6 +130,7 @@ function slot(s){ s=s||""; if(/^followed by/i.test(s)) return "A seguir";
   if(/^starting at/i.test(s)) return "Início "+to24(s.replace(/starting at/i,"").trim()); return to24(s); }
 
 function players(ps, seed){
+  if(!ps || !ps.length) return `<div class="pl" style="color:var(--mute)">A definir</div>`;
   return ps.map((p,i)=>`<div class="pl ${p.nat==="POR"?"por":""}">${esc(p.name)}<span class="nat">${esc(p.nat==="POR"?"PT":p.nat)}</span>${i===ps.length-1&&seed?`<span class="seed">(${esc(seed)})</span>`:""}</div>`).join("");
 }
 // "63" = 6 jogos com 3 pontos no tie-break; "10" = super tie-break
