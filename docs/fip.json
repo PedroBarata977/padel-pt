@@ -1,0 +1,1638 @@
+{
+ "generated_at": "2026-11-11T13:57:39+00:00",
+ "stats": {
+  "requests": 108,
+  "blocked_403": 0,
+  "events": 20,
+  "errors": []
+ },
+ "events": [
+  {
+   "name": "EMAAR DUBAI PREMIER PADEL P1",
+   "url": "https://www.padelfip.com/events/emaar-dubai-premier-padel-p1-2026/",
+   "slug": "emaar-dubai-premier-padel-p1-2026",
+   "circuit": "Premier Padel",
+   "category": "P1",
+   "location": "Dubai  - United Arab Emirates",
+   "start": "2026-11-08",
+   "end": "2026-11-15",
+   "status": "live",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 33,
+     "mark": "",
+     "players": [
+      {
+       "name": "Miguel Deus",
+       "nat": "POR",
+       "points": 1328
+      },
+      {
+       "name": "Nuno Deus",
+       "nat": "POR",
+       "points": 622
+      }
+     ],
+     "pr": true,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 13,
+     "mark": "",
+     "players": [
+      {
+       "name": "Pedro Araujo",
+       "nat": "POR",
+       "points": 554
+      },
+      {
+       "name": "Pedro Graça",
+       "nat": "POR",
+       "points": 531
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 20,
+     "mark": "",
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR",
+       "points": 419
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "ESP",
+       "points": 529
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 30,
+     "mark": "",
+     "players": [
+      {
+       "name": "Diogo Jesus",
+       "nat": "POR",
+       "points": 243
+      },
+      {
+       "name": "Antonio Luque",
+       "nat": "POR",
+       "points": 384
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 31,
+     "mark": "",
+     "players": [
+      {
+       "name": "João Maria Caiano",
+       "nat": "POR",
+       "points": 300
+      },
+      {
+       "name": "Alejandro Calvo Perez",
+       "nat": "ESP",
+       "points": 282
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "waiting",
+     "pos": 2,
+     "mark": "",
+     "players": [
+      {
+       "name": "Pedro Perry",
+       "nat": "POR",
+       "points": 334
+      },
+      {
+       "name": "Afonso Fazendeiro",
+       "nat": "POR",
+       "points": 139
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Marta Ortega Gallego",
+       "nat": "ESP",
+       "points": 5451
+      },
+      {
+       "name": "Sofia Araujo",
+       "nat": "POR",
+       "points": 6361
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    },
+    {
+     "section": "qualy",
+     "pos": 13,
+     "mark": "",
+     "players": [
+      {
+       "name": "Ana Catarina Nogueira",
+       "nat": "POR",
+       "points": 861
+      },
+      {
+       "name": "Andrea Batlle Achando",
+       "nat": "POR",
+       "points": 52
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Miguel Deus",
+       "nat": "POR"
+      },
+      {
+       "name": "Nuno Deus",
+       "nat": "POR"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "1/32",
+       "opponent": [
+        {
+         "name": "Manuel Castaño",
+         "nat": "Spain"
+        },
+        {
+         "name": "Pol Hernandez Alvarez",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "6",
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "7",
+        "3",
+        "7"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    },
+    {
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR"
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "Spain"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Agustin Reca",
+         "nat": "Germany"
+        },
+        {
+         "name": "Victor Tur Checa",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "7",
+        "7"
+       ],
+       "opponent_sets": [
+        "5",
+        "5"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Q2",
+       "opponent": [
+        {
+         "name": "Manuel Aragon Herrera",
+         "nat": "Spain"
+        },
+        {
+         "name": "Albert Roglan Pons",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "5",
+       "sets": [
+        "4",
+        "6",
+        "4"
+       ],
+       "opponent_sets": [
+        "6",
+        "3",
+        "6"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "MQ",
+     "draw_label": "Masculino · Qualificação"
+    },
+    {
+     "players": [
+      {
+       "name": "João Maria Caiano",
+       "nat": "POR"
+      },
+      {
+       "name": "Alejandro Calvo Perez",
+       "nat": "Spain"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Manuel Rocafort Lores",
+         "nat": "Spain"
+        },
+        {
+         "name": "Cristobal Garcia Blanco",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "WC",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "3",
+        "4"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Q2",
+       "opponent": [
+        {
+         "name": "Martin Abud",
+         "nat": "Paraguay"
+        },
+        {
+         "name": "Juan Cruz Belluati",
+         "nat": "Argentina"
+        }
+       ],
+       "opponent_seed": "3",
+       "sets": [
+        "2",
+        "2"
+       ],
+       "opponent_sets": [
+        "6",
+        "6"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "MQ",
+     "draw_label": "Masculino · Qualificação"
+    },
+    {
+     "players": [
+      {
+       "name": "Pedro Araujo",
+       "nat": "POR"
+      },
+      {
+       "name": "Pedro Graça",
+       "nat": "POR"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Alejandro Garcia Calahorro",
+         "nat": "Spain"
+        },
+        {
+         "name": "Iago Fuertes Leonardo",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "6",
+        "7"
+       ],
+       "opponent_sets": [
+        "4",
+        "5"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Q2",
+       "opponent": [
+        {
+         "name": "Thomas Leygue",
+         "nat": "France"
+        },
+        {
+         "name": "Jesus Moya",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "7",
+       "sets": [
+        "3",
+        "6",
+        "0"
+       ],
+       "opponent_sets": [
+        "6",
+        "3",
+        "6"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "MQ",
+     "draw_label": "Masculino · Qualificação"
+    },
+    {
+     "players": [
+      {
+       "name": "Sofia Araujo",
+       "nat": "POR"
+      },
+      {
+       "name": "Marta Ortega Gallego",
+       "nat": "Spain"
+      }
+     ],
+     "seed": "5",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Anna Ortiz Gasco",
+         "nat": "Spain"
+        },
+        {
+         "name": "Maria Laura Ferreyra",
+         "nat": "Argentina"
+        }
+       ],
+       "opponent_seed": "Q",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "WD",
+     "draw_label": "Feminino · Quadro principal"
+    },
+    {
+     "players": [
+      {
+       "name": "Ana Catarina Nogueira",
+       "nat": "POR"
+      },
+      {
+       "name": "Andrea Batlle Achando",
+       "nat": "POR"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Amanda Lopez Moral",
+         "nat": "Spain"
+        },
+        {
+         "name": "Camila Fassio Goyeneche",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "4",
+       "sets": [
+        "0",
+        "2"
+       ],
+       "opponent_sets": [
+        "6",
+        "6"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "WQ",
+     "draw_label": "Feminino · Qualificação"
+    }
+   ],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Dubai-P1-M-v13.pdf",
+     "updated": "07/11/2026 h 10:15 am",
+     "n_teams": 76
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Dubai-P1-W-v12.pdf",
+     "updated": "06/11/2026 h 10:40 pm",
+     "n_teams": 41
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-MD-4.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-MQ-5.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-WD-3.pdf",
+    "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-WQ-8.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4501",
+    "day": 4,
+    "totalday": 8
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP SILVER MEDIOLANUM PADEL CUP",
+   "url": "https://www.padelfip.com/events/fip-silver-mediolanum-padel-cup-2026/",
+   "slug": "fip-silver-mediolanum-padel-cup-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Como - Italy",
+   "start": "2026-11-10",
+   "end": "2026-11-15",
+   "status": "live",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Silver-Mediolanum-Como-M-V4-1.pdf",
+     "updated": "07/11/2026 h 09:00 am",
+     "n_teams": 61
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Silver-Mediolanum-Como-W-v4-1.pdf",
+     "updated": "07/11/2026 h 09:00 am",
+     "n_teams": 38
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIOLANUM-COMO_-DRAW-MD-v2.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIALANUM-COMO_-DRAW-MQ-v5.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIOLANUM-COMO_-DRAW-WD-v2.pdf",
+    "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIALANUM-COMO_-DRAW-WQ-1.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4808",
+    "day": 2,
+    "totalday": 6
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE QATAR II",
+   "url": "https://www.padelfip.com/events/fip-bronze-qatar-2026-2/",
+   "slug": "fip-bronze-qatar-2026-2",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Doha - Qatar",
+   "start": "2026-11-12",
+   "end": "2026-11-15",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 2,
+     "mark": "",
+     "players": [
+      {
+       "name": "Pedro Araujo",
+       "nat": "POR",
+       "points": 554
+      },
+      {
+       "name": "Pedro Graça",
+       "nat": "POR",
+       "points": 538
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR",
+       "points": 405
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "ESP",
+       "points": 532
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 1,
+     "mark": "",
+     "players": [
+      {
+       "name": "Lucia Perez Parra",
+       "nat": "ESP",
+       "points": 559
+      },
+      {
+       "name": "Clarinha Santos",
+       "nat": "POR",
+       "points": 447
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    },
+    {
+     "section": "main",
+     "pos": 3,
+     "mark": "",
+     "players": [
+      {
+       "name": "Mafalda Marques Fernandes",
+       "nat": "POR",
+       "points": 336
+      },
+      {
+       "name": "Patricia Ribeiro",
+       "nat": "POR",
+       "points": 262
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Doha-II-M-v5.pdf",
+     "updated": "07/11/2026 h 03:40 am",
+     "n_teams": 37
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Doha-II-W-v7.pdf",
+     "updated": "08/11/2026 h 22:10 pm",
+     "n_teams": 19
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MD-v4.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MQ.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-WD.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4607",
+    "day": 1,
+    "totalday": 4
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE LEVANTE",
+   "url": "https://www.padelfip.com/events/fip-bronze-levante-2026/",
+   "slug": "fip-bronze-levante-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Nola - Italy",
+   "start": "2026-11-12",
+   "end": "2026-11-15",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 8,
+     "mark": "",
+     "players": [
+      {
+       "name": "Catarina Santos Domingos",
+       "nat": "POR",
+       "points": 358
+      },
+      {
+       "name": "Alba Vazquez Gracia",
+       "nat": "ESP",
+       "points": 385
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    },
+    {
+     "section": "main",
+     "pos": 10,
+     "mark": "",
+     "players": [
+      {
+       "name": "Francesca Ligotti",
+       "nat": "ITA",
+       "points": 213
+      },
+      {
+       "name": "Bruna Albuquerque Melo",
+       "nat": "POR",
+       "points": 236
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    },
+    {
+     "section": "main",
+     "pos": 13,
+     "mark": "",
+     "players": [
+      {
+       "name": "Maria Francisca Santos",
+       "nat": "POR",
+       "points": 84
+      },
+      {
+       "name": "Angela Lorenzo Martin",
+       "nat": "ESP",
+       "points": 101
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/entry-list-Fip-Bronze-Levante-M-v7.pdf",
+     "updated": "08/11/2026 h 11:25 am",
+     "n_teams": 41
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/entry-list-Fip-Bronze-Levante-W-v2.pdf",
+     "updated": "07/11/2026 h 09:25 am",
+     "n_teams": 20
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-LEVANTE_-DRAW-MD.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-LEVANTE_-DRAW-MQ.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-LEVANTE_-DRAW-WD.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4609",
+    "day": 1,
+    "totalday": 4
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE HIGH VELOCITY KOCHI",
+   "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-kochi-2026/",
+   "slug": "fip-bronze-high-velocity-kochi-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Kochi - India",
+   "start": "2026-11-12",
+   "end": "2026-11-15",
+   "status": "registration_closed",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronce-High-Velocity-Kochi-M-v6.pdf",
+     "updated": "09/11/2026 h 08:25 pm",
+     "n_teams": 20
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-KOCHI_-DRAW-MDv2.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4403",
+    "day": 1,
+    "totalday": 4
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP PLATINUM AGUASCALIENTES",
+   "url": "https://www.padelfip.com/events/fip-platinum-aguascalientes-2026/",
+   "slug": "fip-platinum-aguascalientes-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Platinum",
+   "location": "Aguascalientes - Mexico",
+   "start": "2026-11-15",
+   "end": "2026-11-21",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "qualy",
+     "pos": 3,
+     "mark": "",
+     "players": [
+      {
+       "name": "Pedro Araujo",
+       "nat": "POR",
+       "points": 554
+      },
+      {
+       "name": "Pedro Graça",
+       "nat": "POR",
+       "points": 531
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-M-V2.pdf",
+     "updated": "09/11/2026 h 07:00 am",
+     "n_teams": 53
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-W-v2.pdf",
+     "updated": "09/11/2026 h 07:00 am",
+     "n_teams": 27
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP SILVER GO PARK HONG KONG",
+   "url": "https://www.padelfip.com/events/fip-silver-hong-kong-2026/",
+   "slug": "fip-silver-hong-kong-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Hong Kong - Hong Kong",
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 2,
+     "mark": "",
+     "players": [
+      {
+       "name": "Lucia Perez Parra",
+       "nat": "ESP",
+       "points": 562
+      },
+      {
+       "name": "Clarinha Santos",
+       "nat": "POR",
+       "points": 469
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    },
+    {
+     "section": "main",
+     "pos": 6,
+     "mark": "",
+     "players": [
+      {
+       "name": "Kotomi Ozawa",
+       "nat": "JPN",
+       "points": 337
+      },
+      {
+       "name": "Constanca Gorito",
+       "nat": "POR",
+       "points": 332
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-M-v2.pdf",
+     "updated": "07/11/2026 h 08:13 am",
+     "n_teams": 52
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-W-v2.pdf",
+     "updated": "07/11/2026 h 08:16 am",
+     "n_teams": 29
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE CHILE IX",
+   "url": "https://www.padelfip.com/events/fip-bronze-chile-ix-2026-2/",
+   "slug": "fip-bronze-chile-ix-2026-2",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "San Antonio - Chile",
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "status": "registration_closed",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Chile-IX-M.pdf",
+     "updated": "10/11/2026 h 02:04 pm",
+     "n_teams": 25
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE SKURUP",
+   "url": "https://www.padelfip.com/events/fip-bronze-skurup-2026/",
+   "slug": "fip-bronze-skurup-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Skurup - Sweden",
+   "start": "2026-11-16",
+   "end": "2026-11-21",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 4,
+     "mark": "",
+     "players": [
+      {
+       "name": "Alejandro Calvo Perez",
+       "nat": "ESP",
+       "points": 282
+      },
+      {
+       "name": "João Maria Caiano",
+       "nat": "POR",
+       "points": 300
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 15,
+     "mark": "",
+     "players": [
+      {
+       "name": "Martim Solano",
+       "nat": "POR",
+       "points": 65
+      },
+      {
+       "name": "Manuel Correia",
+       "nat": "POR",
+       "points": 72
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Bruna Albuquerque Melo",
+       "nat": "POR",
+       "points": 230
+      },
+      {
+       "name": "Francesca Ligotti",
+       "nat": "ITA",
+       "points": 194
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-M-v3.pdf",
+     "updated": "11/11/2026 h 11:35 am",
+     "n_teams": 36
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-W-v2.pdf",
+     "updated": "10/11/2026 h 17:45 pm",
+     "n_teams": 17
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE KARACHI II",
+   "url": "https://www.padelfip.com/events/fip-bronze-karachi-ii-2026/",
+   "slug": "fip-bronze-karachi-ii-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Karachi - Pakistan",
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 1,
+     "mark": "",
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR",
+       "points": 419
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "ESP",
+       "points": 529
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-M-v2.pdf",
+     "updated": "11/11/2026 h 14:40 pm",
+     "n_teams": 31
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-W-v2.pdf",
+     "updated": "11/11/2026 h 14:40 pm",
+     "n_teams": 13
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE ROCHEFORT",
+   "url": "https://www.padelfip.com/events/fip-bronze-rochefort-2026/",
+   "slug": "fip-bronze-rochefort-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Rochefort - Belgium",
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Diogo Jesus",
+       "nat": "POR",
+       "points": 243
+      },
+      {
+       "name": "Menno Nolten",
+       "nat": "NED",
+       "points": 216
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 6,
+     "mark": "",
+     "players": [
+      {
+       "name": "Henrique Barbosa",
+       "nat": "POR",
+       "points": 184
+      },
+      {
+       "name": "Marco Remolina Pablo",
+       "nat": "ESP",
+       "points": 183
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 8,
+     "mark": "",
+     "players": [
+      {
+       "name": "Daan Veldhuis",
+       "nat": "NED",
+       "points": 14
+      },
+      {
+       "name": "Tomas Nunes",
+       "nat": "POR",
+       "points": 21
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Rochefort-M-v3.pdf",
+     "updated": "10/11/2026 h 10:15 am",
+     "n_teams": 55
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE PADELKO",
+   "url": "https://www.padelfip.com/events/fip-bronze-padelko-2026/",
+   "slug": "fip-bronze-padelko-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Iurreta - Spain",
+   "start": "2026-11-18",
+   "end": "2026-11-22",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 3,
+     "mark": "",
+     "players": [
+      {
+       "name": "Pau Miñano Ortinez",
+       "nat": "ESP",
+       "points": 370
+      },
+      {
+       "name": "Pedro Perry",
+       "nat": "POR",
+       "points": 334
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Maria Garin",
+       "nat": "POR",
+       "points": 244
+      },
+      {
+       "name": "Alexandra Silva",
+       "nat": "POR",
+       "points": 274
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/03/Entry-list-Fip-Bronze-Iurreta-Padelko-M-V2-1.pdf",
+     "updated": "09/11/2026 h 09:30 am",
+     "n_teams": 48
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/03/Entry-list-Fip-Bronze-Iurreta-Padelko-W-V2-1.pdf",
+     "updated": "09/11/2026 h 09:34 am",
+     "n_teams": 27
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP SILVER MCV PADELNESS",
+   "url": "https://www.padelfip.com/events/fip-silver-mcv-padelness-2026/",
+   "slug": "fip-silver-mcv-padelness-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Napoli - Italy",
+   "start": "2026-11-19",
+   "end": "2026-11-22",
+   "status": "registration_closed",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-MCV-Padelness-M.pdf",
+     "updated": "07/11/2026 h 08:29 am",
+     "n_teams": 41
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-MCV-Padelness-W-v2.pdf",
+     "updated": "07/11/2026 h 09:40 am",
+     "n_teams": 20
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE S2 ACCRA",
+   "url": "https://www.padelfip.com/events/fip-bronze-s2-accra-2026/",
+   "slug": "fip-bronze-s2-accra-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Accra - Ghana",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Diogo Moreira",
+       "nat": "POR",
+       "points": 76
+      },
+      {
+       "name": "Diego Garcia Brito",
+       "nat": "ESP",
+       "points": 61
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 1,
+     "mark": "",
+     "players": [
+      {
+       "name": "Mafalda Marques Fernandes",
+       "nat": "POR",
+       "points": 336
+      },
+      {
+       "name": "Patricia Ribeiro",
+       "nat": "POR",
+       "points": 262
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-M-v2.pdf",
+     "updated": "10/11/2026 h 01:20 pm",
+     "n_teams": 23
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-W-V2.pdf",
+     "updated": "07/11/2026 h 09:00 am",
+     "n_teams": 15
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "MEXICO MAJOR",
+   "url": "https://www.padelfip.com/events/mexico-major-2026/",
+   "slug": "mexico-major-2026",
+   "circuit": "Premier Padel",
+   "category": "Major",
+   "location": "Acapulco - Mexico",
+   "start": "2026-11-23",
+   "end": "2026-11-29",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "qualy",
+     "pos": 10,
+     "mark": "",
+     "players": [
+      {
+       "name": "Pedro Araujo",
+       "nat": "POR",
+       "points": 547
+      },
+      {
+       "name": "Pedro Graça",
+       "nat": "POR",
+       "points": 531
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 11,
+     "mark": "",
+     "players": [
+      {
+       "name": "Nuno Deus",
+       "nat": "POR",
+       "points": 594
+      },
+      {
+       "name": "Miguel Deus",
+       "nat": "POR",
+       "points": 475
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 16,
+     "mark": "",
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR",
+       "points": 419
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "ESP",
+       "points": 499
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Marta Ortega Gallego",
+       "nat": "ESP",
+       "points": 4809
+      },
+      {
+       "name": "Sofia Araujo",
+       "nat": "POR",
+       "points": 5719
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    },
+    {
+     "section": "qualy",
+     "pos": 8,
+     "mark": "",
+     "players": [
+      {
+       "name": "Mafalda Marques Fernandes",
+       "nat": "POR",
+       "points": 336
+      },
+      {
+       "name": "Patricia Ribeiro",
+       "nat": "POR",
+       "points": 262
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-M-v4.pdf",
+     "updated": "11/11/2026 h 09:45 am",
+     "n_teams": 77
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-W-v6.pdf",
+     "updated": "10/11/2026 h 03:30 pm",
+     "n_teams": 51
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP SILVER ROESELARE",
+   "url": "https://www.padelfip.com/events/fip-silver-roeselare-2026/",
+   "slug": "fip-silver-roeselare-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Roeselare  - Belgium",
+   "start": "2026-11-23",
+   "end": "2026-11-29",
+   "status": "registration_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": null
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Deadline:"
+  },
+  {
+   "name": "FIP BRONZE ROESELARE",
+   "url": "https://www.padelfip.com/events/fip-bronze-roeselare-2026/",
+   "slug": "fip-bronze-roeselare-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Roeselare  - Belgium",
+   "start": "2026-11-23",
+   "end": "2026-11-29",
+   "status": "registration_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": null
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Deadline:"
+  },
+  {
+   "name": "FIP BRONZE HIGH VELOCITY PHUKET",
+   "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-phuket-2026-2/",
+   "slug": "fip-bronze-high-velocity-phuket-2026-2",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Phuket - Thailand",
+   "start": "2026-11-23",
+   "end": "2026-11-29",
+   "status": "registration_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": null
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Deadline:"
+  },
+  {
+   "name": "CUPRA FIP FINALS",
+   "url": "https://www.padelfip.com/events/cupra-fip-finals/",
+   "slug": "cupra-fip-finals",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Finals",
+   "location": "Tarragona - Spain",
+   "start": "2026-12-03",
+   "end": "2026-12-06",
+   "status": "registration_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": null
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Deadline:"
+  },
+  {
+   "name": "PREMIER PADEL FINALS",
+   "url": "https://www.padelfip.com/events/premier-padel-finals-2026/",
+   "slug": "premier-padel-finals-2026",
+   "circuit": "Premier Padel",
+   "category": "Finals",
+   "location": "Barcelona - Spain",
+   "start": "2026-12-10",
+   "end": "2026-12-13",
+   "status": "registration_not_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {},
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": []
+  }
+ ]
+}
