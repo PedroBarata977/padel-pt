@@ -2,3 +2,7 @@ __pycache__/
 .pytest_cache/
 preview.html
 data/_sample_tmp/
+
+github_token.txt
+.venv/
+logs/

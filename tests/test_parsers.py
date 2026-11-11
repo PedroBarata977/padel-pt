@@ -23,7 +23,7 @@ def load_items(name):
 # ------------------------------------------------------------------ calendário / evento
 
 def test_calendar():
-    ev = fip.parse_calendar((FX / "calendar_cupra.html").read_text())
+    ev = fip.parse_calendar((FX / "calendar_cupra.html").read_text(encoding="utf-8"))
     by = {e["slug"]: e for e in ev}
     assert "x" not in by  # Promises fica de fora
     assert by["fip-silver-mediolanum-padel-cup-2026"]["status"] == "live"
@@ -36,7 +36,7 @@ def test_calendar():
 
 
 def test_event_page():
-    info = fip.parse_event_page((FX / "event_dubai.html").read_text())
+    info = fip.parse_event_page((FX / "event_dubai.html").read_text(encoding="utf-8"))
     assert info["post_id"] == "290236"
     assert info["nonce"] == "8c69a37193"
     assert info["registration"] == "Registration Closed"
@@ -46,7 +46,7 @@ def test_event_page():
 # ------------------------------------------------------------------ MatchScorer
 
 def test_oop():
-    res = matchscorer.parse_oop((FX / "ms_oop_dubai_day4.html").read_text(), 2026)
+    res = matchscorer.parse_oop((FX / "ms_oop_dubai_day4.html").read_text(encoding="utf-8"), 2026)
     assert res["days"][4] == "2026-11-11"
     m = res["matches"]
     assert len(m) == 4
@@ -67,7 +67,7 @@ def test_oop():
 # ------------------------------------------------------------------ quadros
 
 def test_draw_path():
-    ms = draws.parse_draw((FX / "draw_dubai_md.html").read_text())
+    ms = draws.parse_draw((FX / "draw_dubai_md.html").read_text(encoding="utf-8"))
     assert [x["round"] for x in ms] == ["1/32", "1/16"]
     path = draws.team_path(ms, "POR")
     assert len(path) == 1

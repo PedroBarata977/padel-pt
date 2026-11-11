@@ -2,9 +2,14 @@
 
 Dashboard que acompanha os jogadores portugueses no Premier Padel e no CUPRA FIP Tour (Platinum, Gold, Silver, Bronze e Finals).
 
-- **De hora a hora**, um robô do GitHub (GitHub Actions) lê o padelfip.com e o widget MatchScorer Live e escreve `docs/data.json`.
-- **O dashboard** (`docs/index.html`) é uma página estática, publicada pelo GitHub Pages, que lê esse ficheiro e volta a lê-lo a cada 60 segundos.
-- Custo: zero. Repositório público = minutos de Actions ilimitados e Pages grátis.
+O site da FIP está protegido pela Cloudflare, que bloqueia pedidos automáticos vindos de servidores (o GitHub incluído). Por isso o trabalho está dividido em duas partes:
+
+| Parte | Onde corre | Quando | O que faz |
+|---|---|---|---|
+| FIP | **PC do Pedro** (tarefa agendada do Windows "PadelPT - FIP") | 07:05, 12:05, 17:05, 22:05 (e ao ligar, se falhou uma) | Calendário, inscritos (PDF), quadros, IDs dos torneios → `docs/fip.json`, enviado para o GitHub |
+| MatchScorer | GitHub Actions | De hora a hora e sempre que chega um `fip.json` novo | Ordem de jogo, resultados, live → `docs/data.json` |
+
+O dashboard (`docs/index.html`, GitHub Pages) lê `data.json` e volta a lê-lo a cada 60 s.
 
 ## O que mostra
 
@@ -15,21 +20,25 @@ Dashboard que acompanha os jogadores portugueses no Premier Padel e no CUPRA FIP
 | Inscrições abertas | O torneio. **A FIP não publica inscritos antes do fecho**: se aparecer uma lista, entra automaticamente. |
 | Por abrir | Só o torneio. |
 
-## Instalação (uma vez, ~15 min)
+## Instalação no PC (Windows, uma vez)
 
-1. Cria uma conta em https://github.com (grátis).
-2. Cria um repositório novo: botão **New** → nome `padel-pt` → **Public** → *Create repository*.
-3. Na página do repositório: **Add file → Upload files** → arrasta **todo o conteúdo** desta pasta → *Commit changes*.
-   - ⚠ No Mac/Windows a pasta `.github` costuma ficar escondida e não é enviada. Confirma no repositório se existe `.github/workflows/update.yml`. Se não existir: separador **Actions** → *set up a workflow yourself* → nome `update.yml` → cola o conteúdo do ficheiro → *Commit*.
-4. **Settings → Actions → General → Workflow permissions** → *Read and write permissions* → *Save*.
-5. **Settings → Pages** → *Source: Deploy from a branch* → Branch `main`, pasta `/docs` → *Save*.
-6. Separador **Actions** → *Atualizar dados* → **Run workflow**. Espera 2–5 min até ficar verde ✔.
-7. Abre `https://O-TEU-UTILIZADOR.github.io/padel-pt/`. Para ver o ecrã com dados de exemplo: `.../padel-pt/?demo`.
+1. Cria um token no GitHub: https://github.com/settings/personal-access-tokens/new
+   - Token name: `padel-pc` · Expiration: 366 days
+   - Repository access: **Only select repositories** → `padel-pt`
+   - Permissions → Repository permissions → **Contents: Read and write**
+   - *Generate token* e copia-o (só aparece uma vez).
+2. Na pasta `Documentos\padel-pt`, faz duplo clique em **INSTALAR.bat**.
+   Instala o Python se faltar, testa o acesso à FIP **a partir do teu PC**, pede o token, envia a primeira recolha e cria a tarefa agendada.
+3. Abre https://pedrobarata977.github.io/padel-pt/
+
+Logs: `Documentos\padel-pt\logs\fip.log`. Para correr já sem esperar: Agendador de Tarefas → "PadelPT - FIP" → Executar.
+O token expira ao fim de um ano: quando expirar, apaga `github_token.txt` e corre de novo o INSTALAR.bat.
 
 ## Quando parte (vai partir)
 
 - **Ponto amarelo** no canto do dashboard = avisos. Aparecem dentro do cartão do torneio (ex.: "PDF inscritos lido mas sem equipas — layout mudou?").
-- **Ponto vermelho** = o site bloqueou pedidos (Cloudflare). Se acontecer em mais de metade das corridas durante uma semana, passamos o recolhedor para o teu computador.
+- **Ponto vermelho** = algum site bloqueou pedidos (Cloudflare).
+- **"FIP: há N h"** a subir acima de 14 h = o PC esteve desligado ou a tarefa falhou: vê `logs\fip.log`.
 - **Banner "mais de 3 horas"** = o robô falhou. Vê **Actions**, abre a corrida a vermelho e copia o erro para o Claude.
 - O GitHub também te manda email quando uma corrida falha.
 
@@ -48,4 +57,4 @@ data/pdf_cache.json PDFs já lidos (só relê quando a FIP publica nova versão)
 tests/              testes com amostras reais de 11/11/2026
 ```
 
-Correr à mão (com Python 3.11+): `pip install -r requirements.txt && python -m pytest -q && python -m collector.main --verbose`
+Correr à mão: `python -m collector.main fip` (PC) · `python -m collector.main live` (GitHub) · `python -m collector.main all` (tudo).

@@ -2,8 +2,10 @@ name: Atualizar dados
 
 on:
   schedule:
-    - cron: "7 * * * *"   # de hora a hora, ao minuto 7 (o GitHub pode atrasar alguns minutos)
-  workflow_dispatch: {}    # botão "Run workflow" para correr à mão
+    - cron: "7 * * * *"   # de hora a hora (MatchScorer: jogos, resultados, live)
+  push:
+    paths: ["docs/fip.json"]   # o PC enviou dados novos da FIP → atualizar já
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -13,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  collect:
+  live:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -25,13 +27,14 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Testes dos parsers
         run: python -m pytest -q
-      - name: Recolher dados
-        run: python -m collector.main
+      - name: MatchScorer (jogos, resultados, live)
+        run: python -m collector.main live
       - name: Guardar data.json
         if: always()
         run: |
           git config user.name "padel-bot"
           git config user.email "padel-bot@users.noreply.github.com"
-          git add docs/data.json data/pdf_cache.json || true
-          git diff --cached --quiet || git commit -m "dados $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+          git add docs/data.json || true
+          git diff --cached --quiet && exit 0
+          git commit -m "dados $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 5; done

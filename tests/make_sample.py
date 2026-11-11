@@ -19,7 +19,7 @@ def build():
     M.Client = FakeClient
     tmp = ROOT / "data" / "_sample_tmp"
     tmp.mkdir(parents=True, exist_ok=True)
-    M.OUT, M.CACHE = tmp / "data.json", tmp / "cache.json"
+    M.OUT, M.CACHE, M.FIP_OUT = tmp / "data.json", tmp / "cache.json", tmp / "fip.json"
     real_dt = M.datetime
 
     class D(real_dt):
@@ -27,7 +27,7 @@ def build():
         def now(cls, tz=None):
             return real_dt(2026, 11, 11, 15, 40, tzinfo=tz)
     M.datetime = D
-    data = M.run()
+    data = M.run("all")
     M.datetime = real_dt
 
     evs = {e["slug"]: e for e in data["events"]}

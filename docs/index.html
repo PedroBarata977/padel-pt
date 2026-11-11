@@ -212,9 +212,12 @@ function render(){
 
   const gen = new Date(d.generated_at), mins = Math.round((Date.now()-gen)/6e4);
   const warns = evs.reduce((n,e)=>n+(e.warnings||[]).length,0) + (d.stats?.errors||[]).length;
-  const cls = d.stats?.blocked_403 ? "bad" : warns ? "warn" : "";
-  $("#health").innerHTML = `<span class="dot ${cls}"></span>Atualizado ${mins<1?"agora":mins<60?`há ${mins} min`:`há ${Math.round(mins/60)} h`}<br><span>${gen.toLocaleString("pt-PT",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}${warns?` · ${warns} avisos`:""}</span>`;
+  const fipAge = d.stats?.fip_age_hours;
+  const fipOld = fipAge != null && fipAge > 14;
+  const cls = d.stats?.blocked_403 || d.stats?.fip?.blocked_403 ? "bad" : (warns || fipOld) ? "warn" : "";
+  $("#health").innerHTML = `<span class="dot ${cls}"></span>Atualizado ${mins<1?"agora":mins<60?`há ${mins} min`:`há ${Math.round(mins/60)} h`}<br><span>${gen.toLocaleString("pt-PT",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}${warns?` · ${warns} avisos`:""}</span>${fipAge!=null?`<br><span>FIP: há ${fipAge<1?"<1":Math.round(fipAge)} h</span>`:""}`;
   $("#banner").innerHTML = d.sample ? `<div class="banner"><b>Dados de exemplo.</b> Montados a partir de amostras reais de 11/11/2026. O jogo "ao vivo" dos irmãos Deus e a inscrição deles no Levante são fictícios: servem só para mostrar o ecrã.</div>`
+    : fipOld ? `<div class="banner">Os inscritos e quadros da FIP têm ${Math.round(fipAge)} horas. O PC esteve desligado? Jogos e resultados continuam a atualizar.</div>`
     : mins > 180 ? `<div class="banner">Os dados têm mais de 3 horas. O recolhedor pode ter falhado: vê o separador Actions no GitHub.</div>` : "";
   $("#foot").innerHTML = `Fontes: padelfip.com e MatchScorer Live. ${d.stats?`${d.stats.requests} pedidos na última recolha${d.stats.blocked_403?`, <b>${d.stats.blocked_403} bloqueados</b>`:""}.`:""} Horas na hora local de cada torneio.`;
 }
