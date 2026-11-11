@@ -130,6 +130,12 @@ def run(verbose: bool = False) -> dict:
         seen.add(ev["slug"])
         upcoming.append(ev)
     log.info("%d torneios a acompanhar", len(upcoming))
+    if not events:  # FIP inacessível: ver se ao menos o MatchScorer responde
+        try:
+            r = c.s.get(matchscorer.url(today.year, 4501, 1), timeout=30)
+            log.info("Diagnóstico MatchScorer: HTTP %s", r.status_code)
+        except Exception as e:  # noqa: BLE001
+            log.info("Diagnóstico MatchScorer: %s", e)
 
     collected = []
     for ev in upcoming:
