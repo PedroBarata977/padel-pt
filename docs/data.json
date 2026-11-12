@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-12T18:05:01+00:00",
- "fip_generated_at": "2026-11-12T17:06:44+00:00",
+ "generated_at": "2026-11-12T22:07:47+00:00",
+ "fip_generated_at": "2026-11-12T22:06:44+00:00",
  "target": "POR",
  "stats": {
   "requests": 46,
@@ -12,7 +12,7 @@
    "events": 20,
    "errors": []
   },
-  "fip_age_hours": 1.0,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -262,7 +262,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 10:04:14 PM"
+     "local_time": "11/13/2026 2:07:11 AM"
     },
     {
      "match_id": "MQ026",
@@ -323,7 +323,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 10:04:14 PM"
+     "local_time": "11/13/2026 2:07:11 AM"
     },
     {
      "match_id": "WQ011",
@@ -384,7 +384,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 10:04:14 PM"
+     "local_time": "11/13/2026 2:07:11 AM"
     },
     {
      "match_id": "MQ021",
@@ -445,7 +445,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 10:04:14 PM"
+     "local_time": "11/13/2026 2:07:11 AM"
     },
     {
      "match_id": "MQ011",
@@ -506,7 +506,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/12/2026 10:04:27 PM"
+     "local_time": "11/13/2026 2:07:12 AM"
     },
     {
      "match_id": "MQ010",
@@ -567,7 +567,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/12/2026 10:04:27 PM"
+     "local_time": "11/13/2026 2:07:12 AM"
     },
     {
      "match_id": "MQ013",
@@ -628,7 +628,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/12/2026 10:04:27 PM"
+     "local_time": "11/13/2026 2:07:12 AM"
     },
     {
      "match_id": "MD062",
@@ -689,7 +689,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-10",
-     "local_time": "11/12/2026 10:04:27 PM"
+     "local_time": "11/13/2026 2:07:13 AM"
     },
     {
      "match_id": "WD027",
@@ -750,7 +750,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-11",
-     "local_time": "11/12/2026 10:04:28 PM"
+     "local_time": "11/13/2026 2:06:40 AM"
     },
     {
      "match_id": "WD013",
@@ -811,7 +811,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-12",
-     "local_time": "11/12/2026 10:04:25 PM"
+     "local_time": "11/13/2026 2:07:00 AM"
     }
    ],
    "por_draws": [
@@ -1187,9 +1187,9 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-MD-5.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-MD-6.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-MQ-5.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-WD-4.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-WD-5.pdf",
     "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-WQ-8.pdf"
    },
    "oop": {
@@ -1234,9 +1234,9 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIOLANUM-COMO_-DRAW-MD-v3.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIOLANUM-COMO_-DRAW-MD-v4-1.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIALANUM-COMO_-DRAW-MQ-v6.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIOLANUM-COMO_-DRAW-WD-v4.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIOLANUM-COMO_-DRAW-WD-v5.pdf",
     "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIALANUM-COMO_-DRAW-WQ-v2.pdf"
    },
    "oop": {
@@ -1392,7 +1392,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/12/2026 7:04:47 PM"
+     "local_time": "11/12/2026 11:07:35 PM"
     }
    ],
    "por_draws": [
@@ -1500,8 +1500,8 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-LEVANTE_-DRAW-MD.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-LEVANTE_-DRAW-MQ.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-LEVANTE_-DRAW-MD-v2.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-LEVANTE_-DRAW-MQ-v2.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-LEVANTE_-DRAW-WD-v2.pdf"
    },
    "oop": {
@@ -1513,7 +1513,7 @@
    "warnings": [],
    "registration_text": "Registration Closed",
    "ms_draws": {
-    "MD": 26,
+    "MD": 32,
     "MQ": 13,
     "WD": 19
    },
@@ -1543,7 +1543,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-KOCHI_-DRAW-MDv2.pdf"
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-KOCHI_-DRAW-MDv3.pdf"
    },
    "oop": {
     "year": "2026",
@@ -1657,79 +1657,43 @@
      "draw_type": "WD"
     }
    ],
-   "por_matches": [
-    {
-     "match_id": null,
-     "court": "COURT 3",
-     "slot": "Followed by",
-     "gender": "Men",
-     "round": "Round of 32",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "G. Nunes",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "A. Sans",
-         "nat": "ESP",
-         "tag": "5"
-        }
-       ],
-       "seed": "5",
-       "sets": [
-        null,
-        null,
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [],
-       "seed": "",
-       "sets": [
-        null,
-        null,
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "scheduled",
-     "duration": null,
-     "winner": null,
-     "tbd": true,
-     "tbd_text": [
-      "G. Nunes A. Sans (5) - - -",
-      "Qualifier/LL - - -"
-     ],
-     "day": 2,
-     "date": "2026-11-13",
-     "local_time": "11/12/2026 9:04:59 PM"
-    }
-   ],
+   "por_matches": [],
    "por_draws": [
     {
      "players": [
       {
-       "name": "Gustavo Nunes",
-       "nat": "POR"
-      },
-      {
        "name": "Anton Sans",
        "nat": "Spain"
+      },
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR"
       }
      ],
      "seed": "5",
      "matches": [
       {
        "round": "1/16",
+       "opponent": [
+        {
+         "name": "Bye",
+         "nat": ""
+        },
+        {
+         "name": "Bye",
+         "nat": ""
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
        "opponent": [],
-       "opponent_seed": "Q/LL",
+       "opponent_seed": "",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -1853,8 +1817,8 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MD-v5.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MQ.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MD-v6.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MQ-v2.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-WD.pdf"
    },
    "oop": {
@@ -1866,7 +1830,7 @@
    "warnings": [],
    "registration_text": "Registration Closed",
    "ms_draws": {
-    "MD": 24,
+    "MD": 31,
     "MQ": 9,
     "WD": 19
    },
@@ -1978,7 +1942,7 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-M-v4.pdf",
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-M-v4-1.pdf",
      "updated": "12/11/2026 h 21:35 am",
      "n_teams": 35
     },
@@ -2120,8 +2084,8 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-M-v3.pdf",
-     "updated": "12/11/2026 h 16:13 pm",
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-M-v4.pdf",
+     "updated": "12/11/2026 h 20:45 pm",
      "n_teams": 53
     },
     "W": {
