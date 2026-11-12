@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T07:07:47+00:00",
+ "generated_at": "2026-11-12T09:38:29+00:00",
  "fip_generated_at": "2026-11-12T07:06:43+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 20,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 2.5,
   "errors": []
  },
  "events": [
@@ -262,7 +262,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 11:07:05 AM"
+     "local_time": "11/12/2026 1:37:46 PM"
     },
     {
      "match_id": "MQ026",
@@ -323,7 +323,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 11:07:05 AM"
+     "local_time": "11/12/2026 1:37:46 PM"
     },
     {
      "match_id": "WQ011",
@@ -384,7 +384,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 11:07:05 AM"
+     "local_time": "11/12/2026 1:37:46 PM"
     },
     {
      "match_id": "MQ021",
@@ -445,7 +445,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 11:07:05 AM"
+     "local_time": "11/12/2026 1:37:46 PM"
     },
     {
      "match_id": "MQ011",
@@ -506,7 +506,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/12/2026 11:07:06 AM"
+     "local_time": "11/12/2026 1:37:47 PM"
     },
     {
      "match_id": "MQ010",
@@ -567,7 +567,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/12/2026 11:07:06 AM"
+     "local_time": "11/12/2026 1:37:47 PM"
     },
     {
      "match_id": "MQ013",
@@ -628,7 +628,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/12/2026 11:07:06 AM"
+     "local_time": "11/12/2026 1:37:47 PM"
     },
     {
      "match_id": "MD062",
@@ -689,7 +689,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-10",
-     "local_time": "11/12/2026 11:07:07 AM"
+     "local_time": "11/12/2026 1:37:48 PM"
     },
     {
      "match_id": "WD027",
@@ -750,7 +750,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-11",
-     "local_time": "11/12/2026 11:06:55 AM"
+     "local_time": "11/12/2026 1:37:44 PM"
     },
     {
      "match_id": "WD013",
@@ -811,7 +811,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-12",
-     "local_time": "11/12/2026 11:06:14 AM"
+     "local_time": "11/12/2026 1:37:07 PM"
     }
    ],
    "por_draws": [
@@ -1437,7 +1437,7 @@
      ],
      "day": 2,
      "date": "2026-11-13",
-     "local_time": "11/12/2026 10:07:36 AM"
+     "local_time": "11/12/2026 12:38:18 PM"
     }
    ],
    "por_draws": [
@@ -1594,7 +1594,7 @@
    "warnings": [],
    "registration_text": "Registration Closed",
    "ms_draws": {
-    "MD": 25,
+    "MD": 24,
     "MQ": 9,
     "WD": 19
    },
@@ -1738,7 +1738,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/12/2026 8:07:46 AM"
+     "local_time": "11/12/2026 10:38:25 AM"
     },
     {
      "match_id": "WD025",
@@ -1799,7 +1799,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/12/2026 8:07:46 AM"
+     "local_time": "11/12/2026 10:38:25 AM"
     }
    ],
    "por_draws": [
