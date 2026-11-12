@@ -50,9 +50,14 @@ def put(path: str, tok: str) -> str:
 
 
 def main():
+    for stream in (sys.stdout, sys.stderr):  # consola do Windows (cp1252)
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except (AttributeError, ValueError):
+            pass
     tok = token()
     for p in FILES:
-        print(p, "→", put(p, tok))
+        print(p, "->", put(p, tok))
 
 
 if __name__ == "__main__":

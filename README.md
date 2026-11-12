@@ -31,14 +31,14 @@ O dashboard (`docs/index.html`, GitHub Pages) lê `data.json` e volta a lê-lo a
    Instala o Python se faltar, testa o acesso à FIP **a partir do teu PC**, pede o token, envia a primeira recolha e cria a tarefa agendada.
 3. Abre https://pedrobarata977.github.io/padel-pt/
 
-Logs: `Documentos\padel-pt\logs\fip.log`. Para correr já sem esperar: Agendador de Tarefas → "PadelPT - FIP" → Executar.
+Logs: `Documentos\padel-pt\logs\recolha.log`. Para correr já sem esperar: Agendador de Tarefas → "PadelPT - FIP" → Executar.
 O token expira ao fim de um ano: quando expirar, apaga `github_token.txt` e corre de novo o INSTALAR.bat.
 
 ## Quando parte (vai partir)
 
 - **Ponto amarelo** no canto do dashboard = avisos. Aparecem dentro do cartão do torneio (ex.: "PDF inscritos lido mas sem equipas — layout mudou?").
 - **Ponto vermelho** = algum site bloqueou pedidos (Cloudflare).
-- **"FIP: há N h"** a subir acima de 14 h = o PC esteve desligado ou a tarefa falhou: vê `logs\fip.log`.
+- **"FIP: há N h"** a subir acima de 14 h = o PC esteve desligado ou a tarefa falhou: vê `logs\recolha.log`.
 - **Banner "mais de 3 horas"** = o robô falhou. Vê **Actions**, abre a corrida a vermelho e copia o erro para o Claude.
 - O GitHub também te manda email quando uma corrida falha.
 
