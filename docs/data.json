@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T22:07:33+00:00",
+ "generated_at": "2026-11-12T01:53:39+00:00",
  "fip_generated_at": "2026-11-11T22:06:34+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 20,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 3.8,
   "errors": []
  },
  "events": [
@@ -262,7 +262,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 2:07:01 AM"
+     "local_time": "11/12/2026 5:53:06 AM"
     },
     {
      "match_id": "MQ026",
@@ -323,7 +323,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 2:07:01 AM"
+     "local_time": "11/12/2026 5:53:06 AM"
     },
     {
      "match_id": "WQ011",
@@ -384,7 +384,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 2:07:01 AM"
+     "local_time": "11/12/2026 5:53:06 AM"
     },
     {
      "match_id": "MQ021",
@@ -445,7 +445,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/12/2026 2:07:01 AM"
+     "local_time": "11/12/2026 5:53:06 AM"
     },
     {
      "match_id": "MQ011",
@@ -506,7 +506,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/12/2026 2:07:01 AM"
+     "local_time": "11/12/2026 5:53:07 AM"
     },
     {
      "match_id": "MQ010",
@@ -567,7 +567,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/12/2026 2:07:01 AM"
+     "local_time": "11/12/2026 5:53:07 AM"
     },
     {
      "match_id": "MQ013",
@@ -628,7 +628,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/12/2026 2:07:01 AM"
+     "local_time": "11/12/2026 5:53:07 AM"
     },
     {
      "match_id": "MD062",
@@ -689,7 +689,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-10",
-     "local_time": "11/12/2026 2:06:41 AM"
+     "local_time": "11/12/2026 5:53:00 AM"
     },
     {
      "match_id": "WD027",
@@ -750,7 +750,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-11",
-     "local_time": "11/12/2026 2:06:45 AM"
+     "local_time": "11/12/2026 5:52:56 AM"
     },
     {
      "match_id": "WD013",
@@ -811,7 +811,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-12",
-     "local_time": "11/12/2026 2:06:29 AM"
+     "local_time": "11/12/2026 5:52:41 AM"
     }
    ],
    "por_draws": [
@@ -1256,7 +1256,7 @@
    "location": "Nola - Italy",
    "start": "2026-11-12",
    "end": "2026-11-15",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [
     {
      "section": "main",
@@ -1385,7 +1385,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/11/2026 11:07:17 PM"
+     "local_time": "11/12/2026 2:53:27 AM"
     },
     {
      "match_id": "WD025",
@@ -1446,7 +1446,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/11/2026 11:07:17 PM"
+     "local_time": "11/12/2026 2:53:27 AM"
     }
    ],
    "por_draws": [],
@@ -1491,7 +1491,7 @@
    "location": "Kochi - India",
    "start": "2026-11-12",
    "end": "2026-11-15",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [],
    "por_matches": [],
    "por_draws": [],
@@ -1530,7 +1530,7 @@
    "location": "Doha - Qatar",
    "start": "2026-11-12",
    "end": "2026-11-15",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [
     {
      "section": "main",
@@ -1672,7 +1672,7 @@
      ],
      "day": 2,
      "date": "2026-11-13",
-     "local_time": "11/12/2026 1:07:32 AM"
+     "local_time": "11/12/2026 4:53:37 AM"
     }
    ],
    "por_draws": [],
