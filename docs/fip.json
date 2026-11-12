@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-12T07:06:43+00:00",
+ "generated_at": "2026-11-12T12:06:54+00:00",
  "stats": {
-  "requests": 85,
+  "requests": 92,
   "blocked_403": 0,
   "events": 20,
   "errors": []
@@ -600,41 +600,6 @@
    "registration_text": "Registration Closed"
   },
   {
-   "name": "FIP BRONZE HIGH VELOCITY KOCHI",
-   "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-kochi-2026/",
-   "slug": "fip-bronze-high-velocity-kochi-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Kochi - India",
-   "start": "2026-11-12",
-   "end": "2026-11-15",
-   "status": "live",
-   "por_entries": [],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronce-High-Velocity-Kochi-M-v6.pdf",
-     "updated": "09/11/2026 h 08:25 pm",
-     "n_teams": 20
-    },
-    "W": {
-     "pdf": null
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-KOCHI_-DRAW-MDv2.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4403",
-    "day": 1,
-    "totalday": 4
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
    "name": "FIP BRONZE QATAR II",
    "url": "https://www.padelfip.com/events/fip-bronze-qatar-2026-2/",
    "slug": "fip-bronze-qatar-2026-2",
@@ -868,7 +833,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MD-v4.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MD-v5.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MQ.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-WD.pdf"
    },
@@ -1109,6 +1074,41 @@
    "registration_text": "Registration Closed"
   },
   {
+   "name": "FIP BRONZE HIGH VELOCITY KOCHI",
+   "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-kochi-2026/",
+   "slug": "fip-bronze-high-velocity-kochi-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Kochi - India",
+   "start": "2026-11-12",
+   "end": "2026-11-15",
+   "status": "live",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronce-High-Velocity-Kochi-M-v6.pdf",
+     "updated": "09/11/2026 h 08:25 pm",
+     "n_teams": 20
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-KOCHI_-DRAW-MDv2.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4403",
+    "day": 1,
+    "totalday": 4
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
    "name": "FIP PLATINUM AGUASCALIENTES",
    "url": "https://www.padelfip.com/events/fip-platinum-aguascalientes-2026/",
    "slug": "fip-platinum-aguascalientes-2026",
@@ -1118,40 +1118,19 @@
    "start": "2026-11-15",
    "end": "2026-11-21",
    "status": "registration_closed",
-   "por_entries": [
-    {
-     "section": "qualy",
-     "pos": 3,
-     "mark": "",
-     "players": [
-      {
-       "name": "Pedro Araujo",
-       "nat": "POR",
-       "points": 554
-      },
-      {
-       "name": "Pedro Graça",
-       "nat": "POR",
-       "points": 531
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    }
-   ],
+   "por_entries": [],
    "por_matches": [],
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-M-V2.pdf",
-     "updated": "09/11/2026 h 07:00 am",
-     "n_teams": 53
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-M-V3.pdf",
+     "updated": "12/11/2026 h 01:00 pm",
+     "n_teams": 52
     },
     "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-W-v2.pdf",
-     "updated": "09/11/2026 h 07:00 am",
-     "n_teams": 27
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-W-v3.pdf",
+     "updated": "12/11/2026 h 11:30 am",
+     "n_teams": 26
     }
    },
    "draw_pdfs": {},
@@ -1251,34 +1230,6 @@
    "registration_text": "Registration Closed"
   },
   {
-   "name": "FIP BRONZE CHILE IX",
-   "url": "https://www.padelfip.com/events/fip-bronze-chile-ix-2026-2/",
-   "slug": "fip-bronze-chile-ix-2026-2",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "San Antonio - Chile",
-   "start": "2026-11-16",
-   "end": "2026-11-22",
-   "status": "registration_closed",
-   "por_entries": [],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Chile-IX-M.pdf",
-     "updated": "10/11/2026 h 02:04 pm",
-     "n_teams": 25
-    },
-    "W": {
-     "pdf": null
-    }
-   },
-   "draw_pdfs": {},
-   "oop": null,
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
    "name": "FIP BRONZE SKURUP",
    "url": "https://www.padelfip.com/events/fip-bronze-skurup-2026/",
    "slug": "fip-bronze-skurup-2026",
@@ -1354,9 +1305,9 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-M-v3.pdf",
-     "updated": "11/11/2026 h 11:35 am",
-     "n_teams": 36
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-M-v4.pdf",
+     "updated": "12/11/2026 h 21:35 am",
+     "n_teams": 35
     },
     "W": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-W-v2.pdf",
@@ -1405,9 +1356,9 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-M-v2.pdf",
-     "updated": "11/11/2026 h 14:40 pm",
-     "n_teams": 31
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-M-v3.pdf",
+     "updated": "12/11/2026 h 12:15 pm",
+     "n_teams": 32
     },
     "W": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-W-v2.pdf",
@@ -1427,7 +1378,7 @@
    "circuit": "CUPRA FIP Tour",
    "category": "Bronze",
    "location": "Rochefort - Belgium",
-   "start": "2026-11-16",
+   "start": "2026-11-18",
    "end": "2026-11-22",
    "status": "registration_closed",
    "por_entries": [
@@ -1496,9 +1447,9 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Rochefort-M-v3.pdf",
-     "updated": "10/11/2026 h 10:15 am",
-     "n_teams": 55
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Rochefort-M-v4.pdf",
+     "updated": "12/11/2026 h 10:15 am",
+     "n_teams": 56
     },
     "W": {
      "pdf": null
@@ -1611,6 +1562,34 @@
    "registration_text": "Registration Closed"
   },
   {
+   "name": "FIP BRONZE CHILE IX",
+   "url": "https://www.padelfip.com/events/fip-bronze-chile-ix-2026-2/",
+   "slug": "fip-bronze-chile-ix-2026-2",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "San Antonio - Chile",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "status": "registration_closed",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Chile-IX-M-V2.pdf",
+     "updated": "12/11/2026 h 08:10 am",
+     "n_teams": 24
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
    "name": "FIP BRONZE S2 ACCRA",
    "url": "https://www.padelfip.com/events/fip-bronze-s2-accra-2026/",
    "slug": "fip-bronze-s2-accra-2026",
@@ -1640,26 +1619,6 @@
      "pr": false,
      "team_points": null,
      "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 1,
-     "mark": "",
-     "players": [
-      {
-       "name": "Mafalda Marques Fernandes",
-       "nat": "POR",
-       "points": 336
-      },
-      {
-       "name": "Patricia Ribeiro",
-       "nat": "POR",
-       "points": 262
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W"
     }
    ],
    "por_matches": [],
@@ -1671,9 +1630,9 @@
      "n_teams": 23
     },
     "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-W-V2.pdf",
-     "updated": "07/11/2026 h 09:00 am",
-     "n_teams": 15
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-W-V3.pdf",
+     "updated": "12/11/2026 h 11:10 am",
+     "n_teams": 14
     }
    },
    "draw_pdfs": {},
