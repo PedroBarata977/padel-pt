@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T17:08:15+00:00",
+ "generated_at": "2026-11-13T21:54:00+00:00",
  "fip_generated_at": "2026-11-13T17:06:58+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 20,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 4.8,
   "errors": []
  },
  "events": [
@@ -262,7 +262,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/13/2026 9:07:05 PM"
+     "local_time": "11/14/2026 1:53:14 AM"
     },
     {
      "match_id": "MQ026",
@@ -323,7 +323,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/13/2026 9:07:05 PM"
+     "local_time": "11/14/2026 1:53:14 AM"
     },
     {
      "match_id": "WQ011",
@@ -384,7 +384,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/13/2026 9:07:05 PM"
+     "local_time": "11/14/2026 1:53:14 AM"
     },
     {
      "match_id": "MQ021",
@@ -445,7 +445,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/13/2026 9:07:05 PM"
+     "local_time": "11/14/2026 1:53:14 AM"
     },
     {
      "match_id": "MQ011",
@@ -506,7 +506,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/13/2026 9:07:27 PM"
+     "local_time": "11/14/2026 1:53:27 AM"
     },
     {
      "match_id": "MQ010",
@@ -567,7 +567,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/13/2026 9:07:27 PM"
+     "local_time": "11/14/2026 1:53:27 AM"
     },
     {
      "match_id": "MQ013",
@@ -628,7 +628,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/13/2026 9:07:27 PM"
+     "local_time": "11/14/2026 1:53:27 AM"
     },
     {
      "match_id": "MD062",
@@ -689,7 +689,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-10",
-     "local_time": "11/13/2026 9:07:28 PM"
+     "local_time": "11/14/2026 1:53:28 AM"
     },
     {
      "match_id": "WD027",
@@ -750,7 +750,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-11",
-     "local_time": "11/13/2026 9:07:10 PM"
+     "local_time": "11/14/2026 1:53:14 AM"
     },
     {
      "match_id": "WD013",
@@ -811,7 +811,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-12",
-     "local_time": "11/13/2026 9:07:20 PM"
+     "local_time": "11/14/2026 1:53:14 AM"
     }
    ],
    "por_draws": [
@@ -1343,20 +1343,20 @@
       {
        "players": [
         {
-         "name": "M. Santos",
-         "nat": "POR",
+         "name": "A. Lorenzo Martin",
+         "nat": "ESP",
          "tag": ""
         },
         {
-         "name": "A. Lorenzo Martin",
-         "nat": "ESP",
+         "name": "M. Francisca Santos",
+         "nat": "POR",
          "tag": ""
         }
        ],
        "seed": "",
        "sets": [
-        null,
-        null,
+        "6",
+        "6",
         null
        ],
        "points": null,
@@ -1377,22 +1377,22 @@
        ],
        "seed": "",
        "sets": [
-        null,
-        null,
+        "1",
+        "1",
         null
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 0,
      "tbd": false,
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/13/2026 6:07:34 PM"
+     "local_time": "11/13/2026 10:53:46 PM"
     },
     {
      "match_id": "WD014",
@@ -1453,7 +1453,68 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-14",
-     "local_time": "11/13/2026 6:07:58 PM"
+     "local_time": "11/13/2026 10:53:47 PM"
+    },
+    {
+     "match_id": "WD013",
+     "court": "CAMPO MAXIFER",
+     "slot": "Starting at 10:00 AM",
+     "gender": "Women",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "A. Lorenzo Martin",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "M. Francisca Santos",
+         "nat": "POR",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "V. Cano Ortin",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "C. Mesa Salazar",
+         "nat": "ESP",
+         "tag": "6"
+        }
+       ],
+       "seed": "6",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "scheduled",
+     "duration": null,
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 4,
+     "date": "2026-11-14",
+     "local_time": "11/13/2026 10:53:47 PM"
     }
    ],
    "por_draws": [
@@ -1778,7 +1839,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/13/2026 8:07:39 PM"
+     "local_time": "11/14/2026 12:53:58 AM"
     },
     {
      "match_id": "WD008",
@@ -1839,7 +1900,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/13/2026 8:07:39 PM"
+     "local_time": "11/14/2026 12:53:58 AM"
     },
     {
      "match_id": "WD011",
@@ -1900,7 +1961,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/13/2026 8:07:39 PM"
+     "local_time": "11/14/2026 12:53:58 AM"
     }
    ],
    "por_draws": [
