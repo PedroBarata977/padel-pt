@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-13T07:08:03+00:00",
- "fip_generated_at": "2026-11-13T07:06:54+00:00",
+ "generated_at": "2026-11-13T12:08:06+00:00",
+ "fip_generated_at": "2026-11-13T12:06:55+00:00",
  "target": "POR",
  "stats": {
   "requests": 46,
   "blocked_403": 0,
   "events": 20,
   "fip": {
-   "requests": 98,
+   "requests": 97,
    "blocked_403": 0,
    "events": 20,
    "errors": []
@@ -262,7 +262,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/13/2026 11:07:18 AM"
+     "local_time": "11/13/2026 4:07:04 PM"
     },
     {
      "match_id": "MQ026",
@@ -323,7 +323,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/13/2026 11:07:18 AM"
+     "local_time": "11/13/2026 4:07:04 PM"
     },
     {
      "match_id": "WQ011",
@@ -384,7 +384,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/13/2026 11:07:18 AM"
+     "local_time": "11/13/2026 4:07:04 PM"
     },
     {
      "match_id": "MQ021",
@@ -445,7 +445,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/13/2026 11:07:18 AM"
+     "local_time": "11/13/2026 4:07:04 PM"
     },
     {
      "match_id": "MQ011",
@@ -506,7 +506,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/13/2026 11:07:20 AM"
+     "local_time": "11/13/2026 4:07:13 PM"
     },
     {
      "match_id": "MQ010",
@@ -567,7 +567,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/13/2026 11:07:20 AM"
+     "local_time": "11/13/2026 4:07:13 PM"
     },
     {
      "match_id": "MQ013",
@@ -628,7 +628,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/13/2026 11:07:20 AM"
+     "local_time": "11/13/2026 4:07:13 PM"
     },
     {
      "match_id": "MD062",
@@ -689,7 +689,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-10",
-     "local_time": "11/13/2026 11:07:11 AM"
+     "local_time": "11/13/2026 4:06:58 PM"
     },
     {
      "match_id": "WD027",
@@ -750,7 +750,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-11",
-     "local_time": "11/13/2026 11:07:23 AM"
+     "local_time": "11/13/2026 4:07:15 PM"
     },
     {
      "match_id": "WD013",
@@ -811,7 +811,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-12",
-     "local_time": "11/13/2026 11:06:25 AM"
+     "local_time": "11/13/2026 4:07:05 PM"
     }
    ],
    "por_draws": [
@@ -1670,7 +1670,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/13/2026 8:07:56 AM"
+     "local_time": "11/13/2026 1:07:37 PM"
     }
    ],
    "por_draws": [
