@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T10:01:39+00:00",
+ "generated_at": "2026-11-14T16:29:44+00:00",
  "fip_generated_at": "2026-11-14T07:06:46+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 20,
    "errors": []
   },
-  "fip_age_hours": 2.9,
+  "fip_age_hours": 9.4,
   "errors": []
  },
  "events": [
@@ -262,7 +262,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/14/2026 2:00:22 PM"
+     "local_time": "11/14/2026 8:28:16 PM"
     },
     {
      "match_id": "MQ026",
@@ -323,7 +323,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/14/2026 2:00:22 PM"
+     "local_time": "11/14/2026 8:28:16 PM"
     },
     {
      "match_id": "WQ011",
@@ -384,7 +384,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/14/2026 2:00:22 PM"
+     "local_time": "11/14/2026 8:28:16 PM"
     },
     {
      "match_id": "MQ021",
@@ -445,7 +445,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/14/2026 2:00:22 PM"
+     "local_time": "11/14/2026 8:28:16 PM"
     },
     {
      "match_id": "MQ011",
@@ -506,7 +506,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/14/2026 2:00:26 PM"
+     "local_time": "11/14/2026 8:28:34 PM"
     },
     {
      "match_id": "MQ010",
@@ -567,7 +567,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/14/2026 2:00:26 PM"
+     "local_time": "11/14/2026 8:28:34 PM"
     },
     {
      "match_id": "MQ013",
@@ -628,7 +628,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/14/2026 2:00:26 PM"
+     "local_time": "11/14/2026 8:28:34 PM"
     },
     {
      "match_id": "MD062",
@@ -689,7 +689,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-10",
-     "local_time": "11/14/2026 2:00:24 PM"
+     "local_time": "11/14/2026 8:29:08 PM"
     },
     {
      "match_id": "WD027",
@@ -750,7 +750,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-11",
-     "local_time": "11/14/2026 2:00:21 PM"
+     "local_time": "11/14/2026 8:28:42 PM"
     },
     {
      "match_id": "WD013",
@@ -811,7 +811,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-12",
-     "local_time": "11/14/2026 2:00:33 PM"
+     "local_time": "11/14/2026 8:28:14 PM"
     }
    ],
    "por_draws": [
@@ -1356,11 +1356,255 @@
    ],
    "por_matches": [
     {
+     "match_id": "WD004",
+     "court": "GRANDSTAND 1",
+     "slot": "Not before 6:00 PM",
+     "gender": "Women",
+     "round": "Quarterfinals",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "L. Perez Parra",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "C. Santos",
+         "nat": "POR",
+         "tag": "1"
+        }
+       ],
+       "seed": "1",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "F. Al Nabhani",
+         "nat": "OMA",
+         "tag": ""
+        },
+        {
+         "name": "M. Al Balushi",
+         "nat": "OMA",
+         "tag": "6"
+        }
+       ],
+       "seed": "6",
+       "sets": [
+        "2",
+        "2",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 0,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-14",
+     "local_time": "11/14/2026 7:29:28 PM"
+    },
+    {
      "match_id": "MD010",
      "court": "MAIN COURT",
      "slot": "Followed by",
      "gender": "Men",
      "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "A. Sans",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "G. Nunes",
+         "nat": "POR",
+         "tag": "5"
+        }
+       ],
+       "seed": "5",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "M. Almaqaleh",
+         "nat": "QAT",
+         "tag": ""
+        },
+        {
+         "name": "M. Fernández",
+         "nat": "ARG",
+         "tag": "Q"
+        }
+       ],
+       "seed": "Q",
+       "sets": [
+        "3",
+        "3",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 0,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-14",
+     "local_time": "11/14/2026 7:29:28 PM"
+    },
+    {
+     "match_id": "WD008",
+     "court": "COURT 1",
+     "slot": "Starting at 2:00 PM",
+     "gender": "Women",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "L. Perez Parra",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "C. Santos",
+         "nat": "POR",
+         "tag": "1"
+        }
+       ],
+       "seed": "1",
+       "sets": [
+        "4",
+        "6",
+        "6"
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "C. Manzanares Oton",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "J. Soto",
+         "nat": "ARG",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "6",
+        "0",
+        "1"
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 0,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-14",
+     "local_time": "11/14/2026 7:29:28 PM"
+    },
+    {
+     "match_id": "WD005",
+     "court": "COURT 1",
+     "slot": "Not before 6:00 PM",
+     "gender": "Women",
+     "round": "Quarterfinals",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "S. Aubertin",
+         "nat": "TUN",
+         "tag": ""
+        },
+        {
+         "name": "F. Bahri",
+         "nat": "TUN",
+         "tag": "7"
+        }
+       ],
+       "seed": "7",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "P. Ribeiro",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "M. Marques Fernandes",
+         "nat": "POR",
+         "tag": "3"
+        }
+       ],
+       "seed": "3",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "scheduled",
+     "duration": null,
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-14",
+     "local_time": "11/14/2026 7:29:28 PM"
+    },
+    {
+     "match_id": "MD005",
+     "court": "COURT 1",
+     "slot": "Followed by",
+     "gender": "Men",
+     "round": "Quarterfinals",
      "teams": [
       {
        "players": [
@@ -1387,17 +1631,17 @@
       {
        "players": [
         {
-         "name": "M. Almaqaleh",
-         "nat": "QAT",
+         "name": "A. Ronco Lopez",
+         "nat": "ESP",
          "tag": ""
         },
         {
-         "name": "M. Fernández",
+         "name": "J. Lacamoire",
          "nat": "ARG",
-         "tag": "Q"
+         "tag": "4"
         }
        ],
-       "seed": "Q",
+       "seed": "4",
        "sets": [
         null,
         null,
@@ -1414,14 +1658,75 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 1:01:26 PM"
+     "local_time": "11/14/2026 7:29:28 PM"
     },
     {
-     "match_id": "WD008",
-     "court": "COURT 1",
+     "match_id": "WD011",
+     "court": "COURT 3",
      "slot": "Starting at 2:00 PM",
      "gender": "Women",
      "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "M. Rodriguez Garcia",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "I. Bobrysheva",
+         "nat": "",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "2",
+        "2",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "P. Ribeiro",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "M. Marques Fernandes",
+         "nat": "POR",
+         "tag": "3"
+        }
+       ],
+       "seed": "3",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-14",
+     "local_time": "11/14/2026 7:29:28 PM"
+    },
+    {
+     "match_id": null,
+     "court": "GRANDSTAND 1",
+     "slot": "Starting at 1:00 PM",
+     "gender": "Women",
+     "round": "SemiFinals",
      "teams": [
       {
        "players": [
@@ -1446,18 +1751,7 @@
        "serving": false
       },
       {
-       "players": [
-        {
-         "name": "J. Soto",
-         "nat": "ARG",
-         "tag": ""
-        },
-        {
-         "name": "C. Manzanares Oton",
-         "nat": "ESP",
-         "tag": ""
-        }
-       ],
+       "players": [],
        "seed": "",
        "sets": [
         null,
@@ -1471,72 +1765,14 @@
      "status": "scheduled",
      "duration": null,
      "winner": null,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 3,
-     "date": "2026-11-14",
-     "local_time": "11/14/2026 1:01:26 PM"
-    },
-    {
-     "match_id": "WD011",
-     "court": "COURT 3",
-     "slot": "Starting at 2:00 PM",
-     "gender": "Women",
-     "round": "Round of 16",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "M. Rodriguez Garcia",
-         "nat": "ESP",
-         "tag": ""
-        },
-        {
-         "name": "I. Bobrysheva",
-         "nat": "",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        null,
-        null,
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "M. Marques Fernandes",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "P. Ribeiro",
-         "nat": "POR",
-         "tag": "3"
-        }
-       ],
-       "seed": "3",
-       "sets": [
-        null,
-        null,
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
+     "tbd": true,
+     "tbd_text": [
+      "L. Perez Parra C. Santos (1) - - -",
+      "S. L. Aubertin/F. Bahri OR P. M. Ribeiro/M. Marques Fernandes - - -"
      ],
-     "status": "scheduled",
-     "duration": null,
-     "winner": null,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 3,
-     "date": "2026-11-14",
-     "local_time": "11/14/2026 1:01:26 PM"
+     "day": 4,
+     "date": "2026-11-15",
+     "local_time": "11/14/2026 7:29:31 PM"
     }
    ],
    "por_draws": [
@@ -1872,14 +2108,14 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/14/2026 11:01:34 AM"
+     "local_time": "11/14/2026 5:29:37 PM"
     },
     {
-     "match_id": "WD014",
-     "court": "CAMPO FISIOLUTION",
-     "slot": "Starting at 10:00 AM",
+     "match_id": "WD007",
+     "court": "STADIO ENZO LAURI",
+     "slot": "Not before 4:00 PM",
      "gender": "Women",
-     "round": "Round of 16",
+     "round": "Quarterfinals",
      "teams": [
       {
        "players": [
@@ -1906,17 +2142,17 @@
       {
        "players": [
         {
-         "name": "V. Fernandez Sole",
+         "name": "A. Varo Ramos",
          "nat": "ESP",
          "tag": ""
         },
         {
-         "name": "A. Garvi Wollstein",
+         "name": "A. Santamaria Landa",
          "nat": "ESP",
-         "tag": ""
+         "tag": "2"
         }
        ],
-       "seed": "",
+       "seed": "2",
        "sets": [
         null,
         null,
@@ -1933,7 +2169,68 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 11:01:13 AM"
+     "local_time": "11/14/2026 5:29:38 PM"
+    },
+    {
+     "match_id": "WD014",
+     "court": "CAMPO FISIOLUTION",
+     "slot": "Starting at 10:00 AM",
+     "gender": "Women",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "C. Santos Domingos",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "A. Vazquez Gracia",
+         "nat": "ESP",
+         "tag": "8"
+        }
+       ],
+       "seed": "8",
+       "sets": [
+        "4",
+        "7",
+        "7"
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "A. Garvi Wollstein",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "V. Fernandez Sole",
+         "nat": "ESP",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "6",
+        "5",
+        "5"
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 0,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 4,
+     "date": "2026-11-14",
+     "local_time": "11/14/2026 5:29:38 PM"
     },
     {
      "match_id": "WD013",
@@ -1957,8 +2254,8 @@
        ],
        "seed": "",
        "sets": [
-        null,
-        null,
+        "1",
+        "2",
         null
        ],
        "points": null,
@@ -1967,34 +2264,34 @@
       {
        "players": [
         {
-         "name": "V. Cano Ortin",
+         "name": "C. Mesa Salazar",
          "nat": "ESP",
          "tag": ""
         },
         {
-         "name": "C. Mesa Salazar",
+         "name": "V. Cano Ortin",
          "nat": "ESP",
          "tag": "6"
         }
        ],
        "seed": "6",
        "sets": [
-        null,
-        null,
+        "6",
+        "6",
         null
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 1,
      "tbd": false,
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 11:01:13 AM"
+     "local_time": "11/14/2026 5:29:38 PM"
     }
    ],
    "por_draws": [
