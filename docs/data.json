@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T16:29:44+00:00",
+ "generated_at": "2026-11-14T21:16:41+00:00",
  "fip_generated_at": "2026-11-14T07:06:46+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 20,
    "errors": []
   },
-  "fip_age_hours": 9.4,
+  "fip_age_hours": 14.2,
   "errors": []
  },
  "events": [
@@ -262,7 +262,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/14/2026 8:28:16 PM"
+     "local_time": "11/15/2026 1:16:05 AM"
     },
     {
      "match_id": "MQ026",
@@ -323,7 +323,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/14/2026 8:28:16 PM"
+     "local_time": "11/15/2026 1:16:05 AM"
     },
     {
      "match_id": "WQ011",
@@ -384,7 +384,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/14/2026 8:28:16 PM"
+     "local_time": "11/15/2026 1:16:05 AM"
     },
     {
      "match_id": "MQ021",
@@ -445,7 +445,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/14/2026 8:28:16 PM"
+     "local_time": "11/15/2026 1:16:05 AM"
     },
     {
      "match_id": "MQ011",
@@ -506,7 +506,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/14/2026 8:28:34 PM"
+     "local_time": "11/15/2026 1:16:06 AM"
     },
     {
      "match_id": "MQ010",
@@ -567,7 +567,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/14/2026 8:28:34 PM"
+     "local_time": "11/15/2026 1:16:06 AM"
     },
     {
      "match_id": "MQ013",
@@ -628,7 +628,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/14/2026 8:28:34 PM"
+     "local_time": "11/15/2026 1:16:06 AM"
     },
     {
      "match_id": "MD062",
@@ -689,7 +689,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-10",
-     "local_time": "11/14/2026 8:29:08 PM"
+     "local_time": "11/15/2026 1:16:00 AM"
     },
     {
      "match_id": "WD027",
@@ -750,7 +750,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-11",
-     "local_time": "11/14/2026 8:28:42 PM"
+     "local_time": "11/15/2026 1:16:08 AM"
     },
     {
      "match_id": "WD013",
@@ -811,7 +811,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-12",
-     "local_time": "11/14/2026 8:28:14 PM"
+     "local_time": "11/15/2026 1:16:01 AM"
     }
    ],
    "por_draws": [
@@ -1414,7 +1414,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 7:29:28 PM"
+     "local_time": "11/15/2026 12:16:27 AM"
     },
     {
      "match_id": "MD010",
@@ -1475,7 +1475,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 7:29:28 PM"
+     "local_time": "11/15/2026 12:16:27 AM"
     },
     {
      "match_id": "WD008",
@@ -1536,7 +1536,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 7:29:28 PM"
+     "local_time": "11/15/2026 12:16:27 AM"
     },
     {
      "match_id": "WD005",
@@ -1560,9 +1560,9 @@
        ],
        "seed": "7",
        "sets": [
-        null,
-        null,
-        null
+        "7",
+        "4",
+        "4"
        ],
        "points": null,
        "serving": false
@@ -1582,22 +1582,22 @@
        ],
        "seed": "3",
        "sets": [
-        null,
-        null,
-        null
+        "6",
+        "6",
+        "6"
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 1,
      "tbd": false,
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 7:29:28 PM"
+     "local_time": "11/15/2026 12:16:27 AM"
     },
     {
      "match_id": "MD005",
@@ -1621,8 +1621,8 @@
        ],
        "seed": "5",
        "sets": [
-        null,
-        null,
+        "7",
+        "6",
         null
        ],
        "points": null,
@@ -1643,22 +1643,22 @@
        ],
        "seed": "4",
        "sets": [
-        null,
-        null,
+        "5",
+        "2",
         null
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 0,
      "tbd": false,
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 7:29:28 PM"
+     "local_time": "11/15/2026 12:16:27 AM"
     },
     {
      "match_id": "WD011",
@@ -1719,10 +1719,10 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 7:29:28 PM"
+     "local_time": "11/15/2026 12:16:27 AM"
     },
     {
-     "match_id": null,
+     "match_id": "WD002",
      "court": "GRANDSTAND 1",
      "slot": "Starting at 1:00 PM",
      "gender": "Women",
@@ -1751,8 +1751,19 @@
        "serving": false
       },
       {
-       "players": [],
-       "seed": "",
+       "players": [
+        {
+         "name": "P. Ribeiro",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "M. Marques Fernandes",
+         "nat": "POR",
+         "tag": "3"
+        }
+       ],
+       "seed": "3",
        "sets": [
         null,
         null,
@@ -1765,14 +1776,72 @@
      "status": "scheduled",
      "duration": null,
      "winner": null,
-     "tbd": true,
-     "tbd_text": [
-      "L. Perez Parra C. Santos (1) - - -",
-      "S. L. Aubertin/F. Bahri OR P. M. Ribeiro/M. Marques Fernandes - - -"
-     ],
+     "tbd": false,
+     "tbd_text": null,
      "day": 4,
      "date": "2026-11-15",
-     "local_time": "11/14/2026 7:29:31 PM"
+     "local_time": "11/15/2026 12:16:07 AM"
+    },
+    {
+     "match_id": "MD002",
+     "court": "GRANDSTAND 1",
+     "slot": "Followed by",
+     "gender": "Men",
+     "round": "SemiFinals",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "P. Melendez Amaya",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "D. Luna Peinado",
+         "nat": "ESP",
+         "tag": "1"
+        }
+       ],
+       "seed": "1",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "A. Sans",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "G. Nunes",
+         "nat": "POR",
+         "tag": "5"
+        }
+       ],
+       "seed": "5",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "scheduled",
+     "duration": null,
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 4,
+     "date": "2026-11-15",
+     "local_time": "11/15/2026 12:16:07 AM"
     }
    ],
    "por_draws": [
@@ -2108,7 +2177,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/14/2026 5:29:37 PM"
+     "local_time": "11/14/2026 10:16:35 PM"
     },
     {
      "match_id": "WD007",
@@ -2132,9 +2201,9 @@
        ],
        "seed": "8",
        "sets": [
-        null,
-        null,
-        null
+        "6",
+        "3",
+        "6"
        ],
        "points": null,
        "serving": false
@@ -2154,22 +2223,22 @@
        ],
        "seed": "2",
        "sets": [
-        null,
-        null,
-        null
+        "3",
+        "6",
+        "4"
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 0,
      "tbd": false,
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 5:29:38 PM"
+     "local_time": "11/14/2026 10:16:36 PM"
     },
     {
      "match_id": "WD014",
@@ -2230,7 +2299,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 5:29:38 PM"
+     "local_time": "11/14/2026 10:16:36 PM"
     },
     {
      "match_id": "WD013",
@@ -2291,7 +2360,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 5:29:38 PM"
+     "local_time": "11/14/2026 10:16:36 PM"
     }
    ],
    "por_draws": [
