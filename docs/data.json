@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-14T02:11:58+00:00",
- "fip_generated_at": "2026-11-13T22:06:52+00:00",
+ "generated_at": "2026-11-14T07:07:47+00:00",
+ "fip_generated_at": "2026-11-14T07:06:46+00:00",
  "target": "POR",
  "stats": {
   "requests": 46,
   "blocked_403": 0,
   "events": 20,
   "fip": {
-   "requests": 86,
+   "requests": 88,
    "blocked_403": 0,
    "events": 20,
    "errors": []
   },
-  "fip_age_hours": 4.1,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -262,7 +262,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/14/2026 6:10:55 AM"
+     "local_time": "11/14/2026 11:07:12 AM"
     },
     {
      "match_id": "MQ026",
@@ -323,7 +323,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/14/2026 6:10:55 AM"
+     "local_time": "11/14/2026 11:07:12 AM"
     },
     {
      "match_id": "WQ011",
@@ -384,7 +384,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/14/2026 6:10:55 AM"
+     "local_time": "11/14/2026 11:07:12 AM"
     },
     {
      "match_id": "MQ021",
@@ -445,7 +445,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/14/2026 6:10:55 AM"
+     "local_time": "11/14/2026 11:07:12 AM"
     },
     {
      "match_id": "MQ011",
@@ -506,7 +506,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/14/2026 6:10:56 AM"
+     "local_time": "11/14/2026 11:07:13 AM"
     },
     {
      "match_id": "MQ010",
@@ -567,7 +567,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/14/2026 6:10:56 AM"
+     "local_time": "11/14/2026 11:07:13 AM"
     },
     {
      "match_id": "MQ013",
@@ -628,7 +628,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/14/2026 6:10:56 AM"
+     "local_time": "11/14/2026 11:07:13 AM"
     },
     {
      "match_id": "MD062",
@@ -689,7 +689,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-10",
-     "local_time": "11/14/2026 6:10:56 AM"
+     "local_time": "11/14/2026 11:07:11 AM"
     },
     {
      "match_id": "WD027",
@@ -750,7 +750,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-11",
-     "local_time": "11/14/2026 6:11:06 AM"
+     "local_time": "11/14/2026 11:07:14 AM"
     },
     {
      "match_id": "WD013",
@@ -811,7 +811,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-12",
-     "local_time": "11/14/2026 6:10:57 AM"
+     "local_time": "11/14/2026 11:07:15 AM"
     }
    ],
    "por_draws": [
@@ -1195,7 +1195,7 @@
    "oop": {
     "year": "2026",
     "id": "4501",
-    "day": 6,
+    "day": 7,
     "totalday": 8
    },
    "warnings": [],
@@ -1414,7 +1414,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 5:11:24 AM"
+     "local_time": "11/14/2026 10:07:24 AM"
     },
     {
      "match_id": "WD008",
@@ -1475,7 +1475,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 5:11:24 AM"
+     "local_time": "11/14/2026 10:07:24 AM"
     },
     {
      "match_id": "WD011",
@@ -1536,7 +1536,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 5:11:24 AM"
+     "local_time": "11/14/2026 10:07:24 AM"
     }
    ],
    "por_draws": [
@@ -1723,7 +1723,7 @@
    "oop": {
     "year": "2026",
     "id": "4607",
-    "day": 2,
+    "day": 3,
     "totalday": 4
    },
    "warnings": [],
@@ -1872,7 +1872,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/14/2026 3:11:30 AM"
+     "local_time": "11/14/2026 8:07:27 AM"
     },
     {
      "match_id": "WD014",
@@ -1933,7 +1933,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 3:11:50 AM"
+     "local_time": "11/14/2026 8:07:41 AM"
     },
     {
      "match_id": "WD013",
@@ -1994,7 +1994,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 3:11:50 AM"
+     "local_time": "11/14/2026 8:07:41 AM"
     }
    ],
    "por_draws": [
@@ -2133,7 +2133,7 @@
    "oop": {
     "year": "2026",
     "id": "4609",
-    "day": 2,
+    "day": 3,
     "totalday": 4
    },
    "warnings": [],
@@ -2174,7 +2174,7 @@
    "oop": {
     "year": "2026",
     "id": "4403",
-    "day": 2,
+    "day": 3,
     "totalday": 4
    },
    "warnings": [],
@@ -2199,9 +2199,9 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-M-V7.pdf",
-     "updated": "13/11/2026 h 06:30 pm",
-     "n_teams": 48
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-M-V8.pdf",
+     "updated": "14/11/2026 h 06:55 am",
+     "n_teams": 47
     },
     "W": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-W-v4.pdf",
@@ -2571,14 +2571,14 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-MCV-Padelness-M.pdf",
-     "updated": "07/11/2026 h 08:29 am",
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-MCV-Padelness-M-v2.pdf",
+     "updated": "14/11/2026 h 06:35 am",
      "n_teams": 41
     },
     "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-MCV-Padelness-W-v2.pdf",
-     "updated": "07/11/2026 h 09:40 am",
-     "n_teams": 20
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-MCV-Padelness-W-v3.pdf",
+     "updated": "14/11/2026 h 06:35 am",
+     "n_teams": 19
     }
    },
    "draw_pdfs": {},
