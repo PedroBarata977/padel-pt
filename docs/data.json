@@ -1,25 +1,1213 @@
 {
- "generated_at": "2026-11-14T22:55:33+00:00",
- "fip_generated_at": "2026-11-14T22:54:32+00:00",
+ "generated_at": "2026-11-14T23:01:12+00:00",
+ "fip_generated_at": "2026-11-14T23:00:12+00:00",
  "target": "POR",
  "stats": {
-  "requests": 44,
+  "requests": 57,
   "blocked_403": 0,
-  "events": 17,
+  "events": 20,
   "fip": {
    "requests": 89,
    "blocked_403": 0,
-   "events": 17,
-   "errors": [
-    "Calendário premier 2026: HTTPSConnectionPool(host='www.padelfip.com', port=443): Max retries exceeded with url: /calendar-premier-padel/?events-year=2026 (Caused by NameResolutionError(\"HTTPSConnection(host='www.padelfip.com', port=443): Failed to resolve 'www.padelfip.com' ([Errno 11001] getaddrinfo failed)\"))"
-   ]
+   "events": 20,
+   "errors": []
   },
   "fip_age_hours": 0.0,
-  "errors": [
-   "Calendário premier 2026: HTTPSConnectionPool(host='www.padelfip.com', port=443): Max retries exceeded with url: /calendar-premier-padel/?events-year=2026 (Caused by NameResolutionError(\"HTTPSConnection(host='www.padelfip.com', port=443): Failed to resolve 'www.padelfip.com' ([Errno 11001] getaddrinfo failed)\"))"
-  ]
+  "errors": []
  },
  "events": [
+  {
+   "name": "EMAAR DUBAI PREMIER PADEL P1",
+   "url": "https://www.padelfip.com/events/emaar-dubai-premier-padel-p1-2026/",
+   "slug": "emaar-dubai-premier-padel-p1-2026",
+   "circuit": "Premier Padel",
+   "category": "P1",
+   "location": "Dubai  - United Arab Emirates",
+   "start": "2026-11-08",
+   "end": "2026-11-15",
+   "status": "live",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 33,
+     "mark": "",
+     "players": [
+      {
+       "name": "Miguel Deus",
+       "nat": "POR",
+       "points": 1328
+      },
+      {
+       "name": "Nuno Deus",
+       "nat": "POR",
+       "points": 622
+      }
+     ],
+     "pr": true,
+     "team_points": null,
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MD"
+    },
+    {
+     "section": "qualy",
+     "pos": 13,
+     "mark": "",
+     "players": [
+      {
+       "name": "Pedro Araujo",
+       "nat": "POR",
+       "points": 554
+      },
+      {
+       "name": "Pedro Graça",
+       "nat": "POR",
+       "points": 531
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MQ"
+    },
+    {
+     "section": "qualy",
+     "pos": 20,
+     "mark": "",
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR",
+       "points": 419
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "ESP",
+       "points": 529
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MQ"
+    },
+    {
+     "section": "qualy",
+     "pos": 30,
+     "mark": "",
+     "players": [
+      {
+       "name": "Diogo Jesus",
+       "nat": "POR",
+       "points": 243
+      },
+      {
+       "name": "Antonio Luque",
+       "nat": "POR",
+       "points": 384
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M",
+     "draw_status": "out"
+    },
+    {
+     "section": "qualy",
+     "pos": 31,
+     "mark": "",
+     "players": [
+      {
+       "name": "João Maria Caiano",
+       "nat": "POR",
+       "points": 300
+      },
+      {
+       "name": "Alejandro Calvo Perez",
+       "nat": "ESP",
+       "points": 282
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MQ"
+    },
+    {
+     "section": "waiting",
+     "pos": 2,
+     "mark": "",
+     "players": [
+      {
+       "name": "Pedro Perry",
+       "nat": "POR",
+       "points": 334
+      },
+      {
+       "name": "Afonso Fazendeiro",
+       "nat": "POR",
+       "points": 139
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M",
+     "draw_status": "out"
+    },
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Marta Ortega Gallego",
+       "nat": "ESP",
+       "points": 5451
+      },
+      {
+       "name": "Sofia Araujo",
+       "nat": "POR",
+       "points": 6361
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WD"
+    },
+    {
+     "section": "qualy",
+     "pos": 13,
+     "mark": "",
+     "players": [
+      {
+       "name": "Ana Catarina Nogueira",
+       "nat": "POR",
+       "points": 861
+      },
+      {
+       "name": "Andrea Batlle Achando",
+       "nat": "POR",
+       "points": 52
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WQ"
+    }
+   ],
+   "por_matches": [
+    {
+     "match_id": "MQ022",
+     "court": "CENTER COURT",
+     "slot": "Followed by",
+     "gender": "Men's Qualifying",
+     "round": "Q1",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "M. Rocafort Lores",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "C. Garcia Blanco",
+         "nat": "ESP",
+         "tag": "WC"
+        }
+       ],
+       "seed": "WC",
+       "sets": [
+        "3",
+        "4",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "J. Caiano",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "A. Calvo Perez",
+         "nat": "ESP",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": "01:15",
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 1,
+     "date": "2026-11-08",
+     "local_time": "11/15/2026 3:00:01 AM"
+    },
+    {
+     "match_id": "MQ026",
+     "court": "COURT 2",
+     "slot": "Not before 3:30 PM",
+     "gender": "Men's Qualifying",
+     "round": "Q1",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "P. Araujo",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "P. Graça",
+         "nat": "POR",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "6",
+        "7",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "A. Garcia Calahorro",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "I. Fuertes Leonardo",
+         "nat": "ESP",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "4",
+        "5",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": "01:24",
+     "winner": 0,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 1,
+     "date": "2026-11-08",
+     "local_time": "11/15/2026 3:00:01 AM"
+    },
+    {
+     "match_id": "WQ011",
+     "court": "COURT 2",
+     "slot": "Followed by",
+     "gender": "Women's Qualifying",
+     "round": "Q1",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "A. Nogueira",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "A. Batlle Achando",
+         "nat": "POR",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "0",
+        "2",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "A. Lopez Moral",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "C. Fassio Goyeneche",
+         "nat": "ESP",
+         "tag": "4"
+        }
+       ],
+       "seed": "4",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": "00:46",
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 1,
+     "date": "2026-11-08",
+     "local_time": "11/15/2026 3:00:01 AM"
+    },
+    {
+     "match_id": "MQ021",
+     "court": "COURT 3",
+     "slot": "Not before 3:30 PM",
+     "gender": "Men's Qualifying",
+     "round": "Q1",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "A. Reca",
+         "nat": "GER",
+         "tag": ""
+        },
+        {
+         "name": "V. Tur Checa",
+         "nat": "ESP",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "5",
+        "5",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "G. Nunes",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "A. Sans",
+         "nat": "ESP",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "7",
+        "7",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": "01:21",
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 1,
+     "date": "2026-11-08",
+     "local_time": "11/15/2026 3:00:01 AM"
+    },
+    {
+     "match_id": "MQ011",
+     "court": "CENTER COURT",
+     "slot": "Followed by",
+     "gender": "Men's Qualifying",
+     "round": "Q2",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "J. Caiano",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "A. Calvo Perez",
+         "nat": "ESP",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "2",
+        "2",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "M. Abud",
+         "nat": "PAR",
+         "tag": ""
+        },
+        {
+         "name": "J. Cruz Belluati",
+         "nat": "ARG",
+         "tag": "3"
+        }
+       ],
+       "seed": "3",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": "00:47",
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 2,
+     "date": "2026-11-09",
+     "local_time": "11/15/2026 3:00:01 AM"
+    },
+    {
+     "match_id": "MQ010",
+     "court": "COURT 1",
+     "slot": "Followed by",
+     "gender": "Men's Qualifying",
+     "round": "Q2",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "M. Aragon Herrera",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "A. Roglan Pons",
+         "nat": "ESP",
+         "tag": "5"
+        }
+       ],
+       "seed": "5",
+       "sets": [
+        "6",
+        "3",
+        "6"
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "G. Nunes",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "A. Sans",
+         "nat": "ESP",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "4",
+        "6",
+        "4"
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": "02:07",
+     "winner": 0,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 2,
+     "date": "2026-11-09",
+     "local_time": "11/15/2026 3:00:01 AM"
+    },
+    {
+     "match_id": "MQ013",
+     "court": "COURT 1",
+     "slot": "Followed by",
+     "gender": "Men's Qualifying",
+     "round": "Q2",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "P. Araujo",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "P. Graça",
+         "nat": "POR",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "3",
+        "6",
+        "0"
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "T. Leygue",
+         "nat": "FRA",
+         "tag": ""
+        },
+        {
+         "name": "J. Moya",
+         "nat": "ESP",
+         "tag": "7"
+        }
+       ],
+       "seed": "7",
+       "sets": [
+        "6",
+        "3",
+        "6"
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": "01:42",
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 2,
+     "date": "2026-11-09",
+     "local_time": "11/15/2026 3:00:01 AM"
+    },
+    {
+     "match_id": "MD062",
+     "court": "COURT 2",
+     "slot": "Followed by",
+     "gender": "Men",
+     "round": "Round of 64",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "M. Deus",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "N. Deus",
+         "nat": "POR",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "62",
+        "6",
+        "61"
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "M. Castaño",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "P. Hernandez Alvarez",
+         "nat": "ESP",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "7",
+        "3",
+        "7"
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": "02:41",
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-10",
+     "local_time": "11/15/2026 3:00:01 AM"
+    },
+    {
+     "match_id": "WD027",
+     "court": "CENTER COURT",
+     "slot": "Followed by",
+     "gender": "Women",
+     "round": "Round of 32",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "A. Ortiz Gasco",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "M. Ferreyra",
+         "nat": "ARG",
+         "tag": "Q"
+        }
+       ],
+       "seed": "Q",
+       "sets": [
+        "6",
+        "3",
+        "0"
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "S. Araujo",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "M. Ortega Gallego",
+         "nat": "ESP",
+         "tag": "5"
+        }
+       ],
+       "seed": "5",
+       "sets": [
+        "4",
+        "6",
+        "6"
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": "01:40",
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 4,
+     "date": "2026-11-11",
+     "local_time": "11/15/2026 3:00:03 AM"
+    },
+    {
+     "match_id": "WD013",
+     "court": "COURT 1",
+     "slot": "Followed by",
+     "gender": "Women",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "J. Velasco Postiguillo",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "R. Eugenio Barrera",
+         "nat": "ESP",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "4",
+        "6",
+        "6"
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "S. Araujo",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "M. Ortega Gallego",
+         "nat": "ESP",
+         "tag": "5"
+        }
+       ],
+       "seed": "5",
+       "sets": [
+        "6",
+        "4",
+        "3"
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": "02:08",
+     "winner": 0,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 5,
+     "date": "2026-11-12",
+     "local_time": "11/15/2026 3:00:03 AM"
+    }
+   ],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Miguel Deus",
+       "nat": "POR"
+      },
+      {
+       "name": "Nuno Deus",
+       "nat": "POR"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "1/32",
+       "opponent": [
+        {
+         "name": "Manuel Castaño",
+         "nat": "Spain"
+        },
+        {
+         "name": "Pol Hernandez Alvarez",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "6",
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "7",
+        "3",
+        "7"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    },
+    {
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR"
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "Spain"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Agustin Reca",
+         "nat": "Germany"
+        },
+        {
+         "name": "Victor Tur Checa",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "7",
+        "7"
+       ],
+       "opponent_sets": [
+        "5",
+        "5"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Q2",
+       "opponent": [
+        {
+         "name": "Manuel Aragon Herrera",
+         "nat": "Spain"
+        },
+        {
+         "name": "Albert Roglan Pons",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "5",
+       "sets": [
+        "4",
+        "6",
+        "4"
+       ],
+       "opponent_sets": [
+        "6",
+        "3",
+        "6"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "MQ",
+     "draw_label": "Masculino · Qualificação"
+    },
+    {
+     "players": [
+      {
+       "name": "João Maria Caiano",
+       "nat": "POR"
+      },
+      {
+       "name": "Alejandro Calvo Perez",
+       "nat": "Spain"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Manuel Rocafort Lores",
+         "nat": "Spain"
+        },
+        {
+         "name": "Cristobal Garcia Blanco",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "WC",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "3",
+        "4"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Q2",
+       "opponent": [
+        {
+         "name": "Martin Abud",
+         "nat": "Paraguay"
+        },
+        {
+         "name": "Juan Cruz Belluati",
+         "nat": "Argentina"
+        }
+       ],
+       "opponent_seed": "3",
+       "sets": [
+        "2",
+        "2"
+       ],
+       "opponent_sets": [
+        "6",
+        "6"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "MQ",
+     "draw_label": "Masculino · Qualificação"
+    },
+    {
+     "players": [
+      {
+       "name": "Pedro Araujo",
+       "nat": "POR"
+      },
+      {
+       "name": "Pedro Graça",
+       "nat": "POR"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Alejandro Garcia Calahorro",
+         "nat": "Spain"
+        },
+        {
+         "name": "Iago Fuertes Leonardo",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "6",
+        "7"
+       ],
+       "opponent_sets": [
+        "4",
+        "5"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Q2",
+       "opponent": [
+        {
+         "name": "Thomas Leygue",
+         "nat": "France"
+        },
+        {
+         "name": "Jesus Moya",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "7",
+       "sets": [
+        "3",
+        "6",
+        "0"
+       ],
+       "opponent_sets": [
+        "6",
+        "3",
+        "6"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "MQ",
+     "draw_label": "Masculino · Qualificação"
+    },
+    {
+     "players": [
+      {
+       "name": "Sofia Araujo",
+       "nat": "POR"
+      },
+      {
+       "name": "Marta Ortega Gallego",
+       "nat": "Spain"
+      }
+     ],
+     "seed": "5",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Anna Ortiz Gasco",
+         "nat": "Spain"
+        },
+        {
+         "name": "Maria Laura Ferreyra",
+         "nat": "Argentina"
+        }
+       ],
+       "opponent_seed": "Q",
+       "sets": [
+        "4",
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "6",
+        "3",
+        "0"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [
+        {
+         "name": "Jimena Velasco Postiguillo",
+         "nat": "Spain"
+        },
+        {
+         "name": "Raquel Eugenio Barrera",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "6",
+        "4",
+        "3"
+       ],
+       "opponent_sets": [
+        "4",
+        "6",
+        "6"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "WD",
+     "draw_label": "Feminino · Quadro principal"
+    },
+    {
+     "players": [
+      {
+       "name": "Ana Catarina Nogueira",
+       "nat": "POR"
+      },
+      {
+       "name": "Andrea Batlle Achando",
+       "nat": "POR"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Amanda Lopez Moral",
+         "nat": "Spain"
+        },
+        {
+         "name": "Camila Fassio Goyeneche",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "4",
+       "sets": [
+        "0",
+        "2"
+       ],
+       "opponent_sets": [
+        "6",
+        "6"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "WQ",
+     "draw_label": "Feminino · Qualificação"
+    }
+   ],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Dubai-P1-M-v13.pdf",
+     "updated": "07/11/2026 h 10:15 am",
+     "n_teams": 76
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Dubai-P1-W-v12.pdf",
+     "updated": "06/11/2026 h 10:40 pm",
+     "n_teams": 41
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-MD-8.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-MQ-5.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-WD-7.pdf",
+    "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-WQ-8.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4501",
+    "day": 7,
+    "totalday": 8
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 48,
+    "MQ": 31,
+    "WD": 28,
+    "WQ": 14
+   },
+   "matchscorer_id": "FIP-2026-4501"
+  },
   {
    "name": "FIP SILVER MEDIOLANUM PADEL CUP",
    "url": "https://www.padelfip.com/events/fip-silver-mediolanum-padel-cup-2026/",
@@ -204,7 +1392,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/14/2026 11:55:10 PM"
+     "local_time": "11/15/2026 12:00:52 AM"
     },
     {
      "match_id": "WD007",
@@ -265,7 +1453,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 11:54:21 PM"
+     "local_time": "11/15/2026 12:00:53 AM"
     },
     {
      "match_id": "WD014",
@@ -326,7 +1514,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 11:54:21 PM"
+     "local_time": "11/15/2026 12:00:53 AM"
     },
     {
      "match_id": "WD013",
@@ -387,7 +1575,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-14",
-     "local_time": "11/14/2026 11:54:21 PM"
+     "local_time": "11/15/2026 12:00:53 AM"
     }
    ],
    "por_draws": [
@@ -794,7 +1982,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 1:54:59 AM"
+     "local_time": "11/15/2026 2:01:03 AM"
     },
     {
      "match_id": "MD010",
@@ -855,7 +2043,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 1:54:59 AM"
+     "local_time": "11/15/2026 2:01:03 AM"
     },
     {
      "match_id": "WD008",
@@ -916,7 +2104,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 1:54:59 AM"
+     "local_time": "11/15/2026 2:01:03 AM"
     },
     {
      "match_id": "WD005",
@@ -977,7 +2165,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 1:54:59 AM"
+     "local_time": "11/15/2026 2:01:03 AM"
     },
     {
      "match_id": "MD005",
@@ -1038,7 +2226,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 1:54:59 AM"
+     "local_time": "11/15/2026 2:01:03 AM"
     },
     {
      "match_id": "WD011",
@@ -1099,7 +2287,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 1:54:59 AM"
+     "local_time": "11/15/2026 2:01:03 AM"
     },
     {
      "match_id": "WD002",
@@ -1160,7 +2348,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-15",
-     "local_time": "11/15/2026 1:54:32 AM"
+     "local_time": "11/15/2026 2:01:04 AM"
     },
     {
      "match_id": "MD002",
@@ -1221,7 +2409,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-15",
-     "local_time": "11/15/2026 1:54:32 AM"
+     "local_time": "11/15/2026 2:01:04 AM"
     }
    ],
    "por_draws": [
@@ -2134,6 +3322,137 @@
    "registration_text": "Registration Closed"
   },
   {
+   "name": "MEXICO MAJOR",
+   "url": "https://www.padelfip.com/events/mexico-major-2026/",
+   "slug": "mexico-major-2026",
+   "circuit": "Premier Padel",
+   "category": "Major",
+   "location": "Acapulco - Mexico",
+   "start": "2026-11-23",
+   "end": "2026-11-29",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "qualy",
+     "pos": 10,
+     "mark": "",
+     "players": [
+      {
+       "name": "Pedro Araujo",
+       "nat": "POR",
+       "points": 547
+      },
+      {
+       "name": "Pedro Graça",
+       "nat": "POR",
+       "points": 531
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 11,
+     "mark": "",
+     "players": [
+      {
+       "name": "Nuno Deus",
+       "nat": "POR",
+       "points": 594
+      },
+      {
+       "name": "Miguel Deus",
+       "nat": "POR",
+       "points": 475
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 16,
+     "mark": "",
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR",
+       "points": 419
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "ESP",
+       "points": 499
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Marta Ortega Gallego",
+       "nat": "ESP",
+       "points": 4809
+      },
+      {
+       "name": "Sofia Araujo",
+       "nat": "POR",
+       "points": 5719
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    },
+    {
+     "section": "qualy",
+     "pos": 8,
+     "mark": "",
+     "players": [
+      {
+       "name": "Mafalda Marques Fernandes",
+       "nat": "POR",
+       "points": 336
+      },
+      {
+       "name": "Patricia Ribeiro",
+       "nat": "POR",
+       "points": 262
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-M-v4.pdf",
+     "updated": "11/11/2026 h 09:45 am",
+     "n_teams": 77
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-W-v6.pdf",
+     "updated": "10/11/2026 h 03:30 pm",
+     "n_teams": 51
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
    "name": "FIP SILVER ROESELARE",
    "url": "https://www.padelfip.com/events/fip-silver-roeselare-2026/",
    "slug": "fip-silver-roeselare-2026",
@@ -2387,6 +3706,24 @@
    "oop": null,
    "warnings": [],
    "registration_text": "Registration Deadline:"
+  },
+  {
+   "name": "PREMIER PADEL FINALS",
+   "url": "https://www.padelfip.com/events/premier-padel-finals-2026/",
+   "slug": "premier-padel-finals-2026",
+   "circuit": "Premier Padel",
+   "category": "Finals",
+   "location": "Barcelona - Spain",
+   "start": "2026-12-10",
+   "end": "2026-12-13",
+   "status": "registration_not_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {},
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": []
   }
  ]
 }
