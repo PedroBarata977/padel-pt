@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-13T22:06:52+00:00",
+ "generated_at": "2026-11-14T07:06:46+00:00",
  "stats": {
-  "requests": 86,
+  "requests": 88,
   "blocked_403": 0,
   "events": 20,
   "errors": []
@@ -561,7 +561,7 @@
    "oop": {
     "year": "2026",
     "id": "4501",
-    "day": 6,
+    "day": 7,
     "totalday": 8
    },
    "warnings": [],
@@ -884,7 +884,7 @@
    "oop": {
     "year": "2026",
     "id": "4607",
-    "day": 2,
+    "day": 3,
     "totalday": 4
    },
    "warnings": [],
@@ -1099,7 +1099,7 @@
    "oop": {
     "year": "2026",
     "id": "4609",
-    "day": 2,
+    "day": 3,
     "totalday": 4
    },
    "warnings": [],
@@ -1134,7 +1134,7 @@
    "oop": {
     "year": "2026",
     "id": "4403",
-    "day": 2,
+    "day": 3,
     "totalday": 4
    },
    "warnings": [],
@@ -1155,9 +1155,9 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-M-V7.pdf",
-     "updated": "13/11/2026 h 06:30 pm",
-     "n_teams": 48
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-M-V8.pdf",
+     "updated": "14/11/2026 h 06:55 am",
+     "n_teams": 47
     },
     "W": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-W-v4.pdf",
@@ -1527,14 +1527,14 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-MCV-Padelness-M.pdf",
-     "updated": "07/11/2026 h 08:29 am",
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-MCV-Padelness-M-v2.pdf",
+     "updated": "14/11/2026 h 06:35 am",
      "n_teams": 41
     },
     "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-MCV-Padelness-W-v2.pdf",
-     "updated": "07/11/2026 h 09:40 am",
-     "n_teams": 20
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-MCV-Padelness-W-v3.pdf",
+     "updated": "14/11/2026 h 06:35 am",
+     "n_teams": 19
     }
    },
    "draw_pdfs": {},
