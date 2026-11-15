@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-15T09:06:45+00:00",
- "fip_generated_at": "2026-11-15T07:06:57+00:00",
+ "generated_at": "2026-11-15T12:08:08+00:00",
+ "fip_generated_at": "2026-11-15T12:06:58+00:00",
  "target": "POR",
  "stats": {
   "requests": 57,
@@ -12,7 +12,7 @@
    "events": 20,
    "errors": []
   },
-  "fip_age_hours": 2.0,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -262,7 +262,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/15/2026 1:05:23 PM"
+     "local_time": "11/15/2026 4:07:12 PM"
     },
     {
      "match_id": "MQ026",
@@ -323,7 +323,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/15/2026 1:05:23 PM"
+     "local_time": "11/15/2026 4:07:12 PM"
     },
     {
      "match_id": "WQ011",
@@ -384,7 +384,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/15/2026 1:05:23 PM"
+     "local_time": "11/15/2026 4:07:12 PM"
     },
     {
      "match_id": "MQ021",
@@ -445,7 +445,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-08",
-     "local_time": "11/15/2026 1:05:23 PM"
+     "local_time": "11/15/2026 4:07:12 PM"
     },
     {
      "match_id": "MQ011",
@@ -506,7 +506,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/15/2026 1:05:19 PM"
+     "local_time": "11/15/2026 4:07:19 PM"
     },
     {
      "match_id": "MQ010",
@@ -567,7 +567,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/15/2026 1:05:19 PM"
+     "local_time": "11/15/2026 4:07:19 PM"
     },
     {
      "match_id": "MQ013",
@@ -628,7 +628,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-09",
-     "local_time": "11/15/2026 1:05:19 PM"
+     "local_time": "11/15/2026 4:07:19 PM"
     },
     {
      "match_id": "MD062",
@@ -689,7 +689,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-10",
-     "local_time": "11/15/2026 1:05:20 PM"
+     "local_time": "11/15/2026 4:07:20 PM"
     },
     {
      "match_id": "WD027",
@@ -750,7 +750,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-11",
-     "local_time": "11/15/2026 1:05:19 PM"
+     "local_time": "11/15/2026 4:07:21 PM"
     },
     {
      "match_id": "WD013",
@@ -811,7 +811,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-12",
-     "local_time": "11/15/2026 1:05:50 PM"
+     "local_time": "11/15/2026 4:07:22 PM"
     }
    ],
    "por_draws": [
@@ -1453,7 +1453,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 12:06:19 PM"
+     "local_time": "11/15/2026 3:07:45 PM"
     },
     {
      "match_id": "MD010",
@@ -1514,7 +1514,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 12:06:19 PM"
+     "local_time": "11/15/2026 3:07:45 PM"
     },
     {
      "match_id": "WD008",
@@ -1575,7 +1575,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 12:06:19 PM"
+     "local_time": "11/15/2026 3:07:45 PM"
     },
     {
      "match_id": "WD005",
@@ -1636,7 +1636,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 12:06:19 PM"
+     "local_time": "11/15/2026 3:07:45 PM"
     },
     {
      "match_id": "MD005",
@@ -1697,7 +1697,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 12:06:19 PM"
+     "local_time": "11/15/2026 3:07:45 PM"
     },
     {
      "match_id": "WD011",
@@ -1758,7 +1758,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 12:06:19 PM"
+     "local_time": "11/15/2026 3:07:45 PM"
     },
     {
      "match_id": "WD002",
@@ -1782,11 +1782,11 @@
        ],
        "seed": "1",
        "sets": [
-        null,
-        null,
-        null
+        "6",
+        "4",
+        "3"
        ],
-       "points": null,
+       "points": "40",
        "serving": false
       },
       {
@@ -1804,22 +1804,22 @@
        ],
        "seed": "3",
        "sets": [
-        null,
-        null,
-        null
+        "3",
+        "6",
+        "2"
        ],
-       "points": null,
-       "serving": false
+       "points": "40",
+       "serving": true
       }
      ],
-     "status": "scheduled",
-     "duration": null,
+     "status": "live",
+     "duration": "02:00",
      "winner": null,
      "tbd": false,
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-15",
-     "local_time": "11/15/2026 12:06:20 PM"
+     "local_time": "11/15/2026 3:07:13 PM"
     },
     {
      "match_id": "MD002",
@@ -1880,7 +1880,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-15",
-     "local_time": "11/15/2026 12:06:20 PM"
+     "local_time": "11/15/2026 3:07:13 PM"
     }
    ],
    "por_draws": [
@@ -2382,7 +2382,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-13",
-     "local_time": "11/15/2026 10:06:26 AM"
+     "local_time": "11/15/2026 1:07:54 PM"
     },
     {
      "match_id": "WD007",
@@ -2443,7 +2443,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 10:06:20 AM"
+     "local_time": "11/15/2026 1:07:53 PM"
     },
     {
      "match_id": "WD014",
@@ -2504,7 +2504,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 10:06:20 AM"
+     "local_time": "11/15/2026 1:07:53 PM"
     },
     {
      "match_id": "WD013",
@@ -2565,7 +2565,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-14",
-     "local_time": "11/15/2026 10:06:20 AM"
+     "local_time": "11/15/2026 1:07:53 PM"
     }
    ],
    "por_draws": [
@@ -2731,13 +2731,19 @@
         }
        ],
        "opponent_seed": "3",
-       "sets": [],
-       "opponent_sets": [],
+       "sets": [
+        "4",
+        "5"
+       ],
+       "opponent_sets": [
+        "6",
+        "7"
+       ],
        "won": false,
-       "lost": false
+       "lost": true
       }
      ],
-     "status": "em prova",
+     "status": "eliminado",
      "draw": "WD",
      "draw_label": "Feminino · Quadro principal"
     }
