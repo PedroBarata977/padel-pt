@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T07:06:57+00:00",
+ "generated_at": "2026-11-15T12:06:58+00:00",
  "stats": {
   "requests": 101,
   "blocked_403": 0,
@@ -1327,13 +1327,19 @@
         }
        ],
        "opponent_seed": "3",
-       "sets": [],
-       "opponent_sets": [],
+       "sets": [
+        "4",
+        "5"
+       ],
+       "opponent_sets": [
+        "6",
+        "7"
+       ],
        "won": false,
-       "lost": false
+       "lost": true
       }
      ],
-     "status": "em prova",
+     "status": "eliminado",
      "draw": "WD",
      "draw_label": "Feminino · Quadro principal"
     }
