@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T07:53:29+00:00",
+ "generated_at": "2026-11-16T09:21:40+00:00",
  "fip_generated_at": "2026-11-16T07:52:52+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 20,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 1.5,
   "errors": []
  },
  "events": [
