@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-16T12:07:44+00:00",
- "fip_generated_at": "2026-11-16T12:07:10+00:00",
+ "generated_at": "2026-11-16T17:08:04+00:00",
+ "fip_generated_at": "2026-11-16T17:07:14+00:00",
  "target": "POR",
  "stats": {
-  "requests": 16,
+  "requests": 24,
   "blocked_403": 0,
   "events": 20,
   "fip": {
-   "requests": 109,
+   "requests": 110,
    "blocked_403": 0,
    "events": 20,
    "errors": []
@@ -1705,7 +1705,7 @@
     },
     {
      "section": "qualy",
-     "pos": 7,
+     "pos": 6,
      "mark": "",
      "players": [
       {
@@ -1728,9 +1728,9 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Rochefort-M-v5.pdf",
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Rochefort-M-v6.pdf",
      "updated": "14/11/2026 h 10:15 am",
-     "n_teams": 54
+     "n_teams": 53
     },
     "W": {
      "pdf": null
@@ -1807,7 +1807,11 @@
      "n_teams": 26
     }
    },
-   "draw_pdfs": {},
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MD.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MQ.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-WD.pdf"
+   },
    "oop": null,
    "warnings": [],
    "registration_text": "Registration Closed"
@@ -1837,10 +1841,25 @@
      "n_teams": 18
     }
    },
-   "draw_pdfs": {},
-   "oop": null,
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-MD.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-MQ.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-WD.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4710",
+    "day": 1,
+    "totalday": 4
+   },
    "warnings": [],
-   "registration_text": "Registration Closed"
+   "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 28,
+    "MQ": 11,
+    "WD": 18
+   },
+   "matchscorer_id": "FIP-2026-4710"
   },
   {
    "name": "FIP BRONZE S2 ACCRA",
@@ -1878,12 +1897,12 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-M-v2.pdf",
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-M-v3.pdf",
      "updated": "10/11/2026 h 01:20 pm",
      "n_teams": 23
     },
     "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-W-V3.pdf",
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-W-V4.pdf",
      "updated": "12/11/2026 h 11:10 am",
      "n_teams": 14
     }
@@ -1894,9 +1913,9 @@
    "registration_text": "Registration Closed"
   },
   {
-   "name": "FIP BRONZE CHILE IX",
-   "url": "https://www.padelfip.com/events/fip-bronze-chile-ix-2026-2/",
-   "slug": "fip-bronze-chile-ix-2026-2",
+   "name": "FIP BRONZE SAN ANTONIO",
+   "url": "https://www.padelfip.com/events/fip-bronze-san-antonio/",
+   "slug": "fip-bronze-san-antonio",
    "circuit": "CUPRA FIP Tour",
    "category": "Bronze",
    "location": "San Antonio - Chile",
@@ -1991,12 +2010,12 @@
       {
        "name": "Pedro Araujo",
        "nat": "POR",
-       "points": 547
+       "points": 557
       },
       {
        "name": "Pedro Graça",
        "nat": "POR",
-       "points": 531
+       "points": 524
       }
      ],
      "pr": false,
@@ -2005,18 +2024,18 @@
     },
     {
      "section": "qualy",
-     "pos": 11,
+     "pos": 12,
      "mark": "",
      "players": [
       {
        "name": "Nuno Deus",
        "nat": "POR",
-       "points": 594
+       "points": 565
       },
       {
        "name": "Miguel Deus",
        "nat": "POR",
-       "points": 475
+       "points": 446
       }
      ],
      "pr": false,
@@ -2025,18 +2044,18 @@
     },
     {
      "section": "qualy",
-     "pos": 16,
+     "pos": 15,
      "mark": "",
      "players": [
       {
        "name": "Gustavo Nunes",
        "nat": "POR",
-       "points": 419
+       "points": 429
       },
       {
        "name": "Anton Sans",
        "nat": "ESP",
-       "points": 499
+       "points": 481
       }
      ],
      "pr": false,
@@ -2051,12 +2070,12 @@
       {
        "name": "Marta Ortega Gallego",
        "nat": "ESP",
-       "points": 4809
+       "points": 4706
       },
       {
        "name": "Sofia Araujo",
        "nat": "POR",
-       "points": 5719
+       "points": 5436
       }
      ],
      "pr": false,
@@ -2071,12 +2090,12 @@
       {
        "name": "Mafalda Marques Fernandes",
        "nat": "POR",
-       "points": 336
+       "points": 342
       },
       {
        "name": "Patricia Ribeiro",
        "nat": "POR",
-       "points": 262
+       "points": 268
       }
      ],
      "pr": false,
@@ -2088,83 +2107,14 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-M-v4.pdf",
-     "updated": "11/11/2026 h 09:45 am",
-     "n_teams": 77
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-M-v6.pdf",
+     "updated": "16/11/2026 h 04:40 pm",
+     "n_teams": 78
     },
     "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-W-v6.pdf",
-     "updated": "10/11/2026 h 03:30 pm",
-     "n_teams": 51
-    }
-   },
-   "draw_pdfs": {},
-   "oop": null,
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
-   "name": "FIP BRONZE ROESELARE",
-   "url": "https://www.padelfip.com/events/fip-bronze-roeselare-2026/",
-   "slug": "fip-bronze-roeselare-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Roeselare  - Belgium",
-   "start": "2026-11-23",
-   "end": "2026-11-29",
-   "status": "registration_closed",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 14,
-     "mark": "",
-     "players": [
-      {
-       "name": "Francesca Ligotti",
-       "nat": "ITA",
-       "points": 194
-      },
-      {
-       "name": "Bruna Albuquerque Melo",
-       "nat": "POR",
-       "points": 227
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W"
-    },
-    {
-     "section": "main",
-     "pos": 22,
-     "mark": "",
-     "players": [
-      {
-       "name": "Llum Martorell Gruwez",
-       "nat": "ESP",
-       "points": 49
-      },
-      {
-       "name": "Maria Francisca Santos",
-       "nat": "POR",
-       "points": 84
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": null
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Roeselare-W.pdf",
-     "updated": "14/11/2026 h 09:26 am",
-     "n_teams": 31
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-W-v8.pdf",
+     "updated": "16/11/2026 h 04:40 pm pm",
+     "n_teams": 53
     }
    },
    "draw_pdfs": {},
@@ -2325,6 +2275,75 @@
     },
     "W": {
      "pdf": null
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE ROESELARE",
+   "url": "https://www.padelfip.com/events/fip-bronze-roeselare-2026/",
+   "slug": "fip-bronze-roeselare-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Roeselare  - Belgium",
+   "start": "2026-11-23",
+   "end": "2026-11-29",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 14,
+     "mark": "",
+     "players": [
+      {
+       "name": "Francesca Ligotti",
+       "nat": "ITA",
+       "points": 194
+      },
+      {
+       "name": "Bruna Albuquerque Melo",
+       "nat": "POR",
+       "points": 227
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    },
+    {
+     "section": "main",
+     "pos": 22,
+     "mark": "",
+     "players": [
+      {
+       "name": "Llum Martorell Gruwez",
+       "nat": "ESP",
+       "points": 49
+      },
+      {
+       "name": "Maria Francisca Santos",
+       "nat": "POR",
+       "points": 84
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": null
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Roeselare-W.pdf",
+     "updated": "14/11/2026 h 09:26 am",
+     "n_teams": 31
     }
    },
    "draw_pdfs": {},
