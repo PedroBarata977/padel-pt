@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-15T17:07:04+00:00",
+ "generated_at": "2026-11-16T07:52:52+00:00",
  "stats": {
-  "requests": 102,
+  "requests": 106,
   "blocked_403": 0,
   "events": 20,
   "errors": []
@@ -16,7 +16,7 @@
    "location": "Dubai  - United Arab Emirates",
    "start": "2026-11-08",
    "end": "2026-11-15",
-   "status": "live",
+   "status": "finished",
    "por_entries": [
     {
      "section": "main",
@@ -553,7 +553,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-MD-8.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-MD-9.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-MQ-5.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-WD-8.pdf",
     "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/DUBAI-P1_-DRAW-WQ-8.pdf"
@@ -576,7 +576,7 @@
    "location": "Como - Italy",
    "start": "2026-11-10",
    "end": "2026-11-15",
-   "status": "live",
+   "status": "finished",
    "por_entries": [],
    "por_matches": [],
    "por_draws": [],
@@ -593,17 +593,42 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIOLANUM-COMO_-DRAW-MD-v6.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIOLANUM-COMO_-DRAW-MD-v7.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIALANUM-COMO_-DRAW-MQ-v6.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIOLANUM-COMO_-DRAW-WD-v7.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIOLANUM-COMO_-DRAW-WD-v8.pdf",
     "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MEDIALANUM-COMO_-DRAW-WQ-v2.pdf"
    },
-   "oop": {
-    "year": "2026",
-    "id": "4808",
-    "day": 6,
-    "totalday": 6
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE HIGH VELOCITY KOCHI",
+   "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-kochi-2026/",
+   "slug": "fip-bronze-high-velocity-kochi-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Kochi - India",
+   "start": "2026-11-12",
+   "end": "2026-11-15",
+   "status": "finished",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronce-High-Velocity-Kochi-M-v6.pdf",
+     "updated": "09/11/2026 h 08:25 pm",
+     "n_teams": 20
+    },
+    "W": {
+     "pdf": null
+    }
    },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-KOCHI_-DRAW-MDv6.pdf"
+   },
+   "oop": null,
    "warnings": [],
    "registration_text": "Registration Closed"
   },
@@ -616,7 +641,7 @@
    "location": "Doha - Qatar",
    "start": "2026-11-12",
    "end": "2026-11-15",
-   "status": "live",
+   "status": "finished",
    "por_entries": [
     {
      "section": "main",
@@ -929,13 +954,19 @@
         }
        ],
        "opponent_seed": "2",
-       "sets": [],
-       "opponent_sets": [],
+       "sets": [
+        "4",
+        "4"
+       ],
+       "opponent_sets": [
+        "6",
+        "6"
+       ],
        "won": false,
-       "lost": false
+       "lost": true
       }
      ],
-     "status": "em prova",
+     "status": "eliminado",
      "draw": "WD",
      "draw_label": "Feminino · Quadro principal"
     },
@@ -1083,16 +1114,11 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MD-v8.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MD-v9.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-MQ-v2.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-WD-v3.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-DOHA-II_-DRAW-WD-v4.pdf"
    },
-   "oop": {
-    "year": "2026",
-    "id": "4607",
-    "day": 4,
-    "totalday": 4
-   },
+   "oop": null,
    "warnings": [],
    "registration_text": "Registration Closed"
   },
@@ -1105,7 +1131,7 @@
    "location": "Nola - Italy",
    "start": "2026-11-12",
    "end": "2026-11-15",
-   "status": "live",
+   "status": "finished",
    "por_entries": [
     {
      "section": "main",
@@ -1362,44 +1388,9 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-LEVANTE_-DRAW-MD-v4.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-LEVANTE_-DRAW-MD-v5.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-LEVANTE_-DRAW-MQ-v2.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-LEVANTE_-DRAW-WD-v4.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4609",
-    "day": 4,
-    "totalday": 4
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
-   "name": "FIP BRONZE HIGH VELOCITY KOCHI",
-   "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-kochi-2026/",
-   "slug": "fip-bronze-high-velocity-kochi-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Kochi - India",
-   "start": "2026-11-12",
-   "end": "2026-11-15",
-   "status": "live",
-   "por_entries": [],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronce-High-Velocity-Kochi-M-v6.pdf",
-     "updated": "09/11/2026 h 08:25 pm",
-     "n_teams": 20
-    },
-    "W": {
-     "pdf": null
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-KOCHI_-DRAW-MDv6.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-LEVANTE_-DRAW-WD-v5.pdf"
    },
    "oop": null,
    "warnings": [],
@@ -1431,14 +1422,14 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MQ.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v2.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MQ-v2-1.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4715",
-    "day": 1,
+    "day": 2,
     "totalday": 7
    },
    "warnings": [],
@@ -1776,9 +1767,9 @@
      "n_teams": 48
     },
     "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/03/Entry-list-Fip-Bronze-Iurreta-Padelko-W-V3.pdf",
-     "updated": "14/11/2026 h 01:10 pm",
-     "n_teams": 27
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/03/Entry-list-Fip-Bronze-Iurreta-Padelko-W-V4.pdf",
+     "updated": "16/11/2026 h 07:55 am",
+     "n_teams": 26
     }
    },
    "draw_pdfs": {},
