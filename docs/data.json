@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-16T09:21:40+00:00",
- "fip_generated_at": "2026-11-16T07:52:52+00:00",
+ "generated_at": "2026-11-16T12:07:44+00:00",
+ "fip_generated_at": "2026-11-16T12:07:10+00:00",
  "target": "POR",
  "stats": {
   "requests": 16,
   "blocked_403": 0,
   "events": 20,
   "fip": {
-   "requests": 106,
+   "requests": 109,
    "blocked_403": 0,
    "events": 20,
    "errors": []
   },
-  "fip_age_hours": 1.5,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -1483,7 +1483,7 @@
    "por_entries": [
     {
      "section": "qualy",
-     "pos": 12,
+     "pos": 11,
      "mark": "",
      "players": [
       {
@@ -1546,9 +1546,9 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-M-v4.pdf",
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-M-v5.pdf",
      "updated": "12/11/2026 h 20:45 pm",
-     "n_teams": 53
+     "n_teams": 52
     },
     "W": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-W-v3.pdf",
@@ -1637,9 +1637,9 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-M-v6.pdf",
-     "updated": "14/11/2026 h 20:05 pm",
-     "n_teams": 34
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-M-v7.pdf",
+     "updated": "16/11/2026 h 11:10 am",
+     "n_teams": 33
     },
     "W": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-W-v3.pdf",
@@ -1827,14 +1827,65 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-MCV-Padelness-M-v2.pdf",
-     "updated": "14/11/2026 h 06:35 am",
-     "n_teams": 41
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-MCV-Padelness-M-v3.pdf",
+     "updated": "16/11/2026 h 01:00 pm",
+     "n_teams": 39
     },
     "W": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-MCV-Padelness-W-v4.pdf",
      "updated": "15/11/2026 h 06:00 am",
      "n_teams": 18
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE S2 ACCRA",
+   "url": "https://www.padelfip.com/events/fip-bronze-s2-accra-2026/",
+   "slug": "fip-bronze-s2-accra-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Accra - Ghana",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Diogo Moreira",
+       "nat": "POR",
+       "points": 76
+      },
+      {
+       "name": "Diego Garcia Brito",
+       "nat": "ESP",
+       "points": 61
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-M-v2.pdf",
+     "updated": "10/11/2026 h 01:20 pm",
+     "n_teams": 23
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-W-V3.pdf",
+     "updated": "12/11/2026 h 11:10 am",
+     "n_teams": 14
     }
    },
    "draw_pdfs": {},
@@ -1906,65 +1957,14 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-M-v4.pdf",
-     "updated": "14/11/2026 h 12:15 pm",
-     "n_teams": 31
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-M-v5.pdf",
+     "updated": "16/11/2026 h 12:55 pm",
+     "n_teams": 30
     },
     "W": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-W-v4.pdf",
      "updated": "14/11/2026 h 12:10 pm",
      "n_teams": 12
-    }
-   },
-   "draw_pdfs": {},
-   "oop": null,
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
-   "name": "FIP BRONZE S2 ACCRA",
-   "url": "https://www.padelfip.com/events/fip-bronze-s2-accra-2026/",
-   "slug": "fip-bronze-s2-accra-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Accra - Ghana",
-   "start": "2026-11-20",
-   "end": "2026-11-22",
-   "status": "registration_closed",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 5,
-     "mark": "",
-     "players": [
-      {
-       "name": "Diogo Moreira",
-       "nat": "POR",
-       "points": 76
-      },
-      {
-       "name": "Diego Garcia Brito",
-       "nat": "ESP",
-       "points": 61
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-M-v2.pdf",
-     "updated": "10/11/2026 h 01:20 pm",
-     "n_teams": 23
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-W-V3.pdf",
-     "updated": "12/11/2026 h 11:10 am",
-     "n_teams": 14
     }
    },
    "draw_pdfs": {},
@@ -2096,95 +2096,6 @@
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-W-v6.pdf",
      "updated": "10/11/2026 h 03:30 pm",
      "n_teams": 51
-    }
-   },
-   "draw_pdfs": {},
-   "oop": null,
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
-   "name": "FIP SILVER ROESELARE",
-   "url": "https://www.padelfip.com/events/fip-silver-roeselare-2026/",
-   "slug": "fip-silver-roeselare-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Silver",
-   "location": "Roeselare  - Belgium",
-   "start": "2026-11-23",
-   "end": "2026-11-29",
-   "status": "registration_closed",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 18,
-     "mark": "",
-     "players": [
-      {
-       "name": "Pau Miñano Ortinez",
-       "nat": "ESP",
-       "points": 370
-      },
-      {
-       "name": "Pedro Perry",
-       "nat": "POR",
-       "points": 334
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 21,
-     "mark": "",
-     "players": [
-      {
-       "name": "Alejandro Calvo Perez",
-       "nat": "ESP",
-       "points": 282
-      },
-      {
-       "name": "João Maria Caiano",
-       "nat": "POR",
-       "points": 300
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "waiting",
-     "pos": 18,
-     "mark": "",
-     "players": [
-      {
-       "name": "Louis De Rouck",
-       "nat": "BEL",
-       "points": 2
-      },
-      {
-       "name": "Nuno Baptista",
-       "nat": "POR",
-       "points": 8
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M.pdf",
-     "updated": "14/11/2026 h 09:21 am",
-     "n_teams": 84
-    },
-    "W": {
-     "pdf": null
     }
    },
    "draw_pdfs": {},
@@ -2325,6 +2236,95 @@
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronze-High-Velocity-Phuket-W.pdf",
      "updated": "14/11/2026 h 09:41 am",
      "n_teams": 23
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP SILVER ROESELARE",
+   "url": "https://www.padelfip.com/events/fip-silver-roeselare-2026/",
+   "slug": "fip-silver-roeselare-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Roeselare  - Belgium",
+   "start": "2026-11-23",
+   "end": "2026-11-29",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 18,
+     "mark": "",
+     "players": [
+      {
+       "name": "Pau Miñano Ortinez",
+       "nat": "ESP",
+       "points": 370
+      },
+      {
+       "name": "Pedro Perry",
+       "nat": "POR",
+       "points": 334
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 21,
+     "mark": "",
+     "players": [
+      {
+       "name": "Alejandro Calvo Perez",
+       "nat": "ESP",
+       "points": 282
+      },
+      {
+       "name": "João Maria Caiano",
+       "nat": "POR",
+       "points": 300
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "waiting",
+     "pos": 18,
+     "mark": "",
+     "players": [
+      {
+       "name": "Louis De Rouck",
+       "nat": "BEL",
+       "points": 2
+      },
+      {
+       "name": "Nuno Baptista",
+       "nat": "POR",
+       "points": 8
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M.pdf",
+     "updated": "14/11/2026 h 09:21 am",
+     "n_teams": 84
+    },
+    "W": {
+     "pdf": null
     }
    },
    "draw_pdfs": {},
