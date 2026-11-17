@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-17T17:06:32+00:00",
+ "generated_at": "2026-11-17T22:06:32+00:00",
  "stats": {
-  "requests": 83,
+  "requests": 82,
   "blocked_403": 0,
   "events": 15,
   "errors": []
@@ -414,7 +414,12 @@
     "MQ": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MQ.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-WD.pdf"
    },
-   "oop": null,
+   "oop": {
+    "year": "2026",
+    "id": "4613",
+    "day": 1,
+    "totalday": 5
+   },
    "warnings": [],
    "registration_text": "Registration Closed"
   },
