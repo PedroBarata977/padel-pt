@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-17T03:38:19+00:00",
- "fip_generated_at": "2026-11-16T22:07:12+00:00",
+ "generated_at": "2026-11-17T07:07:18+00:00",
+ "fip_generated_at": "2026-11-17T07:06:28+00:00",
  "target": "POR",
  "stats": {
   "requests": 19,
   "blocked_403": 0,
   "events": 15,
   "fip": {
-   "requests": 106,
+   "requests": 82,
    "blocked_403": 0,
-   "events": 20,
+   "events": 15,
    "errors": []
   },
-  "fip_age_hours": 5.5,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -42,14 +42,14 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v2.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MQ-v2-1.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v3.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MQ-v3.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4715",
-    "day": 2,
+    "day": 3,
     "totalday": 7
    },
    "warnings": [],
@@ -486,7 +486,9 @@
      "pdf": null
     }
    },
-   "draw_pdfs": {},
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-CHILE-IX_-DRAW-MD.pdf"
+   },
    "oop": null,
    "warnings": [],
    "registration_text": "Registration Closed"
@@ -537,7 +539,10 @@
      "n_teams": 12
     }
    },
-   "draw_pdfs": {},
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-MD.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-WD.pdf"
+   },
    "oop": null,
    "warnings": [],
    "registration_text": "Registration Closed"
@@ -588,7 +593,10 @@
      "n_teams": 14
     }
    },
-   "draw_pdfs": {},
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-MD-1.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-WD-1.pdf"
+   },
    "oop": null,
    "warnings": [],
    "registration_text": "Registration Closed"
