@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T17:07:44+00:00",
+ "generated_at": "2026-11-17T21:39:42+00:00",
  "fip_generated_at": "2026-11-17T17:06:32+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 4.6,
   "errors": []
  },
  "events": [
@@ -199,7 +199,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/18/2026 1:06:38 AM"
+     "local_time": "11/18/2026 5:39:07 AM"
     }
    ],
    "por_draws": [],
@@ -373,7 +373,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/17/2026 6:07:15 PM"
+     "local_time": "11/17/2026 10:39:15 PM"
     },
     {
      "match_id": "MD030",
@@ -434,7 +434,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/17/2026 6:07:15 PM"
+     "local_time": "11/17/2026 10:39:15 PM"
     }
    ],
    "por_draws": [],
@@ -550,7 +550,7 @@
    ],
    "por_matches": [
     {
-     "match_id": null,
+     "match_id": "MQ010",
      "court": "Court 3",
      "slot": "Starting at 4:00 PM",
      "gender": "Men's Qualifying",
@@ -579,7 +579,18 @@
        "serving": false
       },
       {
-       "players": [],
+       "players": [
+        {
+         "name": "A. Rodriguez Luna",
+         "nat": "BEL",
+         "tag": ""
+        },
+        {
+         "name": "C. Monot",
+         "nat": "FRA",
+         "tag": ""
+        }
+       ],
        "seed": "",
        "sets": [
         null,
@@ -593,14 +604,11 @@
      "status": "scheduled",
      "duration": null,
      "winner": null,
-     "tbd": true,
-     "tbd_text": [
-      "D. Veldhuis T. Nunes (6) - - -",
-      "C. Monot/A. Rodriguez Luna OR J. Snyers/S. Rynders - - -"
-     ],
+     "tbd": false,
+     "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/17/2026 6:07:21 PM"
+     "local_time": "11/17/2026 10:39:22 PM"
     }
    ],
    "por_draws": [],
@@ -934,7 +942,7 @@
      ],
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/17/2026 5:07:43 PM"
+     "local_time": "11/17/2026 9:39:41 PM"
     }
    ],
    "por_draws": [],
