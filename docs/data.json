@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T17:08:28+00:00",
+ "generated_at": "2026-11-18T21:18:17+00:00",
  "fip_generated_at": "2026-11-18T17:06:44+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 4.2,
   "errors": []
  },
  "events": [
@@ -199,7 +199,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/19/2026 1:07:19 AM"
+     "local_time": "11/19/2026 5:17:16 AM"
     },
     {
      "match_id": "WD019",
@@ -260,7 +260,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 1:07:21 AM"
+     "local_time": "11/19/2026 5:17:25 AM"
     }
    ],
    "por_draws": [
@@ -552,7 +552,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/18/2026 6:07:31 PM"
+     "local_time": "11/18/2026 10:17:33 PM"
     },
     {
      "match_id": "MD030",
@@ -613,7 +613,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/18/2026 6:07:31 PM"
+     "local_time": "11/18/2026 10:17:33 PM"
     }
    ],
    "por_draws": [
@@ -913,7 +913,68 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/18/2026 6:07:39 PM"
+     "local_time": "11/18/2026 10:17:39 PM"
+    },
+    {
+     "match_id": "MD027",
+     "court": "Court 4",
+     "slot": "Not before 6:00 PM",
+     "gender": "Men",
+     "round": "Round of 32",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "M. De Roose",
+         "nat": "BEL",
+         "tag": ""
+        },
+        {
+         "name": "M. De Peuter",
+         "nat": "BEL",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "D. Jesus",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "M. Nolten",
+         "nat": "NED",
+         "tag": "5"
+        }
+       ],
+       "seed": "5",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "scheduled",
+     "duration": null,
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-20",
+     "local_time": "11/18/2026 10:17:40 PM"
     }
    ],
    "por_draws": [
@@ -1193,7 +1254,7 @@
    "warnings": [],
    "registration_text": "Registration Closed",
    "ms_draws": {
-    "MD": 27,
+    "MD": 26,
     "MQ": 20,
     "WD": 25
    },
@@ -1330,7 +1391,7 @@
      ],
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/18/2026 5:07:48 PM"
+     "local_time": "11/18/2026 9:18:06 PM"
     }
    ],
    "por_draws": [],
