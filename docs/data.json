@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-18T21:18:17+00:00",
- "fip_generated_at": "2026-11-18T17:06:44+00:00",
+ "generated_at": "2026-11-18T22:08:12+00:00",
+ "fip_generated_at": "2026-11-18T22:06:46+00:00",
  "target": "POR",
  "stats": {
   "requests": 70,
   "blocked_403": 0,
   "events": 15,
   "fip": {
-   "requests": 87,
+   "requests": 86,
    "blocked_403": 0,
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 4.2,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -44,7 +44,7 @@
    "draw_pdfs": {
     "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v4.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MQ-v3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v2.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v3.pdf"
    },
    "oop": {
     "year": "2026",
@@ -199,7 +199,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/19/2026 5:17:16 AM"
+     "local_time": "11/19/2026 6:07:19 AM"
     },
     {
      "match_id": "WD019",
@@ -260,7 +260,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 5:17:25 AM"
+     "local_time": "11/19/2026 6:07:23 AM"
     }
    ],
    "por_draws": [
@@ -552,7 +552,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/18/2026 10:17:33 PM"
+     "local_time": "11/18/2026 11:07:15 PM"
     },
     {
      "match_id": "MD030",
@@ -613,7 +613,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/18/2026 10:17:33 PM"
+     "local_time": "11/18/2026 11:07:15 PM"
     }
    ],
    "por_draws": [
@@ -913,7 +913,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/18/2026 10:17:39 PM"
+     "local_time": "11/18/2026 11:07:36 PM"
     },
     {
      "match_id": "MD027",
@@ -974,7 +974,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/18/2026 10:17:40 PM"
+     "local_time": "11/18/2026 11:07:37 PM"
     }
    ],
    "por_draws": [
@@ -1081,7 +1081,7 @@
    },
    "draw_pdfs": {
     "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MDv2.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MQ.pdf"
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MQ-v3.pdf"
    },
    "oop": {
     "year": "2026",
@@ -1241,8 +1241,8 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MD-v2.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MQ.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MD-v3.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MQ-v2.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-WD-v2.pdf"
    },
    "oop": {
@@ -1304,126 +1304,6 @@
     "WD": 18
    },
    "matchscorer_id": "FIP-2026-4710"
-  },
-  {
-   "name": "FIP BRONZE S2 ACCRA",
-   "url": "https://www.padelfip.com/events/fip-bronze-s2-accra-2026/",
-   "slug": "fip-bronze-s2-accra-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Accra - Ghana",
-   "start": "2026-11-20",
-   "end": "2026-11-22",
-   "status": "registration_closed",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 5,
-     "mark": "",
-     "players": [
-      {
-       "name": "Diogo Moreira",
-       "nat": "POR",
-       "points": 76
-      },
-      {
-       "name": "Diego Garcia Brito",
-       "nat": "ESP",
-       "points": 61
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M",
-     "draw_status": "in_draw",
-     "draw_type": "MD"
-    }
-   ],
-   "por_matches": [
-    {
-     "match_id": null,
-     "court": "Court 4",
-     "slot": "Followed by",
-     "gender": "Men",
-     "round": "Round of 16",
-     "teams": [
-      {
-       "players": [],
-       "seed": "",
-       "sets": [
-        null,
-        null,
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "D. Moreira",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "D. Garcia Brito",
-         "nat": "ESP",
-         "tag": "5"
-        }
-       ],
-       "seed": "5",
-       "sets": [
-        null,
-        null,
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "scheduled",
-     "duration": null,
-     "winner": null,
-     "tbd": true,
-     "tbd_text": [
-      "T. Malick Souleyman/M. Kowere Baizoum Joel OR J. Ahmad/R. Günter Tremiño Zarse - - -",
-      "D. Moreira D. Garcia Brito (5) - - -"
-     ],
-     "day": 2,
-     "date": "2026-11-21",
-     "local_time": "11/18/2026 9:18:06 PM"
-    }
-   ],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-M-v3.pdf",
-     "updated": "10/11/2026 h 01:20 pm",
-     "n_teams": 23
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-W-V4.pdf",
-     "updated": "12/11/2026 h 11:10 am",
-     "n_teams": 14
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-MD-1.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-WD-1.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4719",
-    "day": 1,
-    "totalday": 3
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed",
-   "ms_draws": {
-    "MD": 23,
-    "WD": 15
-   },
-   "matchscorer_id": "FIP-2026-4719"
   },
   {
    "name": "FIP BRONZE SAN ANTONIO",
@@ -1529,6 +1409,126 @@
     "WD": 12
    },
    "matchscorer_id": "FIP-2026-4717"
+  },
+  {
+   "name": "FIP BRONZE S2 ACCRA",
+   "url": "https://www.padelfip.com/events/fip-bronze-s2-accra-2026/",
+   "slug": "fip-bronze-s2-accra-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Accra - Ghana",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Diogo Moreira",
+       "nat": "POR",
+       "points": 76
+      },
+      {
+       "name": "Diego Garcia Brito",
+       "nat": "ESP",
+       "points": 61
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MD"
+    }
+   ],
+   "por_matches": [
+    {
+     "match_id": null,
+     "court": "Court 4",
+     "slot": "Followed by",
+     "gender": "Men",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "D. Moreira",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "D. Garcia Brito",
+         "nat": "ESP",
+         "tag": "5"
+        }
+       ],
+       "seed": "5",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "scheduled",
+     "duration": null,
+     "winner": null,
+     "tbd": true,
+     "tbd_text": [
+      "T. Malick Souleyman/M. Kowere Baizoum Joel OR J. Ahmad/R. Günter Tremiño Zarse - - -",
+      "D. Moreira D. Garcia Brito (5) - - -"
+     ],
+     "day": 2,
+     "date": "2026-11-21",
+     "local_time": "11/18/2026 10:08:12 PM"
+    }
+   ],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-M-v3.pdf",
+     "updated": "10/11/2026 h 01:20 pm",
+     "n_teams": 23
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-W-V4.pdf",
+     "updated": "12/11/2026 h 11:10 am",
+     "n_teams": 14
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-MD-1.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-WD-1.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4719",
+    "day": 1,
+    "totalday": 3
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 23,
+    "WD": 15
+   },
+   "matchscorer_id": "FIP-2026-4719"
   },
   {
    "name": "MEXICO MAJOR",
@@ -1654,77 +1654,6 @@
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-W-v9.pdf",
      "updated": "16/11/2026 h 04:40 pm pm",
      "n_teams": 53
-    }
-   },
-   "draw_pdfs": {},
-   "oop": null,
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
-   "name": "FIP BRONZE HIGH VELOCITY PHUKET",
-   "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-phuket-2026-2/",
-   "slug": "fip-bronze-high-velocity-phuket-2026-2",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Phuket - Thailand",
-   "start": "2026-11-23",
-   "end": "2026-11-29",
-   "status": "registration_closed",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 1,
-     "mark": "",
-     "players": [
-      {
-       "name": "Gustavo Nunes",
-       "nat": "POR",
-       "points": 419
-      },
-      {
-       "name": "Anton Sans",
-       "nat": "ESP",
-       "points": 499
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "qualy",
-     "pos": 4,
-     "mark": "",
-     "players": [
-      {
-       "name": "Robert Moore",
-       "nat": "HKG",
-       "points": 37
-      },
-      {
-       "name": "Marcos Antonio Cheung Modesto",
-       "nat": "POR",
-       "points": 8
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronze-High-Velocity-Phuket-M-v2.pdf",
-     "updated": "18/11/2026 h 04:50 pm",
-     "n_teams": 46
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronze-High-Velocity-Phuket-W.pdf",
-     "updated": "14/11/2026 h 09:41 am",
-     "n_teams": 23
     }
    },
    "draw_pdfs": {},
@@ -1883,6 +1812,77 @@
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Roeselare-W-v2-1.pdf",
      "updated": "17/11/2026 h 10:00 am",
      "n_teams": 31
+    }
+   },
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE HIGH VELOCITY PHUKET",
+   "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-phuket-2026-2/",
+   "slug": "fip-bronze-high-velocity-phuket-2026-2",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Phuket - Thailand",
+   "start": "2026-11-23",
+   "end": "2026-11-29",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 1,
+     "mark": "",
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR",
+       "points": 419
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "ESP",
+       "points": 499
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 4,
+     "mark": "",
+     "players": [
+      {
+       "name": "Robert Moore",
+       "nat": "HKG",
+       "points": 37
+      },
+      {
+       "name": "Marcos Antonio Cheung Modesto",
+       "nat": "POR",
+       "points": 8
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronze-High-Velocity-Phuket-M-v2.pdf",
+     "updated": "18/11/2026 h 04:50 pm",
+     "n_teams": 46
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronze-High-Velocity-Phuket-W.pdf",
+     "updated": "14/11/2026 h 09:41 am",
+     "n_teams": 23
     }
    },
    "draw_pdfs": {},
