@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-18T07:07:55+00:00",
- "fip_generated_at": "2026-11-18T07:06:41+00:00",
+ "generated_at": "2026-11-18T12:08:37+00:00",
+ "fip_generated_at": "2026-11-18T12:06:48+00:00",
  "target": "POR",
  "stats": {
-  "requests": 65,
+  "requests": 70,
   "blocked_403": 0,
   "events": 15,
   "fip": {
-   "requests": 87,
+   "requests": 89,
    "blocked_403": 0,
    "events": 15,
    "errors": []
@@ -60,6 +60,359 @@
     "WD": 26
    },
    "matchscorer_id": "FIP-2026-4715"
+  },
+  {
+   "name": "FIP SILVER GO PARK HONG KONG",
+   "url": "https://www.padelfip.com/events/fip-silver-hong-kong-2026/",
+   "slug": "fip-silver-hong-kong-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Hong Kong - Hong Kong",
+   "start": "2026-11-18",
+   "end": "2026-11-22",
+   "status": "live",
+   "por_entries": [
+    {
+     "section": "qualy",
+     "pos": 11,
+     "mark": "",
+     "players": [
+      {
+       "name": "Marcos Antonio Cheung Modesto",
+       "nat": "POR",
+       "points": 11
+      },
+      {
+       "name": "Jaimes McKee",
+       "nat": "HKG",
+       "points": 6
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MQ"
+    },
+    {
+     "section": "main",
+     "pos": 2,
+     "mark": "",
+     "players": [
+      {
+       "name": "Lucia Perez Parra",
+       "nat": "ESP",
+       "points": 562
+      },
+      {
+       "name": "Clarinha Santos",
+       "nat": "POR",
+       "points": 469
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WD"
+    },
+    {
+     "section": "main",
+     "pos": 6,
+     "mark": "",
+     "players": [
+      {
+       "name": "Kotomi Ozawa",
+       "nat": "JPN",
+       "points": 337
+      },
+      {
+       "name": "Constanca Gorito",
+       "nat": "POR",
+       "points": 332
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WD"
+    }
+   ],
+   "por_matches": [
+    {
+     "match_id": "MQ030",
+     "court": "Center Court 3",
+     "slot": "Followed by",
+     "gender": "Men's Qualifying",
+     "round": "Q1",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "J. McKee",
+         "nat": "HKG",
+         "tag": ""
+        },
+        {
+         "name": "M. Cheung Modesto",
+         "nat": "POR",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "S. Zhang",
+         "nat": "CHN",
+         "tag": ""
+        },
+        {
+         "name": "Y. Chan",
+         "nat": "HKG",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 1,
+     "date": "2026-11-18",
+     "local_time": "11/18/2026 8:07:17 PM"
+    },
+    {
+     "match_id": "WD019",
+     "court": "Court 2",
+     "slot": "Starting at 2:00 PM",
+     "gender": "Women",
+     "round": "Round of 32",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "L. Jong",
+         "nat": "HKG",
+         "tag": ""
+        },
+        {
+         "name": "N. Mokalodise",
+         "nat": "RSA",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "K. Ozawa",
+         "nat": "JPN",
+         "tag": ""
+        },
+        {
+         "name": "C. Gorito",
+         "nat": "POR",
+         "tag": "6"
+        }
+       ],
+       "seed": "6",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "scheduled",
+     "duration": null,
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-20",
+     "local_time": "11/18/2026 8:07:03 PM"
+    }
+   ],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Jaimes McKee",
+       "nat": "honk-kong"
+      },
+      {
+       "name": "Marcos Antonio Cheung Modesto",
+       "nat": "POR"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Shuyuan Zhang",
+         "nat": "China"
+        },
+        {
+         "name": "Yin Tung Chan",
+         "nat": "honk-kong"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "MQ",
+     "draw_label": "Masculino · Qualificação"
+    },
+    {
+     "players": [
+      {
+       "name": "Kotomi Ozawa",
+       "nat": "Japan"
+      },
+      {
+       "name": "Constanca Gorito",
+       "nat": "POR"
+      }
+     ],
+     "seed": "6",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Lok Yin Jong",
+         "nat": "honk-kong"
+        },
+        {
+         "name": "Nthabeleng Mokalodise",
+         "nat": "Flag-South-Africa-300x200"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "WD",
+     "draw_label": "Feminino · Quadro principal"
+    },
+    {
+     "players": [
+      {
+       "name": "Lucia Perez Parra",
+       "nat": "Spain"
+      },
+      {
+       "name": "Clarinha Santos",
+       "nat": "POR"
+      }
+     ],
+     "seed": "2",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Bye",
+         "nat": ""
+        },
+        {
+         "name": "Bye",
+         "nat": ""
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "WD",
+     "draw_label": "Feminino · Quadro principal"
+    }
+   ],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-M-v5.pdf",
+     "updated": "12/11/2026 h 20:45 pm",
+     "n_teams": 52
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-W-v3.pdf",
+     "updated": "14/11/2026 h 18:25 pm",
+     "n_teams": 29
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-MD.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-MQv2.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-WD.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4605",
+    "day": 1,
+    "totalday": 5
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 28,
+    "MQ": 24,
+    "WD": 29
+   },
+   "matchscorer_id": "FIP-2026-4605"
   },
   {
    "name": "FIP BRONZE SKURUP",
@@ -199,7 +552,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/18/2026 8:07:14 AM"
+     "local_time": "11/18/2026 1:07:25 PM"
     },
     {
      "match_id": "MD030",
@@ -260,7 +613,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/18/2026 8:07:14 AM"
+     "local_time": "11/18/2026 1:07:25 PM"
     }
    ],
    "por_draws": [
@@ -404,7 +757,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MD.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MD-v2.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MQ.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-WD.pdf"
    },
@@ -417,7 +770,7 @@
    "warnings": [],
    "registration_text": "Registration Closed",
    "ms_draws": {
-    "MD": 28,
+    "MD": 27,
     "MQ": 5,
     "WD": 17
    },
@@ -475,8 +828,7 @@
      "pr": false,
      "team_points": null,
      "gender": "M",
-     "draw_status": "in_draw",
-     "draw_type": "MD"
+     "draw_status": "out"
     },
     {
      "section": "qualy",
@@ -561,46 +913,10 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/18/2026 8:07:19 AM"
+     "local_time": "11/18/2026 1:07:38 PM"
     }
    ],
    "por_draws": [
-    {
-     "players": [
-      {
-       "name": "Henrique Barbosa",
-       "nat": "POR"
-      },
-      {
-       "name": "Marco Remolina Pablo",
-       "nat": "Spain"
-      }
-     ],
-     "seed": "6",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Maxime Joris",
-         "nat": "France"
-        },
-        {
-         "name": "Maxime Forcin",
-         "nat": "France"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "MD",
-     "draw_label": "Masculino · Quadro principal"
-    },
     {
      "players": [
       {
@@ -703,7 +1019,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MD.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MDv2.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MQ.pdf"
    },
    "oop": {
@@ -715,7 +1031,7 @@
    "warnings": [],
    "registration_text": "Registration Closed",
    "ms_draws": {
-    "MD": 28,
+    "MD": 27,
     "MQ": 26
    },
    "matchscorer_id": "FIP-2026-2410"
@@ -866,7 +1182,7 @@
    "draw_pdfs": {
     "MD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MD-v2.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MQ.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-WD.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-WD-v2.pdf"
    },
    "oop": {
     "year": "2026",
@@ -879,301 +1195,9 @@
    "ms_draws": {
     "MD": 27,
     "MQ": 20,
-    "WD": 26
+    "WD": 25
    },
    "matchscorer_id": "FIP-2026-4613"
-  },
-  {
-   "name": "FIP SILVER GO PARK HONG KONG",
-   "url": "https://www.padelfip.com/events/fip-silver-hong-kong-2026/",
-   "slug": "fip-silver-hong-kong-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Silver",
-   "location": "Hong Kong - Hong Kong",
-   "start": "2026-11-18",
-   "end": "2026-11-22",
-   "status": "live",
-   "por_entries": [
-    {
-     "section": "qualy",
-     "pos": 11,
-     "mark": "",
-     "players": [
-      {
-       "name": "Marcos Antonio Cheung Modesto",
-       "nat": "POR",
-       "points": 11
-      },
-      {
-       "name": "Jaimes McKee",
-       "nat": "HKG",
-       "points": 6
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M",
-     "draw_status": "in_draw",
-     "draw_type": "MQ"
-    },
-    {
-     "section": "main",
-     "pos": 2,
-     "mark": "",
-     "players": [
-      {
-       "name": "Lucia Perez Parra",
-       "nat": "ESP",
-       "points": 562
-      },
-      {
-       "name": "Clarinha Santos",
-       "nat": "POR",
-       "points": 469
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W",
-     "draw_status": "in_draw",
-     "draw_type": "WD"
-    },
-    {
-     "section": "main",
-     "pos": 6,
-     "mark": "",
-     "players": [
-      {
-       "name": "Kotomi Ozawa",
-       "nat": "JPN",
-       "points": 337
-      },
-      {
-       "name": "Constanca Gorito",
-       "nat": "POR",
-       "points": 332
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W",
-     "draw_status": "in_draw",
-     "draw_type": "WD"
-    }
-   ],
-   "por_matches": [
-    {
-     "match_id": "MQ030",
-     "court": "Center Court 3",
-     "slot": "Followed by",
-     "gender": "Men's Qualifying",
-     "round": "Q1",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "M. Cheung Modesto",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "J. McKee",
-         "nat": "HKG",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        null,
-        null,
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "S. Zhang",
-         "nat": "CHN",
-         "tag": ""
-        },
-        {
-         "name": "Y. Chan",
-         "nat": "HKG",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        null,
-        null,
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "scheduled",
-     "duration": null,
-     "winner": null,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 1,
-     "date": "2026-11-18",
-     "local_time": "11/18/2026 3:07:33 PM"
-    }
-   ],
-   "por_draws": [
-    {
-     "players": [
-      {
-       "name": "Marcos Antonio Cheung Modesto",
-       "nat": "POR"
-      },
-      {
-       "name": "Jaimes McKee",
-       "nat": "honk-kong"
-      }
-     ],
-     "seed": "",
-     "matches": [
-      {
-       "round": "Q1",
-       "opponent": [
-        {
-         "name": "Shuyuan Zhang",
-         "nat": "China"
-        },
-        {
-         "name": "Yin Tung Chan",
-         "nat": "honk-kong"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "MQ",
-     "draw_label": "Masculino · Qualificação"
-    },
-    {
-     "players": [
-      {
-       "name": "Kotomi Ozawa",
-       "nat": "Japan"
-      },
-      {
-       "name": "Constanca Gorito",
-       "nat": "POR"
-      }
-     ],
-     "seed": "6",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Lok Yin Jong",
-         "nat": "honk-kong"
-        },
-        {
-         "name": "Nthabeleng Mokalodise",
-         "nat": "Flag-South-Africa-300x200"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "WD",
-     "draw_label": "Feminino · Quadro principal"
-    },
-    {
-     "players": [
-      {
-       "name": "Lucia Perez Parra",
-       "nat": "Spain"
-      },
-      {
-       "name": "Clarinha Santos",
-       "nat": "POR"
-      }
-     ],
-     "seed": "2",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Bye",
-         "nat": ""
-        },
-        {
-         "name": "Bye",
-         "nat": ""
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Oitavos",
-       "opponent": [],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "WD",
-     "draw_label": "Feminino · Quadro principal"
-    }
-   ],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-M-v5.pdf",
-     "updated": "12/11/2026 h 20:45 pm",
-     "n_teams": 52
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-W-v3.pdf",
-     "updated": "14/11/2026 h 18:25 pm",
-     "n_teams": 29
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-MD.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-MQ.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-WD.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4605",
-    "day": 1,
-    "totalday": 5
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed",
-   "ms_draws": {
-    "MD": 28,
-    "MQ": 24,
-    "WD": 29
-   },
-   "matchscorer_id": "FIP-2026-4605"
   },
   {
    "name": "FIP SILVER MCV PADELNESS",
@@ -1219,72 +1243,6 @@
     "WD": 18
    },
    "matchscorer_id": "FIP-2026-4710"
-  },
-  {
-   "name": "FIP BRONZE PAYPAK KARACHI II",
-   "url": "https://www.padelfip.com/events/fip-bronze-paypak-karachi-ii-2026/",
-   "slug": "fip-bronze-paypak-karachi-ii-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Karachi - Pakistan",
-   "start": "2026-11-20",
-   "end": "2026-11-22",
-   "status": "registration_closed",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 1,
-     "mark": "",
-     "players": [
-      {
-       "name": "Gustavo Nunes",
-       "nat": "POR",
-       "points": 419
-      },
-      {
-       "name": "Anton Sans",
-       "nat": "ESP",
-       "points": 529
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M",
-     "draw_status": "in_draw",
-     "draw_type": "MD"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-M-v5.pdf",
-     "updated": "16/11/2026 h 12:55 pm",
-     "n_teams": 30
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-W-v4.pdf",
-     "updated": "14/11/2026 h 12:10 pm",
-     "n_teams": 12
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-MD.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-WD.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4717",
-    "day": 1,
-    "totalday": 3
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed",
-   "ms_draws": {
-    "MD": 30,
-    "WD": 12
-   },
-   "matchscorer_id": "FIP-2026-4717"
   },
   {
    "name": "FIP BRONZE S2 ACCRA",
@@ -1372,7 +1330,7 @@
      ],
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/18/2026 7:07:54 AM"
+     "local_time": "11/18/2026 12:07:46 PM"
     }
    ],
    "por_draws": [],
@@ -1432,9 +1390,84 @@
    "draw_pdfs": {
     "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-CHILE-IX_-DRAW-MD.pdf"
    },
-   "oop": null,
+   "oop": {
+    "year": "2026",
+    "id": "4502",
+    "day": 1,
+    "totalday": 3
+   },
    "warnings": [],
-   "registration_text": "Registration Closed"
+   "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 24
+   },
+   "matchscorer_id": "FIP-2026-4502"
+  },
+  {
+   "name": "FIP BRONZE PAYPAK KARACHI II",
+   "url": "https://www.padelfip.com/events/fip-bronze-paypak-karachi-ii-2026/",
+   "slug": "fip-bronze-paypak-karachi-ii-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Karachi - Pakistan",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 1,
+     "mark": "",
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR",
+       "points": 419
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "ESP",
+       "points": 529
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MD"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-M-v5.pdf",
+     "updated": "16/11/2026 h 12:55 pm",
+     "n_teams": 30
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-W-v4.pdf",
+     "updated": "14/11/2026 h 12:10 pm",
+     "n_teams": 12
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-MD.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-WD.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4717",
+    "day": 1,
+    "totalday": 3
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 30,
+    "WD": 12
+   },
+   "matchscorer_id": "FIP-2026-4717"
   },
   {
    "name": "MEXICO MAJOR",
@@ -1552,12 +1585,12 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-M-v8.pdf",
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-M-v9.pdf",
      "updated": "17/11/2026 h 11:40 pm",
      "n_teams": 76
     },
     "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-W-v8.pdf",
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-W-v9.pdf",
      "updated": "16/11/2026 h 04:40 pm pm",
      "n_teams": 53
     }
@@ -1620,7 +1653,7 @@
     },
     {
      "section": "waiting",
-     "pos": 13,
+     "pos": 12,
      "mark": "",
      "players": [
       {
@@ -1643,9 +1676,9 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v3.pdf",
-     "updated": "17/11/2026 h 10:00 am",
-     "n_teams": 83
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v4.pdf",
+     "updated": "18/11/2026 h 9:30 am",
+     "n_teams": 82
     },
     "W": {
      "pdf": null
