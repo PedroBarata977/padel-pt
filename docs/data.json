@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T22:08:18+00:00",
+ "generated_at": "2026-11-18T03:35:08+00:00",
  "fip_generated_at": "2026-11-17T22:06:32+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 5.5,
   "errors": []
  },
  "events": [
@@ -70,7 +70,7 @@
    "location": "Hong Kong - Hong Kong",
    "start": "2026-11-18",
    "end": "2026-11-22",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [
     {
      "section": "qualy",
@@ -199,7 +199,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/18/2026 6:07:04 AM"
+     "local_time": "11/18/2026 11:33:36 AM"
     }
    ],
    "por_draws": [],
@@ -244,7 +244,7 @@
    "location": "Skurup - Sweden",
    "start": "2026-11-18",
    "end": "2026-11-21",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [
     {
      "section": "main",
@@ -373,7 +373,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/17/2026 11:07:20 PM"
+     "local_time": "11/18/2026 4:34:01 AM"
     },
     {
      "match_id": "MD030",
@@ -434,7 +434,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/17/2026 11:07:20 PM"
+     "local_time": "11/18/2026 4:34:01 AM"
     }
    ],
    "por_draws": [],
@@ -479,7 +479,7 @@
    "location": "Rochefort - Belgium",
    "start": "2026-11-18",
    "end": "2026-11-22",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [
     {
      "section": "main",
@@ -608,7 +608,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/17/2026 11:07:35 PM"
+     "local_time": "11/18/2026 4:34:12 AM"
     }
    ],
    "por_draws": [],
@@ -649,7 +649,7 @@
    "location": "Iurreta - Spain",
    "start": "2026-11-18",
    "end": "2026-11-22",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [
     {
      "section": "main",
@@ -769,7 +769,7 @@
    "warnings": [],
    "registration_text": "Registration Closed",
    "ms_draws": {
-    "MD": 28,
+    "MD": 27,
     "MQ": 11,
     "WD": 18
    },
@@ -957,7 +957,7 @@
      ],
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/17/2026 10:08:17 PM"
+     "local_time": "11/18/2026 3:35:08 AM"
     }
    ],
    "por_draws": [],
