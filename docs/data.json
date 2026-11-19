@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T22:08:12+00:00",
+ "generated_at": "2026-11-19T03:07:16+00:00",
  "fip_generated_at": "2026-11-18T22:06:46+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 5.0,
   "errors": []
  },
  "events": [
@@ -199,7 +199,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/19/2026 6:07:19 AM"
+     "local_time": "11/19/2026 11:06:05 AM"
     },
     {
      "match_id": "WD019",
@@ -260,7 +260,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 6:07:23 AM"
+     "local_time": "11/19/2026 11:06:14 AM"
     }
    ],
    "por_draws": [
@@ -552,7 +552,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/18/2026 11:07:15 PM"
+     "local_time": "11/19/2026 4:06:23 AM"
     },
     {
      "match_id": "MD030",
@@ -613,7 +613,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/18/2026 11:07:15 PM"
+     "local_time": "11/19/2026 4:06:23 AM"
     }
    ],
    "por_draws": [
@@ -913,7 +913,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/18/2026 11:07:36 PM"
+     "local_time": "11/19/2026 4:06:26 AM"
     },
     {
      "match_id": "MD027",
@@ -974,7 +974,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/18/2026 11:07:37 PM"
+     "local_time": "11/19/2026 4:06:31 AM"
     }
    ],
    "por_draws": [
@@ -1269,7 +1269,7 @@
    "location": "Napoli - Italy",
    "start": "2026-11-19",
    "end": "2026-11-22",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [],
    "por_matches": [],
    "por_draws": [],
@@ -1496,7 +1496,7 @@
      ],
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/18/2026 10:08:12 PM"
+     "local_time": "11/19/2026 3:07:15 AM"
     }
    ],
    "por_draws": [],
