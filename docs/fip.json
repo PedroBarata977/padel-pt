@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-19T17:06:50+00:00",
+ "generated_at": "2026-11-19T22:06:53+00:00",
  "stats": {
-  "requests": 88,
+  "requests": 87,
   "blocked_403": 0,
   "events": 15,
   "errors": []
@@ -42,389 +42,6 @@
     "id": "4715",
     "day": 5,
     "totalday": 7
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
-   "name": "FIP BRONZE ROCHEFORT",
-   "url": "https://www.padelfip.com/events/fip-bronze-rochefort-2026/",
-   "slug": "fip-bronze-rochefort-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Rochefort - Belgium",
-   "start": "2026-11-18",
-   "end": "2026-11-22",
-   "status": "live",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 5,
-     "mark": "",
-     "players": [
-      {
-       "name": "Diogo Jesus",
-       "nat": "POR",
-       "points": 243
-      },
-      {
-       "name": "Menno Nolten",
-       "nat": "NED",
-       "points": 216
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 6,
-     "mark": "",
-     "players": [
-      {
-       "name": "Henrique Barbosa",
-       "nat": "POR",
-       "points": 184
-      },
-      {
-       "name": "Marco Remolina Pablo",
-       "nat": "ESP",
-       "points": 183
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "qualy",
-     "pos": 6,
-     "mark": "",
-     "players": [
-      {
-       "name": "Daan Veldhuis",
-       "nat": "NED",
-       "points": 14
-      },
-      {
-       "name": "Tomas Nunes",
-       "nat": "POR",
-       "points": 21
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [
-    {
-     "players": [
-      {
-       "name": "Diogo Jesus",
-       "nat": "POR"
-      },
-      {
-       "name": "Menno Nolten",
-       "nat": "TheNetherlands"
-      }
-     ],
-     "seed": "5",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Maxime De Roose",
-         "nat": "Belgium"
-        },
-        {
-         "name": "Maxim De Peuter",
-         "nat": "Belgium"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "MD",
-     "draw_label": "Masculino · Quadro principal"
-    },
-    {
-     "players": [
-      {
-       "name": "Daan Veldhuis",
-       "nat": "TheNetherlands"
-      },
-      {
-       "name": "Tomas Nunes",
-       "nat": "POR"
-      }
-     ],
-     "seed": "6",
-     "matches": [
-      {
-       "round": "Q1",
-       "opponent": [
-        {
-         "name": "Bye",
-         "nat": ""
-        },
-        {
-         "name": "Bye",
-         "nat": ""
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": true,
-       "lost": false
-      }
-     ],
-     "status": "venceu ronda",
-     "draw": "MQ",
-     "draw_label": "Masculino · Qualificação"
-    },
-    {
-     "players": [
-      {
-       "name": "Tomas Dos Santos Nunes",
-       "nat": "POR"
-      },
-      {
-       "name": "Daan Veldhuis",
-       "nat": "TheNetherlands"
-      }
-     ],
-     "seed": "6",
-     "matches": [
-      {
-       "round": "Q2",
-       "opponent": [
-        {
-         "name": "Aaron Rodriguez Luna",
-         "nat": "Belgium"
-        },
-        {
-         "name": "Clement Monot",
-         "nat": "France"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [
-        "6",
-        "6"
-       ],
-       "opponent_sets": [
-        "1",
-        "4"
-       ],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Q3",
-       "opponent": [
-        {
-         "name": "Gilles Stas",
-         "nat": "Belgium"
-        },
-        {
-         "name": "Lenno Degeling",
-         "nat": "Belgium"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "MQ",
-     "draw_label": "Masculino · Qualificação"
-    }
-   ],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Rochefort-M-v6.pdf",
-     "updated": "14/11/2026 h 10:15 am",
-     "n_teams": 53
-    },
-    "W": {
-     "pdf": null
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MD-v4.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MQ-v3.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "2410",
-    "day": 2,
-    "totalday": 5
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
-   "name": "FIP BRONZE PADELKO",
-   "url": "https://www.padelfip.com/events/fip-bronze-padelko-2026/",
-   "slug": "fip-bronze-padelko-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Iurreta - Spain",
-   "start": "2026-11-18",
-   "end": "2026-11-22",
-   "status": "live",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 3,
-     "mark": "",
-     "players": [
-      {
-       "name": "Pau Miñano Ortinez",
-       "nat": "ESP",
-       "points": 370
-      },
-      {
-       "name": "Pedro Perry",
-       "nat": "POR",
-       "points": 334
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 5,
-     "mark": "",
-     "players": [
-      {
-       "name": "Maria Garin",
-       "nat": "POR",
-       "points": 244
-      },
-      {
-       "name": "Alexandra Silva",
-       "nat": "POR",
-       "points": 274
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [
-    {
-     "players": [
-      {
-       "name": "Pau Miñano Ortinez",
-       "nat": "Spain"
-      },
-      {
-       "name": "Pedro Perry",
-       "nat": "POR"
-      }
-     ],
-     "seed": "3",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [],
-       "opponent_seed": "Q/LL",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "MD",
-     "draw_label": "Masculino · Quadro principal"
-    },
-    {
-     "players": [
-      {
-       "name": "Maria Garin",
-       "nat": "POR"
-      },
-      {
-       "name": "Alexandra Silva",
-       "nat": "POR"
-      }
-     ],
-     "seed": "5",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Bye",
-         "nat": ""
-        },
-        {
-         "name": "Bye",
-         "nat": ""
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Oitavos",
-       "opponent": [],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "WD",
-     "draw_label": "Feminino · Quadro principal"
-    }
-   ],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/03/Entry-list-Fip-Bronze-Iurreta-Padelko-M-V3.pdf",
-     "updated": "14/11/2026 h 01:10 pm",
-     "n_teams": 48
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/03/Entry-list-Fip-Bronze-Iurreta-Padelko-W-V4.pdf",
-     "updated": "16/11/2026 h 07:55 am",
-     "n_teams": 26
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MD-v3.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MQ-v2.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-WD-v2.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4613",
-    "day": 2,
-    "totalday": 5
    },
    "warnings": [],
    "registration_text": "Registration Closed"
@@ -903,15 +520,407 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MD-v3.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MD-v4.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MQ-v2.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-WD.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-WD-v2.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4712",
     "day": 2,
     "totalday": 4
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE ROCHEFORT",
+   "url": "https://www.padelfip.com/events/fip-bronze-rochefort-2026/",
+   "slug": "fip-bronze-rochefort-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Rochefort - Belgium",
+   "start": "2026-11-18",
+   "end": "2026-11-22",
+   "status": "live",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Diogo Jesus",
+       "nat": "POR",
+       "points": 243
+      },
+      {
+       "name": "Menno Nolten",
+       "nat": "NED",
+       "points": 216
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 6,
+     "mark": "",
+     "players": [
+      {
+       "name": "Henrique Barbosa",
+       "nat": "POR",
+       "points": 184
+      },
+      {
+       "name": "Marco Remolina Pablo",
+       "nat": "ESP",
+       "points": 183
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "qualy",
+     "pos": 6,
+     "mark": "",
+     "players": [
+      {
+       "name": "Daan Veldhuis",
+       "nat": "NED",
+       "points": 14
+      },
+      {
+       "name": "Tomas Nunes",
+       "nat": "POR",
+       "points": 21
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Diogo Jesus",
+       "nat": "POR"
+      },
+      {
+       "name": "Menno Nolten",
+       "nat": "TheNetherlands"
+      }
+     ],
+     "seed": "5",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Maxime De Roose",
+         "nat": "Belgium"
+        },
+        {
+         "name": "Maxim De Peuter",
+         "nat": "Belgium"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    },
+    {
+     "players": [
+      {
+       "name": "Daan Veldhuis",
+       "nat": "TheNetherlands"
+      },
+      {
+       "name": "Tomas Nunes",
+       "nat": "POR"
+      }
+     ],
+     "seed": "6",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Bye",
+         "nat": ""
+        },
+        {
+         "name": "Bye",
+         "nat": ""
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": true,
+       "lost": false
+      }
+     ],
+     "status": "venceu ronda",
+     "draw": "MQ",
+     "draw_label": "Masculino · Qualificação"
+    },
+    {
+     "players": [
+      {
+       "name": "Tomas Dos Santos Nunes",
+       "nat": "POR"
+      },
+      {
+       "name": "Daan Veldhuis",
+       "nat": "TheNetherlands"
+      }
+     ],
+     "seed": "6",
+     "matches": [
+      {
+       "round": "Q2",
+       "opponent": [
+        {
+         "name": "Aaron Rodriguez Luna",
+         "nat": "Belgium"
+        },
+        {
+         "name": "Clement Monot",
+         "nat": "France"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "1",
+        "4"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Q3",
+       "opponent": [
+        {
+         "name": "Gilles Stas",
+         "nat": "Belgium"
+        },
+        {
+         "name": "Lenno Degeling",
+         "nat": "Belgium"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MQ",
+     "draw_label": "Masculino · Qualificação"
+    }
+   ],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Rochefort-M-v6.pdf",
+     "updated": "14/11/2026 h 10:15 am",
+     "n_teams": 53
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MD-v4.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MQ-v3.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "2410",
+    "day": 2,
+    "totalday": 5
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE PADELKO",
+   "url": "https://www.padelfip.com/events/fip-bronze-padelko-2026/",
+   "slug": "fip-bronze-padelko-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Iurreta - Spain",
+   "start": "2026-11-18",
+   "end": "2026-11-22",
+   "status": "live",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 3,
+     "mark": "",
+     "players": [
+      {
+       "name": "Pau Miñano Ortinez",
+       "nat": "ESP",
+       "points": 370
+      },
+      {
+       "name": "Pedro Perry",
+       "nat": "POR",
+       "points": 334
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Maria Garin",
+       "nat": "POR",
+       "points": 244
+      },
+      {
+       "name": "Alexandra Silva",
+       "nat": "POR",
+       "points": 274
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Pau Miñano Ortinez",
+       "nat": "Spain"
+      },
+      {
+       "name": "Pedro Perry",
+       "nat": "POR"
+      }
+     ],
+     "seed": "3",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Arturo Cejas",
+         "nat": "Spain"
+        },
+        {
+         "name": "Alvaro Jurado Cerezo",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "LL",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    },
+    {
+     "players": [
+      {
+       "name": "Maria Garin",
+       "nat": "POR"
+      },
+      {
+       "name": "Alexandra Silva",
+       "nat": "POR"
+      }
+     ],
+     "seed": "5",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Bye",
+         "nat": ""
+        },
+        {
+         "name": "Bye",
+         "nat": ""
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "WD",
+     "draw_label": "Feminino · Quadro principal"
+    }
+   ],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/03/Entry-list-Fip-Bronze-Iurreta-Padelko-M-V3.pdf",
+     "updated": "14/11/2026 h 01:10 pm",
+     "n_teams": 48
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/03/Entry-list-Fip-Bronze-Iurreta-Padelko-W-V4.pdf",
+     "updated": "16/11/2026 h 07:55 am",
+     "n_teams": 26
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MD-v4.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MQ-v3.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-WD-v2.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4613",
+    "day": 2,
+    "totalday": 5
    },
    "warnings": [],
    "registration_text": "Registration Closed"
@@ -942,8 +951,8 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-MD-v2.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-MQ.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-MD-v3.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-MQ-v2.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-WD.pdf"
    },
    "oop": {
@@ -1160,26 +1169,6 @@
      "gender": "M"
     },
     {
-     "section": "qualy",
-     "pos": 15,
-     "mark": "",
-     "players": [
-      {
-       "name": "Gustavo Nunes",
-       "nat": "POR",
-       "points": 429
-      },
-      {
-       "name": "Anton Sans",
-       "nat": "ESP",
-       "points": 481
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
      "section": "main",
      "pos": 5,
      "mark": "",
@@ -1224,9 +1213,9 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-M-v10-1.pdf",
-     "updated": "19/11/2026 h 12:55 pm",
-     "n_teams": 75
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-M-v11.pdf",
+     "updated": "19/11/2026 h 07:10  pm",
+     "n_teams": 73
     },
     "W": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-W-v10-1.pdf",
