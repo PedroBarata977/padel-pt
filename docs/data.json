@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T07:08:04+00:00",
+ "generated_at": "2026-11-19T11:30:24+00:00",
  "fip_generated_at": "2026-11-19T07:06:46+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 4.4,
   "errors": []
  },
  "events": [
@@ -199,7 +199,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/19/2026 3:07:20 PM"
+     "local_time": "11/19/2026 7:29:12 PM"
     },
     {
      "match_id": "WD019",
@@ -260,7 +260,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 3:07:21 PM"
+     "local_time": "11/19/2026 7:29:14 PM"
     }
    ],
    "por_draws": [
@@ -408,7 +408,7 @@
    "warnings": [],
    "registration_text": "Registration Closed",
    "ms_draws": {
-    "MD": 28,
+    "MD": 32,
     "MQ": 24,
     "WD": 29
    },
@@ -503,20 +503,20 @@
       {
        "players": [
         {
-         "name": "A. Calvo Perez",
-         "nat": "ESP",
+         "name": "J. Caiano",
+         "nat": "POR",
          "tag": ""
         },
         {
-         "name": "J. Caiano",
-         "nat": "POR",
+         "name": "A. Calvo Perez",
+         "nat": "ESP",
          "tag": "4"
         }
        ],
        "seed": "4",
        "sets": [
-        null,
-        null,
+        "6",
+        "6",
         null
        ],
        "points": null,
@@ -525,34 +525,34 @@
       {
        "players": [
         {
-         "name": "E. Badersten",
-         "nat": "SWE",
+         "name": "A. Diaz Ponce",
+         "nat": "ESP",
          "tag": ""
         },
         {
-         "name": "A. Diaz Ponce",
-         "nat": "ESP",
+         "name": "E. Badersten",
+         "nat": "SWE",
          "tag": ""
         }
        ],
        "seed": "",
        "sets": [
-        null,
-        null,
+        "3",
+        "4",
         null
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 0,
      "tbd": false,
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/19/2026 8:07:05 AM"
+     "local_time": "11/19/2026 12:28:51 PM"
     },
     {
      "match_id": "MD030",
@@ -613,7 +613,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/19/2026 8:07:05 AM"
+     "local_time": "11/19/2026 12:28:51 PM"
     }
    ],
    "por_draws": [
@@ -913,7 +913,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/19/2026 8:07:32 AM"
+     "local_time": "11/19/2026 12:29:25 PM"
     },
     {
      "match_id": "MD027",
@@ -974,7 +974,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 8:07:33 AM"
+     "local_time": "11/19/2026 12:29:36 PM"
     }
    ],
    "por_draws": [
@@ -1092,7 +1092,7 @@
    "warnings": [],
    "registration_text": "Registration Closed",
    "ms_draws": {
-    "MD": 27,
+    "MD": 24,
     "MQ": 26
    },
    "matchscorer_id": "FIP-2026-2410"
@@ -1496,7 +1496,7 @@
      ],
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/19/2026 7:07:55 AM"
+     "local_time": "11/19/2026 11:30:23 AM"
     }
    ],
    "por_draws": [],
