@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T22:06:46+00:00",
+ "generated_at": "2026-11-19T07:06:46+00:00",
  "stats": {
   "requests": 86,
   "blocked_403": 0,
@@ -33,14 +33,14 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v4.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v5.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MQ-v3.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v3.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4715",
-    "day": 4,
+    "day": 5,
     "totalday": 7
    },
    "warnings": [],
@@ -258,7 +258,7 @@
    "oop": {
     "year": "2026",
     "id": "4605",
-    "day": 1,
+    "day": 2,
     "totalday": 5
    },
    "warnings": [],
@@ -485,7 +485,7 @@
    "oop": {
     "year": "2026",
     "id": "4712",
-    "day": 1,
+    "day": 2,
     "totalday": 4
    },
    "warnings": [],
@@ -673,7 +673,7 @@
    "oop": {
     "year": "2026",
     "id": "2410",
-    "day": 1,
+    "day": 2,
     "totalday": 5
    },
    "warnings": [],
@@ -826,7 +826,7 @@
    "oop": {
     "year": "2026",
     "id": "4613",
-    "day": 1,
+    "day": 2,
     "totalday": 5
    },
    "warnings": [],
@@ -841,7 +841,7 @@
    "location": "Napoli - Italy",
    "start": "2026-11-19",
    "end": "2026-11-22",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [],
    "por_matches": [],
    "por_draws": [],
