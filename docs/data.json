@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T03:07:16+00:00",
- "fip_generated_at": "2026-11-18T22:06:46+00:00",
+ "generated_at": "2026-11-19T07:08:04+00:00",
+ "fip_generated_at": "2026-11-19T07:06:46+00:00",
  "target": "POR",
  "stats": {
   "requests": 70,
@@ -12,7 +12,7 @@
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 5.0,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -42,14 +42,14 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v4.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v5.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MQ-v3.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v3.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4715",
-    "day": 4,
+    "day": 5,
     "totalday": 7
    },
    "warnings": [],
@@ -199,7 +199,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/19/2026 11:06:05 AM"
+     "local_time": "11/19/2026 3:07:20 PM"
     },
     {
      "match_id": "WD019",
@@ -260,7 +260,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 11:06:14 AM"
+     "local_time": "11/19/2026 3:07:21 PM"
     }
    ],
    "por_draws": [
@@ -402,7 +402,7 @@
    "oop": {
     "year": "2026",
     "id": "4605",
-    "day": 1,
+    "day": 2,
     "totalday": 5
    },
    "warnings": [],
@@ -552,7 +552,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/19/2026 4:06:23 AM"
+     "local_time": "11/19/2026 8:07:05 AM"
     },
     {
      "match_id": "MD030",
@@ -613,7 +613,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/19/2026 4:06:23 AM"
+     "local_time": "11/19/2026 8:07:05 AM"
     }
    ],
    "por_draws": [
@@ -764,7 +764,7 @@
    "oop": {
     "year": "2026",
     "id": "4712",
-    "day": 1,
+    "day": 2,
     "totalday": 4
    },
    "warnings": [],
@@ -913,7 +913,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/19/2026 4:06:26 AM"
+     "local_time": "11/19/2026 8:07:32 AM"
     },
     {
      "match_id": "MD027",
@@ -974,7 +974,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 4:06:31 AM"
+     "local_time": "11/19/2026 8:07:33 AM"
     }
    ],
    "por_draws": [
@@ -1086,7 +1086,7 @@
    "oop": {
     "year": "2026",
     "id": "2410",
-    "day": 1,
+    "day": 2,
     "totalday": 5
    },
    "warnings": [],
@@ -1248,7 +1248,7 @@
    "oop": {
     "year": "2026",
     "id": "4613",
-    "day": 1,
+    "day": 2,
     "totalday": 5
    },
    "warnings": [],
@@ -1496,7 +1496,7 @@
      ],
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/19/2026 3:07:15 AM"
+     "local_time": "11/19/2026 7:07:55 AM"
     }
    ],
    "por_draws": [],
