@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T17:08:44+00:00",
+ "generated_at": "2026-11-19T20:24:08+00:00",
  "fip_generated_at": "2026-11-19T17:06:50+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 3.3,
   "errors": []
  },
  "events": [
@@ -198,7 +198,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/19/2026 6:07:44 PM"
+     "local_time": "11/19/2026 9:23:15 PM"
     },
     {
      "match_id": "MQ010",
@@ -259,7 +259,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/19/2026 6:07:44 PM"
+     "local_time": "11/19/2026 9:23:15 PM"
     },
     {
      "match_id": "MD027",
@@ -320,7 +320,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 6:07:45 PM"
+     "local_time": "11/19/2026 9:23:16 PM"
     }
    ],
    "por_draws": [
@@ -543,15 +543,26 @@
    ],
    "por_matches": [
     {
-     "match_id": null,
+     "match_id": "MD023",
      "court": "Central",
      "slot": "Followed by",
      "gender": "Men",
      "round": "Round of 32",
      "teams": [
       {
-       "players": [],
-       "seed": "",
+       "players": [
+        {
+         "name": "A. Cejas",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "A. Jurado Cerezo",
+         "nat": "ESP",
+         "tag": "LL"
+        }
+       ],
+       "seed": "LL",
        "sets": [
         null,
         null,
@@ -586,14 +597,11 @@
      "status": "scheduled",
      "duration": null,
      "winner": null,
-     "tbd": true,
-     "tbd_text": [
-      "Qualifier/LL - - -",
-      "P. Miñano Ortinez P. Perry (3) - - -"
-     ],
+     "tbd": false,
+     "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 6:07:24 PM"
+     "local_time": "11/19/2026 9:23:26 PM"
     }
    ],
    "por_draws": [
@@ -696,7 +704,7 @@
    "warnings": [],
    "registration_text": "Registration Closed",
    "ms_draws": {
-    "MD": 26,
+    "MD": 32,
     "MQ": 20,
     "WD": 25
    },
@@ -840,7 +848,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/20/2026 1:08:12 AM"
+     "local_time": "11/20/2026 4:23:32 AM"
     },
     {
      "match_id": "WD019",
@@ -901,7 +909,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 1:08:08 AM"
+     "local_time": "11/20/2026 4:23:35 AM"
     },
     {
      "match_id": null,
@@ -954,7 +962,7 @@
      ],
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/20/2026 1:08:15 AM"
+     "local_time": "11/20/2026 4:23:36 AM"
     }
    ],
    "por_draws": [
@@ -1246,7 +1254,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/19/2026 6:08:01 PM"
+     "local_time": "11/19/2026 9:23:39 PM"
     },
     {
      "match_id": "MD030",
@@ -1307,7 +1315,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/19/2026 6:08:01 PM"
+     "local_time": "11/19/2026 9:23:39 PM"
     },
     {
      "match_id": "WD009",
@@ -1368,7 +1376,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 6:08:21 PM"
+     "local_time": "11/19/2026 9:23:37 PM"
     },
     {
      "match_id": "MD015",
@@ -1429,7 +1437,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 6:08:21 PM"
+     "local_time": "11/19/2026 9:23:37 PM"
     },
     {
      "match_id": "MD012",
@@ -1490,7 +1498,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 6:08:21 PM"
+     "local_time": "11/19/2026 9:23:37 PM"
     }
    ],
    "por_draws": [
@@ -1734,7 +1742,7 @@
    "warnings": [],
    "registration_text": "Registration Closed",
    "ms_draws": {
-    "MD": 27,
+    "MD": 32,
     "MQ": 11,
     "WD": 18
    },
@@ -1826,7 +1834,7 @@
      ],
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/19/2026 5:08:34 PM"
+     "local_time": "11/19/2026 8:23:56 PM"
     }
    ],
    "por_draws": [],
