@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T22:08:27+00:00",
+ "generated_at": "2026-11-20T02:13:10+00:00",
  "fip_generated_at": "2026-11-19T22:06:53+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 4.1,
   "errors": []
  },
  "events": [
@@ -199,7 +199,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/20/2026 6:07:36 AM"
+     "local_time": "11/20/2026 10:12:19 AM"
     },
     {
      "match_id": "WD019",
@@ -260,7 +260,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 6:07:38 AM"
+     "local_time": "11/20/2026 10:12:21 AM"
     },
     {
      "match_id": null,
@@ -313,7 +313,7 @@
      ],
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/20/2026 6:07:39 AM"
+     "local_time": "11/20/2026 10:12:22 AM"
     }
    ],
    "por_draws": [
@@ -605,7 +605,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/19/2026 11:07:44 PM"
+     "local_time": "11/20/2026 3:12:28 AM"
     },
     {
      "match_id": "MD030",
@@ -666,7 +666,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/19/2026 11:07:44 PM"
+     "local_time": "11/20/2026 3:12:28 AM"
     },
     {
      "match_id": "WD009",
@@ -727,7 +727,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 11:07:45 PM"
+     "local_time": "11/20/2026 3:12:28 AM"
     },
     {
      "match_id": "MD015",
@@ -788,7 +788,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 11:07:45 PM"
+     "local_time": "11/20/2026 3:12:28 AM"
     },
     {
      "match_id": "MD012",
@@ -849,7 +849,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 11:07:45 PM"
+     "local_time": "11/20/2026 3:12:28 AM"
     }
    ],
    "por_draws": [
@@ -1213,7 +1213,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/19/2026 11:07:52 PM"
+     "local_time": "11/20/2026 3:12:36 AM"
     },
     {
      "match_id": "MQ010",
@@ -1274,7 +1274,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/19/2026 11:07:52 PM"
+     "local_time": "11/20/2026 3:12:36 AM"
     },
     {
      "match_id": "MD024",
@@ -1335,7 +1335,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 11:07:53 PM"
+     "local_time": "11/20/2026 3:12:30 AM"
     },
     {
      "match_id": "MD027",
@@ -1396,7 +1396,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 11:07:53 PM"
+     "local_time": "11/20/2026 3:12:30 AM"
     }
    ],
    "por_draws": [
@@ -1556,7 +1556,7 @@
    "warnings": [],
    "registration_text": "Registration Closed",
    "ms_draws": {
-    "MD": 31,
+    "MD": 32,
     "MQ": 26
    },
    "matchscorer_id": "FIP-2026-2410"
@@ -1677,7 +1677,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/19/2026 11:07:44 PM"
+     "local_time": "11/20/2026 3:12:31 AM"
     }
    ],
    "por_draws": [
@@ -1849,7 +1849,7 @@
    "location": "Accra - Ghana",
    "start": "2026-11-20",
    "end": "2026-11-22",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [
     {
      "section": "main",
@@ -1926,7 +1926,7 @@
      ],
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/19/2026 10:08:15 PM"
+     "local_time": "11/20/2026 2:12:58 AM"
     }
    ],
    "por_draws": [],
@@ -1969,7 +1969,7 @@
    "location": "San Antonio - Chile",
    "start": "2026-11-20",
    "end": "2026-11-22",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [],
    "por_matches": [],
    "por_draws": [],
@@ -2008,7 +2008,7 @@
    "location": "Karachi - Pakistan",
    "start": "2026-11-20",
    "end": "2026-11-22",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [
     {
      "section": "main",
