@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20T11:15:08+00:00",
- "fip_generated_at": "2026-11-20T07:06:53+00:00",
+ "generated_at": "2026-11-20T12:09:37+00:00",
+ "fip_generated_at": "2026-11-20T12:06:55+00:00",
  "target": "POR",
  "stats": {
   "requests": 70,
@@ -12,7 +12,7 @@
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 4.1,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -199,7 +199,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/20/2026 7:13:55 PM"
+     "local_time": "11/20/2026 8:06:56 PM"
     },
     {
      "match_id": "WD019",
@@ -260,7 +260,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 7:14:03 PM"
+     "local_time": "11/20/2026 8:07:05 PM"
     },
     {
      "match_id": null,
@@ -313,7 +313,7 @@
      ],
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/20/2026 7:14:19 PM"
+     "local_time": "11/20/2026 8:07:01 PM"
     }
    ],
    "por_draws": [
@@ -605,7 +605,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 12:14:31 PM"
+     "local_time": "11/20/2026 1:07:27 PM"
     },
     {
      "match_id": "MD030",
@@ -666,7 +666,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 12:14:31 PM"
+     "local_time": "11/20/2026 1:07:27 PM"
     },
     {
      "match_id": "WD009",
@@ -727,7 +727,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 12:14:04 PM"
+     "local_time": "11/20/2026 1:08:02 PM"
     },
     {
      "match_id": "MD015",
@@ -788,7 +788,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 12:14:04 PM"
+     "local_time": "11/20/2026 1:08:02 PM"
     },
     {
      "match_id": "MD012",
@@ -849,7 +849,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 12:14:04 PM"
+     "local_time": "11/20/2026 1:08:02 PM"
     }
    ],
    "por_draws": [
@@ -997,12 +997,30 @@
        "opponent_sets": [],
        "won": true,
        "lost": false
+      }
+     ],
+     "status": "venceu ronda",
+     "draw": "WD",
+     "draw_label": "Feminino · Quadro principal"
+    },
+    {
+     "players": [
+      {
+       "name": "Francesca Ligotti",
+       "nat": "Italy"
       },
+      {
+       "name": "Bruna Albuquerque Melo",
+       "nat": "POR"
+      }
+     ],
+     "seed": "5",
+     "matches": [
       {
        "round": "Oitavos",
        "opponent": [
         {
-         "name": "Selma Sofia Killman",
+         "name": "Selma Killman",
          "nat": "Sweden"
         },
         {
@@ -1011,6 +1029,30 @@
         }
        ],
        "opponent_seed": "",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "0",
+        "4"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Quartos",
+       "opponent": [
+        {
+         "name": "Amanda Lopez Moral",
+         "nat": "Spain"
+        },
+        {
+         "name": "Camila Fassio Goyeneche",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "1",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -1213,7 +1255,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 12:14:37 PM"
+     "local_time": "11/20/2026 1:08:22 PM"
     },
     {
      "match_id": "MQ010",
@@ -1274,7 +1316,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 12:14:37 PM"
+     "local_time": "11/20/2026 1:08:22 PM"
     },
     {
      "match_id": "MD024",
@@ -1335,7 +1377,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 12:14:38 PM"
+     "local_time": "11/20/2026 1:08:23 PM"
     },
     {
      "match_id": "MD027",
@@ -1396,7 +1438,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 12:14:38 PM"
+     "local_time": "11/20/2026 1:08:23 PM"
     }
    ],
    "por_draws": [
@@ -1411,7 +1453,7 @@
        "nat": "TheNetherlands"
       }
      ],
-     "seed": "Q/LL",
+     "seed": "Q",
      "matches": [
       {
        "round": "1/16",
@@ -1588,13 +1630,13 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MD-v4.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MQ-v3.pdf"
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MD-v6.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MQ-v4.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "2410",
-    "day": 2,
+    "day": 3,
     "totalday": 5
    },
    "warnings": [],
@@ -1721,7 +1763,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 12:14:20 PM"
+     "local_time": "11/20/2026 1:08:03 PM"
     }
    ],
    "por_draws": [
@@ -2121,7 +2163,7 @@
      ],
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/20/2026 11:14:57 AM"
+     "local_time": "11/20/2026 12:09:08 PM"
     }
    ],
    "por_draws": [
