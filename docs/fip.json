@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T07:06:53+00:00",
+ "generated_at": "2026-11-20T12:06:55+00:00",
  "stats": {
   "requests": 90,
   "blocked_403": 0,
@@ -482,12 +482,30 @@
        "opponent_sets": [],
        "won": true,
        "lost": false
+      }
+     ],
+     "status": "venceu ronda",
+     "draw": "WD",
+     "draw_label": "Feminino · Quadro principal"
+    },
+    {
+     "players": [
+      {
+       "name": "Francesca Ligotti",
+       "nat": "Italy"
       },
+      {
+       "name": "Bruna Albuquerque Melo",
+       "nat": "POR"
+      }
+     ],
+     "seed": "5",
+     "matches": [
       {
        "round": "Oitavos",
        "opponent": [
         {
-         "name": "Selma Sofia Killman",
+         "name": "Selma Killman",
          "nat": "Sweden"
         },
         {
@@ -496,6 +514,30 @@
         }
        ],
        "opponent_seed": "",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "0",
+        "4"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Quartos",
+       "opponent": [
+        {
+         "name": "Amanda Lopez Moral",
+         "nat": "Spain"
+        },
+        {
+         "name": "Camila Fassio Goyeneche",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "1",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -618,7 +660,7 @@
        "nat": "TheNetherlands"
       }
      ],
-     "seed": "Q/LL",
+     "seed": "Q",
      "matches": [
       {
        "round": "1/16",
@@ -795,13 +837,13 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MD-v4.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MQ-v3.pdf"
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MD-v6.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MQ-v4.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "2410",
-    "day": 2,
+    "day": 3,
     "totalday": 5
    },
    "warnings": [],
