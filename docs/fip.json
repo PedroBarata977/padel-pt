@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-19T22:06:53+00:00",
+ "generated_at": "2026-11-20T07:06:53+00:00",
  "stats": {
-  "requests": 87,
+  "requests": 90,
   "blocked_403": 0,
   "events": 15,
   "errors": []
@@ -33,14 +33,14 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v5.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v6.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MQ-v3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v3.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v4.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4715",
-    "day": 5,
+    "day": 6,
     "totalday": 7
    },
    "warnings": [],
@@ -258,7 +258,7 @@
    "oop": {
     "year": "2026",
     "id": "4605",
-    "day": 2,
+    "day": 3,
     "totalday": 5
    },
    "warnings": [],
@@ -527,7 +527,7 @@
    "oop": {
     "year": "2026",
     "id": "4712",
-    "day": 2,
+    "day": 3,
     "totalday": 4
    },
    "warnings": [],
@@ -607,6 +607,42 @@
    ],
    "por_matches": [],
    "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Tomas Dos Santos Nunes",
+       "nat": "POR"
+      },
+      {
+       "name": "Daan Veldhuis",
+       "nat": "TheNetherlands"
+      }
+     ],
+     "seed": "Q/LL",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Alvaro Lopez Luque",
+         "nat": "Spain"
+        },
+        {
+         "name": "Hector Vazquez Lopez",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "4",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    },
     {
      "players": [
       {
@@ -729,13 +765,21 @@
         }
        ],
        "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
+       "sets": [
+        "6",
+        "3",
+        "6"
+       ],
+       "opponent_sets": [
+        "3",
+        "6",
+        "4"
+       ],
+       "won": true,
        "lost": false
       }
      ],
-     "status": "em prova",
+     "status": "venceu ronda",
      "draw": "MQ",
      "draw_label": "Masculino · Qualificação"
     }
@@ -919,7 +963,7 @@
    "oop": {
     "year": "2026",
     "id": "4613",
-    "day": 2,
+    "day": 3,
     "totalday": 5
    },
    "warnings": [],
@@ -958,67 +1002,8 @@
    "oop": {
     "year": "2026",
     "id": "4710",
-    "day": 1,
+    "day": 2,
     "totalday": 4
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
-   "name": "FIP BRONZE S2 ACCRA",
-   "url": "https://www.padelfip.com/events/fip-bronze-s2-accra-2026/",
-   "slug": "fip-bronze-s2-accra-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Accra - Ghana",
-   "start": "2026-11-20",
-   "end": "2026-11-22",
-   "status": "registration_closed",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 5,
-     "mark": "",
-     "players": [
-      {
-       "name": "Diogo Moreira",
-       "nat": "POR",
-       "points": 76
-      },
-      {
-       "name": "Diego Garcia Brito",
-       "nat": "ESP",
-       "points": 61
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-M-v3.pdf",
-     "updated": "10/11/2026 h 01:20 pm",
-     "n_teams": 23
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-W-V4.pdf",
-     "updated": "12/11/2026 h 11:10 am",
-     "n_teams": 14
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-MD-1.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-WD-1.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4719",
-    "day": 1,
-    "totalday": 3
    },
    "warnings": [],
    "registration_text": "Registration Closed"
@@ -1032,7 +1017,7 @@
    "location": "San Antonio - Chile",
    "start": "2026-11-20",
    "end": "2026-11-22",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [],
    "por_matches": [],
    "por_draws": [],
@@ -1067,7 +1052,7 @@
    "location": "Karachi - Pakistan",
    "start": "2026-11-20",
    "end": "2026-11-22",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [
     {
      "section": "main",
@@ -1091,7 +1076,53 @@
     }
    ],
    "por_matches": [],
-   "por_draws": [],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR"
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "Spain"
+      }
+     ],
+     "seed": "1",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Bye",
+         "nat": ""
+        },
+        {
+         "name": "Bye",
+         "nat": ""
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    }
+   ],
    "entry_lists": {
     "M": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-M-v5.pdf",
@@ -1111,6 +1142,111 @@
    "oop": {
     "year": "2026",
     "id": "4717",
+    "day": 1,
+    "totalday": 3
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed"
+  },
+  {
+   "name": "FIP BRONZE S2 ACCRA",
+   "url": "https://www.padelfip.com/events/fip-bronze-s2-accra-2026/",
+   "slug": "fip-bronze-s2-accra-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Accra - Ghana",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "status": "live",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Diogo Moreira",
+       "nat": "POR",
+       "points": 76
+      },
+      {
+       "name": "Diego Garcia Brito",
+       "nat": "ESP",
+       "points": 61
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Diogo Moreira",
+       "nat": "POR"
+      },
+      {
+       "name": "Diego Garcia Brito",
+       "nat": "Spain"
+      }
+     ],
+     "seed": "5",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Bye",
+         "nat": ""
+        },
+        {
+         "name": "Bye",
+         "nat": ""
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    }
+   ],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-M-v3.pdf",
+     "updated": "10/11/2026 h 01:20 pm",
+     "n_teams": 23
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-W-V4.pdf",
+     "updated": "12/11/2026 h 11:10 am",
+     "n_teams": 14
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-MD-1.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-WD-1.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4719",
     "day": 1,
     "totalday": 3
    },
