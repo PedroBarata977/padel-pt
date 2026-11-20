@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T17:08:34+00:00",
+ "generated_at": "2026-11-20T19:55:01+00:00",
  "fip_generated_at": "2026-11-20T17:07:03+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 2.8,
   "errors": []
  },
  "events": [
@@ -199,7 +199,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/21/2026 1:07:40 AM"
+     "local_time": "11/21/2026 3:53:55 AM"
     },
     {
      "match_id": "WD019",
@@ -260,7 +260,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 1:06:55 AM"
+     "local_time": "11/21/2026 3:53:30 AM"
     },
     {
      "match_id": "WD009",
@@ -321,7 +321,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 1:07:40 AM"
+     "local_time": "11/21/2026 3:54:08 AM"
     },
     {
      "match_id": "WD015",
@@ -382,7 +382,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 1:07:40 AM"
+     "local_time": "11/21/2026 3:54:08 AM"
     }
    ],
    "por_draws": [
@@ -707,7 +707,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 6:07:50 PM"
+     "local_time": "11/20/2026 8:54:15 PM"
     },
     {
      "match_id": "MD030",
@@ -768,7 +768,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 6:07:50 PM"
+     "local_time": "11/20/2026 8:54:15 PM"
     },
     {
      "match_id": "WD004",
@@ -792,8 +792,8 @@
        ],
        "seed": "1",
        "sets": [
-        null,
-        null,
+        "6",
+        "6",
         null
        ],
        "points": null,
@@ -814,22 +814,22 @@
        ],
        "seed": "5",
        "sets": [
-        null,
-        null,
+        "0",
+        "2",
         null
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 0,
      "tbd": false,
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 6:07:22 PM"
+     "local_time": "11/20/2026 8:54:03 PM"
     },
     {
      "match_id": "WD009",
@@ -890,7 +890,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 6:07:22 PM"
+     "local_time": "11/20/2026 8:54:03 PM"
     },
     {
      "match_id": "MD015",
@@ -951,7 +951,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 6:07:22 PM"
+     "local_time": "11/20/2026 8:54:03 PM"
     },
     {
      "match_id": "MD006",
@@ -1012,7 +1012,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 6:07:22 PM"
+     "local_time": "11/20/2026 8:54:03 PM"
     },
     {
      "match_id": "MD012",
@@ -1073,7 +1073,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 6:07:22 PM"
+     "local_time": "11/20/2026 8:54:03 PM"
     }
    ],
    "por_draws": [
@@ -1509,7 +1509,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 6:07:58 PM"
+     "local_time": "11/20/2026 8:54:05 PM"
     },
     {
      "match_id": "MQ010",
@@ -1570,7 +1570,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 6:07:58 PM"
+     "local_time": "11/20/2026 8:54:05 PM"
     },
     {
      "match_id": "MD024",
@@ -1594,8 +1594,8 @@
        ],
        "seed": "4",
        "sets": [
-        null,
-        null,
+        "6",
+        "6",
         null
        ],
        "points": null,
@@ -1616,22 +1616,22 @@
        ],
        "seed": "Q",
        "sets": [
-        null,
-        null,
+        "3",
+        "2",
         null
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 0,
      "tbd": false,
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 6:07:50 PM"
+     "local_time": "11/20/2026 8:54:03 PM"
     },
     {
      "match_id": "MD027",
@@ -1655,6 +1655,67 @@
        ],
        "seed": "",
        "sets": [
+        "4",
+        "4",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "M. Nolten",
+         "nat": "NED",
+         "tag": ""
+        },
+        {
+         "name": "D. Jesus",
+         "nat": "POR",
+         "tag": "5"
+        }
+       ],
+       "seed": "5",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-20",
+     "local_time": "11/20/2026 8:54:03 PM"
+    },
+    {
+     "match_id": "MD013",
+     "court": "Court 2",
+     "slot": "Followed by",
+     "gender": "Men",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "J. Peloux Marchini",
+         "nat": "FRA",
+         "tag": ""
+        },
+        {
+         "name": "G. Ledrap",
+         "nat": "FRA",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
         null,
         null,
         null
@@ -1665,13 +1726,13 @@
       {
        "players": [
         {
-         "name": "D. Jesus",
-         "nat": "POR",
+         "name": "M. Nolten",
+         "nat": "NED",
          "tag": ""
         },
         {
-         "name": "M. Nolten",
-         "nat": "NED",
+         "name": "D. Jesus",
+         "nat": "POR",
          "tag": "5"
         }
        ],
@@ -1690,9 +1751,9 @@
      "winner": null,
      "tbd": false,
      "tbd_text": null,
-     "day": 3,
-     "date": "2026-11-20",
-     "local_time": "11/20/2026 6:07:50 PM"
+     "day": 4,
+     "date": "2026-11-21",
+     "local_time": "11/20/2026 8:54:07 PM"
     }
    ],
    "por_draws": [
@@ -2017,7 +2078,129 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 6:08:06 PM"
+     "local_time": "11/20/2026 8:54:35 PM"
+    },
+    {
+     "match_id": "WD010",
+     "court": "3",
+     "slot": "Followed by",
+     "gender": "Women",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "M. Garin",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "A. Silva",
+         "nat": "POR",
+         "tag": "5"
+        }
+       ],
+       "seed": "5",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "D. Toledo Jovani",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "A. Cañellas",
+         "nat": "ESP",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "scheduled",
+     "duration": null,
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 4,
+     "date": "2026-11-21",
+     "local_time": "11/20/2026 8:54:36 PM"
+    },
+    {
+     "match_id": "MD011",
+     "court": "3",
+     "slot": "Not before 12:00 PM",
+     "gender": "Men",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "A. Lopez Campos",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "N. Meana Ojanguren",
+         "nat": "ESP",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "P. Miñano Ortinez",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "P. Perry",
+         "nat": "POR",
+         "tag": "3"
+        }
+       ],
+       "seed": "3",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "scheduled",
+     "duration": null,
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 4,
+     "date": "2026-11-21",
+     "local_time": "11/20/2026 8:54:36 PM"
     }
    ],
    "por_draws": [
@@ -2299,7 +2482,7 @@
      ],
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/20/2026 5:08:11 PM"
+     "local_time": "11/20/2026 7:54:49 PM"
     }
    ],
    "por_draws": [
@@ -2512,7 +2695,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/20/2026 10:08:10 PM"
+     "local_time": "11/21/2026 12:54:31 AM"
     }
    ],
    "por_draws": [
