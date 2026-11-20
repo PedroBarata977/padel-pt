@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T07:08:07+00:00",
+ "generated_at": "2026-11-20T11:15:08+00:00",
  "fip_generated_at": "2026-11-20T07:06:53+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 4.1,
   "errors": []
  },
  "events": [
@@ -199,12 +199,12 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/20/2026 3:06:54 PM"
+     "local_time": "11/20/2026 7:13:55 PM"
     },
     {
      "match_id": "WD019",
      "court": "Court 2",
-     "slot": "Starting at 2:00 PM",
+     "slot": "Starting at 6:00 PM",
      "gender": "Women",
      "round": "Round of 32",
      "teams": [
@@ -260,7 +260,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 3:06:41 PM"
+     "local_time": "11/20/2026 7:14:03 PM"
     },
     {
      "match_id": null,
@@ -313,7 +313,7 @@
      ],
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/20/2026 3:07:26 PM"
+     "local_time": "11/20/2026 7:14:19 PM"
     }
    ],
    "por_draws": [
@@ -605,7 +605,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 8:07:04 AM"
+     "local_time": "11/20/2026 12:14:31 PM"
     },
     {
      "match_id": "MD030",
@@ -666,7 +666,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 8:07:04 AM"
+     "local_time": "11/20/2026 12:14:31 PM"
     },
     {
      "match_id": "WD009",
@@ -690,8 +690,8 @@
        ],
        "seed": "",
        "sets": [
-        null,
-        null,
+        "0",
+        "4",
         null
        ],
        "points": null,
@@ -700,34 +700,34 @@
       {
        "players": [
         {
-         "name": "B. Albuquerque Melo",
-         "nat": "POR",
+         "name": "F. Ligotti",
+         "nat": "ITA",
          "tag": ""
         },
         {
-         "name": "F. Ligotti",
-         "nat": "ITA",
+         "name": "B. Albuquerque Melo",
+         "nat": "POR",
          "tag": "5"
         }
        ],
        "seed": "5",
        "sets": [
-        null,
-        null,
+        "6",
+        "6",
         null
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 1,
      "tbd": false,
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 8:07:32 AM"
+     "local_time": "11/20/2026 12:14:04 PM"
     },
     {
      "match_id": "MD015",
@@ -788,7 +788,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 8:07:32 AM"
+     "local_time": "11/20/2026 12:14:04 PM"
     },
     {
      "match_id": "MD012",
@@ -849,7 +849,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 8:07:32 AM"
+     "local_time": "11/20/2026 12:14:04 PM"
     }
    ],
    "por_draws": [
@@ -1133,7 +1133,7 @@
     {
      "section": "main",
      "pos": null,
-     "mark": "Q/LL",
+     "mark": "Q",
      "players": [
       {
        "name": "T. Dos Santos Nunes",
@@ -1213,7 +1213,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 8:07:16 AM"
+     "local_time": "11/20/2026 12:14:37 PM"
     },
     {
      "match_id": "MQ010",
@@ -1274,7 +1274,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 8:07:16 AM"
+     "local_time": "11/20/2026 12:14:37 PM"
     },
     {
      "match_id": "MD024",
@@ -1315,10 +1315,10 @@
         {
          "name": "D. Veldhuis",
          "nat": "NED",
-         "tag": "Q/LL"
+         "tag": "Q"
         }
        ],
-       "seed": "Q/LL",
+       "seed": "Q",
        "sets": [
         null,
         null,
@@ -1335,7 +1335,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 8:07:37 AM"
+     "local_time": "11/20/2026 12:14:38 PM"
     },
     {
      "match_id": "MD027",
@@ -1396,7 +1396,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 8:07:37 AM"
+     "local_time": "11/20/2026 12:14:38 PM"
     }
    ],
    "por_draws": [
@@ -1721,7 +1721,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 8:07:47 AM"
+     "local_time": "11/20/2026 12:14:20 PM"
     }
    ],
    "por_draws": [
@@ -2121,7 +2121,7 @@
      ],
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/20/2026 7:08:06 AM"
+     "local_time": "11/20/2026 11:14:57 AM"
     }
    ],
    "por_draws": [
