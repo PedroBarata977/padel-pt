@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-20T02:13:10+00:00",
- "fip_generated_at": "2026-11-19T22:06:53+00:00",
+ "generated_at": "2026-11-20T07:08:07+00:00",
+ "fip_generated_at": "2026-11-20T07:06:53+00:00",
  "target": "POR",
  "stats": {
   "requests": 70,
   "blocked_403": 0,
   "events": 15,
   "fip": {
-   "requests": 87,
+   "requests": 90,
    "blocked_403": 0,
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 4.1,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -42,14 +42,14 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v5.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v6.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MQ-v3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v3.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v4.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4715",
-    "day": 5,
+    "day": 6,
     "totalday": 7
    },
    "warnings": [],
@@ -199,7 +199,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/20/2026 10:12:19 AM"
+     "local_time": "11/20/2026 3:06:54 PM"
     },
     {
      "match_id": "WD019",
@@ -260,7 +260,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 10:12:21 AM"
+     "local_time": "11/20/2026 3:06:41 PM"
     },
     {
      "match_id": null,
@@ -313,7 +313,7 @@
      ],
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/20/2026 10:12:22 AM"
+     "local_time": "11/20/2026 3:07:26 PM"
     }
    ],
    "por_draws": [
@@ -455,7 +455,7 @@
    "oop": {
     "year": "2026",
     "id": "4605",
-    "day": 2,
+    "day": 3,
     "totalday": 5
    },
    "warnings": [],
@@ -605,7 +605,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 3:12:28 AM"
+     "local_time": "11/20/2026 8:07:04 AM"
     },
     {
      "match_id": "MD030",
@@ -666,7 +666,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 3:12:28 AM"
+     "local_time": "11/20/2026 8:07:04 AM"
     },
     {
      "match_id": "WD009",
@@ -727,7 +727,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 3:12:28 AM"
+     "local_time": "11/20/2026 8:07:32 AM"
     },
     {
      "match_id": "MD015",
@@ -788,7 +788,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 3:12:28 AM"
+     "local_time": "11/20/2026 8:07:32 AM"
     },
     {
      "match_id": "MD012",
@@ -849,7 +849,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 3:12:28 AM"
+     "local_time": "11/20/2026 8:07:32 AM"
     }
    ],
    "por_draws": [
@@ -1042,7 +1042,7 @@
    "oop": {
     "year": "2026",
     "id": "4712",
-    "day": 2,
+    "day": 3,
     "totalday": 4
    },
    "warnings": [],
@@ -1213,7 +1213,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 3:12:36 AM"
+     "local_time": "11/20/2026 8:07:16 AM"
     },
     {
      "match_id": "MQ010",
@@ -1274,7 +1274,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 3:12:36 AM"
+     "local_time": "11/20/2026 8:07:16 AM"
     },
     {
      "match_id": "MD024",
@@ -1335,7 +1335,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 3:12:30 AM"
+     "local_time": "11/20/2026 8:07:37 AM"
     },
     {
      "match_id": "MD027",
@@ -1396,10 +1396,46 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 3:12:30 AM"
+     "local_time": "11/20/2026 8:07:37 AM"
     }
    ],
    "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Tomas Dos Santos Nunes",
+       "nat": "POR"
+      },
+      {
+       "name": "Daan Veldhuis",
+       "nat": "TheNetherlands"
+      }
+     ],
+     "seed": "Q/LL",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Alvaro Lopez Luque",
+         "nat": "Spain"
+        },
+        {
+         "name": "Hector Vazquez Lopez",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "4",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    },
     {
      "players": [
       {
@@ -1522,13 +1558,21 @@
         }
        ],
        "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
+       "sets": [
+        "6",
+        "3",
+        "6"
+       ],
+       "opponent_sets": [
+        "3",
+        "6",
+        "4"
+       ],
+       "won": true,
        "lost": false
       }
      ],
-     "status": "em prova",
+     "status": "venceu ronda",
      "draw": "MQ",
      "draw_label": "Masculino · Qualificação"
     }
@@ -1677,7 +1721,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 3:12:31 AM"
+     "local_time": "11/20/2026 8:07:47 AM"
     }
    ],
    "por_draws": [
@@ -1783,7 +1827,7 @@
    "oop": {
     "year": "2026",
     "id": "4613",
-    "day": 2,
+    "day": 3,
     "totalday": 5
    },
    "warnings": [],
@@ -1828,7 +1872,7 @@
    "oop": {
     "year": "2026",
     "id": "4710",
-    "day": 1,
+    "day": 2,
     "totalday": 4
    },
    "warnings": [],
@@ -1839,6 +1883,157 @@
     "WD": 18
    },
    "matchscorer_id": "FIP-2026-4710"
+  },
+  {
+   "name": "FIP BRONZE SAN ANTONIO",
+   "url": "https://www.padelfip.com/events/fip-bronze-san-antonio/",
+   "slug": "fip-bronze-san-antonio",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "San Antonio - Chile",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "status": "live",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Chile-IX-M-V3.pdf",
+     "updated": "14/11/2026 h 01:30 pm",
+     "n_teams": 24
+    },
+    "W": {
+     "pdf": null
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-CHILE-IX_-DRAW-MD.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4502",
+    "day": 1,
+    "totalday": 3
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 24
+   },
+   "matchscorer_id": "FIP-2026-4502"
+  },
+  {
+   "name": "FIP BRONZE PAYPAK KARACHI II",
+   "url": "https://www.padelfip.com/events/fip-bronze-paypak-karachi-ii-2026/",
+   "slug": "fip-bronze-paypak-karachi-ii-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Karachi - Pakistan",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "status": "live",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 1,
+     "mark": "",
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR",
+       "points": 419
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "ESP",
+       "points": 529
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MD"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR"
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "Spain"
+      }
+     ],
+     "seed": "1",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Bye",
+         "nat": ""
+        },
+        {
+         "name": "Bye",
+         "nat": ""
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    }
+   ],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-M-v5.pdf",
+     "updated": "16/11/2026 h 12:55 pm",
+     "n_teams": 30
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-W-v4.pdf",
+     "updated": "14/11/2026 h 12:10 pm",
+     "n_teams": 12
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-MD.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-WD.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4717",
+    "day": 1,
+    "totalday": 3
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 30,
+    "WD": 12
+   },
+   "matchscorer_id": "FIP-2026-4717"
   },
   {
    "name": "FIP BRONZE S2 ACCRA",
@@ -1926,10 +2121,56 @@
      ],
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/20/2026 2:12:58 AM"
+     "local_time": "11/20/2026 7:08:06 AM"
     }
    ],
-   "por_draws": [],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Diogo Moreira",
+       "nat": "POR"
+      },
+      {
+       "name": "Diego Garcia Brito",
+       "nat": "Spain"
+      }
+     ],
+     "seed": "5",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Bye",
+         "nat": ""
+        },
+        {
+         "name": "Bye",
+         "nat": ""
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    }
+   ],
    "entry_lists": {
     "M": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Accra-M-v3.pdf",
@@ -1959,111 +2200,6 @@
     "WD": 15
    },
    "matchscorer_id": "FIP-2026-4719"
-  },
-  {
-   "name": "FIP BRONZE SAN ANTONIO",
-   "url": "https://www.padelfip.com/events/fip-bronze-san-antonio/",
-   "slug": "fip-bronze-san-antonio",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "San Antonio - Chile",
-   "start": "2026-11-20",
-   "end": "2026-11-22",
-   "status": "live",
-   "por_entries": [],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Chile-IX-M-V3.pdf",
-     "updated": "14/11/2026 h 01:30 pm",
-     "n_teams": 24
-    },
-    "W": {
-     "pdf": null
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-CHILE-IX_-DRAW-MD.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4502",
-    "day": 1,
-    "totalday": 3
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed",
-   "ms_draws": {
-    "MD": 24
-   },
-   "matchscorer_id": "FIP-2026-4502"
-  },
-  {
-   "name": "FIP BRONZE PAYPAK KARACHI II",
-   "url": "https://www.padelfip.com/events/fip-bronze-paypak-karachi-ii-2026/",
-   "slug": "fip-bronze-paypak-karachi-ii-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Karachi - Pakistan",
-   "start": "2026-11-20",
-   "end": "2026-11-22",
-   "status": "live",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 1,
-     "mark": "",
-     "players": [
-      {
-       "name": "Gustavo Nunes",
-       "nat": "POR",
-       "points": 419
-      },
-      {
-       "name": "Anton Sans",
-       "nat": "ESP",
-       "points": 529
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M",
-     "draw_status": "in_draw",
-     "draw_type": "MD"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-M-v5.pdf",
-     "updated": "16/11/2026 h 12:55 pm",
-     "n_teams": 30
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-W-v4.pdf",
-     "updated": "14/11/2026 h 12:10 pm",
-     "n_teams": 12
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-MD.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-WD.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4717",
-    "day": 1,
-    "totalday": 3
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed",
-   "ms_draws": {
-    "MD": 30,
-    "WD": 12
-   },
-   "matchscorer_id": "FIP-2026-4717"
   },
   {
    "name": "MEXICO MAJOR",
