@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-21T09:31:33+00:00",
- "fip_generated_at": "2026-11-20T17:07:03+00:00",
+ "generated_at": "2026-11-21T11:54:27+00:00",
+ "fip_generated_at": "2026-11-21T11:52:22+00:00",
  "target": "POR",
  "stats": {
-  "requests": 70,
+  "requests": 84,
   "blocked_403": 0,
   "events": 15,
   "fip": {
-   "requests": 91,
+   "requests": 89,
    "blocked_403": 0,
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 16.4,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -42,14 +42,14 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v6.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v7.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MQ-v3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v4.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v5.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4715",
-    "day": 6,
+    "day": 7,
     "totalday": 7
    },
    "warnings": [],
@@ -60,1295 +60,6 @@
     "WD": 26
    },
    "matchscorer_id": "FIP-2026-4715"
-  },
-  {
-   "name": "FIP SILVER GO PARK HONG KONG",
-   "url": "https://www.padelfip.com/events/fip-silver-hong-kong-2026/",
-   "slug": "fip-silver-hong-kong-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Silver",
-   "location": "Hong Kong - Hong Kong",
-   "start": "2026-11-18",
-   "end": "2026-11-22",
-   "status": "live",
-   "por_entries": [
-    {
-     "section": "qualy",
-     "pos": 11,
-     "mark": "",
-     "players": [
-      {
-       "name": "Marcos Antonio Cheung Modesto",
-       "nat": "POR",
-       "points": 11
-      },
-      {
-       "name": "Jaimes McKee",
-       "nat": "HKG",
-       "points": 6
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M",
-     "draw_status": "in_draw",
-     "draw_type": "MQ"
-    },
-    {
-     "section": "main",
-     "pos": 2,
-     "mark": "",
-     "players": [
-      {
-       "name": "Lucia Perez Parra",
-       "nat": "ESP",
-       "points": 562
-      },
-      {
-       "name": "Clarinha Santos",
-       "nat": "POR",
-       "points": 469
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W",
-     "draw_status": "in_draw",
-     "draw_type": "WD"
-    },
-    {
-     "section": "main",
-     "pos": 6,
-     "mark": "",
-     "players": [
-      {
-       "name": "Kotomi Ozawa",
-       "nat": "JPN",
-       "points": 337
-      },
-      {
-       "name": "Constanca Gorito",
-       "nat": "POR",
-       "points": 332
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W",
-     "draw_status": "in_draw",
-     "draw_type": "WD"
-    }
-   ],
-   "por_matches": [
-    {
-     "match_id": "MQ030",
-     "court": "Center Court 3",
-     "slot": "Followed by",
-     "gender": "Men's Qualifying",
-     "round": "Q1",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "J. McKee",
-         "nat": "HKG",
-         "tag": ""
-        },
-        {
-         "name": "M. Cheung Modesto",
-         "nat": "POR",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        null,
-        null,
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "S. Zhang",
-         "nat": "CHN",
-         "tag": ""
-        },
-        {
-         "name": "Y. Chan",
-         "nat": "HKG",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        null,
-        null,
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": null,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 1,
-     "date": "2026-11-18",
-     "local_time": "11/21/2026 5:29:55 PM"
-    },
-    {
-     "match_id": "WD019",
-     "court": "Court 2",
-     "slot": "Starting at 6:00 PM",
-     "gender": "Women",
-     "round": "Round of 32",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "N. Mokalodise",
-         "nat": "RSA",
-         "tag": ""
-        },
-        {
-         "name": "L. Jong",
-         "nat": "HKG",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        "0",
-        "1",
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "C. Gorito",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "K. Ozawa",
-         "nat": "JPN",
-         "tag": "6"
-        }
-       ],
-       "seed": "6",
-       "sets": [
-        "6",
-        "6",
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": 1,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 3,
-     "date": "2026-11-20",
-     "local_time": "11/21/2026 5:29:47 PM"
-    },
-    {
-     "match_id": "WD009",
-     "court": "Court 7",
-     "slot": "Not before 10:00 AM",
-     "gender": "Women",
-     "round": "Round of 16",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "L. Buteau",
-         "nat": "FRA",
-         "tag": ""
-        },
-        {
-         "name": "J. Razafindranaly",
-         "nat": "FRA",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        "6",
-        "6",
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "C. Gorito",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "K. Ozawa",
-         "nat": "JPN",
-         "tag": "6"
-        }
-       ],
-       "seed": "6",
-       "sets": [
-        "3",
-        "3",
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": 0,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 4,
-     "date": "2026-11-21",
-     "local_time": "11/21/2026 5:29:55 PM"
-    },
-    {
-     "match_id": "WD015",
-     "court": "Court 7",
-     "slot": "Followed by",
-     "gender": "Women",
-     "round": "Round of 16",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "D. Torssell",
-         "nat": "TUR",
-         "tag": ""
-        },
-        {
-         "name": "S. Yoshimoto",
-         "nat": "JPN",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        "1",
-        "2",
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "L. Perez Parra",
-         "nat": "ESP",
-         "tag": ""
-        },
-        {
-         "name": "C. Santos",
-         "nat": "POR",
-         "tag": "2"
-        }
-       ],
-       "seed": "2",
-       "sets": [
-        "6",
-        "6",
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": 1,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 4,
-     "date": "2026-11-21",
-     "local_time": "11/21/2026 5:29:55 PM"
-    }
-   ],
-   "por_draws": [
-    {
-     "players": [
-      {
-       "name": "Jaimes McKee",
-       "nat": "honk-kong"
-      },
-      {
-       "name": "Marcos Antonio Cheung Modesto",
-       "nat": "POR"
-      }
-     ],
-     "seed": "",
-     "matches": [
-      {
-       "round": "Q1",
-       "opponent": [
-        {
-         "name": "Shuyuan Zhang",
-         "nat": "China"
-        },
-        {
-         "name": "Yin Tung Chan",
-         "nat": "honk-kong"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": true
-      }
-     ],
-     "status": "eliminado",
-     "draw": "MQ",
-     "draw_label": "Masculino · Qualificação"
-    },
-    {
-     "players": [
-      {
-       "name": "Constança Gorito",
-       "nat": "POR"
-      },
-      {
-       "name": "Kotomi Ozawa",
-       "nat": "Japan"
-      }
-     ],
-     "seed": "6",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Nthabeleng Mokalodise",
-         "nat": "Flag-South-Africa-300x200"
-        },
-        {
-         "name": "Lok Yin Jong",
-         "nat": "honk-kong"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [
-        "6",
-        "6"
-       ],
-       "opponent_sets": [
-        "0",
-        "1"
-       ],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Oitavos",
-       "opponent": [
-        {
-         "name": "Laura Buteau",
-         "nat": "France"
-        },
-        {
-         "name": "Julie Razafindranaly",
-         "nat": "France"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "WD",
-     "draw_label": "Feminino · Quadro principal"
-    },
-    {
-     "players": [
-      {
-       "name": "Lucia Perez Parra",
-       "nat": "Spain"
-      },
-      {
-       "name": "Clarinha Santos",
-       "nat": "POR"
-      }
-     ],
-     "seed": "2",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Bye",
-         "nat": ""
-        },
-        {
-         "name": "Bye",
-         "nat": ""
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Oitavos",
-       "opponent": [
-        {
-         "name": "Dilara Torssell",
-         "nat": "Turkey"
-        },
-        {
-         "name": "Sayaka Yoshimoto",
-         "nat": "Japan"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "WD",
-     "draw_label": "Feminino · Quadro principal"
-    }
-   ],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-M-v5.pdf",
-     "updated": "12/11/2026 h 20:45 pm",
-     "n_teams": 52
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-W-v3.pdf",
-     "updated": "14/11/2026 h 18:25 pm",
-     "n_teams": 29
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-MD-v3.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-MQv3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-WD-v2.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4605",
-    "day": 3,
-    "totalday": 5
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed",
-   "ms_draws": {
-    "MD": 32,
-    "MQ": 24,
-    "WD": 29
-   },
-   "matchscorer_id": "FIP-2026-4605"
-  },
-  {
-   "name": "FIP BRONZE SKURUP",
-   "url": "https://www.padelfip.com/events/fip-bronze-skurup-2026/",
-   "slug": "fip-bronze-skurup-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Skurup - Sweden",
-   "start": "2026-11-18",
-   "end": "2026-11-21",
-   "status": "live",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 4,
-     "mark": "",
-     "players": [
-      {
-       "name": "Alejandro Calvo Perez",
-       "nat": "ESP",
-       "points": 282
-      },
-      {
-       "name": "João Maria Caiano",
-       "nat": "POR",
-       "points": 300
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M",
-     "draw_status": "in_draw",
-     "draw_type": "MD"
-    },
-    {
-     "section": "main",
-     "pos": 14,
-     "mark": "",
-     "players": [
-      {
-       "name": "Martim Solano",
-       "nat": "POR",
-       "points": 65
-      },
-      {
-       "name": "Manuel Correia",
-       "nat": "POR",
-       "points": 72
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M",
-     "draw_status": "in_draw",
-     "draw_type": "MD"
-    },
-    {
-     "section": "main",
-     "pos": 5,
-     "mark": "",
-     "players": [
-      {
-       "name": "Bruna Albuquerque Melo",
-       "nat": "POR",
-       "points": 230
-      },
-      {
-       "name": "Francesca Ligotti",
-       "nat": "ITA",
-       "points": 194
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W",
-     "draw_status": "in_draw",
-     "draw_type": "WD"
-    }
-   ],
-   "por_matches": [
-    {
-     "match_id": "MD024",
-     "court": "CC2 - LK Vision",
-     "slot": "Starting at 10:00 AM",
-     "gender": "Men",
-     "round": "Round of 32",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "J. Caiano",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "A. Calvo Perez",
-         "nat": "ESP",
-         "tag": "4"
-        }
-       ],
-       "seed": "4",
-       "sets": [
-        "6",
-        "6",
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "A. Diaz Ponce",
-         "nat": "ESP",
-         "tag": ""
-        },
-        {
-         "name": "E. Badersten",
-         "nat": "SWE",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        "3",
-        "4",
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": 0,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 2,
-     "date": "2026-11-19",
-     "local_time": "11/21/2026 10:30:30 AM"
-    },
-    {
-     "match_id": "MD030",
-     "court": "COURT 3 - UB MONTAGE",
-     "slot": "Followed by",
-     "gender": "Men",
-     "round": "Round of 32",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "A. Calzada Felici",
-         "nat": "ESP",
-         "tag": ""
-        },
-        {
-         "name": "A. Calzada Felici",
-         "nat": "ESP",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        null,
-        null,
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "M. Solano",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "M. Correia",
-         "nat": "POR",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        null,
-        null,
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": null,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 2,
-     "date": "2026-11-19",
-     "local_time": "11/21/2026 10:30:30 AM"
-    },
-    {
-     "match_id": "WD004",
-     "court": "CC2 - LK Vision",
-     "slot": "Not before 6:00 PM",
-     "gender": "Women",
-     "round": "Quarterfinals",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "A. Lopez Moral",
-         "nat": "ESP",
-         "tag": ""
-        },
-        {
-         "name": "C. Fassio Goyeneche",
-         "nat": "ESP",
-         "tag": "1"
-        }
-       ],
-       "seed": "1",
-       "sets": [
-        "6",
-        "6",
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "F. Ligotti",
-         "nat": "ITA",
-         "tag": ""
-        },
-        {
-         "name": "B. Albuquerque Melo",
-         "nat": "POR",
-         "tag": "5"
-        }
-       ],
-       "seed": "5",
-       "sets": [
-        "0",
-        "2",
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": 0,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 3,
-     "date": "2026-11-20",
-     "local_time": "11/21/2026 10:30:10 AM"
-    },
-    {
-     "match_id": "WD009",
-     "court": "COURT 3 - UB MONTAGE",
-     "slot": "Starting at 10:00 AM",
-     "gender": "Women",
-     "round": "Round of 16",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "S. Killman",
-         "nat": "SWE",
-         "tag": ""
-        },
-        {
-         "name": "A. Renemark",
-         "nat": "SWE",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        "0",
-        "4",
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "F. Ligotti",
-         "nat": "ITA",
-         "tag": ""
-        },
-        {
-         "name": "B. Albuquerque Melo",
-         "nat": "POR",
-         "tag": "5"
-        }
-       ],
-       "seed": "5",
-       "sets": [
-        "6",
-        "6",
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": 1,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 3,
-     "date": "2026-11-20",
-     "local_time": "11/21/2026 10:30:10 AM"
-    },
-    {
-     "match_id": "MD015",
-     "court": "COURT 3 - UB MONTAGE",
-     "slot": "Not before 1:00 PM",
-     "gender": "Men",
-     "round": "Round of 16",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "M. Solano",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "M. Correia",
-         "nat": "POR",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        "0",
-        "2",
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "J. Bergeron",
-         "nat": "FRA",
-         "tag": ""
-        },
-        {
-         "name": "J. Seurin",
-         "nat": "FRA",
-         "tag": "2"
-        }
-       ],
-       "seed": "2",
-       "sets": [
-        "6",
-        "6",
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": 1,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 3,
-     "date": "2026-11-20",
-     "local_time": "11/21/2026 10:30:10 AM"
-    },
-    {
-     "match_id": "MD006",
-     "court": "COURT 3 - UB MONTAGE",
-     "slot": "Not before 7:30 PM",
-     "gender": "Men",
-     "round": "Quarterfinals",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "J. Caiano",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "A. Calvo Perez",
-         "nat": "ESP",
-         "tag": "4"
-        }
-       ],
-       "seed": "4",
-       "sets": [
-        "6",
-        "64",
-        "3"
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "A. Marques Berdonce",
-         "nat": "ESP",
-         "tag": ""
-        },
-        {
-         "name": "A. Calvache",
-         "nat": "ESP",
-         "tag": "7"
-        }
-       ],
-       "seed": "7",
-       "sets": [
-        "2",
-        "7",
-        "6"
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": 1,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 3,
-     "date": "2026-11-20",
-     "local_time": "11/21/2026 10:30:10 AM"
-    },
-    {
-     "match_id": "MD012",
-     "court": "COURT 4 - MUREX",
-     "slot": "Not before 1:00 PM",
-     "gender": "Men",
-     "round": "Round of 16",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "J. Caiano",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "A. Calvo Perez",
-         "nat": "ESP",
-         "tag": "4"
-        }
-       ],
-       "seed": "4",
-       "sets": [
-        "6",
-        "6",
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "O. Hodos",
-         "nat": "SWE",
-         "tag": ""
-        },
-        {
-         "name": "V. Fiala",
-         "nat": "DEN",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        "2",
-        "2",
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": 0,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 3,
-     "date": "2026-11-20",
-     "local_time": "11/21/2026 10:30:10 AM"
-    }
-   ],
-   "por_draws": [
-    {
-     "players": [
-      {
-       "name": "Joao Maria Caiano",
-       "nat": "POR"
-      },
-      {
-       "name": "Alejandro Calvo Perez",
-       "nat": "Spain"
-      }
-     ],
-     "seed": "4",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Alfonso Diaz Ponce",
-         "nat": "Spain"
-        },
-        {
-         "name": "Ebbe Badersten",
-         "nat": "Sweden"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [
-        "6",
-        "6"
-       ],
-       "opponent_sets": [
-        "3",
-        "4"
-       ],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Oitavos",
-       "opponent": [
-        {
-         "name": "Oliver Hodos",
-         "nat": "Sweden"
-        },
-        {
-         "name": "Victor Fiala",
-         "nat": "Denmark"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [
-        "6",
-        "6"
-       ],
-       "opponent_sets": [
-        "2",
-        "2"
-       ],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Quartos",
-       "opponent": [
-        {
-         "name": "Adrian Marques Berdonce",
-         "nat": "Spain"
-        },
-        {
-         "name": "Alonso Calvache",
-         "nat": "Spain"
-        }
-       ],
-       "opponent_seed": "7",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "MD",
-     "draw_label": "Masculino · Quadro principal"
-    },
-    {
-     "players": [
-      {
-       "name": "Martim Solano",
-       "nat": "POR"
-      },
-      {
-       "name": "Manuel Correia",
-       "nat": "POR"
-      }
-     ],
-     "seed": "",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Andres Calzada Felici",
-         "nat": "Spain"
-        },
-        {
-         "name": "Arturo Calzada Felici",
-         "nat": "Spain"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Oitavos",
-       "opponent": [
-        {
-         "name": "Johan Bergeron",
-         "nat": "France"
-        },
-        {
-         "name": "Julien Seurin",
-         "nat": "France"
-        }
-       ],
-       "opponent_seed": "2",
-       "sets": [
-        "0",
-        "2"
-       ],
-       "opponent_sets": [
-        "6",
-        "6"
-       ],
-       "won": false,
-       "lost": true
-      }
-     ],
-     "status": "eliminado",
-     "draw": "MD",
-     "draw_label": "Masculino · Quadro principal"
-    },
-    {
-     "players": [
-      {
-       "name": "Bruna Albuquerque Melo",
-       "nat": "POR"
-      },
-      {
-       "name": "Francesca Ligotti",
-       "nat": "Italy"
-      }
-     ],
-     "seed": "5",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Bye",
-         "nat": ""
-        },
-        {
-         "name": "Bye",
-         "nat": ""
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": true,
-       "lost": false
-      }
-     ],
-     "status": "venceu ronda",
-     "draw": "WD",
-     "draw_label": "Feminino · Quadro principal"
-    },
-    {
-     "players": [
-      {
-       "name": "Francesca Ligotti",
-       "nat": "Italy"
-      },
-      {
-       "name": "Bruna Albuquerque Melo",
-       "nat": "POR"
-      }
-     ],
-     "seed": "5",
-     "matches": [
-      {
-       "round": "Oitavos",
-       "opponent": [
-        {
-         "name": "Selma Killman",
-         "nat": "Sweden"
-        },
-        {
-         "name": "Asta Renemark",
-         "nat": "Sweden"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [
-        "6",
-        "6"
-       ],
-       "opponent_sets": [
-        "0",
-        "4"
-       ],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Quartos",
-       "opponent": [
-        {
-         "name": "Amanda Lopez Moral",
-         "nat": "Spain"
-        },
-        {
-         "name": "Camila Fassio Goyeneche",
-         "nat": "Spain"
-        }
-       ],
-       "opponent_seed": "1",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "WD",
-     "draw_label": "Feminino · Quadro principal"
-    }
-   ],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-M-v7.pdf",
-     "updated": "16/11/2026 h 11:10 am",
-     "n_teams": 33
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-W-v3.pdf",
-     "updated": "14/11/2026 h 12:05 pm",
-     "n_teams": 17
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MD-v4.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MQ-v2.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-WD-v2.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4712",
-    "day": 3,
-    "totalday": 4
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed",
-   "ms_draws": {
-    "MD": 31,
-    "MQ": 5,
-    "WD": 17
-   },
-   "matchscorer_id": "FIP-2026-4712"
   },
   {
    "name": "FIP BRONZE ROCHEFORT",
@@ -1509,7 +220,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/21/2026 10:30:32 AM"
+     "local_time": "11/21/2026 12:53:21 PM"
     },
     {
      "match_id": "MQ010",
@@ -1570,7 +281,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/21/2026 10:30:32 AM"
+     "local_time": "11/21/2026 12:53:21 PM"
     },
     {
      "match_id": "MD024",
@@ -1631,7 +342,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 10:30:56 AM"
+     "local_time": "11/21/2026 12:53:22 PM"
     },
     {
      "match_id": "MD027",
@@ -1692,7 +403,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 10:30:56 AM"
+     "local_time": "11/21/2026 12:53:22 PM"
     },
     {
      "match_id": "MD013",
@@ -1753,7 +464,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 10:30:39 AM"
+     "local_time": "11/21/2026 12:53:23 PM"
     }
    ],
    "por_draws": [
@@ -1783,25 +494,31 @@
         }
        ],
        "opponent_seed": "4",
-       "sets": [],
-       "opponent_sets": [],
+       "sets": [
+        "3",
+        "2"
+       ],
+       "opponent_sets": [
+        "6",
+        "6"
+       ],
        "won": false,
-       "lost": false
+       "lost": true
       }
      ],
-     "status": "em prova",
+     "status": "eliminado",
      "draw": "MD",
      "draw_label": "Masculino · Quadro principal"
     },
     {
      "players": [
       {
-       "name": "Diogo Jesus",
-       "nat": "POR"
-      },
-      {
        "name": "Menno Nolten",
        "nat": "TheNetherlands"
+      },
+      {
+       "name": "Diogo Jesus",
+       "nat": "POR"
       }
      ],
      "seed": "5",
@@ -1816,6 +533,30 @@
         {
          "name": "Maxim De Peuter",
          "nat": "Belgium"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "4",
+        "4"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [
+        {
+         "name": "Johan Peloux Marchini",
+         "nat": "France"
+        },
+        {
+         "name": "Guillaume Ledrap",
+         "nat": "France"
         }
        ],
        "opponent_seed": "",
@@ -1945,13 +686,13 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MD-v6.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MD-v7.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MQ-v4.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "2410",
-    "day": 3,
+    "day": 4,
     "totalday": 5
    },
    "warnings": [],
@@ -2078,14 +819,14 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 10:31:09 AM"
+     "local_time": "11/21/2026 12:53:32 PM"
     },
     {
-     "match_id": "WD010",
-     "court": "3",
-     "slot": "Followed by",
+     "match_id": "WD005",
+     "court": "2",
+     "slot": "Not before 5:00 PM",
      "gender": "Women",
-     "round": "Round of 16",
+     "round": "Quarterfinals",
      "teams": [
       {
        "players": [
@@ -2112,17 +853,17 @@
       {
        "players": [
         {
-         "name": "D. Toledo Jovani",
+         "name": "M. Delgado Medina",
          "nat": "ESP",
          "tag": ""
         },
         {
-         "name": "A. Cañellas",
+         "name": "M. Munera Vila",
          "nat": "ESP",
-         "tag": ""
+         "tag": "4"
         }
        ],
-       "seed": "",
+       "seed": "4",
        "sets": [
         null,
         null,
@@ -2139,7 +880,68 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 10:30:11 AM"
+     "local_time": "11/21/2026 12:53:04 PM"
+    },
+    {
+     "match_id": "WD010",
+     "court": "3",
+     "slot": "Followed by",
+     "gender": "Women",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "M. Garin",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "A. Silva",
+         "nat": "POR",
+         "tag": "5"
+        }
+       ],
+       "seed": "5",
+       "sets": [
+        "6",
+        "1",
+        "6"
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "D. Toledo Jovani",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "A. Cañellas",
+         "nat": "ESP",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "1",
+        "6",
+        "4"
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 0,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 4,
+     "date": "2026-11-21",
+     "local_time": "11/21/2026 12:53:04 PM"
     },
     {
      "match_id": "MD011",
@@ -2200,7 +1002,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 10:30:11 AM"
+     "local_time": "11/21/2026 12:53:04 PM"
     }
    ],
    "por_draws": [
@@ -2308,6 +1110,32 @@
         }
        ],
        "opponent_seed": "",
+       "sets": [
+        "6",
+        "1",
+        "6"
+       ],
+       "opponent_sets": [
+        "1",
+        "6",
+        "4"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Quartos",
+       "opponent": [
+        {
+         "name": "Maria Delgado Medina",
+         "nat": "Spain"
+        },
+        {
+         "name": "Mar Munera Vila",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "4",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -2332,14 +1160,14 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MD-v4.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MD-v5.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-MQ-v3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-WD-v2.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2026/03/FIP-BRONZE-IURRETA-PADELKO_-DRAW-WD-v3.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4613",
-    "day": 3,
+    "day": 4,
     "totalday": 5
    },
    "warnings": [],
@@ -2350,6 +1178,1424 @@
     "WD": 25
    },
    "matchscorer_id": "FIP-2026-4613"
+  },
+  {
+   "name": "FIP SILVER GO PARK HONG KONG",
+   "url": "https://www.padelfip.com/events/fip-silver-hong-kong-2026/",
+   "slug": "fip-silver-hong-kong-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Hong Kong - Hong Kong",
+   "start": "2026-11-18",
+   "end": "2026-11-22",
+   "status": "live",
+   "por_entries": [
+    {
+     "section": "qualy",
+     "pos": 11,
+     "mark": "",
+     "players": [
+      {
+       "name": "Marcos Antonio Cheung Modesto",
+       "nat": "POR",
+       "points": 11
+      },
+      {
+       "name": "Jaimes McKee",
+       "nat": "HKG",
+       "points": 6
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MQ"
+    },
+    {
+     "section": "main",
+     "pos": 2,
+     "mark": "",
+     "players": [
+      {
+       "name": "Lucia Perez Parra",
+       "nat": "ESP",
+       "points": 562
+      },
+      {
+       "name": "Clarinha Santos",
+       "nat": "POR",
+       "points": 469
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WD"
+    },
+    {
+     "section": "main",
+     "pos": 6,
+     "mark": "",
+     "players": [
+      {
+       "name": "Kotomi Ozawa",
+       "nat": "JPN",
+       "points": 337
+      },
+      {
+       "name": "Constanca Gorito",
+       "nat": "POR",
+       "points": 332
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WD"
+    }
+   ],
+   "por_matches": [
+    {
+     "match_id": "MQ030",
+     "court": "Center Court 3",
+     "slot": "Followed by",
+     "gender": "Men's Qualifying",
+     "round": "Q1",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "J. McKee",
+         "nat": "HKG",
+         "tag": ""
+        },
+        {
+         "name": "M. Cheung Modesto",
+         "nat": "POR",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "S. Zhang",
+         "nat": "CHN",
+         "tag": ""
+        },
+        {
+         "name": "Y. Chan",
+         "nat": "HKG",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 1,
+     "date": "2026-11-18",
+     "local_time": "11/21/2026 7:52:57 PM"
+    },
+    {
+     "match_id": "WD019",
+     "court": "Court 2",
+     "slot": "Starting at 6:00 PM",
+     "gender": "Women",
+     "round": "Round of 32",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "N. Mokalodise",
+         "nat": "RSA",
+         "tag": ""
+        },
+        {
+         "name": "L. Jong",
+         "nat": "HKG",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "0",
+        "1",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "C. Gorito",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "K. Ozawa",
+         "nat": "JPN",
+         "tag": "6"
+        }
+       ],
+       "seed": "6",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-20",
+     "local_time": "11/21/2026 7:53:35 PM"
+    },
+    {
+     "match_id": "WD009",
+     "court": "Court 7",
+     "slot": "Not before 10:00 AM",
+     "gender": "Women",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "L. Buteau",
+         "nat": "FRA",
+         "tag": ""
+        },
+        {
+         "name": "J. Razafindranaly",
+         "nat": "FRA",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "C. Gorito",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "K. Ozawa",
+         "nat": "JPN",
+         "tag": "6"
+        }
+       ],
+       "seed": "6",
+       "sets": [
+        "3",
+        "3",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 0,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 4,
+     "date": "2026-11-21",
+     "local_time": "11/21/2026 7:53:38 PM"
+    },
+    {
+     "match_id": "WD015",
+     "court": "Court 7",
+     "slot": "Followed by",
+     "gender": "Women",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "D. Torssell",
+         "nat": "TUR",
+         "tag": ""
+        },
+        {
+         "name": "S. Yoshimoto",
+         "nat": "JPN",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "1",
+        "2",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "L. Perez Parra",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "C. Santos",
+         "nat": "POR",
+         "tag": "2"
+        }
+       ],
+       "seed": "2",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 4,
+     "date": "2026-11-21",
+     "local_time": "11/21/2026 7:53:38 PM"
+    },
+    {
+     "match_id": "WD007",
+     "court": "Court 7",
+     "slot": "Followed by",
+     "gender": "Women",
+     "round": "Quarterfinals",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "K. Tokumoto",
+         "nat": "JPN",
+         "tag": ""
+        },
+        {
+         "name": "S. Tsukamoto",
+         "nat": "JPN",
+         "tag": "8"
+        }
+       ],
+       "seed": "8",
+       "sets": [
+        "5",
+        "1",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "L. Perez Parra",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "C. Santos",
+         "nat": "POR",
+         "tag": "2"
+        }
+       ],
+       "seed": "2",
+       "sets": [
+        "7",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 4,
+     "date": "2026-11-21",
+     "local_time": "11/21/2026 7:53:38 PM"
+    }
+   ],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Jaimes McKee",
+       "nat": "honk-kong"
+      },
+      {
+       "name": "Marcos Antonio Cheung Modesto",
+       "nat": "POR"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Shuyuan Zhang",
+         "nat": "China"
+        },
+        {
+         "name": "Yin Tung Chan",
+         "nat": "honk-kong"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "MQ",
+     "draw_label": "Masculino · Qualificação"
+    },
+    {
+     "players": [
+      {
+       "name": "Constança Gorito",
+       "nat": "POR"
+      },
+      {
+       "name": "Kotomi Ozawa",
+       "nat": "Japan"
+      }
+     ],
+     "seed": "6",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Nthabeleng Mokalodise",
+         "nat": "Flag-South-Africa-300x200"
+        },
+        {
+         "name": "Lok Yin Jong",
+         "nat": "honk-kong"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "0",
+        "1"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [
+        {
+         "name": "Laura Buteau",
+         "nat": "France"
+        },
+        {
+         "name": "Julie Razafindranaly",
+         "nat": "France"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "3",
+        "3"
+       ],
+       "opponent_sets": [
+        "6",
+        "6"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "WD",
+     "draw_label": "Feminino · Quadro principal"
+    },
+    {
+     "players": [
+      {
+       "name": "Lucia Perez Parra",
+       "nat": "Spain"
+      },
+      {
+       "name": "Clarinha Santos",
+       "nat": "POR"
+      }
+     ],
+     "seed": "2",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Bye",
+         "nat": ""
+        },
+        {
+         "name": "Bye",
+         "nat": ""
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [
+        {
+         "name": "Dilara Torssell",
+         "nat": "Turkey"
+        },
+        {
+         "name": "Sayaka Yoshimoto",
+         "nat": "Japan"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "1",
+        "2"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Quartos",
+       "opponent": [
+        {
+         "name": "Kae Tokumoto",
+         "nat": "Japan"
+        },
+        {
+         "name": "Saki Tsukamoto",
+         "nat": "Japan"
+        }
+       ],
+       "opponent_seed": "8",
+       "sets": [
+        "7",
+        "6"
+       ],
+       "opponent_sets": [
+        "5",
+        "1"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Meias",
+       "opponent": [
+        {
+         "name": "Sandra Bellver Fructuoso",
+         "nat": "Spain"
+        },
+        {
+         "name": "Novela Putria",
+         "nat": "Indonesia"
+        }
+       ],
+       "opponent_seed": "4",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "WD",
+     "draw_label": "Feminino · Quadro principal"
+    }
+   ],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-M-v5.pdf",
+     "updated": "12/11/2026 h 20:45 pm",
+     "n_teams": 52
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Go-park-Hong-Kong-W-v3.pdf",
+     "updated": "14/11/2026 h 18:25 pm",
+     "n_teams": 29
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-MD-v4.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-MQv3.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-WD-v3.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4605",
+    "day": 4,
+    "totalday": 5
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 32,
+    "MQ": 24,
+    "WD": 29
+   },
+   "matchscorer_id": "FIP-2026-4605"
+  },
+  {
+   "name": "FIP BRONZE SKURUP",
+   "url": "https://www.padelfip.com/events/fip-bronze-skurup-2026/",
+   "slug": "fip-bronze-skurup-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Skurup - Sweden",
+   "start": "2026-11-18",
+   "end": "2026-11-21",
+   "status": "live",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 4,
+     "mark": "",
+     "players": [
+      {
+       "name": "Alejandro Calvo Perez",
+       "nat": "ESP",
+       "points": 282
+      },
+      {
+       "name": "João Maria Caiano",
+       "nat": "POR",
+       "points": 300
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MD"
+    },
+    {
+     "section": "main",
+     "pos": 14,
+     "mark": "",
+     "players": [
+      {
+       "name": "Martim Solano",
+       "nat": "POR",
+       "points": 65
+      },
+      {
+       "name": "Manuel Correia",
+       "nat": "POR",
+       "points": 72
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MD"
+    },
+    {
+     "section": "main",
+     "pos": 5,
+     "mark": "",
+     "players": [
+      {
+       "name": "Bruna Albuquerque Melo",
+       "nat": "POR",
+       "points": 230
+      },
+      {
+       "name": "Francesca Ligotti",
+       "nat": "ITA",
+       "points": 194
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WD"
+    }
+   ],
+   "por_matches": [
+    {
+     "match_id": "MD024",
+     "court": "CC2 - LK Vision",
+     "slot": "Starting at 10:00 AM",
+     "gender": "Men",
+     "round": "Round of 32",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "J. Caiano",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "A. Calvo Perez",
+         "nat": "ESP",
+         "tag": "4"
+        }
+       ],
+       "seed": "4",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "A. Diaz Ponce",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "E. Badersten",
+         "nat": "SWE",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "3",
+        "4",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 0,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 2,
+     "date": "2026-11-19",
+     "local_time": "11/21/2026 12:53:46 PM"
+    },
+    {
+     "match_id": "MD030",
+     "court": "COURT 3 - UB MONTAGE",
+     "slot": "Followed by",
+     "gender": "Men",
+     "round": "Round of 32",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "A. Calzada Felici",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "A. Calzada Felici",
+         "nat": "ESP",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "M. Solano",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "M. Correia",
+         "nat": "POR",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 2,
+     "date": "2026-11-19",
+     "local_time": "11/21/2026 12:53:46 PM"
+    },
+    {
+     "match_id": "WD004",
+     "court": "CC2 - LK Vision",
+     "slot": "Not before 6:00 PM",
+     "gender": "Women",
+     "round": "Quarterfinals",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "A. Lopez Moral",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "C. Fassio Goyeneche",
+         "nat": "ESP",
+         "tag": "1"
+        }
+       ],
+       "seed": "1",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "F. Ligotti",
+         "nat": "ITA",
+         "tag": ""
+        },
+        {
+         "name": "B. Albuquerque Melo",
+         "nat": "POR",
+         "tag": "5"
+        }
+       ],
+       "seed": "5",
+       "sets": [
+        "0",
+        "2",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 0,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-20",
+     "local_time": "11/21/2026 12:53:46 PM"
+    },
+    {
+     "match_id": "WD009",
+     "court": "COURT 3 - UB MONTAGE",
+     "slot": "Starting at 10:00 AM",
+     "gender": "Women",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "S. Killman",
+         "nat": "SWE",
+         "tag": ""
+        },
+        {
+         "name": "A. Renemark",
+         "nat": "SWE",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "0",
+        "4",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "F. Ligotti",
+         "nat": "ITA",
+         "tag": ""
+        },
+        {
+         "name": "B. Albuquerque Melo",
+         "nat": "POR",
+         "tag": "5"
+        }
+       ],
+       "seed": "5",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-20",
+     "local_time": "11/21/2026 12:53:46 PM"
+    },
+    {
+     "match_id": "MD015",
+     "court": "COURT 3 - UB MONTAGE",
+     "slot": "Not before 1:00 PM",
+     "gender": "Men",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "M. Solano",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "M. Correia",
+         "nat": "POR",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "0",
+        "2",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "J. Bergeron",
+         "nat": "FRA",
+         "tag": ""
+        },
+        {
+         "name": "J. Seurin",
+         "nat": "FRA",
+         "tag": "2"
+        }
+       ],
+       "seed": "2",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-20",
+     "local_time": "11/21/2026 12:53:46 PM"
+    },
+    {
+     "match_id": "MD006",
+     "court": "COURT 3 - UB MONTAGE",
+     "slot": "Not before 7:30 PM",
+     "gender": "Men",
+     "round": "Quarterfinals",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "J. Caiano",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "A. Calvo Perez",
+         "nat": "ESP",
+         "tag": "4"
+        }
+       ],
+       "seed": "4",
+       "sets": [
+        "6",
+        "64",
+        "3"
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "A. Marques Berdonce",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "A. Calvache",
+         "nat": "ESP",
+         "tag": "7"
+        }
+       ],
+       "seed": "7",
+       "sets": [
+        "2",
+        "7",
+        "6"
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-20",
+     "local_time": "11/21/2026 12:53:46 PM"
+    },
+    {
+     "match_id": "MD012",
+     "court": "COURT 4 - MUREX",
+     "slot": "Not before 1:00 PM",
+     "gender": "Men",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "J. Caiano",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "A. Calvo Perez",
+         "nat": "ESP",
+         "tag": "4"
+        }
+       ],
+       "seed": "4",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "O. Hodos",
+         "nat": "SWE",
+         "tag": ""
+        },
+        {
+         "name": "V. Fiala",
+         "nat": "DEN",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "2",
+        "2",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 0,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 3,
+     "date": "2026-11-20",
+     "local_time": "11/21/2026 12:53:46 PM"
+    }
+   ],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Joao Maria Caiano",
+       "nat": "POR"
+      },
+      {
+       "name": "Alejandro Calvo Perez",
+       "nat": "Spain"
+      }
+     ],
+     "seed": "4",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Alfonso Diaz Ponce",
+         "nat": "Spain"
+        },
+        {
+         "name": "Ebbe Badersten",
+         "nat": "Sweden"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "3",
+        "4"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [
+        {
+         "name": "Oliver Hodos",
+         "nat": "Sweden"
+        },
+        {
+         "name": "Victor Fiala",
+         "nat": "Denmark"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "2",
+        "2"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Quartos",
+       "opponent": [
+        {
+         "name": "Adrian Marques Berdonce",
+         "nat": "Spain"
+        },
+        {
+         "name": "Alonso Calvache",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "7",
+       "sets": [
+        "6",
+        "6",
+        "3"
+       ],
+       "opponent_sets": [
+        "2",
+        "7",
+        "6"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    },
+    {
+     "players": [
+      {
+       "name": "Martim Solano",
+       "nat": "POR"
+      },
+      {
+       "name": "Manuel Correia",
+       "nat": "POR"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Andres Calzada Felici",
+         "nat": "Spain"
+        },
+        {
+         "name": "Arturo Calzada Felici",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [
+        {
+         "name": "Johan Bergeron",
+         "nat": "France"
+        },
+        {
+         "name": "Julien Seurin",
+         "nat": "France"
+        }
+       ],
+       "opponent_seed": "2",
+       "sets": [
+        "0",
+        "2"
+       ],
+       "opponent_sets": [
+        "6",
+        "6"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    },
+    {
+     "players": [
+      {
+       "name": "Bruna Albuquerque Melo",
+       "nat": "POR"
+      },
+      {
+       "name": "Francesca Ligotti",
+       "nat": "Italy"
+      }
+     ],
+     "seed": "5",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Bye",
+         "nat": ""
+        },
+        {
+         "name": "Bye",
+         "nat": ""
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": true,
+       "lost": false
+      }
+     ],
+     "status": "venceu ronda",
+     "draw": "WD",
+     "draw_label": "Feminino · Quadro principal"
+    },
+    {
+     "players": [
+      {
+       "name": "Francesca Ligotti",
+       "nat": "Italy"
+      },
+      {
+       "name": "Bruna Albuquerque Melo",
+       "nat": "POR"
+      }
+     ],
+     "seed": "5",
+     "matches": [
+      {
+       "round": "Oitavos",
+       "opponent": [
+        {
+         "name": "Selma Killman",
+         "nat": "Sweden"
+        },
+        {
+         "name": "Asta Renemark",
+         "nat": "Sweden"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "0",
+        "4"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Quartos",
+       "opponent": [
+        {
+         "name": "Amanda Lopez Moral",
+         "nat": "Spain"
+        },
+        {
+         "name": "Camila Fassio Goyeneche",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "1",
+       "sets": [
+        "0",
+        "2"
+       ],
+       "opponent_sets": [
+        "6",
+        "6"
+       ],
+       "won": false,
+       "lost": true
+      }
+     ],
+     "status": "eliminado",
+     "draw": "WD",
+     "draw_label": "Feminino · Quadro principal"
+    }
+   ],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-M-v7.pdf",
+     "updated": "16/11/2026 h 11:10 am",
+     "n_teams": 33
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-W-v3.pdf",
+     "updated": "14/11/2026 h 12:05 pm",
+     "n_teams": 17
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MD-v5.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MQ-v2.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-WD-v3.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4712",
+    "day": 4,
+    "totalday": 4
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 31,
+    "MQ": 5,
+    "WD": 17
+   },
+   "matchscorer_id": "FIP-2026-4712"
   },
   {
    "name": "FIP SILVER MCV PADELNESS",
@@ -2377,14 +2623,14 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-MD-v3.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-MD-v4.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-MQ-v2.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-WD.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-WD-v2.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4710",
-    "day": 2,
+    "day": 3,
     "totalday": 4
    },
    "warnings": [],
@@ -2395,6 +2641,292 @@
     "WD": 18
    },
    "matchscorer_id": "FIP-2026-4710"
+  },
+  {
+   "name": "FIP BRONZE PAYPAK KARACHI II",
+   "url": "https://www.padelfip.com/events/fip-bronze-paypak-karachi-ii-2026/",
+   "slug": "fip-bronze-paypak-karachi-ii-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Karachi - Pakistan",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "status": "live",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 1,
+     "mark": "",
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR",
+       "points": 419
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "ESP",
+       "points": 529
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MD"
+    }
+   ],
+   "por_matches": [
+    {
+     "match_id": "MD004",
+     "court": "Court 1",
+     "slot": "Followed by",
+     "gender": "Men",
+     "round": "Quarterfinals",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "A. Sans",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "G. Nunes",
+         "nat": "POR",
+         "tag": "1"
+        }
+       ],
+       "seed": "1",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "P. Farabbi",
+         "nat": "ITA",
+         "tag": ""
+        },
+        {
+         "name": "V. Ortega Garcia",
+         "nat": "ESP",
+         "tag": "8"
+        }
+       ],
+       "seed": "8",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "scheduled",
+     "duration": null,
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 2,
+     "date": "2026-11-21",
+     "local_time": "11/21/2026 4:53:56 PM"
+    },
+    {
+     "match_id": "MD008",
+     "court": "Court 3",
+     "slot": "Followed by",
+     "gender": "Men",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "A. Sans",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "G. Nunes",
+         "nat": "POR",
+         "tag": "1"
+        }
+       ],
+       "seed": "1",
+       "sets": [
+        "6",
+        "6",
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "D. Elahi",
+         "nat": "PAK",
+         "tag": ""
+        },
+        {
+         "name": "M. Saeed",
+         "nat": "PAK",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        "0",
+        "1",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 0,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 2,
+     "date": "2026-11-21",
+     "local_time": "11/21/2026 4:53:56 PM"
+    }
+   ],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR"
+      },
+      {
+       "name": "Anton Sans",
+       "nat": "Spain"
+      }
+     ],
+     "seed": "1",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Bye",
+         "nat": ""
+        },
+        {
+         "name": "Bye",
+         "nat": ""
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": true,
+       "lost": false
+      }
+     ],
+     "status": "venceu ronda",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    },
+    {
+     "players": [
+      {
+       "name": "Anton Sans",
+       "nat": "Spain"
+      },
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR"
+      }
+     ],
+     "seed": "1",
+     "matches": [
+      {
+       "round": "Oitavos",
+       "opponent": [
+        {
+         "name": "Danish Elahi",
+         "nat": "Pakistan"
+        },
+        {
+         "name": "Muhammad Raahim Saeed Saeed",
+         "nat": "Pakistan"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "0",
+        "1"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Quartos",
+       "opponent": [
+        {
+         "name": "Pier Giulio Farabbi",
+         "nat": "Italy"
+        },
+        {
+         "name": "Victor Ortega Garcia",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "8",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MD",
+     "draw_label": "Masculino · Quadro principal"
+    }
+   ],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-M-v5.pdf",
+     "updated": "16/11/2026 h 12:55 pm",
+     "n_teams": 30
+    },
+    "W": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-W-v4.pdf",
+     "updated": "14/11/2026 h 12:10 pm",
+     "n_teams": 12
+    }
+   },
+   "draw_pdfs": {
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-PAYPAK-KARACHI-II_-DRAW-MD-v4.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-WD.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4717",
+    "day": 2,
+    "totalday": 3
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 30,
+    "WD": 12
+   },
+   "matchscorer_id": "FIP-2026-4717"
   },
   {
    "name": "FIP BRONZE S2 ACCRA",
@@ -2490,7 +3022,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 9:31:21 AM"
+     "local_time": "11/21/2026 11:54:03 AM"
     }
    ],
    "por_draws": [
@@ -2527,7 +3059,16 @@
       },
       {
        "round": "Oitavos",
-       "opponent": [],
+       "opponent": [
+        {
+         "name": "Meda Kowere Baizoum Joel",
+         "nat": "noflag"
+        },
+        {
+         "name": "Tinde Malick Souleyman",
+         "nat": "download-6"
+        }
+       ],
        "opponent_seed": "",
        "sets": [],
        "opponent_sets": [],
@@ -2553,13 +3094,13 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-MD-1.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-MD-v2.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-WD-1.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4719",
-    "day": 1,
+    "day": 2,
     "totalday": 3
    },
    "warnings": [],
@@ -2594,12 +3135,12 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-CHILE-IX_-DRAW-MD.pdf"
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-CHILE-IX_-DRAW-MD-v2.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4502",
-    "day": 1,
+    "day": 2,
     "totalday": 3
    },
    "warnings": [],
@@ -2608,189 +3149,6 @@
     "MD": 24
    },
    "matchscorer_id": "FIP-2026-4502"
-  },
-  {
-   "name": "FIP BRONZE PAYPAK KARACHI II",
-   "url": "https://www.padelfip.com/events/fip-bronze-paypak-karachi-ii-2026/",
-   "slug": "fip-bronze-paypak-karachi-ii-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Karachi - Pakistan",
-   "start": "2026-11-20",
-   "end": "2026-11-22",
-   "status": "live",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 1,
-     "mark": "",
-     "players": [
-      {
-       "name": "Gustavo Nunes",
-       "nat": "POR",
-       "points": 419
-      },
-      {
-       "name": "Anton Sans",
-       "nat": "ESP",
-       "points": 529
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M",
-     "draw_status": "in_draw",
-     "draw_type": "MD"
-    }
-   ],
-   "por_matches": [
-    {
-     "match_id": "MD008",
-     "court": "Court 3",
-     "slot": "Followed by",
-     "gender": "Men",
-     "round": "Round of 16",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "G. Nunes",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "A. Sans",
-         "nat": "ESP",
-         "tag": "1"
-        }
-       ],
-       "seed": "1",
-       "sets": [
-        null,
-        null,
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "D. Elahi",
-         "nat": "PAK",
-         "tag": ""
-        },
-        {
-         "name": "M. Saeed",
-         "nat": "PAK",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        null,
-        null,
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "scheduled",
-     "duration": null,
-     "winner": null,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 2,
-     "date": "2026-11-21",
-     "local_time": "11/21/2026 2:31:25 PM"
-    }
-   ],
-   "por_draws": [
-    {
-     "players": [
-      {
-       "name": "Gustavo Nunes",
-       "nat": "POR"
-      },
-      {
-       "name": "Anton Sans",
-       "nat": "Spain"
-      }
-     ],
-     "seed": "1",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Bye",
-         "nat": ""
-        },
-        {
-         "name": "Bye",
-         "nat": ""
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Oitavos",
-       "opponent": [
-        {
-         "name": "Danish Elahi",
-         "nat": "Pakistan"
-        },
-        {
-         "name": "Muhammad Raahim Saeed Saeed",
-         "nat": "Pakistan"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "MD",
-     "draw_label": "Masculino · Quadro principal"
-    }
-   ],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-M-v5.pdf",
-     "updated": "16/11/2026 h 12:55 pm",
-     "n_teams": 30
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Fip-Bronze-Karachi-II-W-v4.pdf",
-     "updated": "14/11/2026 h 12:10 pm",
-     "n_teams": 12
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-PAYPAK-KARACHI-II_-DRAW-MD-v3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-WD.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4717",
-    "day": 1,
-    "totalday": 3
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed",
-   "ms_draws": {
-    "MD": 30,
-    "WD": 12
-   },
-   "matchscorer_id": "FIP-2026-4717"
   },
   {
    "name": "MEXICO MAJOR",
@@ -2821,7 +3179,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "M"
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MQ"
     },
     {
      "section": "qualy",
@@ -2841,7 +3201,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "M"
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MQ"
     },
     {
      "section": "main",
@@ -2861,7 +3223,8 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "W"
+     "gender": "W",
+     "draw_status": "out"
     },
     {
      "section": "qualy",
@@ -2881,11 +3244,184 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "W"
+     "gender": "W",
+     "draw_status": "in_draw",
+     "draw_type": "WQ"
     }
    ],
-   "por_matches": [],
-   "por_draws": [],
+   "por_matches": [
+    {
+     "match_id": "MQ017",
+     "court": "CANCHA 5ta AVENIDA",
+     "slot": "Starting at 4:00 PM",
+     "gender": "Men's Qualifying",
+     "round": "Q1",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "P. Araujo",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "P. Graça",
+         "nat": "POR",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "N. Deus",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "M. Deus",
+         "nat": "POR",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "scheduled",
+     "duration": null,
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 1,
+     "date": "2026-11-21",
+     "local_time": "11/21/2026 5:53:47 AM"
+    }
+   ],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Pedro Araujo",
+       "nat": "POR"
+      },
+      {
+       "name": "Pedro Graça",
+       "nat": "POR"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Nuno Deus",
+         "nat": "POR"
+        },
+        {
+         "name": "Miguel Deus",
+         "nat": "POR"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MQ",
+     "draw_label": "Masculino · Qualificação"
+    },
+    {
+     "players": [
+      {
+       "name": "Nuno Deus",
+       "nat": "POR"
+      },
+      {
+       "name": "Miguel Deus",
+       "nat": "POR"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Pedro Araujo",
+         "nat": "POR"
+        },
+        {
+         "name": "Pedro Graça",
+         "nat": "POR"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MQ",
+     "draw_label": "Masculino · Qualificação"
+    },
+    {
+     "players": [
+      {
+       "name": "Mafalda Marques Fernandes",
+       "nat": "POR"
+      },
+      {
+       "name": "Patricia Ribeiro",
+       "nat": "POR"
+      }
+     ],
+     "seed": "7",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Ivana Perches Arredondo",
+         "nat": "Mexico"
+        },
+        {
+         "name": "Natalia Blanco",
+         "nat": "Mexico"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "WQ",
+     "draw_label": "Feminino · Qualificação"
+    }
+   ],
    "entry_lists": {
     "M": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-M-v11.pdf",
@@ -2896,6 +3432,90 @@
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-W-v11.pdf",
      "updated": "20/11/2026 h 04:55 pm",
      "n_teams": 51
+    }
+   },
+   "draw_pdfs": {
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MQ.pdf",
+    "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WQ.pdf"
+   },
+   "oop": {
+    "year": "2026",
+    "id": "4801",
+    "day": 1,
+    "totalday": 9
+   },
+   "warnings": [],
+   "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 0,
+    "MQ": 24,
+    "WD": 0,
+    "WQ": 15
+   },
+   "matchscorer_id": "FIP-2026-4801"
+  },
+  {
+   "name": "FIP SILVER ROESELARE",
+   "url": "https://www.padelfip.com/events/fip-silver-roeselare-2026/",
+   "slug": "fip-silver-roeselare-2026",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Roeselare  - Belgium",
+   "start": "2026-11-25",
+   "end": "2026-11-29",
+   "status": "registration_closed",
+   "por_entries": [
+    {
+     "section": "main",
+     "pos": 20,
+     "mark": "",
+     "players": [
+      {
+       "name": "Alejandro Calvo Perez",
+       "nat": "ESP",
+       "points": 282
+      },
+      {
+       "name": "João Maria Caiano",
+       "nat": "POR",
+       "points": 300
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "waiting",
+     "pos": 11,
+     "mark": "",
+     "players": [
+      {
+       "name": "Louis De Rouck",
+       "nat": "BEL",
+       "points": 2
+      },
+      {
+       "name": "Nuno Baptista",
+       "nat": "POR",
+       "points": 8
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    }
+   ],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {
+    "M": {
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v5.pdf",
+     "updated": "21/11/2026 h 9:55 am",
+     "n_teams": 81
+    },
+    "W": {
+     "pdf": null
     }
    },
    "draw_pdfs": {},
@@ -2910,7 +3530,7 @@
    "circuit": "CUPRA FIP Tour",
    "category": "Bronze",
    "location": "Phuket - Thailand",
-   "start": "2026-11-23",
+   "start": "2026-11-25",
    "end": "2026-11-29",
    "status": "registration_closed",
    "por_entries": [
@@ -2959,103 +3579,14 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronze-High-Velocity-Phuket-M-v2.pdf",
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronze-High-Velocity-Phuket-M-v3.pdf",
      "updated": "18/11/2026 h 04:50 pm",
      "n_teams": 46
     },
     "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronze-High-Velocity-Phuket-W.pdf",
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronze-High-Velocity-Phuket-W-V2.pdf",
      "updated": "14/11/2026 h 09:41 am",
      "n_teams": 23
-    }
-   },
-   "draw_pdfs": {},
-   "oop": null,
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
-   "name": "FIP SILVER ROESELARE",
-   "url": "https://www.padelfip.com/events/fip-silver-roeselare-2026/",
-   "slug": "fip-silver-roeselare-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Silver",
-   "location": "Roeselare  - Belgium",
-   "start": "2026-11-25",
-   "end": "2026-11-29",
-   "status": "registration_closed",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 18,
-     "mark": "",
-     "players": [
-      {
-       "name": "Pau Miñano Ortinez",
-       "nat": "ESP",
-       "points": 370
-      },
-      {
-       "name": "Pedro Perry",
-       "nat": "POR",
-       "points": 334
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 21,
-     "mark": "",
-     "players": [
-      {
-       "name": "Alejandro Calvo Perez",
-       "nat": "ESP",
-       "points": 282
-      },
-      {
-       "name": "João Maria Caiano",
-       "nat": "POR",
-       "points": 300
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "waiting",
-     "pos": 12,
-     "mark": "",
-     "players": [
-      {
-       "name": "Louis De Rouck",
-       "nat": "BEL",
-       "points": 2
-      },
-      {
-       "name": "Nuno Baptista",
-       "nat": "POR",
-       "points": 8
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v4.pdf",
-     "updated": "18/11/2026 h 9:30 am",
-     "n_teams": 82
-    },
-    "W": {
-     "pdf": null
     }
    },
    "draw_pdfs": {},
