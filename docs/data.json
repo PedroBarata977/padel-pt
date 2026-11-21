@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T19:55:01+00:00",
+ "generated_at": "2026-11-21T01:19:22+00:00",
  "fip_generated_at": "2026-11-20T17:07:03+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 2.8,
+  "fip_age_hours": 8.2,
   "errors": []
  },
  "events": [
@@ -199,7 +199,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/21/2026 3:53:55 AM"
+     "local_time": "11/21/2026 9:17:44 AM"
     },
     {
      "match_id": "WD019",
@@ -260,7 +260,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 3:53:30 AM"
+     "local_time": "11/21/2026 9:18:17 AM"
     },
     {
      "match_id": "WD009",
@@ -321,7 +321,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 3:54:08 AM"
+     "local_time": "11/21/2026 9:17:55 AM"
     },
     {
      "match_id": "WD015",
@@ -382,7 +382,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 3:54:08 AM"
+     "local_time": "11/21/2026 9:17:55 AM"
     }
    ],
    "por_draws": [
@@ -707,7 +707,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 8:54:15 PM"
+     "local_time": "11/21/2026 2:18:06 AM"
     },
     {
      "match_id": "MD030",
@@ -768,7 +768,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 8:54:15 PM"
+     "local_time": "11/21/2026 2:18:06 AM"
     },
     {
      "match_id": "WD004",
@@ -829,7 +829,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 8:54:03 PM"
+     "local_time": "11/21/2026 2:18:11 AM"
     },
     {
      "match_id": "WD009",
@@ -890,7 +890,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 8:54:03 PM"
+     "local_time": "11/21/2026 2:18:11 AM"
     },
     {
      "match_id": "MD015",
@@ -951,7 +951,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 8:54:03 PM"
+     "local_time": "11/21/2026 2:18:11 AM"
     },
     {
      "match_id": "MD006",
@@ -975,9 +975,9 @@
        ],
        "seed": "4",
        "sets": [
-        null,
-        null,
-        null
+        "6",
+        "64",
+        "3"
        ],
        "points": null,
        "serving": false
@@ -997,22 +997,22 @@
        ],
        "seed": "7",
        "sets": [
-        null,
-        null,
-        null
+        "2",
+        "7",
+        "6"
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 1,
      "tbd": false,
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 8:54:03 PM"
+     "local_time": "11/21/2026 2:18:11 AM"
     },
     {
      "match_id": "MD012",
@@ -1073,7 +1073,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 8:54:03 PM"
+     "local_time": "11/21/2026 2:18:11 AM"
     }
    ],
    "por_draws": [
@@ -1509,7 +1509,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 8:54:05 PM"
+     "local_time": "11/21/2026 2:18:08 AM"
     },
     {
      "match_id": "MQ010",
@@ -1570,7 +1570,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/20/2026 8:54:05 PM"
+     "local_time": "11/21/2026 2:18:08 AM"
     },
     {
      "match_id": "MD024",
@@ -1631,7 +1631,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 8:54:03 PM"
+     "local_time": "11/21/2026 2:18:47 AM"
     },
     {
      "match_id": "MD027",
@@ -1692,7 +1692,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 8:54:03 PM"
+     "local_time": "11/21/2026 2:18:47 AM"
     },
     {
      "match_id": "MD013",
@@ -1753,7 +1753,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/20/2026 8:54:07 PM"
+     "local_time": "11/21/2026 2:18:30 AM"
     }
    ],
    "por_draws": [
@@ -2078,7 +2078,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/20/2026 8:54:35 PM"
+     "local_time": "11/21/2026 2:18:56 AM"
     },
     {
      "match_id": "WD010",
@@ -2139,7 +2139,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/20/2026 8:54:36 PM"
+     "local_time": "11/21/2026 2:18:52 AM"
     },
     {
      "match_id": "MD011",
@@ -2200,7 +2200,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/20/2026 8:54:36 PM"
+     "local_time": "11/21/2026 2:18:52 AM"
     }
    ],
    "por_draws": [
@@ -2432,14 +2432,25 @@
    ],
    "por_matches": [
     {
-     "match_id": null,
+     "match_id": "MD013",
      "court": "Court 4",
      "slot": "Followed by",
      "gender": "Men",
      "round": "Round of 16",
      "teams": [
       {
-       "players": [],
+       "players": [
+        {
+         "name": "M. Kowere Baizoum Joel",
+         "nat": "BUR",
+         "tag": ""
+        },
+        {
+         "name": "T. Malick Souleyman",
+         "nat": "CIV",
+         "tag": ""
+        }
+       ],
        "seed": "",
        "sets": [
         null,
@@ -2475,14 +2486,11 @@
      "status": "scheduled",
      "duration": null,
      "winner": null,
-     "tbd": true,
-     "tbd_text": [
-      "T. Malick Souleyman/M. Kowere Baizoum Joel OR J. Ahmad/R. Günter Tremiño Zarse - - -",
-      "D. Moreira D. Garcia Brito (5) - - -"
-     ],
+     "tbd": false,
+     "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/20/2026 7:54:49 PM"
+     "local_time": "11/21/2026 1:18:52 AM"
     }
    ],
    "por_draws": [
@@ -2695,7 +2703,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 12:54:31 AM"
+     "local_time": "11/21/2026 6:19:21 AM"
     }
    ],
    "por_draws": [
@@ -2793,7 +2801,7 @@
    "location": "Acapulco - Mexico",
    "start": "2026-11-21",
    "end": "2026-11-29",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [
     {
      "section": "qualy",
