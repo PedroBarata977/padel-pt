@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T01:19:22+00:00",
+ "generated_at": "2026-11-21T09:31:33+00:00",
  "fip_generated_at": "2026-11-20T17:07:03+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 8.2,
+  "fip_age_hours": 16.4,
   "errors": []
  },
  "events": [
@@ -199,7 +199,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/21/2026 9:17:44 AM"
+     "local_time": "11/21/2026 5:29:55 PM"
     },
     {
      "match_id": "WD019",
@@ -260,7 +260,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 9:18:17 AM"
+     "local_time": "11/21/2026 5:29:47 PM"
     },
     {
      "match_id": "WD009",
@@ -284,8 +284,8 @@
        ],
        "seed": "",
        "sets": [
-        null,
-        null,
+        "6",
+        "6",
         null
        ],
        "points": null,
@@ -306,22 +306,22 @@
        ],
        "seed": "6",
        "sets": [
-        null,
-        null,
+        "3",
+        "3",
         null
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 0,
      "tbd": false,
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 9:17:55 AM"
+     "local_time": "11/21/2026 5:29:55 PM"
     },
     {
      "match_id": "WD015",
@@ -345,8 +345,8 @@
        ],
        "seed": "",
        "sets": [
-        null,
-        null,
+        "1",
+        "2",
         null
        ],
        "points": null,
@@ -367,22 +367,22 @@
        ],
        "seed": "2",
        "sets": [
-        null,
-        null,
+        "6",
+        "6",
         null
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 1,
      "tbd": false,
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 9:17:55 AM"
+     "local_time": "11/21/2026 5:29:55 PM"
     }
    ],
    "por_draws": [
@@ -707,7 +707,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/21/2026 2:18:06 AM"
+     "local_time": "11/21/2026 10:30:30 AM"
     },
     {
      "match_id": "MD030",
@@ -768,7 +768,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/21/2026 2:18:06 AM"
+     "local_time": "11/21/2026 10:30:30 AM"
     },
     {
      "match_id": "WD004",
@@ -829,7 +829,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 2:18:11 AM"
+     "local_time": "11/21/2026 10:30:10 AM"
     },
     {
      "match_id": "WD009",
@@ -890,7 +890,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 2:18:11 AM"
+     "local_time": "11/21/2026 10:30:10 AM"
     },
     {
      "match_id": "MD015",
@@ -951,7 +951,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 2:18:11 AM"
+     "local_time": "11/21/2026 10:30:10 AM"
     },
     {
      "match_id": "MD006",
@@ -1012,7 +1012,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 2:18:11 AM"
+     "local_time": "11/21/2026 10:30:10 AM"
     },
     {
      "match_id": "MD012",
@@ -1073,7 +1073,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 2:18:11 AM"
+     "local_time": "11/21/2026 10:30:10 AM"
     }
    ],
    "por_draws": [
@@ -1509,7 +1509,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/21/2026 2:18:08 AM"
+     "local_time": "11/21/2026 10:30:32 AM"
     },
     {
      "match_id": "MQ010",
@@ -1570,7 +1570,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/21/2026 2:18:08 AM"
+     "local_time": "11/21/2026 10:30:32 AM"
     },
     {
      "match_id": "MD024",
@@ -1631,7 +1631,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 2:18:47 AM"
+     "local_time": "11/21/2026 10:30:56 AM"
     },
     {
      "match_id": "MD027",
@@ -1692,7 +1692,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 2:18:47 AM"
+     "local_time": "11/21/2026 10:30:56 AM"
     },
     {
      "match_id": "MD013",
@@ -1753,7 +1753,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 2:18:30 AM"
+     "local_time": "11/21/2026 10:30:39 AM"
     }
    ],
    "por_draws": [
@@ -2078,7 +2078,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 2:18:56 AM"
+     "local_time": "11/21/2026 10:31:09 AM"
     },
     {
      "match_id": "WD010",
@@ -2139,7 +2139,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 2:18:52 AM"
+     "local_time": "11/21/2026 10:30:11 AM"
     },
     {
      "match_id": "MD011",
@@ -2200,7 +2200,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 2:18:52 AM"
+     "local_time": "11/21/2026 10:30:11 AM"
     }
    ],
    "por_draws": [
@@ -2490,7 +2490,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 1:18:52 AM"
+     "local_time": "11/21/2026 9:31:21 AM"
     }
    ],
    "por_draws": [
@@ -2703,7 +2703,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 6:19:21 AM"
+     "local_time": "11/21/2026 2:31:25 PM"
     }
    ],
    "por_draws": [
