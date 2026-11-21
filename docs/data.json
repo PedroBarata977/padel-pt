@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-21T11:54:27+00:00",
- "fip_generated_at": "2026-11-21T11:52:22+00:00",
+ "generated_at": "2026-11-21T11:59:44+00:00",
+ "fip_generated_at": "2026-11-21T11:56:19+00:00",
  "target": "POR",
  "stats": {
   "requests": 84,
   "blocked_403": 0,
   "events": 15,
   "fip": {
-   "requests": 89,
+   "requests": 86,
    "blocked_403": 0,
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 0.1,
   "errors": []
  },
  "events": [
@@ -220,7 +220,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/21/2026 12:53:21 PM"
+     "local_time": "11/21/2026 12:57:01 PM"
     },
     {
      "match_id": "MQ010",
@@ -281,7 +281,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/21/2026 12:53:21 PM"
+     "local_time": "11/21/2026 12:57:01 PM"
     },
     {
      "match_id": "MD024",
@@ -342,7 +342,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 12:53:22 PM"
+     "local_time": "11/21/2026 12:57:02 PM"
     },
     {
      "match_id": "MD027",
@@ -403,7 +403,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 12:53:22 PM"
+     "local_time": "11/21/2026 12:57:02 PM"
     },
     {
      "match_id": "MD013",
@@ -464,7 +464,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 12:53:23 PM"
+     "local_time": "11/21/2026 12:56:30 PM"
     }
    ],
    "por_draws": [
@@ -819,7 +819,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 12:53:32 PM"
+     "local_time": "11/21/2026 12:57:09 PM"
     },
     {
      "match_id": "WD005",
@@ -880,7 +880,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 12:53:04 PM"
+     "local_time": "11/21/2026 12:56:52 PM"
     },
     {
      "match_id": "WD010",
@@ -941,7 +941,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 12:53:04 PM"
+     "local_time": "11/21/2026 12:56:52 PM"
     },
     {
      "match_id": "MD011",
@@ -1002,7 +1002,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 12:53:04 PM"
+     "local_time": "11/21/2026 12:56:52 PM"
     }
    ],
    "por_draws": [
@@ -1317,7 +1317,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/21/2026 7:52:57 PM"
+     "local_time": "11/21/2026 7:56:55 PM"
     },
     {
      "match_id": "WD019",
@@ -1378,7 +1378,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/21/2026 7:53:35 PM"
+     "local_time": "11/21/2026 7:57:19 PM"
     },
     {
      "match_id": "WD009",
@@ -1439,7 +1439,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 7:53:38 PM"
+     "local_time": "11/21/2026 7:56:52 PM"
     },
     {
      "match_id": "WD015",
@@ -1500,7 +1500,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 7:53:38 PM"
+     "local_time": "11/21/2026 7:56:52 PM"
     },
     {
      "match_id": "WD007",
@@ -1561,7 +1561,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 7:53:38 PM"
+     "local_time": "11/21/2026 7:56:52 PM"
     }
    ],
    "por_draws": [
@@ -1940,7 +1940,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/21/2026 12:53:46 PM"
+     "local_time": "11/21/2026 12:57:25 PM"
     },
     {
      "match_id": "MD030",
@@ -2001,312 +2001,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/21/2026 12:53:46 PM"
-    },
-    {
-     "match_id": "WD004",
-     "court": "CC2 - LK Vision",
-     "slot": "Not before 6:00 PM",
-     "gender": "Women",
-     "round": "Quarterfinals",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "A. Lopez Moral",
-         "nat": "ESP",
-         "tag": ""
-        },
-        {
-         "name": "C. Fassio Goyeneche",
-         "nat": "ESP",
-         "tag": "1"
-        }
-       ],
-       "seed": "1",
-       "sets": [
-        "6",
-        "6",
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "F. Ligotti",
-         "nat": "ITA",
-         "tag": ""
-        },
-        {
-         "name": "B. Albuquerque Melo",
-         "nat": "POR",
-         "tag": "5"
-        }
-       ],
-       "seed": "5",
-       "sets": [
-        "0",
-        "2",
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": 0,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 3,
-     "date": "2026-11-20",
-     "local_time": "11/21/2026 12:53:46 PM"
-    },
-    {
-     "match_id": "WD009",
-     "court": "COURT 3 - UB MONTAGE",
-     "slot": "Starting at 10:00 AM",
-     "gender": "Women",
-     "round": "Round of 16",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "S. Killman",
-         "nat": "SWE",
-         "tag": ""
-        },
-        {
-         "name": "A. Renemark",
-         "nat": "SWE",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        "0",
-        "4",
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "F. Ligotti",
-         "nat": "ITA",
-         "tag": ""
-        },
-        {
-         "name": "B. Albuquerque Melo",
-         "nat": "POR",
-         "tag": "5"
-        }
-       ],
-       "seed": "5",
-       "sets": [
-        "6",
-        "6",
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": 1,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 3,
-     "date": "2026-11-20",
-     "local_time": "11/21/2026 12:53:46 PM"
-    },
-    {
-     "match_id": "MD015",
-     "court": "COURT 3 - UB MONTAGE",
-     "slot": "Not before 1:00 PM",
-     "gender": "Men",
-     "round": "Round of 16",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "M. Solano",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "M. Correia",
-         "nat": "POR",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        "0",
-        "2",
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "J. Bergeron",
-         "nat": "FRA",
-         "tag": ""
-        },
-        {
-         "name": "J. Seurin",
-         "nat": "FRA",
-         "tag": "2"
-        }
-       ],
-       "seed": "2",
-       "sets": [
-        "6",
-        "6",
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": 1,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 3,
-     "date": "2026-11-20",
-     "local_time": "11/21/2026 12:53:46 PM"
-    },
-    {
-     "match_id": "MD006",
-     "court": "COURT 3 - UB MONTAGE",
-     "slot": "Not before 7:30 PM",
-     "gender": "Men",
-     "round": "Quarterfinals",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "J. Caiano",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "A. Calvo Perez",
-         "nat": "ESP",
-         "tag": "4"
-        }
-       ],
-       "seed": "4",
-       "sets": [
-        "6",
-        "64",
-        "3"
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "A. Marques Berdonce",
-         "nat": "ESP",
-         "tag": ""
-        },
-        {
-         "name": "A. Calvache",
-         "nat": "ESP",
-         "tag": "7"
-        }
-       ],
-       "seed": "7",
-       "sets": [
-        "2",
-        "7",
-        "6"
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": 1,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 3,
-     "date": "2026-11-20",
-     "local_time": "11/21/2026 12:53:46 PM"
-    },
-    {
-     "match_id": "MD012",
-     "court": "COURT 4 - MUREX",
-     "slot": "Not before 1:00 PM",
-     "gender": "Men",
-     "round": "Round of 16",
-     "teams": [
-      {
-       "players": [
-        {
-         "name": "J. Caiano",
-         "nat": "POR",
-         "tag": ""
-        },
-        {
-         "name": "A. Calvo Perez",
-         "nat": "ESP",
-         "tag": "4"
-        }
-       ],
-       "seed": "4",
-       "sets": [
-        "6",
-        "6",
-        null
-       ],
-       "points": null,
-       "serving": false
-      },
-      {
-       "players": [
-        {
-         "name": "O. Hodos",
-         "nat": "SWE",
-         "tag": ""
-        },
-        {
-         "name": "V. Fiala",
-         "nat": "DEN",
-         "tag": ""
-        }
-       ],
-       "seed": "",
-       "sets": [
-        "2",
-        "2",
-        null
-       ],
-       "points": null,
-       "serving": false
-      }
-     ],
-     "status": "completed",
-     "duration": null,
-     "winner": 0,
-     "tbd": false,
-     "tbd_text": null,
-     "day": 3,
-     "date": "2026-11-20",
-     "local_time": "11/21/2026 12:53:46 PM"
+     "local_time": "11/21/2026 12:57:25 PM"
     }
    ],
    "por_draws": [
@@ -2588,7 +2283,9 @@
     "day": 4,
     "totalday": 4
    },
-   "warnings": [],
+   "warnings": [
+    "Ordem de jogo dia 3: HTTPSConnectionPool(host='widget.matchscorerlive.com', port=443): Read timed out."
+   ],
    "registration_text": "Registration Closed",
    "ms_draws": {
     "MD": 31,
@@ -2736,7 +2433,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 4:53:56 PM"
+     "local_time": "11/21/2026 4:59:02 PM"
     },
     {
      "match_id": "MD008",
@@ -2797,7 +2494,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 4:53:56 PM"
+     "local_time": "11/21/2026 4:59:02 PM"
     }
    ],
    "por_draws": [
@@ -3022,7 +2719,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 11:54:03 AM"
+     "local_time": "11/21/2026 11:59:00 AM"
     }
    ],
    "por_draws": [
@@ -3309,7 +3006,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 5:53:47 AM"
+     "local_time": "11/21/2026 5:59:09 AM"
     }
    ],
    "por_draws": [
