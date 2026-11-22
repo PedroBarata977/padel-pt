@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-21T22:06:53+00:00",
+ "generated_at": "2026-11-22T07:06:59+00:00",
  "stats": {
-  "requests": 86,
+  "requests": 94,
   "blocked_403": 0,
   "events": 15,
   "errors": []
@@ -15,7 +15,7 @@
    "category": "Platinum",
    "location": "Aguascalientes - Mexico",
    "start": "2026-11-15",
-   "end": "2026-11-21",
+   "end": "2026-11-22",
    "status": "live",
    "por_entries": [],
    "por_matches": [],
@@ -33,15 +33,15 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v7.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v8.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MQ-v3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v5.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v6.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4715",
-    "day": 7,
-    "totalday": 7
+    "day": 8,
+    "totalday": 8
    },
    "warnings": [],
    "registration_text": "Registration Closed"
@@ -314,6 +314,32 @@
         }
        ],
        "opponent_seed": "4",
+       "sets": [
+        "6",
+        "1",
+        "6"
+       ],
+       "opponent_sets": [
+        "3",
+        "6",
+        "4"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Final",
+       "opponent": [
+        {
+         "name": "Janine Hemmes",
+         "nat": "TheNetherlands"
+        },
+        {
+         "name": "Aimee Gibson",
+         "nat": "GreatBritain"
+        }
+       ],
+       "opponent_seed": "3",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -345,7 +371,7 @@
    "oop": {
     "year": "2026",
     "id": "4605",
-    "day": 4,
+    "day": 5,
     "totalday": 5
    },
    "warnings": [],
@@ -360,7 +386,7 @@
    "location": "Skurup - Sweden",
    "start": "2026-11-18",
    "end": "2026-11-21",
-   "status": "live",
+   "status": "finished",
    "por_entries": [
     {
      "section": "main",
@@ -1049,7 +1075,7 @@
    "oop": {
     "year": "2026",
     "id": "2410",
-    "day": 4,
+    "day": 5,
     "totalday": 5
    },
    "warnings": [],
@@ -1344,7 +1370,7 @@
    "oop": {
     "year": "2026",
     "id": "4613",
-    "day": 4,
+    "day": 5,
     "totalday": 5
    },
    "warnings": [],
@@ -1383,7 +1409,7 @@
    "oop": {
     "year": "2026",
     "id": "4710",
-    "day": 3,
+    "day": 4,
     "totalday": 4
    },
    "warnings": [],
@@ -1413,12 +1439,12 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-CHILE-IX_-DRAW-MD-v2.pdf"
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-CHILE-IX_-DRAW-MD-v3.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4502",
-    "day": 2,
+    "day": 3,
     "totalday": 3
    },
    "warnings": [],
@@ -1598,7 +1624,7 @@
    "oop": {
     "year": "2026",
     "id": "4717",
-    "day": 2,
+    "day": 3,
     "totalday": 3
    },
    "warnings": [],
@@ -1730,7 +1756,7 @@
    "oop": {
     "year": "2026",
     "id": "4719",
-    "day": 2,
+    "day": 3,
     "totalday": 3
    },
    "warnings": [],
@@ -1837,7 +1863,7 @@
        "nat": "POR"
       },
       {
-       "name": "Pedro Graça",
+       "name": "Pedro Graca",
        "nat": "POR"
       }
      ],
@@ -1856,13 +1882,21 @@
         }
        ],
        "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
+       "sets": [
+        "6",
+        "4",
+        "5"
+       ],
+       "opponent_sets": [
+        "4",
+        "6",
+        "7"
+       ],
        "won": false,
-       "lost": false
+       "lost": true
       }
      ],
-     "status": "em prova",
+     "status": "eliminado",
      "draw": "MQ",
      "draw_label": "Masculino · Qualificação"
     },
@@ -1887,11 +1921,37 @@
          "nat": "POR"
         },
         {
-         "name": "Pedro Graça",
+         "name": "Pedro Graca",
          "nat": "POR"
         }
        ],
        "opponent_seed": "",
+       "sets": [
+        "4",
+        "6",
+        "7"
+       ],
+       "opponent_sets": [
+        "6",
+        "4",
+        "5"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Q2",
+       "opponent": [
+        {
+         "name": "Manuel Aragon Herrera",
+         "nat": "Spain"
+        },
+        {
+         "name": "Albert Roglan Pons",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "1",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -1901,6 +1961,51 @@
      "status": "em prova",
      "draw": "MQ",
      "draw_label": "Masculino · Qualificação"
+    },
+    {
+     "players": [
+      {
+       "name": "Marta Ortega Gallego",
+       "nat": "Spain"
+      },
+      {
+       "name": "Sofia Araujo",
+       "nat": "POR"
+      }
+     ],
+     "seed": "5",
+     "matches": [
+      {
+       "round": "1/32",
+       "opponent": [
+        {
+         "name": "Bye",
+         "nat": ""
+        },
+        {
+         "name": "Bye",
+         "nat": ""
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "1/16",
+       "opponent": [],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "WD",
+     "draw_label": "Feminino · Quadro principal"
     },
     {
      "players": [
@@ -1952,13 +2057,15 @@
     }
    },
    "draw_pdfs": {
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MQ.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MD.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MQ-1.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WD.pdf",
     "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WQ.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4801",
-    "day": 1,
+    "day": 2,
     "totalday": 9
    },
    "warnings": [],
