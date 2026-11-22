@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-22T11:00:21+00:00",
- "fip_generated_at": "2026-11-22T07:06:59+00:00",
+ "generated_at": "2026-11-22T12:10:13+00:00",
+ "fip_generated_at": "2026-11-22T12:06:59+00:00",
  "target": "POR",
  "stats": {
-  "requests": 77,
+  "requests": 69,
   "blocked_403": 0,
   "events": 15,
   "fip": {
@@ -12,7 +12,7 @@
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 3.9,
+  "fip_age_hours": 0.1,
   "errors": []
  },
  "events": [
@@ -24,8 +24,8 @@
    "category": "Platinum",
    "location": "Aguascalientes - Mexico",
    "start": "2026-11-15",
-   "end": "2026-11-22",
-   "status": "live",
+   "end": "2026-11-21",
+   "status": "finished",
    "por_entries": [],
    "por_matches": [],
    "por_draws": [],
@@ -49,8 +49,8 @@
    "oop": {
     "year": "2026",
     "id": "4715",
-    "day": 8,
-    "totalday": 8
+    "day": 7,
+    "totalday": 7
    },
    "warnings": [],
    "registration_text": "Registration Closed",
@@ -58,8 +58,7 @@
     "MD": 28,
     "MQ": 23,
     "WD": 26
-   },
-   "matchscorer_id": "FIP-2026-4715"
+   }
   },
   {
    "name": "FIP SILVER GO PARK HONG KONG",
@@ -199,7 +198,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/22/2026 6:58:54 PM"
+     "local_time": "11/22/2026 8:07:44 PM"
     },
     {
      "match_id": "WD019",
@@ -260,7 +259,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/22/2026 6:59:15 PM"
+     "local_time": "11/22/2026 8:07:48 PM"
     },
     {
      "match_id": "WD009",
@@ -321,7 +320,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 6:59:15 PM"
+     "local_time": "11/22/2026 8:07:49 PM"
     },
     {
      "match_id": "WD015",
@@ -382,7 +381,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 6:59:15 PM"
+     "local_time": "11/22/2026 8:07:49 PM"
     },
     {
      "match_id": "WD007",
@@ -443,7 +442,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 6:59:15 PM"
+     "local_time": "11/22/2026 8:07:49 PM"
     },
     {
      "match_id": "WD001",
@@ -467,9 +466,9 @@
        ],
        "seed": "3",
        "sets": [
-        null,
-        null,
-        null
+        "6",
+        "6",
+        "3"
        ],
        "points": null,
        "serving": false
@@ -489,22 +488,22 @@
        ],
        "seed": "2",
        "sets": [
-        null,
-        null,
-        null
+        "1",
+        "7",
+        "6"
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 1,
      "tbd": false,
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 6:59:15 PM"
+     "local_time": "11/22/2026 8:07:36 PM"
     },
     {
      "match_id": "WD003",
@@ -565,7 +564,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 6:59:15 PM"
+     "local_time": "11/22/2026 8:07:36 PM"
     }
    ],
    "por_draws": [
@@ -789,13 +788,21 @@
         }
        ],
        "opponent_seed": "3",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
+       "sets": [
+        "1",
+        "7",
+        "6"
+       ],
+       "opponent_sets": [
+        "6",
+        "6",
+        "3"
+       ],
+       "won": true,
        "lost": false
       }
      ],
-     "status": "em prova",
+     "status": "venceu ronda",
      "draw": "WD",
      "draw_label": "Feminino · Quadro principal"
     }
@@ -1174,7 +1181,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MD-v5.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MD-v6.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MQ-v2.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-WD-v4.pdf"
    },
@@ -1341,7 +1348,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/22/2026 11:59:28 AM"
+     "local_time": "11/22/2026 1:08:08 PM"
     },
     {
      "match_id": "MQ010",
@@ -1402,7 +1409,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/22/2026 11:59:28 AM"
+     "local_time": "11/22/2026 1:08:08 PM"
     },
     {
      "match_id": "MD024",
@@ -1463,7 +1470,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/22/2026 11:59:29 AM"
+     "local_time": "11/22/2026 1:08:10 PM"
     },
     {
      "match_id": "MD027",
@@ -1524,7 +1531,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/22/2026 11:59:29 AM"
+     "local_time": "11/22/2026 1:08:10 PM"
     },
     {
      "match_id": "MD013",
@@ -1585,7 +1592,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 11:59:30 AM"
+     "local_time": "11/22/2026 1:08:14 PM"
     },
     {
      "match_id": "MD006",
@@ -1646,7 +1653,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 11:59:30 AM"
+     "local_time": "11/22/2026 1:08:14 PM"
     },
     {
      "match_id": "MD003",
@@ -1707,7 +1714,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 11:59:31 AM"
+     "local_time": "11/22/2026 1:08:16 PM"
     }
    ],
    "por_draws": [
@@ -2112,7 +2119,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/22/2026 11:59:38 AM"
+     "local_time": "11/22/2026 1:07:58 PM"
     },
     {
      "match_id": "WD005",
@@ -2173,7 +2180,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 11:59:41 AM"
+     "local_time": "11/22/2026 1:07:56 PM"
     },
     {
      "match_id": "WD010",
@@ -2234,7 +2241,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 11:59:41 AM"
+     "local_time": "11/22/2026 1:07:56 PM"
     },
     {
      "match_id": "MD011",
@@ -2295,7 +2302,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 11:59:41 AM"
+     "local_time": "11/22/2026 1:07:56 PM"
     },
     {
      "match_id": "MD005",
@@ -2356,7 +2363,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 11:59:41 AM"
+     "local_time": "11/22/2026 1:07:56 PM"
     },
     {
      "match_id": "WD002",
@@ -2417,7 +2424,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 11:59:01 AM"
+     "local_time": "11/22/2026 1:08:02 PM"
     },
     {
      "match_id": "MD002",
@@ -2478,7 +2485,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 11:59:01 AM"
+     "local_time": "11/22/2026 1:08:02 PM"
     }
    ],
    "por_draws": [
@@ -2686,13 +2693,19 @@
         }
        ],
        "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
+       "sets": [
+        "5",
+        "5"
+       ],
+       "opponent_sets": [
+        "7",
+        "7"
+       ],
        "won": false,
-       "lost": false
+       "lost": true
       }
      ],
-     "status": "em prova",
+     "status": "eliminado",
      "draw": "WD",
      "draw_label": "Feminino · Quadro principal"
     }
@@ -2907,7 +2920,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 4:00:01 PM"
+     "local_time": "11/22/2026 5:09:24 PM"
     },
     {
      "match_id": "MD008",
@@ -2968,7 +2981,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 4:00:01 PM"
+     "local_time": "11/22/2026 5:09:24 PM"
     },
     {
      "match_id": "MD002",
@@ -3029,7 +3042,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 3:59:38 PM"
+     "local_time": "11/22/2026 5:09:05 PM"
     }
    ],
    "por_draws": [
@@ -3278,7 +3291,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 11:00:06 AM"
+     "local_time": "11/22/2026 12:09:35 PM"
     }
    ],
    "por_draws": [
@@ -3545,7 +3558,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 4:59:54 AM"
+     "local_time": "11/22/2026 6:09:46 AM"
     },
     {
      "match_id": "MQ008",
@@ -3606,7 +3619,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 4:59:45 AM"
+     "local_time": "11/22/2026 6:09:41 AM"
     },
     {
      "match_id": "WQ014",
@@ -3667,7 +3680,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 4:59:45 AM"
+     "local_time": "11/22/2026 6:09:41 AM"
     }
    ],
    "por_draws": [
