@@ -1,10 +1,12 @@
 {
- "generated_at": "2026-11-22T12:06:59+00:00",
+ "generated_at": "2026-11-22T18:18:10+00:00",
  "stats": {
-  "requests": 94,
+  "requests": 89,
   "blocked_403": 0,
-  "events": 15,
-  "errors": []
+  "events": 13,
+  "errors": [
+   "Calendário premier 2026: HTTPSConnectionPool(host='www.padelfip.com', port=443): Max retries exceeded with url: /calendar-premier-padel/?events-year=2026 (Caused by NameResolutionError(\"HTTPSConnection(host='www.padelfip.com', port=443): Failed to resolve 'www.padelfip.com' ([Errno 11001] getaddrinfo failed)\"))"
+  ]
  },
  "events": [
   {
@@ -372,16 +374,11 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-MD-v5.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-MD-v6.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-MQv3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-WD-v4-1.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-GO-PARK-HONG-KONG_-DRAW-WD-v5.pdf"
    },
-   "oop": {
-    "year": "2026",
-    "id": "4605",
-    "day": 5,
-    "totalday": 5
-   },
+   "oop": null,
    "warnings": [],
    "registration_text": "Registration Closed"
   },
@@ -951,13 +948,19 @@
         }
        ],
        "opponent_seed": "8",
-       "sets": [],
-       "opponent_sets": [],
+       "sets": [
+        "6",
+        "2"
+       ],
+       "opponent_sets": [
+        "7",
+        "6"
+       ],
        "won": false,
-       "lost": false
+       "lost": true
       }
      ],
-     "status": "em prova",
+     "status": "eliminado",
      "draw": "MD",
      "draw_label": "Masculino · Quadro principal"
     },
@@ -1077,7 +1080,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MD-v8.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MD-v9.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROCHEFORT_-DRAW-MQ-v4.pdf"
    },
    "oop": {
@@ -1241,6 +1244,30 @@
         }
        ],
        "opponent_seed": "1",
+       "sets": [
+        "6",
+        "7"
+       ],
+       "opponent_sets": [
+        "4",
+        "6"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Final",
+       "opponent": [
+        {
+         "name": "Roberto Belmont Pastor",
+         "nat": "Spain"
+        },
+        {
+         "name": "Alejandro Garcia Calahorro",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "2",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -1416,9 +1443,9 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-MD-v5.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-MD-v6.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-MQ-v2.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-WD-v3.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-MCV-PADELNESS_-DRAW-WD-v4.pdf"
    },
    "oop": {
     "year": "2026",
@@ -1608,13 +1635,19 @@
         }
        ],
        "opponent_seed": "4",
-       "sets": [],
-       "opponent_sets": [],
+       "sets": [
+        "3",
+        "4"
+       ],
+       "opponent_sets": [
+        "6",
+        "6"
+       ],
        "won": false,
-       "lost": false
+       "lost": true
       }
      ],
-     "status": "em prova",
+     "status": "eliminado",
      "draw": "MD",
      "draw_label": "Masculino · Quadro principal"
     }
@@ -1633,7 +1666,7 @@
    },
    "draw_pdfs": {
     "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-MD-V2.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-WD-v2.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-KARACHI-II_-DRAW-WD-v3.pdf"
    },
    "oop": {
     "year": "2026",
@@ -1765,322 +1798,13 @@
    },
    "draw_pdfs": {
     "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-MD-v3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-WD-v2.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ACCRA_-DRAW-WD-v3.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4719",
     "day": 3,
     "totalday": 3
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
-   "name": "MEXICO MAJOR",
-   "url": "https://www.padelfip.com/events/mexico-major-2026/",
-   "slug": "mexico-major-2026",
-   "circuit": "Premier Padel",
-   "category": "Major",
-   "location": "Acapulco - Mexico",
-   "start": "2026-11-21",
-   "end": "2026-11-29",
-   "status": "live",
-   "por_entries": [
-    {
-     "section": "qualy",
-     "pos": 10,
-     "mark": "",
-     "players": [
-      {
-       "name": "Pedro Araujo",
-       "nat": "POR",
-       "points": 557
-      },
-      {
-       "name": "Pedro Graça",
-       "nat": "POR",
-       "points": 524
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "qualy",
-     "pos": 12,
-     "mark": "",
-     "players": [
-      {
-       "name": "Nuno Deus",
-       "nat": "POR",
-       "points": 565
-      },
-      {
-       "name": "Miguel Deus",
-       "nat": "POR",
-       "points": 446
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 5,
-     "mark": "",
-     "players": [
-      {
-       "name": "Marta Ortega Gallego",
-       "nat": "ESP",
-       "points": 4706
-      },
-      {
-       "name": "Sofia Araujo",
-       "nat": "POR",
-       "points": 5436
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W"
-    },
-    {
-     "section": "qualy",
-     "pos": 7,
-     "mark": "",
-     "players": [
-      {
-       "name": "Mafalda Marques Fernandes",
-       "nat": "POR",
-       "points": 342
-      },
-      {
-       "name": "Patricia Ribeiro",
-       "nat": "POR",
-       "points": 268
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [
-    {
-     "players": [
-      {
-       "name": "Pedro Araujo",
-       "nat": "POR"
-      },
-      {
-       "name": "Pedro Graca",
-       "nat": "POR"
-      }
-     ],
-     "seed": "",
-     "matches": [
-      {
-       "round": "Q1",
-       "opponent": [
-        {
-         "name": "Nuno Deus",
-         "nat": "POR"
-        },
-        {
-         "name": "Miguel Deus",
-         "nat": "POR"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [
-        "6",
-        "4",
-        "5"
-       ],
-       "opponent_sets": [
-        "4",
-        "6",
-        "7"
-       ],
-       "won": false,
-       "lost": true
-      }
-     ],
-     "status": "eliminado",
-     "draw": "MQ",
-     "draw_label": "Masculino · Qualificação"
-    },
-    {
-     "players": [
-      {
-       "name": "Nuno Deus",
-       "nat": "POR"
-      },
-      {
-       "name": "Miguel Deus",
-       "nat": "POR"
-      }
-     ],
-     "seed": "",
-     "matches": [
-      {
-       "round": "Q1",
-       "opponent": [
-        {
-         "name": "Pedro Araujo",
-         "nat": "POR"
-        },
-        {
-         "name": "Pedro Graca",
-         "nat": "POR"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [
-        "4",
-        "6",
-        "7"
-       ],
-       "opponent_sets": [
-        "6",
-        "4",
-        "5"
-       ],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Q2",
-       "opponent": [
-        {
-         "name": "Manuel Aragon Herrera",
-         "nat": "Spain"
-        },
-        {
-         "name": "Albert Roglan Pons",
-         "nat": "Spain"
-        }
-       ],
-       "opponent_seed": "1",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "MQ",
-     "draw_label": "Masculino · Qualificação"
-    },
-    {
-     "players": [
-      {
-       "name": "Marta Ortega Gallego",
-       "nat": "Spain"
-      },
-      {
-       "name": "Sofia Araujo",
-       "nat": "POR"
-      }
-     ],
-     "seed": "5",
-     "matches": [
-      {
-       "round": "1/32",
-       "opponent": [
-        {
-         "name": "Bye",
-         "nat": ""
-        },
-        {
-         "name": "Bye",
-         "nat": ""
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "1/16",
-       "opponent": [],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "WD",
-     "draw_label": "Feminino · Quadro principal"
-    },
-    {
-     "players": [
-      {
-       "name": "Mafalda Marques Fernandes",
-       "nat": "POR"
-      },
-      {
-       "name": "Patricia Ribeiro",
-       "nat": "POR"
-      }
-     ],
-     "seed": "7",
-     "matches": [
-      {
-       "round": "Q1",
-       "opponent": [
-        {
-         "name": "Ivana Perches Arredondo",
-         "nat": "Mexico"
-        },
-        {
-         "name": "Natalia Blanco",
-         "nat": "Mexico"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": false,
-       "lost": false
-      }
-     ],
-     "status": "em prova",
-     "draw": "WQ",
-     "draw_label": "Feminino · Qualificação"
-    }
-   ],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-M-v11.pdf",
-     "updated": "19/11/2026 h 07:10  pm",
-     "n_teams": 73
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-Mexico-Major-W-v11.pdf",
-     "updated": "20/11/2026 h 04:55 pm",
-     "n_teams": 51
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MD.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MQ-1.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WD.pdf",
-    "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WQ.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4801",
-    "day": 2,
-    "totalday": 9
    },
    "warnings": [],
    "registration_text": "Registration Closed"
@@ -2118,7 +1842,7 @@
     },
     {
      "section": "waiting",
-     "pos": 11,
+     "pos": 8,
      "mark": "",
      "players": [
       {
@@ -2141,9 +1865,9 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v5.pdf",
-     "updated": "21/11/2026 h 9:55 am",
-     "n_teams": 81
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v7.pdf",
+     "updated": "22/11/2026 h 06:50 pm",
+     "n_teams": 78
     },
     "W": {
      "pdf": null
@@ -2187,7 +1911,7 @@
     },
     {
      "section": "qualy",
-     "pos": 4,
+     "pos": 3,
      "mark": "",
      "players": [
       {
@@ -2210,9 +1934,9 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronze-High-Velocity-Phuket-M-v3.pdf",
-     "updated": "18/11/2026 h 04:50 pm",
-     "n_teams": 46
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronze-High-Velocity-Phuket-M-v4.pdf",
+     "updated": "22/11/2026 h 01:45 pm",
+     "n_teams": 45
     },
     "W": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronze-High-Velocity-Phuket-W-V2.pdf",
@@ -2319,24 +2043,6 @@
    "oop": null,
    "warnings": [],
    "registration_text": "Registration Deadline:"
-  },
-  {
-   "name": "PREMIER PADEL FINALS",
-   "url": "https://www.padelfip.com/events/premier-padel-finals-2026/",
-   "slug": "premier-padel-finals-2026",
-   "circuit": "Premier Padel",
-   "category": "Finals",
-   "location": "Barcelona - Spain",
-   "start": "2026-12-10",
-   "end": "2026-12-13",
-   "status": "registration_not_open",
-   "por_entries": [],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {},
-   "draw_pdfs": {},
-   "oop": null,
-   "warnings": []
   }
  ]
 }
