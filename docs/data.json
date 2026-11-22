@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-22T02:57:36+00:00",
- "fip_generated_at": "2026-11-21T22:06:53+00:00",
+ "generated_at": "2026-11-22T07:08:48+00:00",
+ "fip_generated_at": "2026-11-22T07:06:59+00:00",
  "target": "POR",
  "stats": {
-  "requests": 76,
+  "requests": 77,
   "blocked_403": 0,
   "events": 15,
   "fip": {
-   "requests": 86,
+   "requests": 94,
    "blocked_403": 0,
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 4.8,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -24,7 +24,7 @@
    "category": "Platinum",
    "location": "Aguascalientes - Mexico",
    "start": "2026-11-15",
-   "end": "2026-11-21",
+   "end": "2026-11-22",
    "status": "live",
    "por_entries": [],
    "por_matches": [],
@@ -42,15 +42,15 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v7.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v8.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MQ-v3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v5.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v6.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4715",
-    "day": 7,
-    "totalday": 7
+    "day": 8,
+    "totalday": 8
    },
    "warnings": [],
    "registration_text": "Registration Closed",
@@ -199,7 +199,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-18",
-     "local_time": "11/22/2026 10:56:36 AM"
+     "local_time": "11/22/2026 3:07:42 PM"
     },
     {
      "match_id": "WD019",
@@ -260,7 +260,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/22/2026 10:56:38 AM"
+     "local_time": "11/22/2026 3:07:43 PM"
     },
     {
      "match_id": "WD009",
@@ -321,7 +321,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 10:56:39 AM"
+     "local_time": "11/22/2026 3:07:47 PM"
     },
     {
      "match_id": "WD015",
@@ -382,7 +382,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 10:56:39 AM"
+     "local_time": "11/22/2026 3:07:47 PM"
     },
     {
      "match_id": "WD007",
@@ -443,29 +443,29 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 10:56:39 AM"
+     "local_time": "11/22/2026 3:07:47 PM"
     },
     {
-     "match_id": "WD003",
-     "court": "Court 7",
-     "slot": "Starting at 10:00 AM",
+     "match_id": "WD001",
+     "court": "Court 6",
+     "slot": "Not before 2:45 PM",
      "gender": "Women",
-     "round": "SemiFinals",
+     "round": "Final",
      "teams": [
       {
        "players": [
         {
-         "name": "S. Bellver Fructuoso",
-         "nat": "ESP",
+         "name": "J. Hemmes",
+         "nat": "NED",
          "tag": ""
         },
         {
-         "name": "N. Putria",
-         "nat": "INA",
-         "tag": "4"
+         "name": "A. Gibson",
+         "nat": "GBR",
+         "tag": "3"
         }
        ],
-       "seed": "4",
+       "seed": "3",
        "sets": [
         null,
         null,
@@ -504,7 +504,68 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 10:56:40 AM"
+     "local_time": "11/22/2026 3:07:48 PM"
+    },
+    {
+     "match_id": "WD003",
+     "court": "Court 7",
+     "slot": "Starting at 10:00 AM",
+     "gender": "Women",
+     "round": "SemiFinals",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "S. Bellver Fructuoso",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "N. Putria",
+         "nat": "INA",
+         "tag": "4"
+        }
+       ],
+       "seed": "4",
+       "sets": [
+        "3",
+        "6",
+        "4"
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "L. Perez Parra",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "C. Santos",
+         "nat": "POR",
+         "tag": "2"
+        }
+       ],
+       "seed": "2",
+       "sets": [
+        "6",
+        "1",
+        "6"
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 1,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 5,
+     "date": "2026-11-22",
+     "local_time": "11/22/2026 3:07:48 PM"
     }
    ],
    "por_draws": [
@@ -702,6 +763,32 @@
         }
        ],
        "opponent_seed": "4",
+       "sets": [
+        "6",
+        "1",
+        "6"
+       ],
+       "opponent_sets": [
+        "3",
+        "6",
+        "4"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Final",
+       "opponent": [
+        {
+         "name": "Janine Hemmes",
+         "nat": "TheNetherlands"
+        },
+        {
+         "name": "Aimee Gibson",
+         "nat": "GreatBritain"
+        }
+       ],
+       "opponent_seed": "3",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -733,7 +820,7 @@
    "oop": {
     "year": "2026",
     "id": "4605",
-    "day": 4,
+    "day": 5,
     "totalday": 5
    },
    "warnings": [],
@@ -754,7 +841,7 @@
    "location": "Skurup - Sweden",
    "start": "2026-11-18",
    "end": "2026-11-21",
-   "status": "live",
+   "status": "finished",
    "por_entries": [
     {
      "section": "main",
@@ -1254,7 +1341,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/22/2026 3:56:45 AM"
+     "local_time": "11/22/2026 8:07:52 AM"
     },
     {
      "match_id": "MQ010",
@@ -1315,7 +1402,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/22/2026 3:56:45 AM"
+     "local_time": "11/22/2026 8:07:52 AM"
     },
     {
      "match_id": "MD024",
@@ -1376,7 +1463,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/22/2026 3:56:43 AM"
+     "local_time": "11/22/2026 8:07:55 AM"
     },
     {
      "match_id": "MD027",
@@ -1437,7 +1524,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/22/2026 3:56:43 AM"
+     "local_time": "11/22/2026 8:07:55 AM"
     },
     {
      "match_id": "MD013",
@@ -1498,7 +1585,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 3:56:47 AM"
+     "local_time": "11/22/2026 8:07:56 AM"
     },
     {
      "match_id": "MD006",
@@ -1559,7 +1646,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 3:56:47 AM"
+     "local_time": "11/22/2026 8:07:56 AM"
     },
     {
      "match_id": "MD003",
@@ -1620,7 +1707,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 3:56:48 AM"
+     "local_time": "11/22/2026 8:07:52 AM"
     }
    ],
    "por_draws": [
@@ -1898,7 +1985,7 @@
    "oop": {
     "year": "2026",
     "id": "2410",
-    "day": 4,
+    "day": 5,
     "totalday": 5
    },
    "warnings": [],
@@ -2025,7 +2112,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/22/2026 3:56:49 AM"
+     "local_time": "11/22/2026 8:08:06 AM"
     },
     {
      "match_id": "WD005",
@@ -2086,7 +2173,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 3:56:55 AM"
+     "local_time": "11/22/2026 8:08:06 AM"
     },
     {
      "match_id": "WD010",
@@ -2147,7 +2234,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 3:56:55 AM"
+     "local_time": "11/22/2026 8:08:06 AM"
     },
     {
      "match_id": "MD011",
@@ -2208,7 +2295,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 3:56:55 AM"
+     "local_time": "11/22/2026 8:08:06 AM"
     },
     {
      "match_id": "MD005",
@@ -2269,7 +2356,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 3:56:55 AM"
+     "local_time": "11/22/2026 8:08:06 AM"
     },
     {
      "match_id": "WD002",
@@ -2330,7 +2417,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 3:56:41 AM"
+     "local_time": "11/22/2026 8:07:55 AM"
     },
     {
      "match_id": "MD002",
@@ -2391,7 +2478,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 3:56:41 AM"
+     "local_time": "11/22/2026 8:07:55 AM"
     }
    ],
    "por_draws": [
@@ -2630,7 +2717,7 @@
    "oop": {
     "year": "2026",
     "id": "4613",
-    "day": 4,
+    "day": 5,
     "totalday": 5
    },
    "warnings": [],
@@ -2675,7 +2762,7 @@
    "oop": {
     "year": "2026",
     "id": "4710",
-    "day": 3,
+    "day": 4,
     "totalday": 4
    },
    "warnings": [],
@@ -2711,12 +2798,12 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-CHILE-IX_-DRAW-MD-v2.pdf"
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-CHILE-IX_-DRAW-MD-v3.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4502",
-    "day": 2,
+    "day": 3,
     "totalday": 3
    },
    "warnings": [],
@@ -2820,7 +2907,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 7:57:15 AM"
+     "local_time": "11/22/2026 12:08:27 PM"
     },
     {
      "match_id": "MD008",
@@ -2881,7 +2968,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 7:57:15 AM"
+     "local_time": "11/22/2026 12:08:27 PM"
     },
     {
      "match_id": "MD002",
@@ -2942,7 +3029,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 7:56:52 AM"
+     "local_time": "11/22/2026 12:08:28 PM"
     }
    ],
    "por_draws": [
@@ -3086,7 +3173,7 @@
    "oop": {
     "year": "2026",
     "id": "4717",
-    "day": 2,
+    "day": 3,
     "totalday": 3
    },
    "warnings": [],
@@ -3191,7 +3278,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 2:57:21 AM"
+     "local_time": "11/22/2026 7:08:25 AM"
     }
    ],
    "por_draws": [
@@ -3287,7 +3374,7 @@
    "oop": {
     "year": "2026",
     "id": "4719",
-    "day": 2,
+    "day": 3,
     "totalday": 3
    },
    "warnings": [],
@@ -3458,7 +3545,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/21/2026 8:56:35 PM"
+     "local_time": "11/22/2026 1:08:39 AM"
     },
     {
      "match_id": "MQ008",
@@ -3519,7 +3606,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/21/2026 8:57:01 PM"
+     "local_time": "11/22/2026 1:08:18 AM"
     },
     {
      "match_id": "WQ014",
@@ -3580,7 +3667,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/21/2026 8:57:01 PM"
+     "local_time": "11/22/2026 1:08:18 AM"
     }
    ],
    "por_draws": [
@@ -3591,7 +3678,7 @@
        "nat": "POR"
       },
       {
-       "name": "Pedro Graça",
+       "name": "Pedro Graca",
        "nat": "POR"
       }
      ],
@@ -3610,13 +3697,21 @@
         }
        ],
        "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
+       "sets": [
+        "6",
+        "4",
+        "5"
+       ],
+       "opponent_sets": [
+        "4",
+        "6",
+        "7"
+       ],
        "won": false,
-       "lost": false
+       "lost": true
       }
      ],
-     "status": "em prova",
+     "status": "eliminado",
      "draw": "MQ",
      "draw_label": "Masculino · Qualificação"
     },
@@ -3641,11 +3736,37 @@
          "nat": "POR"
         },
         {
-         "name": "Pedro Graça",
+         "name": "Pedro Graca",
          "nat": "POR"
         }
        ],
        "opponent_seed": "",
+       "sets": [
+        "4",
+        "6",
+        "7"
+       ],
+       "opponent_sets": [
+        "6",
+        "4",
+        "5"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Q2",
+       "opponent": [
+        {
+         "name": "Manuel Aragon Herrera",
+         "nat": "Spain"
+        },
+        {
+         "name": "Albert Roglan Pons",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "1",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -3655,6 +3776,51 @@
      "status": "em prova",
      "draw": "MQ",
      "draw_label": "Masculino · Qualificação"
+    },
+    {
+     "players": [
+      {
+       "name": "Marta Ortega Gallego",
+       "nat": "Spain"
+      },
+      {
+       "name": "Sofia Araujo",
+       "nat": "POR"
+      }
+     ],
+     "seed": "5",
+     "matches": [
+      {
+       "round": "1/32",
+       "opponent": [
+        {
+         "name": "Bye",
+         "nat": ""
+        },
+        {
+         "name": "Bye",
+         "nat": ""
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "1/16",
+       "opponent": [],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "WD",
+     "draw_label": "Feminino · Quadro principal"
     },
     {
      "players": [
@@ -3706,13 +3872,15 @@
     }
    },
    "draw_pdfs": {
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MQ.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MD.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MQ-1.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WD.pdf",
     "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WQ.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4801",
-    "day": 1,
+    "day": 2,
     "totalday": 9
    },
    "warnings": [],
