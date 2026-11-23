@@ -1,65 +1,21 @@
 {
- "generated_at": "2026-11-22T22:08:38+00:00",
+ "generated_at": "2026-11-23T00:10:04+00:00",
  "fip_generated_at": "2026-11-22T22:06:59+00:00",
  "target": "POR",
  "stats": {
-  "requests": 60,
+  "requests": 56,
   "blocked_403": 0,
-  "events": 15,
+  "events": 13,
   "fip": {
    "requests": 93,
    "blocked_403": 0,
    "events": 15,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 2.1,
   "errors": []
  },
  "events": [
-  {
-   "name": "FIP PLATINUM AGUASCALIENTES",
-   "url": "https://www.padelfip.com/events/fip-platinum-aguascalientes-2026/",
-   "slug": "fip-platinum-aguascalientes-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Platinum",
-   "location": "Aguascalientes - Mexico",
-   "start": "2026-11-15",
-   "end": "2026-11-21",
-   "status": "finished",
-   "por_entries": [],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-M-V8.pdf",
-     "updated": "14/11/2026 h 06:55 am",
-     "n_teams": 47
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-W-v5.pdf",
-     "updated": "14/11/2026 h 07:45  am",
-     "n_teams": 26
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v8.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MQ-v3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v6.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4715",
-    "day": 7,
-    "totalday": 7
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed",
-   "ms_draws": {
-    "MD": 28,
-    "MQ": 23,
-    "WD": 26
-   }
-  },
   {
    "name": "FIP SILVER GO PARK HONG KONG",
    "url": "https://www.padelfip.com/events/fip-silver-hong-kong-2026/",
@@ -395,356 +351,6 @@
    "registration_text": "Registration Closed"
   },
   {
-   "name": "FIP BRONZE SKURUP",
-   "url": "https://www.padelfip.com/events/fip-bronze-skurup-2026/",
-   "slug": "fip-bronze-skurup-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Skurup - Sweden",
-   "start": "2026-11-18",
-   "end": "2026-11-21",
-   "status": "finished",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 4,
-     "mark": "",
-     "players": [
-      {
-       "name": "Alejandro Calvo Perez",
-       "nat": "ESP",
-       "points": 282
-      },
-      {
-       "name": "João Maria Caiano",
-       "nat": "POR",
-       "points": 300
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 14,
-     "mark": "",
-     "players": [
-      {
-       "name": "Martim Solano",
-       "nat": "POR",
-       "points": 65
-      },
-      {
-       "name": "Manuel Correia",
-       "nat": "POR",
-       "points": 72
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 5,
-     "mark": "",
-     "players": [
-      {
-       "name": "Bruna Albuquerque Melo",
-       "nat": "POR",
-       "points": 230
-      },
-      {
-       "name": "Francesca Ligotti",
-       "nat": "ITA",
-       "points": 194
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [
-    {
-     "players": [
-      {
-       "name": "Joao Maria Caiano",
-       "nat": "POR"
-      },
-      {
-       "name": "Alejandro Calvo Perez",
-       "nat": "Spain"
-      }
-     ],
-     "seed": "4",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Alfonso Diaz Ponce",
-         "nat": "Spain"
-        },
-        {
-         "name": "Ebbe Badersten",
-         "nat": "Sweden"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [
-        "6",
-        "6"
-       ],
-       "opponent_sets": [
-        "3",
-        "4"
-       ],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Oitavos",
-       "opponent": [
-        {
-         "name": "Oliver Hodos",
-         "nat": "Sweden"
-        },
-        {
-         "name": "Victor Fiala",
-         "nat": "Denmark"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [
-        "6",
-        "6"
-       ],
-       "opponent_sets": [
-        "2",
-        "2"
-       ],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Quartos",
-       "opponent": [
-        {
-         "name": "Adrian Marques Berdonce",
-         "nat": "Spain"
-        },
-        {
-         "name": "Alonso Calvache",
-         "nat": "Spain"
-        }
-       ],
-       "opponent_seed": "7",
-       "sets": [
-        "6",
-        "6",
-        "3"
-       ],
-       "opponent_sets": [
-        "2",
-        "7",
-        "6"
-       ],
-       "won": false,
-       "lost": true
-      }
-     ],
-     "status": "eliminado",
-     "draw": "MD",
-     "draw_label": "Masculino · Quadro principal"
-    },
-    {
-     "players": [
-      {
-       "name": "Martim Solano",
-       "nat": "POR"
-      },
-      {
-       "name": "Manuel Correia",
-       "nat": "POR"
-      }
-     ],
-     "seed": "",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Andres Calzada Felici",
-         "nat": "Spain"
-        },
-        {
-         "name": "Arturo Calzada Felici",
-         "nat": "Spain"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Oitavos",
-       "opponent": [
-        {
-         "name": "Johan Bergeron",
-         "nat": "France"
-        },
-        {
-         "name": "Julien Seurin",
-         "nat": "France"
-        }
-       ],
-       "opponent_seed": "2",
-       "sets": [
-        "0",
-        "2"
-       ],
-       "opponent_sets": [
-        "6",
-        "6"
-       ],
-       "won": false,
-       "lost": true
-      }
-     ],
-     "status": "eliminado",
-     "draw": "MD",
-     "draw_label": "Masculino · Quadro principal"
-    },
-    {
-     "players": [
-      {
-       "name": "Bruna Albuquerque Melo",
-       "nat": "POR"
-      },
-      {
-       "name": "Francesca Ligotti",
-       "nat": "Italy"
-      }
-     ],
-     "seed": "5",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Bye",
-         "nat": ""
-        },
-        {
-         "name": "Bye",
-         "nat": ""
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": true,
-       "lost": false
-      }
-     ],
-     "status": "venceu ronda",
-     "draw": "WD",
-     "draw_label": "Feminino · Quadro principal"
-    },
-    {
-     "players": [
-      {
-       "name": "Francesca Ligotti",
-       "nat": "Italy"
-      },
-      {
-       "name": "Bruna Albuquerque Melo",
-       "nat": "POR"
-      }
-     ],
-     "seed": "5",
-     "matches": [
-      {
-       "round": "Oitavos",
-       "opponent": [
-        {
-         "name": "Selma Killman",
-         "nat": "Sweden"
-        },
-        {
-         "name": "Asta Renemark",
-         "nat": "Sweden"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [
-        "6",
-        "6"
-       ],
-       "opponent_sets": [
-        "0",
-        "4"
-       ],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Quartos",
-       "opponent": [
-        {
-         "name": "Amanda Lopez Moral",
-         "nat": "Spain"
-        },
-        {
-         "name": "Camila Fassio Goyeneche",
-         "nat": "Spain"
-        }
-       ],
-       "opponent_seed": "1",
-       "sets": [
-        "0",
-        "2"
-       ],
-       "opponent_sets": [
-        "6",
-        "6"
-       ],
-       "won": false,
-       "lost": true
-      }
-     ],
-     "status": "eliminado",
-     "draw": "WD",
-     "draw_label": "Feminino · Quadro principal"
-    }
-   ],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-M-v7.pdf",
-     "updated": "16/11/2026 h 11:10 am",
-     "n_teams": 33
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-W-v3.pdf",
-     "updated": "14/11/2026 h 12:05 pm",
-     "n_teams": 17
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MD-v6.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MQ-v2.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-WD-v4.pdf"
-   },
-   "oop": null,
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
    "name": "FIP BRONZE ROCHEFORT",
    "url": "https://www.padelfip.com/events/fip-bronze-rochefort-2026/",
    "slug": "fip-bronze-rochefort-2026",
@@ -903,7 +509,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/22/2026 11:07:26 PM"
+     "local_time": "11/23/2026 1:08:44 AM"
     },
     {
      "match_id": "MQ010",
@@ -964,7 +570,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-19",
-     "local_time": "11/22/2026 11:07:26 PM"
+     "local_time": "11/23/2026 1:08:44 AM"
     },
     {
      "match_id": "MD024",
@@ -1025,7 +631,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/22/2026 11:07:30 PM"
+     "local_time": "11/23/2026 1:08:46 AM"
     },
     {
      "match_id": "MD027",
@@ -1086,7 +692,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/22/2026 11:07:30 PM"
+     "local_time": "11/23/2026 1:08:46 AM"
     },
     {
      "match_id": "MD013",
@@ -1147,7 +753,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 11:07:31 PM"
+     "local_time": "11/23/2026 1:08:49 AM"
     },
     {
      "match_id": "MD006",
@@ -1208,7 +814,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 11:07:31 PM"
+     "local_time": "11/23/2026 1:08:49 AM"
     },
     {
      "match_id": "MD003",
@@ -1269,7 +875,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 11:07:32 PM"
+     "local_time": "11/23/2026 1:08:51 AM"
     }
    ],
    "por_draws": [
@@ -1680,7 +1286,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-20",
-     "local_time": "11/22/2026 11:07:41 PM"
+     "local_time": "11/23/2026 1:09:10 AM"
     },
     {
      "match_id": "WD005",
@@ -1741,7 +1347,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 11:07:42 PM"
+     "local_time": "11/23/2026 1:09:14 AM"
     },
     {
      "match_id": "WD010",
@@ -1802,7 +1408,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 11:07:42 PM"
+     "local_time": "11/23/2026 1:09:14 AM"
     },
     {
      "match_id": "MD011",
@@ -1863,7 +1469,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 11:07:42 PM"
+     "local_time": "11/23/2026 1:09:14 AM"
     },
     {
      "match_id": "MD005",
@@ -1924,7 +1530,7 @@
      "tbd_text": null,
      "day": 4,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 11:07:42 PM"
+     "local_time": "11/23/2026 1:09:14 AM"
     },
     {
      "match_id": "WD002",
@@ -1985,7 +1591,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 11:07:43 PM"
+     "local_time": "11/23/2026 1:09:17 AM"
     },
     {
      "match_id": "MD002",
@@ -2046,7 +1652,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 11:07:43 PM"
+     "local_time": "11/23/2026 1:09:17 AM"
     },
     {
      "match_id": "MD001",
@@ -2107,7 +1713,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 11:07:43 PM"
+     "local_time": "11/23/2026 1:09:17 AM"
     }
    ],
    "por_draws": [
@@ -2574,7 +2180,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/23/2026 3:08:11 AM"
+     "local_time": "11/23/2026 5:09:40 AM"
     },
     {
      "match_id": "MD008",
@@ -2635,7 +2241,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/23/2026 3:08:11 AM"
+     "local_time": "11/23/2026 5:09:40 AM"
     },
     {
      "match_id": "MD002",
@@ -2696,7 +2302,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-22",
-     "local_time": "11/23/2026 3:08:15 AM"
+     "local_time": "11/23/2026 5:09:41 AM"
     }
    ],
    "por_draws": [
@@ -2951,7 +2557,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 10:08:22 PM"
+     "local_time": "11/23/2026 12:09:49 AM"
     }
    ],
    "por_draws": [
@@ -3218,7 +2824,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/22/2026 4:08:30 PM"
+     "local_time": "11/22/2026 6:09:55 PM"
     },
     {
      "match_id": "MQ008",
@@ -3242,11 +2848,11 @@
        ],
        "seed": "1",
        "sets": [
-        null,
-        null,
+        "6",
+        "1",
         null
        ],
-       "points": null,
+       "points": "0",
        "serving": false
       },
       {
@@ -3264,22 +2870,22 @@
        ],
        "seed": "",
        "sets": [
-        null,
-        null,
+        "3",
+        "3",
         null
        ],
-       "points": null,
-       "serving": false
+       "points": "0",
+       "serving": true
       }
      ],
-     "status": "scheduled",
-     "duration": null,
+     "status": "live",
+     "duration": "01:00",
      "winner": null,
      "tbd": false,
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 4:07:33 PM"
+     "local_time": "11/22/2026 6:09:00 PM"
     },
     {
      "match_id": "WQ014",
@@ -3303,11 +2909,11 @@
        ],
        "seed": "7",
        "sets": [
-        "0",
-        null,
+        "6",
+        "7",
         null
        ],
-       "points": "15",
+       "points": null,
        "serving": false
       },
       {
@@ -3325,22 +2931,22 @@
        ],
        "seed": "",
        "sets": [
-        "0",
-        null,
+        "4",
+        "5",
         null
        ],
-       "points": "40",
-       "serving": true
+       "points": null,
+       "serving": false
       }
      ],
-     "status": "live",
-     "duration": "00:01",
-     "winner": null,
+     "status": "completed",
+     "duration": "01:22",
+     "winner": 0,
      "tbd": false,
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/22/2026 4:07:33 PM"
+     "local_time": "11/22/2026 6:09:00 PM"
     }
    ],
    "por_draws": [
