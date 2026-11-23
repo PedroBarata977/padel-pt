@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T12:07:39+00:00",
- "fip_generated_at": "2026-11-23T12:06:45+00:00",
+ "generated_at": "2026-11-23T17:07:37+00:00",
+ "fip_generated_at": "2026-11-23T17:06:44+00:00",
  "target": "POR",
  "stats": {
   "requests": 33,
@@ -1655,7 +1655,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/23/2026 6:07:32 AM"
+     "local_time": "11/23/2026 11:07:19 AM"
     },
     {
      "match_id": "MQ008",
@@ -1716,7 +1716,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/23/2026 6:07:27 AM"
+     "local_time": "11/23/2026 11:07:22 AM"
     },
     {
      "match_id": "WQ014",
@@ -1777,7 +1777,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/23/2026 6:07:27 AM"
+     "local_time": "11/23/2026 11:07:22 AM"
     },
     {
      "match_id": "WQ007",
@@ -1838,7 +1838,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-23",
-     "local_time": "11/23/2026 6:06:43 AM"
+     "local_time": "11/23/2026 11:07:22 AM"
     }
    ],
    "por_draws": [
@@ -2107,7 +2107,7 @@
    "por_entries": [
     {
      "section": "main",
-     "pos": 20,
+     "pos": 19,
      "mark": "",
      "players": [
       {
@@ -2127,7 +2127,7 @@
     },
     {
      "section": "waiting",
-     "pos": 7,
+     "pos": 5,
      "mark": "",
      "players": [
       {
@@ -2150,9 +2150,9 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v8.pdf",
-     "updated": "23/11/2026 h 10:40 am",
-     "n_teams": 77
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v9.pdf",
+     "updated": "23/11/2026 h 15:30 pm",
+     "n_teams": 75
     },
     "W": {
      "pdf": null
@@ -2247,27 +2247,7 @@
    "por_entries": [
     {
      "section": "main",
-     "pos": 14,
-     "mark": "",
-     "players": [
-      {
-       "name": "Francesca Ligotti",
-       "nat": "ITA",
-       "points": 194
-      },
-      {
-       "name": "Bruna Albuquerque Melo",
-       "nat": "POR",
-       "points": 227
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W"
-    },
-    {
-     "section": "main",
-     "pos": 22,
+     "pos": 21,
      "mark": "",
      "players": [
       {
@@ -2293,9 +2273,9 @@
      "pdf": null
     },
     "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Roeselare-W-v2-1.pdf",
-     "updated": "17/11/2026 h 10:00 am",
-     "n_teams": 31
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Roeselare-W-v3.pdf",
+     "updated": "23/11/2026 h 15:30 pm",
+     "n_teams": 30
     }
    },
    "draw_pdfs": {},
