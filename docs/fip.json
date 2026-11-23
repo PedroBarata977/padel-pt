@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-23T07:06:41+00:00",
+ "generated_at": "2026-11-23T12:06:45+00:00",
  "stats": {
-  "requests": 80,
+  "requests": 82,
   "blocked_403": 0,
   "events": 13,
   "errors": []
@@ -1798,7 +1798,7 @@
     },
     {
      "section": "waiting",
-     "pos": 8,
+     "pos": 7,
      "mark": "",
      "players": [
       {
@@ -1821,9 +1821,9 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v7.pdf",
-     "updated": "22/11/2026 h 06:50 pm",
-     "n_teams": 78
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v8.pdf",
+     "updated": "23/11/2026 h 10:40 am",
+     "n_teams": 77
     },
     "W": {
      "pdf": null
@@ -1895,9 +1895,9 @@
      "n_teams": 44
     },
     "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronze-High-Velocity-Phuket-W-V2.pdf",
-     "updated": "14/11/2026 h 09:41 am",
-     "n_teams": 23
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-list-FIP-Bronze-High-Velocity-Phuket-W-V4.pdf",
+     "updated": "23/11/2026 h 09:41 am",
+     "n_teams": 22
     }
    },
    "draw_pdfs": {},
