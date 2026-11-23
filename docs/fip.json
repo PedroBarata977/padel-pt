@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-23T17:06:44+00:00",
+ "generated_at": "2026-11-23T22:06:45+00:00",
  "stats": {
-  "requests": 82,
+  "requests": 81,
   "blocked_403": 0,
   "events": 13,
   "errors": []
@@ -1778,7 +1778,7 @@
    "por_entries": [
     {
      "section": "main",
-     "pos": 19,
+     "pos": 18,
      "mark": "",
      "players": [
       {
@@ -1798,7 +1798,7 @@
     },
     {
      "section": "waiting",
-     "pos": 5,
+     "pos": 3,
      "mark": "",
      "players": [
       {
@@ -1821,15 +1821,17 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v9.pdf",
-     "updated": "23/11/2026 h 15:30 pm",
-     "n_teams": 75
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v10-1.pdf",
+     "updated": "23/11/2026 h 20:25 pm",
+     "n_teams": 73
     },
     "W": {
      "pdf": null
     }
    },
-   "draw_pdfs": {},
+   "draw_pdfs": {
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MQ.pdf"
+   },
    "oop": null,
    "warnings": [],
    "registration_text": "Registration Closed"
