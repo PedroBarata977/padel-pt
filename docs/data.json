@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-23T21:07:40+00:00",
- "fip_generated_at": "2026-11-23T17:06:44+00:00",
+ "generated_at": "2026-11-23T22:07:54+00:00",
+ "fip_generated_at": "2026-11-23T22:06:45+00:00",
  "target": "POR",
  "stats": {
   "requests": 33,
   "blocked_403": 0,
   "events": 13,
   "fip": {
-   "requests": 82,
+   "requests": 81,
    "blocked_403": 0,
    "events": 13,
    "errors": []
   },
-  "fip_age_hours": 4.0,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -1119,12 +1119,13 @@
     "day": 4,
     "totalday": 4
    },
-   "warnings": [],
+   "warnings": [
+    "Quadro WD MatchScorer: Response ended prematurely"
+   ],
    "registration_text": "Registration Closed",
    "ms_draws": {
     "MD": 32,
-    "MQ": 11,
-    "WD": 18
+    "MQ": 11
    }
   },
   {
@@ -1655,7 +1656,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/23/2026 3:07:31 PM"
+     "local_time": "11/23/2026 4:07:45 PM"
     },
     {
      "match_id": "MQ008",
@@ -1716,7 +1717,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/23/2026 3:07:32 PM"
+     "local_time": "11/23/2026 4:07:45 PM"
     },
     {
      "match_id": "WQ014",
@@ -1777,7 +1778,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/23/2026 3:07:32 PM"
+     "local_time": "11/23/2026 4:07:45 PM"
     },
     {
      "match_id": "WQ007",
@@ -1801,11 +1802,11 @@
        ],
        "seed": "7",
        "sets": [
-        null,
+        "1",
         null,
         null
        ],
-       "points": null,
+       "points": "0",
        "serving": false
       },
       {
@@ -1823,22 +1824,22 @@
        ],
        "seed": "2",
        "sets": [
-        null,
+        "0",
         null,
         null
        ],
-       "points": null,
-       "serving": false
+       "points": "0",
+       "serving": true
       }
      ],
-     "status": "scheduled",
-     "duration": null,
+     "status": "live",
+     "duration": "00:01",
      "winner": null,
      "tbd": false,
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-23",
-     "local_time": "11/23/2026 3:06:56 PM"
+     "local_time": "11/23/2026 4:07:32 PM"
     }
    ],
    "por_draws": [
@@ -2107,7 +2108,7 @@
    "por_entries": [
     {
      "section": "main",
-     "pos": 19,
+     "pos": 18,
      "mark": "",
      "players": [
       {
@@ -2127,7 +2128,7 @@
     },
     {
      "section": "waiting",
-     "pos": 5,
+     "pos": 3,
      "mark": "",
      "players": [
       {
@@ -2150,15 +2151,17 @@
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v9.pdf",
-     "updated": "23/11/2026 h 15:30 pm",
-     "n_teams": 75
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v10-1.pdf",
+     "updated": "23/11/2026 h 20:25 pm",
+     "n_teams": 73
     },
     "W": {
      "pdf": null
     }
    },
-   "draw_pdfs": {},
+   "draw_pdfs": {
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MQ.pdf"
+   },
    "oop": null,
    "warnings": [],
    "registration_text": "Registration Closed"
