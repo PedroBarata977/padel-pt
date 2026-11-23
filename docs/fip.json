@@ -1,51 +1,12 @@
 {
- "generated_at": "2026-11-22T22:06:59+00:00",
+ "generated_at": "2026-11-23T07:06:41+00:00",
  "stats": {
-  "requests": 93,
+  "requests": 80,
   "blocked_403": 0,
-  "events": 15,
+  "events": 13,
   "errors": []
  },
  "events": [
-  {
-   "name": "FIP PLATINUM AGUASCALIENTES",
-   "url": "https://www.padelfip.com/events/fip-platinum-aguascalientes-2026/",
-   "slug": "fip-platinum-aguascalientes-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Platinum",
-   "location": "Aguascalientes - Mexico",
-   "start": "2026-11-15",
-   "end": "2026-11-21",
-   "status": "finished",
-   "por_entries": [],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-M-V8.pdf",
-     "updated": "14/11/2026 h 06:55 am",
-     "n_teams": 47
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/01/Entry-List-Fip-Platinum-Aguascalientes-W-v5.pdf",
-     "updated": "14/11/2026 h 07:45  am",
-     "n_teams": 26
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MD-v8.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-MQ-v3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2026/01/FIP-PLATINUM-AGUASCALIENTES_-DRAW-WD-v6.pdf"
-   },
-   "oop": {
-    "year": "2026",
-    "id": "4715",
-    "day": 7,
-    "totalday": 7
-   },
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
   {
    "name": "FIP SILVER GO PARK HONG KONG",
    "url": "https://www.padelfip.com/events/fip-silver-hong-kong-2026/",
@@ -55,7 +16,7 @@
    "location": "Hong Kong - Hong Kong",
    "start": "2026-11-18",
    "end": "2026-11-22",
-   "status": "live",
+   "status": "finished",
    "por_entries": [
     {
      "section": "qualy",
@@ -381,356 +342,6 @@
    "registration_text": "Registration Closed"
   },
   {
-   "name": "FIP BRONZE SKURUP",
-   "url": "https://www.padelfip.com/events/fip-bronze-skurup-2026/",
-   "slug": "fip-bronze-skurup-2026",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Bronze",
-   "location": "Skurup - Sweden",
-   "start": "2026-11-18",
-   "end": "2026-11-21",
-   "status": "finished",
-   "por_entries": [
-    {
-     "section": "main",
-     "pos": 4,
-     "mark": "",
-     "players": [
-      {
-       "name": "Alejandro Calvo Perez",
-       "nat": "ESP",
-       "points": 282
-      },
-      {
-       "name": "João Maria Caiano",
-       "nat": "POR",
-       "points": 300
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 14,
-     "mark": "",
-     "players": [
-      {
-       "name": "Martim Solano",
-       "nat": "POR",
-       "points": 65
-      },
-      {
-       "name": "Manuel Correia",
-       "nat": "POR",
-       "points": 72
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "M"
-    },
-    {
-     "section": "main",
-     "pos": 5,
-     "mark": "",
-     "players": [
-      {
-       "name": "Bruna Albuquerque Melo",
-       "nat": "POR",
-       "points": 230
-      },
-      {
-       "name": "Francesca Ligotti",
-       "nat": "ITA",
-       "points": 194
-      }
-     ],
-     "pr": false,
-     "team_points": null,
-     "gender": "W"
-    }
-   ],
-   "por_matches": [],
-   "por_draws": [
-    {
-     "players": [
-      {
-       "name": "Joao Maria Caiano",
-       "nat": "POR"
-      },
-      {
-       "name": "Alejandro Calvo Perez",
-       "nat": "Spain"
-      }
-     ],
-     "seed": "4",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Alfonso Diaz Ponce",
-         "nat": "Spain"
-        },
-        {
-         "name": "Ebbe Badersten",
-         "nat": "Sweden"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [
-        "6",
-        "6"
-       ],
-       "opponent_sets": [
-        "3",
-        "4"
-       ],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Oitavos",
-       "opponent": [
-        {
-         "name": "Oliver Hodos",
-         "nat": "Sweden"
-        },
-        {
-         "name": "Victor Fiala",
-         "nat": "Denmark"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [
-        "6",
-        "6"
-       ],
-       "opponent_sets": [
-        "2",
-        "2"
-       ],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Quartos",
-       "opponent": [
-        {
-         "name": "Adrian Marques Berdonce",
-         "nat": "Spain"
-        },
-        {
-         "name": "Alonso Calvache",
-         "nat": "Spain"
-        }
-       ],
-       "opponent_seed": "7",
-       "sets": [
-        "6",
-        "6",
-        "3"
-       ],
-       "opponent_sets": [
-        "2",
-        "7",
-        "6"
-       ],
-       "won": false,
-       "lost": true
-      }
-     ],
-     "status": "eliminado",
-     "draw": "MD",
-     "draw_label": "Masculino · Quadro principal"
-    },
-    {
-     "players": [
-      {
-       "name": "Martim Solano",
-       "nat": "POR"
-      },
-      {
-       "name": "Manuel Correia",
-       "nat": "POR"
-      }
-     ],
-     "seed": "",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Andres Calzada Felici",
-         "nat": "Spain"
-        },
-        {
-         "name": "Arturo Calzada Felici",
-         "nat": "Spain"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Oitavos",
-       "opponent": [
-        {
-         "name": "Johan Bergeron",
-         "nat": "France"
-        },
-        {
-         "name": "Julien Seurin",
-         "nat": "France"
-        }
-       ],
-       "opponent_seed": "2",
-       "sets": [
-        "0",
-        "2"
-       ],
-       "opponent_sets": [
-        "6",
-        "6"
-       ],
-       "won": false,
-       "lost": true
-      }
-     ],
-     "status": "eliminado",
-     "draw": "MD",
-     "draw_label": "Masculino · Quadro principal"
-    },
-    {
-     "players": [
-      {
-       "name": "Bruna Albuquerque Melo",
-       "nat": "POR"
-      },
-      {
-       "name": "Francesca Ligotti",
-       "nat": "Italy"
-      }
-     ],
-     "seed": "5",
-     "matches": [
-      {
-       "round": "1/16",
-       "opponent": [
-        {
-         "name": "Bye",
-         "nat": ""
-        },
-        {
-         "name": "Bye",
-         "nat": ""
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
-       "won": true,
-       "lost": false
-      }
-     ],
-     "status": "venceu ronda",
-     "draw": "WD",
-     "draw_label": "Feminino · Quadro principal"
-    },
-    {
-     "players": [
-      {
-       "name": "Francesca Ligotti",
-       "nat": "Italy"
-      },
-      {
-       "name": "Bruna Albuquerque Melo",
-       "nat": "POR"
-      }
-     ],
-     "seed": "5",
-     "matches": [
-      {
-       "round": "Oitavos",
-       "opponent": [
-        {
-         "name": "Selma Killman",
-         "nat": "Sweden"
-        },
-        {
-         "name": "Asta Renemark",
-         "nat": "Sweden"
-        }
-       ],
-       "opponent_seed": "",
-       "sets": [
-        "6",
-        "6"
-       ],
-       "opponent_sets": [
-        "0",
-        "4"
-       ],
-       "won": true,
-       "lost": false
-      },
-      {
-       "round": "Quartos",
-       "opponent": [
-        {
-         "name": "Amanda Lopez Moral",
-         "nat": "Spain"
-        },
-        {
-         "name": "Camila Fassio Goyeneche",
-         "nat": "Spain"
-        }
-       ],
-       "opponent_seed": "1",
-       "sets": [
-        "0",
-        "2"
-       ],
-       "opponent_sets": [
-        "6",
-        "6"
-       ],
-       "won": false,
-       "lost": true
-      }
-     ],
-     "status": "eliminado",
-     "draw": "WD",
-     "draw_label": "Feminino · Quadro principal"
-    }
-   ],
-   "entry_lists": {
-    "M": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-M-v7.pdf",
-     "updated": "16/11/2026 h 11:10 am",
-     "n_teams": 33
-    },
-    "W": {
-     "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Bronze-Skurup-W-v3.pdf",
-     "updated": "14/11/2026 h 12:05 pm",
-     "n_teams": 17
-    }
-   },
-   "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MD-v6.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-MQ-v2.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-SKURUP_-DRAW-WD-v4.pdf"
-   },
-   "oop": null,
-   "warnings": [],
-   "registration_text": "Registration Closed"
-  },
-  {
    "name": "FIP BRONZE ROCHEFORT",
    "url": "https://www.padelfip.com/events/fip-bronze-rochefort-2026/",
    "slug": "fip-bronze-rochefort-2026",
@@ -739,7 +350,7 @@
    "location": "Rochefort - Belgium",
    "start": "2026-11-18",
    "end": "2026-11-22",
-   "status": "live",
+   "status": "finished",
    "por_entries": [
     {
      "section": "main",
@@ -1099,7 +710,7 @@
    "location": "Iurreta - Spain",
    "start": "2026-11-18",
    "end": "2026-11-22",
-   "status": "live",
+   "status": "finished",
    "por_entries": [
     {
      "section": "main",
@@ -1432,7 +1043,7 @@
    "location": "Napoli - Italy",
    "start": "2026-11-19",
    "end": "2026-11-22",
-   "status": "live",
+   "status": "finished",
    "por_entries": [],
    "por_matches": [],
    "por_draws": [],
@@ -1471,7 +1082,7 @@
    "location": "San Antonio - Chile",
    "start": "2026-11-20",
    "end": "2026-11-22",
-   "status": "live",
+   "status": "finished",
    "por_entries": [],
    "por_matches": [],
    "por_draws": [],
@@ -1486,7 +1097,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-CHILE-IX_-DRAW-MD-v3.pdf"
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-CHILE-IX_-DRAW-MD-v4.pdf"
    },
    "oop": {
     "year": "2026",
@@ -1506,7 +1117,7 @@
    "location": "Karachi - Pakistan",
    "start": "2026-11-20",
    "end": "2026-11-22",
-   "status": "live",
+   "status": "finished",
    "por_entries": [
     {
      "section": "main",
@@ -1692,7 +1303,7 @@
    "location": "Accra - Ghana",
    "start": "2026-11-20",
    "end": "2026-11-22",
-   "status": "live",
+   "status": "finished",
    "por_entries": [
     {
      "section": "main",
@@ -2005,13 +1616,19 @@
         }
        ],
        "opponent_seed": "1",
-       "sets": [],
-       "opponent_sets": [],
+       "sets": [
+        "3",
+        "6"
+       ],
+       "opponent_sets": [
+        "6",
+        "7"
+       ],
        "won": false,
-       "lost": false
+       "lost": true
       }
      ],
-     "status": "em prova",
+     "status": "eliminado",
      "draw": "MQ",
      "draw_label": "Masculino · Qualificação"
     },
@@ -2086,6 +1703,30 @@
         }
        ],
        "opponent_seed": "",
+       "sets": [
+        "6",
+        "7"
+       ],
+       "opponent_sets": [
+        "4",
+        "5"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Q2",
+       "opponent": [
+        {
+         "name": "Catherine Rose",
+         "nat": "GreatBritain"
+        },
+        {
+         "name": "Bo Luttikhuis",
+         "nat": "TheNetherlands"
+        }
+       ],
+       "opponent_seed": "2",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -2111,14 +1752,14 @@
    },
    "draw_pdfs": {
     "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MD.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MQ-1.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MQ-2.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WD.pdf",
-    "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WQ-1.pdf"
+    "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WQ-2.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4801",
-    "day": 2,
+    "day": 3,
     "totalday": 9
    },
    "warnings": [],
