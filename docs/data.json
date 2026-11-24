@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T17:06:37+00:00",
+ "generated_at": "2026-11-24T17:25:47+00:00",
  "fip_generated_at": "2026-11-24T17:05:47+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 6,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 0.3,
   "errors": []
  },
  "events": [
@@ -176,7 +176,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/24/2026 11:06:01 AM"
+     "local_time": "11/24/2026 11:25:25 AM"
     },
     {
      "match_id": "MQ008",
@@ -237,7 +237,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/24/2026 11:06:17 AM"
+     "local_time": "11/24/2026 11:25:08 AM"
     },
     {
      "match_id": "WQ014",
@@ -298,7 +298,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/24/2026 11:06:17 AM"
+     "local_time": "11/24/2026 11:25:08 AM"
     },
     {
      "match_id": "WQ007",
@@ -359,7 +359,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-23",
-     "local_time": "11/24/2026 11:06:17 AM"
+     "local_time": "11/24/2026 11:25:25 AM"
     }
    ],
    "por_draws": [
