@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T07:06:38+00:00",
- "fip_generated_at": "2026-11-24T07:05:42+00:00",
+ "generated_at": "2026-11-24T12:06:29+00:00",
+ "fip_generated_at": "2026-11-24T12:05:44+00:00",
  "target": "POR",
  "stats": {
   "requests": 22,
@@ -176,7 +176,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/24/2026 1:05:57 AM"
+     "local_time": "11/24/2026 6:06:10 AM"
     },
     {
      "match_id": "MQ008",
@@ -237,7 +237,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/24/2026 1:06:08 AM"
+     "local_time": "11/24/2026 6:06:02 AM"
     },
     {
      "match_id": "WQ014",
@@ -298,7 +298,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/24/2026 1:06:08 AM"
+     "local_time": "11/24/2026 6:06:02 AM"
     },
     {
      "match_id": "WQ007",
@@ -359,7 +359,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-23",
-     "local_time": "11/24/2026 1:06:06 AM"
+     "local_time": "11/24/2026 6:06:06 AM"
     }
    ],
    "por_draws": [
@@ -600,9 +600,9 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MD-1.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MD-3.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MQ-3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WD-1.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WD-2.pdf",
     "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WQ-3.pdf"
    },
    "oop": {
@@ -688,7 +688,7 @@
     }
    },
    "draw_pdfs": {
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MQ.pdf"
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MQ-v2.pdf"
    },
    "oop": {
     "year": "2026",
@@ -700,7 +700,7 @@
    "registration_text": "Registration Closed",
    "ms_draws": {
     "MD": 0,
-    "MQ": 32
+    "MQ": 30
    },
    "matchscorer_id": "FIP-2026-4807"
   },
@@ -771,8 +771,8 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-1.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-1.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v2-1.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v2-1.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-1.pdf"
    },
    "oop": null,
