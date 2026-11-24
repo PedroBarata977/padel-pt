@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-24T17:25:47+00:00",
- "fip_generated_at": "2026-11-24T17:05:47+00:00",
+ "generated_at": "2026-11-24T22:06:32+00:00",
+ "fip_generated_at": "2026-11-24T22:05:44+00:00",
  "target": "POR",
  "stats": {
   "requests": 22,
   "blocked_403": 0,
-  "events": 6,
+  "events": 10,
   "fip": {
    "requests": 35,
    "blocked_403": 0,
-   "events": 6,
+   "events": 10,
    "errors": []
   },
-  "fip_age_hours": 0.3,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -176,7 +176,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/24/2026 11:25:25 AM"
+     "local_time": "11/24/2026 4:05:49 PM"
     },
     {
      "match_id": "MQ008",
@@ -237,7 +237,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/24/2026 11:25:08 AM"
+     "local_time": "11/24/2026 4:06:12 PM"
     },
     {
      "match_id": "WQ014",
@@ -298,7 +298,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/24/2026 11:25:08 AM"
+     "local_time": "11/24/2026 4:06:12 PM"
     },
     {
      "match_id": "WQ007",
@@ -359,7 +359,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-23",
-     "local_time": "11/24/2026 11:25:25 AM"
+     "local_time": "11/24/2026 4:05:33 PM"
     }
    ],
    "por_draws": [
@@ -772,7 +772,7 @@
    },
    "draw_pdfs": {
     "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v3-1.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v2-1.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v3-1.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-1.pdf"
    },
    "oop": null,
@@ -865,6 +865,78 @@
    "location": "Barcelona - Spain",
    "start": "2026-12-10",
    "end": "2026-12-13",
+   "status": "registration_not_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {},
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": []
+  },
+  {
+   "name": "FIP GOLD PUNTA DEL ESTE",
+   "url": "https://www.padelfip.com/events/fip-gold-punta-del-este-2027/",
+   "slug": "fip-gold-punta-del-este-2027",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Gold",
+   "location": "Punta del este - Uruguay",
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "status": "registration_not_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {},
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": []
+  },
+  {
+   "name": "FIP BRONZE MELBOURNE",
+   "url": "https://www.padelfip.com/events/fip-bronze-melbourne-2027/",
+   "slug": "fip-bronze-melbourne-2027",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Melbourne - Australia",
+   "start": "2027-01-11",
+   "end": "2027-01-17",
+   "status": "registration_not_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {},
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": []
+  },
+  {
+   "name": "FIP BRONZE ANTALYA",
+   "url": "https://www.padelfip.com/events/fip-bronze-antalya-2027/",
+   "slug": "fip-bronze-antalya-2027",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Bronze",
+   "location": "Antalya - Turkey",
+   "start": "2027-01-11",
+   "end": "2027-01-17",
+   "status": "registration_not_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {},
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": []
+  },
+  {
+   "name": "FIP SILVER MELBOURNE",
+   "url": "https://www.padelfip.com/events/fip-silver-melbourne-2027/",
+   "slug": "fip-silver-melbourne-2027",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Melbourne - Australia",
+   "start": "2027-01-18",
+   "end": "2027-01-24",
    "status": "registration_not_open",
    "por_entries": [],
    "por_matches": [],
