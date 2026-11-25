@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-25T12:05:43+00:00",
+ "generated_at": "2026-11-25T17:05:45+00:00",
  "stats": {
   "requests": 35,
   "blocked_403": 0,
-  "events": 10,
+  "events": 11,
   "errors": []
  },
  "events": [
@@ -414,7 +414,44 @@
     }
    ],
    "por_matches": [],
-   "por_draws": [],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Louis De Rouck",
+       "nat": "Belgium"
+      },
+      {
+       "name": "Nuno Baptista",
+       "nat": "POR"
+      }
+     ],
+     "seed": "ALT",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Charly Lalmand",
+         "nat": "Belgium"
+        },
+        {
+         "name": "Lenno Degeling",
+         "nat": "Belgium"
+        }
+       ],
+       "opponent_seed": "WC",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MQ",
+     "draw_label": "Masculino · Qualificação"
+    }
+   ],
    "entry_lists": {
     "M": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v10-1.pdf",
@@ -426,7 +463,7 @@
     }
    },
    "draw_pdfs": {
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MQ-v4.pdf"
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MQ-v5.pdf"
    },
    "oop": {
     "year": "2026",
@@ -504,7 +541,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v3-1.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v4-1.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v3-1.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-1.pdf"
    },
@@ -673,6 +710,24 @@
    "circuit": "CUPRA FIP Tour",
    "category": "Silver",
    "location": "Melbourne - Australia",
+   "start": "2027-01-18",
+   "end": "2027-01-24",
+   "status": "registration_not_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {},
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": []
+  },
+  {
+   "name": "FIP SILVER CAEN",
+   "url": "https://www.padelfip.com/events/fip-silver-caen-2027/",
+   "slug": "fip-silver-caen-2027",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Caen - France",
    "start": "2027-01-18",
    "end": "2027-01-24",
    "status": "registration_not_open",
