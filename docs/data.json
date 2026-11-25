@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-25T12:30:19+00:00",
- "fip_generated_at": "2026-11-25T12:05:43+00:00",
+ "generated_at": "2026-11-25T17:06:30+00:00",
+ "fip_generated_at": "2026-11-25T17:05:45+00:00",
  "target": "POR",
  "stats": {
   "requests": 30,
   "blocked_403": 0,
-  "events": 10,
+  "events": 11,
   "fip": {
    "requests": 35,
    "blocked_403": 0,
-   "events": 10,
+   "events": 11,
    "errors": []
   },
-  "fip_age_hours": 0.4,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -176,7 +176,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/25/2026 6:29:54 AM"
+     "local_time": "11/25/2026 11:06:04 AM"
     },
     {
      "match_id": "MQ008",
@@ -237,7 +237,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/25/2026 6:29:55 AM"
+     "local_time": "11/25/2026 11:06:10 AM"
     },
     {
      "match_id": "WQ014",
@@ -298,7 +298,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/25/2026 6:29:55 AM"
+     "local_time": "11/25/2026 11:06:10 AM"
     },
     {
      "match_id": "WQ007",
@@ -359,7 +359,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-23",
-     "local_time": "11/25/2026 6:29:56 AM"
+     "local_time": "11/25/2026 11:06:10 AM"
     },
     {
      "match_id": "WD020",
@@ -420,7 +420,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-25",
-     "local_time": "11/25/2026 6:29:00 AM"
+     "local_time": "11/25/2026 11:05:52 AM"
     }
    ],
    "por_draws": [
@@ -742,11 +742,111 @@
      "pr": false,
      "team_points": null,
      "gender": "M",
-     "draw_status": "out"
+     "draw_status": "in_draw",
+     "draw_type": "MQ"
     }
    ],
-   "por_matches": [],
-   "por_draws": [],
+   "por_matches": [
+    {
+     "match_id": "MQ026",
+     "court": "Court 2",
+     "slot": "Not before 6:00 PM",
+     "gender": "Men's Qualifying",
+     "round": "Q1",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "C. Lalmand",
+         "nat": "BEL",
+         "tag": ""
+        },
+        {
+         "name": "L. Degeling",
+         "nat": "BEL",
+         "tag": "WC"
+        }
+       ],
+       "seed": "WC",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "L. De Rouck",
+         "nat": "BEL",
+         "tag": ""
+        },
+        {
+         "name": "N. Baptista",
+         "nat": "POR",
+         "tag": "ALT"
+        }
+       ],
+       "seed": "ALT",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "scheduled",
+     "duration": null,
+     "winner": null,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 1,
+     "date": "2026-11-25",
+     "local_time": "11/25/2026 6:06:21 PM"
+    }
+   ],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Louis De Rouck",
+       "nat": "Belgium"
+      },
+      {
+       "name": "Nuno Baptista",
+       "nat": "POR"
+      }
+     ],
+     "seed": "ALT",
+     "matches": [
+      {
+       "round": "Q1",
+       "opponent": [
+        {
+         "name": "Charly Lalmand",
+         "nat": "Belgium"
+        },
+        {
+         "name": "Lenno Degeling",
+         "nat": "Belgium"
+        }
+       ],
+       "opponent_seed": "WC",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "MQ",
+     "draw_label": "Masculino · Qualificação"
+    }
+   ],
    "entry_lists": {
     "M": {
      "pdf": "https://www.padelfip.com/wp-content/uploads/2025/12/Entry-List-Fip-Silver-Roeselare-M-v10-1.pdf",
@@ -758,7 +858,7 @@
     }
    },
    "draw_pdfs": {
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MQ-v4.pdf"
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MQ-v5.pdf"
    },
    "oop": {
     "year": "2026",
@@ -770,7 +870,7 @@
    "registration_text": "Registration Closed",
    "ms_draws": {
     "MD": 0,
-    "MQ": 27
+    "MQ": 31
    },
    "matchscorer_id": "FIP-2026-4807"
   },
@@ -845,7 +945,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v3-1.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v4-1.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v3-1.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-1.pdf"
    },
@@ -858,7 +958,7 @@
    "warnings": [],
    "registration_text": "Registration Closed",
    "ms_draws": {
-    "MD": 26,
+    "MD": 25,
     "MQ": 16,
     "WD": 22
    },
@@ -1020,6 +1120,24 @@
    "circuit": "CUPRA FIP Tour",
    "category": "Silver",
    "location": "Melbourne - Australia",
+   "start": "2027-01-18",
+   "end": "2027-01-24",
+   "status": "registration_not_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {},
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": []
+  },
+  {
+   "name": "FIP SILVER CAEN",
+   "url": "https://www.padelfip.com/events/fip-silver-caen-2027/",
+   "slug": "fip-silver-caen-2027",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Caen - France",
    "start": "2027-01-18",
    "end": "2027-01-24",
    "status": "registration_not_open",
