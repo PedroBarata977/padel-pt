@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T22:06:32+00:00",
+ "generated_at": "2026-11-25T02:10:38+00:00",
  "fip_generated_at": "2026-11-24T22:05:44+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 10,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 4.1,
   "errors": []
  },
  "events": [
@@ -176,7 +176,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/24/2026 4:05:49 PM"
+     "local_time": "11/24/2026 8:10:20 PM"
     },
     {
      "match_id": "MQ008",
@@ -237,7 +237,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/24/2026 4:06:12 PM"
+     "local_time": "11/24/2026 8:10:17 PM"
     },
     {
      "match_id": "WQ014",
@@ -298,7 +298,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/24/2026 4:06:12 PM"
+     "local_time": "11/24/2026 8:10:17 PM"
     },
     {
      "match_id": "WQ007",
@@ -359,7 +359,60 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-23",
-     "local_time": "11/24/2026 4:05:33 PM"
+     "local_time": "11/24/2026 8:10:12 PM"
+    },
+    {
+     "match_id": null,
+     "court": "CANCHA ESTADIO",
+     "slot": "Followed by",
+     "gender": "Women",
+     "round": "Round of 32",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "M. Ortega Gallego",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "S. Araujo",
+         "nat": "POR",
+         "tag": "5"
+        }
+       ],
+       "seed": "5",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "scheduled",
+     "duration": null,
+     "winner": null,
+     "tbd": true,
+     "tbd_text": [
+      "M. Ortega Gallego S. Araujo (5) - - -",
+      "C. Carrascosa Cazorla/M. Fernandez Garcia OR C. Ramme Coellar/C. Rodriguez Sanchez - - -"
+     ],
+     "day": 5,
+     "date": "2026-11-25",
+     "local_time": "11/24/2026 8:09:48 PM"
     }
    ],
    "por_draws": [
@@ -630,7 +683,7 @@
    "location": "Roeselare  - Belgium",
    "start": "2026-11-25",
    "end": "2026-11-29",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [
     {
      "section": "main",
