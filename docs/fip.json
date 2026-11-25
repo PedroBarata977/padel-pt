@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T07:05:45+00:00",
+ "generated_at": "2026-11-25T12:05:43+00:00",
  "stats": {
   "requests": 35,
   "blocked_403": 0,
@@ -426,7 +426,7 @@
     }
    },
    "draw_pdfs": {
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MQ-v2.pdf"
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MQ-v4.pdf"
    },
    "oop": {
     "year": "2026",
@@ -508,7 +508,12 @@
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v3-1.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-1.pdf"
    },
-   "oop": null,
+   "oop": {
+    "year": "2026",
+    "id": "4816",
+    "day": 1,
+    "totalday": 4
+   },
    "warnings": [],
    "registration_text": "Registration Closed"
   },
