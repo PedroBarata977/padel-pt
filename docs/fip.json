@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T22:05:44+00:00",
+ "generated_at": "2026-11-25T07:05:45+00:00",
  "stats": {
   "requests": 35,
   "blocked_403": 0,
@@ -246,8 +246,17 @@
       },
       {
        "round": "1/16",
-       "opponent": [],
-       "opponent_seed": "",
+       "opponent": [
+        {
+         "name": "Cristina Carrascosa Cazorla",
+         "nat": "Spain"
+        },
+        {
+         "name": "Marisol Fernandez Garcia",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "Q",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -338,15 +347,15 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MD-3.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MD-4.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MQ-3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WD-2.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WD-3.pdf",
     "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WQ-3.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4801",
-    "day": 4,
+    "day": 5,
     "totalday": 9
    },
    "warnings": [],
@@ -361,7 +370,7 @@
    "location": "Roeselare  - Belgium",
    "start": "2026-11-25",
    "end": "2026-11-29",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [
     {
      "section": "main",
