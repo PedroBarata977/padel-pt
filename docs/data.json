@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-25T07:06:35+00:00",
- "fip_generated_at": "2026-11-25T07:05:45+00:00",
+ "generated_at": "2026-11-25T12:06:34+00:00",
+ "fip_generated_at": "2026-11-25T12:05:43+00:00",
  "target": "POR",
  "stats": {
-  "requests": 22,
+  "requests": 30,
   "blocked_403": 0,
   "events": 10,
   "fip": {
@@ -176,7 +176,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/25/2026 1:06:01 AM"
+     "local_time": "11/25/2026 6:06:10 AM"
     },
     {
      "match_id": "MQ008",
@@ -237,7 +237,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/25/2026 1:06:15 AM"
+     "local_time": "11/25/2026 6:06:11 AM"
     },
     {
      "match_id": "WQ014",
@@ -298,7 +298,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/25/2026 1:06:15 AM"
+     "local_time": "11/25/2026 6:06:11 AM"
     },
     {
      "match_id": "WQ007",
@@ -359,7 +359,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-23",
-     "local_time": "11/25/2026 1:06:05 AM"
+     "local_time": "11/25/2026 6:06:00 AM"
     },
     {
      "match_id": "WD020",
@@ -420,7 +420,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-25",
-     "local_time": "11/25/2026 1:05:30 AM"
+     "local_time": "11/25/2026 6:05:27 AM"
     }
    ],
    "por_draws": [
@@ -758,7 +758,7 @@
     }
    },
    "draw_pdfs": {
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MQ-v2.pdf"
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MQ-v4.pdf"
    },
    "oop": {
     "year": "2026",
@@ -770,7 +770,7 @@
    "registration_text": "Registration Closed",
    "ms_draws": {
     "MD": 0,
-    "MQ": 30
+    "MQ": 27
    },
    "matchscorer_id": "FIP-2026-4807"
   },
@@ -803,7 +803,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "M"
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MD"
     },
     {
      "section": "qualy",
@@ -823,7 +825,9 @@
      ],
      "pr": false,
      "team_points": null,
-     "gender": "M"
+     "gender": "M",
+     "draw_status": "in_draw",
+     "draw_type": "MQ"
     }
    ],
    "por_matches": [],
@@ -845,9 +849,20 @@
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v3-1.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-1.pdf"
    },
-   "oop": null,
+   "oop": {
+    "year": "2026",
+    "id": "4816",
+    "day": 1,
+    "totalday": 4
+   },
    "warnings": [],
-   "registration_text": "Registration Closed"
+   "registration_text": "Registration Closed",
+   "ms_draws": {
+    "MD": 26,
+    "MQ": 16,
+    "WD": 22
+   },
+   "matchscorer_id": "FIP-2026-4816"
   },
   {
    "name": "FIP BRONZE ROESELARE",
