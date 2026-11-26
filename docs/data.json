@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T07:06:48+00:00",
- "fip_generated_at": "2026-11-26T07:05:46+00:00",
+ "generated_at": "2026-11-26T12:06:39+00:00",
+ "fip_generated_at": "2026-11-26T12:05:47+00:00",
  "target": "POR",
  "stats": {
   "requests": 30,
@@ -176,7 +176,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/26/2026 1:06:01 AM"
+     "local_time": "11/26/2026 6:06:02 AM"
     },
     {
      "match_id": "MQ008",
@@ -237,7 +237,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/26/2026 1:06:13 AM"
+     "local_time": "11/26/2026 6:06:17 AM"
     },
     {
      "match_id": "WQ014",
@@ -298,7 +298,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/26/2026 1:06:13 AM"
+     "local_time": "11/26/2026 6:06:17 AM"
     },
     {
      "match_id": "WQ007",
@@ -359,7 +359,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-23",
-     "local_time": "11/26/2026 1:06:18 AM"
+     "local_time": "11/26/2026 6:06:18 AM"
     },
     {
      "match_id": "WD020",
@@ -420,7 +420,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-25",
-     "local_time": "11/26/2026 1:06:09 AM"
+     "local_time": "11/26/2026 6:05:51 AM"
     },
     {
      "match_id": "WD010",
@@ -481,7 +481,7 @@
      "tbd_text": null,
      "day": 6,
      "date": "2026-11-26",
-     "local_time": "11/26/2026 1:05:39 AM"
+     "local_time": "11/26/2026 6:06:01 AM"
     }
    ],
    "por_draws": [
@@ -891,7 +891,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-25",
-     "local_time": "11/26/2026 8:06:35 AM"
+     "local_time": "11/26/2026 1:06:28 PM"
     }
    ],
    "por_draws": [
@@ -1022,7 +1022,61 @@
      "draw_type": "MQ"
     }
    ],
-   "por_matches": [],
+   "por_matches": [
+    {
+     "match_id": null,
+     "court": "Court 5",
+     "slot": "Not before 3:30 PM",
+     "gender": "Men",
+     "round": "Round of 32",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "G. Nunes",
+         "nat": "POR",
+         "tag": ""
+        },
+        {
+         "name": "A. Sans",
+         "nat": "ESP",
+         "tag": "1"
+        }
+       ],
+       "seed": "1",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [],
+       "seed": "",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "scheduled",
+     "duration": null,
+     "winner": null,
+     "tbd": true,
+     "tbd_text": [
+      "G. Nunes A. Sans (1) - - -",
+      "Qualifier/LL - - -"
+     ],
+     "day": 2,
+     "date": "2026-11-27",
+     "local_time": "11/26/2026 7:06:37 PM"
+    }
+   ],
    "por_draws": [
     {
      "players": [
@@ -1101,7 +1155,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v4-1.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v6.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v3-1.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-1.pdf"
    },
@@ -1114,7 +1168,7 @@
    "warnings": [],
    "registration_text": "Registration Closed",
    "ms_draws": {
-    "MD": 25,
+    "MD": 23,
     "MQ": 16,
     "WD": 22
    },
@@ -1306,24 +1360,6 @@
    "warnings": []
   },
   {
-   "name": "FIP SILVER NOLA",
-   "url": "https://www.padelfip.com/events/fip-silver-nola-2027/",
-   "slug": "fip-silver-nola-2027",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Silver",
-   "location": "Nola - Italy",
-   "start": "2027-01-25",
-   "end": "2027-01-31",
-   "status": "registration_not_open",
-   "por_entries": [],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {},
-   "draw_pdfs": {},
-   "oop": null,
-   "warnings": []
-  },
-  {
    "name": "FIP BRONZE COMUNIDAD VALENCIANA I",
    "url": "https://www.padelfip.com/events/fip-bronze-comunidad-valenciana-i-2027/",
    "slug": "fip-bronze-comunidad-valenciana-i-2027",
@@ -1348,6 +1384,24 @@
    "circuit": "CUPRA FIP Tour",
    "category": "Gold",
    "location": "Nairobi - Kenya",
+   "start": "2027-01-25",
+   "end": "2027-01-31",
+   "status": "registration_not_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {},
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": []
+  },
+  {
+   "name": "FIP SILVER NOLA",
+   "url": "https://www.padelfip.com/events/fip-silver-nola-2027/",
+   "slug": "fip-silver-nola-2027",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Nola - Italy",
    "start": "2027-01-25",
    "end": "2027-01-31",
    "status": "registration_not_open",
