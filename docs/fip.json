@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-26T12:05:47+00:00",
+ "generated_at": "2026-11-26T17:05:46+00:00",
  "stats": {
   "requests": 35,
   "blocked_403": 0,
-  "events": 14,
+  "events": 13,
   "errors": []
  },
  "events": [
@@ -493,7 +493,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MD.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MD-v2.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MQ-v6.pdf"
    },
    "oop": {
@@ -562,20 +562,29 @@
     {
      "players": [
       {
-       "name": "Gustavo Nunes",
-       "nat": "POR"
-      },
-      {
        "name": "Anton Sans",
        "nat": "Spain"
+      },
+      {
+       "name": "Gustavo Nunes",
+       "nat": "POR"
       }
      ],
      "seed": "1",
      "matches": [
       {
        "round": "1/16",
-       "opponent": [],
-       "opponent_seed": "Q/LL",
+       "opponent": [
+        {
+         "name": "Ryosuke Gomi",
+         "nat": "Japan"
+        },
+        {
+         "name": "Nuttakit Veerathammasorn",
+         "nat": "Thailand"
+        }
+       ],
+       "opponent_seed": "LL",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -636,8 +645,8 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v6.pdf",
-    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v3-1.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v7.pdf",
+    "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v4-1.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-1.pdf"
    },
    "oop": {
@@ -696,7 +705,12 @@
    "draw_pdfs": {
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROESELARE_-DRAW-WD.pdf"
    },
-   "oop": null,
+   "oop": {
+    "year": "2026",
+    "id": "4809",
+    "day": 1,
+    "totalday": 3
+   },
    "warnings": [],
    "registration_text": "Registration Closed"
   },
@@ -799,12 +813,12 @@
    "warnings": []
   },
   {
-   "name": "FIP SILVER MELBOURNE",
-   "url": "https://www.padelfip.com/events/fip-silver-melbourne-2027/",
-   "slug": "fip-silver-melbourne-2027",
+   "name": "FIP SILVER CAEN",
+   "url": "https://www.padelfip.com/events/fip-silver-caen-2027/",
+   "slug": "fip-silver-caen-2027",
    "circuit": "CUPRA FIP Tour",
    "category": "Silver",
-   "location": "Melbourne - Australia",
+   "location": "Caen - France",
    "start": "2027-01-18",
    "end": "2027-01-24",
    "status": "registration_not_open",
@@ -817,12 +831,12 @@
    "warnings": []
   },
   {
-   "name": "FIP SILVER CAEN",
-   "url": "https://www.padelfip.com/events/fip-silver-caen-2027/",
-   "slug": "fip-silver-caen-2027",
+   "name": "FIP SILVER MELBOURNE",
+   "url": "https://www.padelfip.com/events/fip-silver-melbourne-2027/",
+   "slug": "fip-silver-melbourne-2027",
    "circuit": "CUPRA FIP Tour",
    "category": "Silver",
-   "location": "Caen - France",
+   "location": "Melbourne - Australia",
    "start": "2027-01-18",
    "end": "2027-01-24",
    "status": "registration_not_open",
@@ -859,24 +873,6 @@
    "circuit": "CUPRA FIP Tour",
    "category": "Gold",
    "location": "Nairobi - Kenya",
-   "start": "2027-01-25",
-   "end": "2027-01-31",
-   "status": "registration_not_open",
-   "por_entries": [],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {},
-   "draw_pdfs": {},
-   "oop": null,
-   "warnings": []
-  },
-  {
-   "name": "FIP SILVER NOLA",
-   "url": "https://www.padelfip.com/events/fip-silver-nola-2027/",
-   "slug": "fip-silver-nola-2027",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Silver",
-   "location": "Nola - Italy",
    "start": "2027-01-25",
    "end": "2027-01-31",
    "status": "registration_not_open",
