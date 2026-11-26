@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T07:05:46+00:00",
+ "generated_at": "2026-11-26T12:05:47+00:00",
  "stats": {
   "requests": 35,
   "blocked_403": 0,
@@ -636,7 +636,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v4-1.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v6.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v3-1.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-1.pdf"
    },
@@ -835,24 +835,6 @@
    "warnings": []
   },
   {
-   "name": "FIP SILVER NOLA",
-   "url": "https://www.padelfip.com/events/fip-silver-nola-2027/",
-   "slug": "fip-silver-nola-2027",
-   "circuit": "CUPRA FIP Tour",
-   "category": "Silver",
-   "location": "Nola - Italy",
-   "start": "2027-01-25",
-   "end": "2027-01-31",
-   "status": "registration_not_open",
-   "por_entries": [],
-   "por_matches": [],
-   "por_draws": [],
-   "entry_lists": {},
-   "draw_pdfs": {},
-   "oop": null,
-   "warnings": []
-  },
-  {
    "name": "FIP BRONZE COMUNIDAD VALENCIANA I",
    "url": "https://www.padelfip.com/events/fip-bronze-comunidad-valenciana-i-2027/",
    "slug": "fip-bronze-comunidad-valenciana-i-2027",
@@ -877,6 +859,24 @@
    "circuit": "CUPRA FIP Tour",
    "category": "Gold",
    "location": "Nairobi - Kenya",
+   "start": "2027-01-25",
+   "end": "2027-01-31",
+   "status": "registration_not_open",
+   "por_entries": [],
+   "por_matches": [],
+   "por_draws": [],
+   "entry_lists": {},
+   "draw_pdfs": {},
+   "oop": null,
+   "warnings": []
+  },
+  {
+   "name": "FIP SILVER NOLA",
+   "url": "https://www.padelfip.com/events/fip-silver-nola-2027/",
+   "slug": "fip-silver-nola-2027",
+   "circuit": "CUPRA FIP Tour",
+   "category": "Silver",
+   "location": "Nola - Italy",
    "start": "2027-01-25",
    "end": "2027-01-31",
    "status": "registration_not_open",
