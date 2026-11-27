@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T22:05:47+00:00",
+ "generated_at": "2026-11-27T07:05:47+00:00",
  "stats": {
   "requests": 35,
   "blocked_403": 0,
@@ -281,6 +281,30 @@
         }
        ],
        "opponent_seed": "15",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "4",
+        "4"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Quartos",
+       "opponent": [
+        {
+         "name": "Martina Calvo Santamaria",
+         "nat": "Spain"
+        },
+        {
+         "name": "Claudia Fernandez Sanchez",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "4",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -373,13 +397,13 @@
    "draw_pdfs": {
     "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MD-5.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MQ-3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WD-4.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MD-6.pdf",
     "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WQ-3.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4801",
-    "day": 6,
+    "day": 7,
     "totalday": 9
    },
    "warnings": [],
@@ -499,7 +523,7 @@
    "oop": {
     "year": "2026",
     "id": "4807",
-    "day": 2,
+    "day": 3,
     "totalday": 5
    },
    "warnings": [],
@@ -652,7 +676,7 @@
    "oop": {
     "year": "2026",
     "id": "4816",
-    "day": 1,
+    "day": 2,
     "totalday": 4
    },
    "warnings": [],
@@ -667,7 +691,7 @@
    "location": "Roeselare  - Belgium",
    "start": "2026-11-27",
    "end": "2026-11-29",
-   "status": "registration_closed",
+   "status": "live",
    "por_entries": [
     {
      "section": "main",
@@ -691,7 +715,44 @@
     }
    ],
    "por_matches": [],
-   "por_draws": [],
+   "por_draws": [
+    {
+     "players": [
+      {
+       "name": "Llum Martorell Gruwez",
+       "nat": "Spain"
+      },
+      {
+       "name": "Maria Francisca Santos",
+       "nat": "POR"
+      }
+     ],
+     "seed": "",
+     "matches": [
+      {
+       "round": "1/16",
+       "opponent": [
+        {
+         "name": "Lucia Dionisio Laureano",
+         "nat": "Spain"
+        },
+        {
+         "name": "Christina-Styliani Ntanou",
+         "nat": "Greece-300x200"
+        }
+       ],
+       "opponent_seed": "",
+       "sets": [],
+       "opponent_sets": [],
+       "won": false,
+       "lost": false
+      }
+     ],
+     "status": "em prova",
+     "draw": "WD",
+     "draw_label": "Feminino · Quadro principal"
+    }
+   ],
    "entry_lists": {
     "M": {
      "pdf": null
