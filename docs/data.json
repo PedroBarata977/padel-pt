@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T12:06:43+00:00",
- "fip_generated_at": "2026-11-27T12:05:46+00:00",
+ "generated_at": "2026-11-27T17:06:32+00:00",
+ "fip_generated_at": "2026-11-27T17:05:47+00:00",
  "target": "POR",
  "stats": {
   "requests": 35,
@@ -176,7 +176,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/27/2026 6:06:01 AM"
+     "local_time": "11/27/2026 11:06:09 AM"
     },
     {
      "match_id": "MQ008",
@@ -237,7 +237,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/27/2026 6:06:18 AM"
+     "local_time": "11/27/2026 11:06:10 AM"
     },
     {
      "match_id": "WQ014",
@@ -298,7 +298,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/27/2026 6:06:18 AM"
+     "local_time": "11/27/2026 11:06:10 AM"
     },
     {
      "match_id": "WQ007",
@@ -359,7 +359,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-23",
-     "local_time": "11/27/2026 6:06:18 AM"
+     "local_time": "11/27/2026 11:06:11 AM"
     },
     {
      "match_id": "WD020",
@@ -420,7 +420,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-25",
-     "local_time": "11/27/2026 6:06:17 AM"
+     "local_time": "11/27/2026 11:05:57 AM"
     },
     {
      "match_id": "WD010",
@@ -481,7 +481,7 @@
      "tbd_text": null,
      "day": 6,
      "date": "2026-11-26",
-     "local_time": "11/27/2026 6:06:18 AM"
+     "local_time": "11/27/2026 11:06:08 AM"
     },
     {
      "match_id": "WD005",
@@ -542,7 +542,7 @@
      "tbd_text": null,
      "day": 7,
      "date": "2026-11-27",
-     "local_time": "11/27/2026 6:06:15 AM"
+     "local_time": "11/27/2026 11:05:57 AM"
     }
    ],
    "por_draws": [
@@ -976,7 +976,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-25",
-     "local_time": "11/27/2026 1:06:29 PM"
+     "local_time": "11/27/2026 6:05:59 PM"
     }
    ],
    "por_draws": [
@@ -1167,7 +1167,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-27",
-     "local_time": "11/27/2026 7:06:30 PM"
+     "local_time": "11/28/2026 12:06:09 AM"
     },
     {
      "match_id": "MD008",
@@ -1228,7 +1228,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-28",
-     "local_time": "11/27/2026 7:06:38 PM"
+     "local_time": "11/28/2026 12:05:52 AM"
     }
    ],
    "por_draws": [
@@ -1342,7 +1342,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v7.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v8.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v4-1.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-v2-3.pdf"
    },
@@ -1455,7 +1455,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-27",
-     "local_time": "11/27/2026 1:06:41 PM"
+     "local_time": "11/27/2026 6:06:31 PM"
     }
    ],
    "por_draws": [
@@ -1539,7 +1539,7 @@
    "location": "Tarragona - Spain",
    "start": "2026-12-03",
    "end": "2026-12-06",
-   "status": "registration_open",
+   "status": "registration_closed",
    "por_entries": [],
    "por_matches": [],
    "por_draws": [],
@@ -1554,7 +1554,7 @@
    "draw_pdfs": {},
    "oop": null,
    "warnings": [],
-   "registration_text": "Registration Deadline:"
+   "registration_text": "Registration Closed"
   },
   {
    "name": "PREMIER PADEL FINALS",
