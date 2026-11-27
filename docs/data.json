@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T07:54:11+00:00",
- "fip_generated_at": "2026-11-27T07:05:47+00:00",
+ "generated_at": "2026-11-27T12:06:43+00:00",
+ "fip_generated_at": "2026-11-27T12:05:46+00:00",
  "target": "POR",
  "stats": {
   "requests": 35,
@@ -12,7 +12,7 @@
    "events": 13,
    "errors": []
   },
-  "fip_age_hours": 0.8,
+  "fip_age_hours": 0.0,
   "errors": []
  },
  "events": [
@@ -176,7 +176,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/27/2026 1:53:44 AM"
+     "local_time": "11/27/2026 6:06:01 AM"
     },
     {
      "match_id": "MQ008",
@@ -237,7 +237,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/27/2026 1:53:45 AM"
+     "local_time": "11/27/2026 6:06:18 AM"
     },
     {
      "match_id": "WQ014",
@@ -298,7 +298,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/27/2026 1:53:45 AM"
+     "local_time": "11/27/2026 6:06:18 AM"
     },
     {
      "match_id": "WQ007",
@@ -359,7 +359,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-23",
-     "local_time": "11/27/2026 1:53:46 AM"
+     "local_time": "11/27/2026 6:06:18 AM"
     },
     {
      "match_id": "WD020",
@@ -420,7 +420,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-25",
-     "local_time": "11/27/2026 1:53:20 AM"
+     "local_time": "11/27/2026 6:06:17 AM"
     },
     {
      "match_id": "WD010",
@@ -481,7 +481,7 @@
      "tbd_text": null,
      "day": 6,
      "date": "2026-11-26",
-     "local_time": "11/27/2026 1:53:11 AM"
+     "local_time": "11/27/2026 6:06:18 AM"
     },
     {
      "match_id": "WD005",
@@ -542,7 +542,7 @@
      "tbd_text": null,
      "day": 7,
      "date": "2026-11-27",
-     "local_time": "11/27/2026 1:53:05 AM"
+     "local_time": "11/27/2026 6:06:15 AM"
     }
    ],
    "por_draws": [
@@ -976,7 +976,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-25",
-     "local_time": "11/27/2026 8:53:57 AM"
+     "local_time": "11/27/2026 1:06:29 PM"
     }
    ],
    "por_draws": [
@@ -1130,8 +1130,8 @@
        ],
        "seed": "1",
        "sets": [
-        null,
-        null,
+        "6",
+        "6",
         null
        ],
        "points": null,
@@ -1152,6 +1152,67 @@
        ],
        "seed": "LL",
        "sets": [
+        "2",
+        "0",
+        null
+       ],
+       "points": null,
+       "serving": false
+      }
+     ],
+     "status": "completed",
+     "duration": null,
+     "winner": 0,
+     "tbd": false,
+     "tbd_text": null,
+     "day": 2,
+     "date": "2026-11-27",
+     "local_time": "11/27/2026 7:06:30 PM"
+    },
+    {
+     "match_id": "MD008",
+     "court": "Court 6",
+     "slot": "Followed by",
+     "gender": "Men",
+     "round": "Round of 16",
+     "teams": [
+      {
+       "players": [
+        {
+         "name": "A. Sans",
+         "nat": "ESP",
+         "tag": ""
+        },
+        {
+         "name": "G. Nunes",
+         "nat": "POR",
+         "tag": "1"
+        }
+       ],
+       "seed": "1",
+       "sets": [
+        null,
+        null,
+        null
+       ],
+       "points": null,
+       "serving": false
+      },
+      {
+       "players": [
+        {
+         "name": "C. Dollimore",
+         "nat": "GBR",
+         "tag": ""
+        },
+        {
+         "name": "F. Fernandez Meaca",
+         "nat": "ESP",
+         "tag": ""
+        }
+       ],
+       "seed": "",
+       "sets": [
         null,
         null,
         null
@@ -1165,9 +1226,9 @@
      "winner": null,
      "tbd": false,
      "tbd_text": null,
-     "day": 2,
-     "date": "2026-11-27",
-     "local_time": "11/27/2026 2:53:36 PM"
+     "day": 3,
+     "date": "2026-11-28",
+     "local_time": "11/27/2026 7:06:38 PM"
     }
    ],
    "por_draws": [
@@ -1197,6 +1258,30 @@
         }
        ],
        "opponent_seed": "LL",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "2",
+        "0"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [
+        {
+         "name": "Cameron Dollimore",
+         "nat": "GreatBritain"
+        },
+        {
+         "name": "Felipe Xose Fernandez Meaca",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -1259,7 +1344,7 @@
    "draw_pdfs": {
     "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v7.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v4-1.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-1.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-v2-3.pdf"
    },
    "oop": {
     "year": "2026",
@@ -1333,9 +1418,9 @@
        ],
        "seed": "",
        "sets": [
-        null,
-        null,
-        null
+        "3",
+        "6",
+        "6"
        ],
        "points": null,
        "serving": false
@@ -1343,46 +1428,46 @@
       {
        "players": [
         {
-         "name": "L. Martorell Gruwez",
-         "nat": "ESP",
+         "name": "M. Francisca Santos",
+         "nat": "POR",
          "tag": ""
         },
         {
-         "name": "M. Santos",
-         "nat": "POR",
+         "name": "L. Martorell Gruwez",
+         "nat": "ESP",
          "tag": ""
         }
        ],
        "seed": "",
        "sets": [
-        null,
-        null,
-        null
+        "6",
+        "3",
+        "3"
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 0,
      "tbd": false,
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-27",
-     "local_time": "11/27/2026 8:54:09 AM"
+     "local_time": "11/27/2026 1:06:41 PM"
     }
    ],
    "por_draws": [
     {
      "players": [
       {
-       "name": "Llum Martorell Gruwez",
-       "nat": "Spain"
-      },
-      {
        "name": "Maria Francisca Santos",
        "nat": "POR"
+      },
+      {
+       "name": "Llum Martorell Gruwez",
+       "nat": "Spain"
       }
      ],
      "seed": "",
@@ -1400,13 +1485,21 @@
         }
        ],
        "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
+       "sets": [
+        "6",
+        "3",
+        "3"
+       ],
+       "opponent_sets": [
+        "3",
+        "6",
+        "6"
+       ],
        "won": false,
-       "lost": false
+       "lost": true
       }
      ],
-     "status": "em prova",
+     "status": "eliminado",
      "draw": "WD",
      "draw_label": "Feminino · Quadro principal"
     }
@@ -1487,7 +1580,7 @@
    "slug": "fip-gold-punta-del-este-2027",
    "circuit": "CUPRA FIP Tour",
    "category": "Gold",
-   "location": "Punta del este - Uruguay",
+   "location": "Punta del Este - Uruguay",
    "start": "2027-01-04",
    "end": "2027-01-10",
    "status": "registration_not_open",
