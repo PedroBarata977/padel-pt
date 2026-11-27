@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T12:05:46+00:00",
+ "generated_at": "2026-11-27T17:05:47+00:00",
  "stats": {
   "requests": 35,
   "blocked_403": 0,
@@ -693,7 +693,7 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v7.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v8.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v4-1.pdf",
     "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-v2-3.pdf"
    },
@@ -816,7 +816,7 @@
    "location": "Tarragona - Spain",
    "start": "2026-12-03",
    "end": "2026-12-06",
-   "status": "registration_open",
+   "status": "registration_closed",
    "por_entries": [],
    "por_matches": [],
    "por_draws": [],
@@ -831,7 +831,7 @@
    "draw_pdfs": {},
    "oop": null,
    "warnings": [],
-   "registration_text": "Registration Deadline:"
+   "registration_text": "Registration Closed"
   },
   {
    "name": "PREMIER PADEL FINALS",
