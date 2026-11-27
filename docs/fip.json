@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-27T17:05:47+00:00",
+ "generated_at": "2026-11-27T22:05:53+00:00",
  "stats": {
-  "requests": 35,
+  "requests": 37,
   "blocked_403": 0,
   "events": 13,
   "errors": []
@@ -796,7 +796,7 @@
     }
    },
    "draw_pdfs": {
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROESELARE_-DRAW-WD.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-ROESELARE_-DRAW-WD-v2.pdf"
    },
    "oop": {
     "year": "2026",
@@ -817,15 +817,80 @@
    "start": "2026-12-03",
    "end": "2026-12-06",
    "status": "registration_closed",
-   "por_entries": [],
+   "por_entries": [
+    {
+     "section": "waiting",
+     "pos": 8,
+     "mark": "",
+     "players": [
+      {
+       "name": "Miguel Deus",
+       "nat": "POR",
+       "points": 439
+      },
+      {
+       "name": "Nuno Deus",
+       "nat": "POR",
+       "points": 558
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "M"
+    },
+    {
+     "section": "main",
+     "pos": 14,
+     "mark": "",
+     "players": [
+      {
+       "name": "Clarinha Santos",
+       "nat": "POR",
+       "points": 555
+      },
+      {
+       "name": "Teresa Navarro lopez-Barajas",
+       "nat": "ESP",
+       "points": 1145
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    },
+    {
+     "section": "waiting",
+     "pos": 9,
+     "mark": "",
+     "players": [
+      {
+       "name": "Lucia Dionisio Laureano",
+       "nat": "ESP",
+       "points": 303
+      },
+      {
+       "name": "Mafalda Marques Fernandes",
+       "nat": "POR",
+       "points": 336
+      }
+     ],
+     "pr": false,
+     "team_points": null,
+     "gender": "W"
+    }
+   ],
    "por_matches": [],
    "por_draws": [],
    "entry_lists": {
     "M": {
-     "pdf": null
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/09/Entry-list-Cupra-Fip-Finals-2026-M.pdf",
+     "updated": "27/11/2026 h 09:35 pm",
+     "n_teams": 29
     },
     "W": {
-     "pdf": null
+     "pdf": "https://www.padelfip.com/wp-content/uploads/2026/09/Entry-list-Cupra-Fip-Finals-2026-W.pdf",
+     "updated": "27/11/2026 h 09:37 pm",
+     "n_teams": 25
     }
    },
    "draw_pdfs": {},
