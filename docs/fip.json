@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T07:05:47+00:00",
+ "generated_at": "2026-11-27T12:05:46+00:00",
  "stats": {
   "requests": 35,
   "blocked_403": 0,
@@ -609,6 +609,30 @@
         }
        ],
        "opponent_seed": "LL",
+       "sets": [
+        "6",
+        "6"
+       ],
+       "opponent_sets": [
+        "2",
+        "0"
+       ],
+       "won": true,
+       "lost": false
+      },
+      {
+       "round": "Oitavos",
+       "opponent": [
+        {
+         "name": "Cameron Dollimore",
+         "nat": "GreatBritain"
+        },
+        {
+         "name": "Felipe Xose Fernandez Meaca",
+         "nat": "Spain"
+        }
+       ],
+       "opponent_seed": "",
        "sets": [],
        "opponent_sets": [],
        "won": false,
@@ -671,7 +695,7 @@
    "draw_pdfs": {
     "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MD-v7.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-MQ-v4-1.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-1.pdf"
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-BRONZE-HIGH-VELOCITY-PHUKET_-DRAW-WD-v2-3.pdf"
    },
    "oop": {
     "year": "2026",
@@ -719,12 +743,12 @@
     {
      "players": [
       {
-       "name": "Llum Martorell Gruwez",
-       "nat": "Spain"
-      },
-      {
        "name": "Maria Francisca Santos",
        "nat": "POR"
+      },
+      {
+       "name": "Llum Martorell Gruwez",
+       "nat": "Spain"
       }
      ],
      "seed": "",
@@ -742,13 +766,21 @@
         }
        ],
        "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
+       "sets": [
+        "6",
+        "3",
+        "3"
+       ],
+       "opponent_sets": [
+        "3",
+        "6",
+        "6"
+       ],
        "won": false,
-       "lost": false
+       "lost": true
       }
      ],
-     "status": "em prova",
+     "status": "eliminado",
      "draw": "WD",
      "draw_label": "Feminino · Quadro principal"
     }
@@ -825,7 +857,7 @@
    "slug": "fip-gold-punta-del-este-2027",
    "circuit": "CUPRA FIP Tour",
    "category": "Gold",
-   "location": "Punta del este - Uruguay",
+   "location": "Punta del Este - Uruguay",
    "start": "2027-01-04",
    "end": "2027-01-10",
    "status": "registration_not_open",
