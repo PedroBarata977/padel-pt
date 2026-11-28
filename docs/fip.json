@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T07:05:48+00:00",
+ "generated_at": "2026-11-28T12:05:47+00:00",
  "stats": {
   "requests": 35,
   "blocked_403": 0,
@@ -639,13 +639,19 @@
         }
        ],
        "opponent_seed": "",
-       "sets": [],
-       "opponent_sets": [],
+       "sets": [
+        "5",
+        "1"
+       ],
+       "opponent_sets": [
+        "7",
+        "6"
+       ],
        "won": false,
-       "lost": false
+       "lost": true
       }
      ],
-     "status": "em prova",
+     "status": "eliminado",
      "draw": "MD",
      "draw_label": "Masculino · Quadro principal"
     },
@@ -977,12 +983,12 @@
    "warnings": []
   },
   {
-   "name": "FIP SILVER MELBOURNE",
-   "url": "https://www.padelfip.com/events/fip-silver-melbourne-2027/",
-   "slug": "fip-silver-melbourne-2027",
+   "name": "FIP SILVER CAEN",
+   "url": "https://www.padelfip.com/events/fip-silver-caen-2027/",
+   "slug": "fip-silver-caen-2027",
    "circuit": "CUPRA FIP Tour",
    "category": "Silver",
-   "location": "Melbourne - Australia",
+   "location": "Caen - France",
    "start": "2027-01-18",
    "end": "2027-01-24",
    "status": "registration_not_open",
@@ -995,12 +1001,12 @@
    "warnings": []
   },
   {
-   "name": "FIP SILVER CAEN",
-   "url": "https://www.padelfip.com/events/fip-silver-caen-2027/",
-   "slug": "fip-silver-caen-2027",
+   "name": "FIP SILVER MELBOURNE",
+   "url": "https://www.padelfip.com/events/fip-silver-melbourne-2027/",
+   "slug": "fip-silver-melbourne-2027",
    "circuit": "CUPRA FIP Tour",
    "category": "Silver",
-   "location": "Caen - France",
+   "location": "Melbourne - Australia",
    "start": "2027-01-18",
    "end": "2027-01-24",
    "status": "registration_not_open",
