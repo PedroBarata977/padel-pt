@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T07:06:37+00:00",
+ "generated_at": "2026-11-28T10:05:59+00:00",
  "fip_generated_at": "2026-11-28T07:05:48+00:00",
  "target": "POR",
  "stats": {
@@ -12,7 +12,7 @@
    "events": 13,
    "errors": []
   },
-  "fip_age_hours": 0.0,
+  "fip_age_hours": 3.0,
   "errors": []
  },
  "events": [
@@ -176,7 +176,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-21",
-     "local_time": "11/28/2026 1:06:06 AM"
+     "local_time": "11/28/2026 4:05:34 AM"
     },
     {
      "match_id": "MQ008",
@@ -237,7 +237,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/28/2026 1:06:12 AM"
+     "local_time": "11/28/2026 4:05:34 AM"
     },
     {
      "match_id": "WQ014",
@@ -298,7 +298,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-22",
-     "local_time": "11/28/2026 1:06:12 AM"
+     "local_time": "11/28/2026 4:05:34 AM"
     },
     {
      "match_id": "WQ007",
@@ -359,7 +359,7 @@
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-23",
-     "local_time": "11/28/2026 1:06:13 AM"
+     "local_time": "11/28/2026 4:05:35 AM"
     },
     {
      "match_id": "WD020",
@@ -420,7 +420,7 @@
      "tbd_text": null,
      "day": 5,
      "date": "2026-11-25",
-     "local_time": "11/28/2026 1:06:15 AM"
+     "local_time": "11/28/2026 4:05:22 AM"
     },
     {
      "match_id": "WD010",
@@ -481,7 +481,7 @@
      "tbd_text": null,
      "day": 6,
      "date": "2026-11-26",
-     "local_time": "11/28/2026 1:05:42 AM"
+     "local_time": "11/28/2026 4:05:00 AM"
     },
     {
      "match_id": "WD005",
@@ -542,7 +542,7 @@
      "tbd_text": null,
      "day": 7,
      "date": "2026-11-27",
-     "local_time": "11/28/2026 1:06:15 AM"
+     "local_time": "11/28/2026 4:05:00 AM"
     }
    ],
    "por_draws": [
@@ -982,7 +982,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-25",
-     "local_time": "11/28/2026 8:06:06 AM"
+     "local_time": "11/28/2026 11:05:04 AM"
     }
    ],
    "por_draws": [
@@ -1173,7 +1173,7 @@
      "tbd_text": null,
      "day": 2,
      "date": "2026-11-27",
-     "local_time": "11/28/2026 2:05:52 PM"
+     "local_time": "11/28/2026 5:05:54 PM"
     },
     {
      "match_id": "MD008",
@@ -1197,8 +1197,8 @@
        ],
        "seed": "1",
        "sets": [
-        null,
-        null,
+        "5",
+        "1",
         null
        ],
        "points": null,
@@ -1219,22 +1219,22 @@
        ],
        "seed": "",
        "sets": [
-        null,
-        null,
+        "7",
+        "6",
         null
        ],
        "points": null,
        "serving": false
       }
      ],
-     "status": "scheduled",
+     "status": "completed",
      "duration": null,
-     "winner": null,
+     "winner": 1,
      "tbd": false,
      "tbd_text": null,
      "day": 3,
      "date": "2026-11-28",
-     "local_time": "11/28/2026 2:06:30 PM"
+     "local_time": "11/28/2026 5:05:21 PM"
     }
    ],
    "por_draws": [
@@ -1461,7 +1461,7 @@
      "tbd_text": null,
      "day": 1,
      "date": "2026-11-27",
-     "local_time": "11/28/2026 8:05:48 AM"
+     "local_time": "11/28/2026 11:05:29 AM"
     }
    ],
    "por_draws": [
