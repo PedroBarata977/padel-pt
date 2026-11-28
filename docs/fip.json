@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-27T22:05:53+00:00",
+ "generated_at": "2026-11-28T07:05:48+00:00",
  "stats": {
-  "requests": 37,
+  "requests": 35,
   "blocked_403": 0,
   "events": 13,
   "errors": []
@@ -305,13 +305,19 @@
         }
        ],
        "opponent_seed": "4",
-       "sets": [],
-       "opponent_sets": [],
+       "sets": [
+        "2",
+        "1"
+       ],
+       "opponent_sets": [
+        "6",
+        "6"
+       ],
        "won": false,
-       "lost": false
+       "lost": true
       }
      ],
-     "status": "em prova",
+     "status": "eliminado",
      "draw": "WD",
      "draw_label": "Feminino · Quadro principal"
     },
@@ -395,15 +401,15 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MD-5.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MD-7.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MQ-3.pdf",
-    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-MD-6.pdf",
+    "WD": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WD-6.pdf",
     "WQ": "https://www.padelfip.com/wp-content/uploads/2025/12/MEXICO-MAJOR_-DRAW-WQ-3.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4801",
-    "day": 7,
+    "day": 8,
     "totalday": 9
    },
    "warnings": [],
@@ -517,13 +523,13 @@
     }
    },
    "draw_pdfs": {
-    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MD-v3.pdf",
+    "MD": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MD-v4.pdf",
     "MQ": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP-SILVER-ROESELARE_-DRAW-MQ-v7.pdf"
    },
    "oop": {
     "year": "2026",
     "id": "4807",
-    "day": 3,
+    "day": 4,
     "totalday": 5
    },
    "warnings": [],
@@ -700,7 +706,7 @@
    "oop": {
     "year": "2026",
     "id": "4816",
-    "day": 2,
+    "day": 3,
     "totalday": 4
    },
    "warnings": [],
@@ -801,7 +807,7 @@
    "oop": {
     "year": "2026",
     "id": "4809",
-    "day": 1,
+    "day": 2,
     "totalday": 3
    },
    "warnings": [],
@@ -971,12 +977,12 @@
    "warnings": []
   },
   {
-   "name": "FIP SILVER CAEN",
-   "url": "https://www.padelfip.com/events/fip-silver-caen-2027/",
-   "slug": "fip-silver-caen-2027",
+   "name": "FIP SILVER MELBOURNE",
+   "url": "https://www.padelfip.com/events/fip-silver-melbourne-2027/",
+   "slug": "fip-silver-melbourne-2027",
    "circuit": "CUPRA FIP Tour",
    "category": "Silver",
-   "location": "Caen - France",
+   "location": "Melbourne - Australia",
    "start": "2027-01-18",
    "end": "2027-01-24",
    "status": "registration_not_open",
@@ -989,12 +995,12 @@
    "warnings": []
   },
   {
-   "name": "FIP SILVER MELBOURNE",
-   "url": "https://www.padelfip.com/events/fip-silver-melbourne-2027/",
-   "slug": "fip-silver-melbourne-2027",
+   "name": "FIP SILVER CAEN",
+   "url": "https://www.padelfip.com/events/fip-silver-caen-2027/",
+   "slug": "fip-silver-caen-2027",
    "circuit": "CUPRA FIP Tour",
    "category": "Silver",
-   "location": "Melbourne - Australia",
+   "location": "Caen - France",
    "start": "2027-01-18",
    "end": "2027-01-24",
    "status": "registration_not_open",
